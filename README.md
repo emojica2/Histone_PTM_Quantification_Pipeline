@@ -6,7 +6,7 @@ This repository includes two Rmd files in the "code" folder:
 
 ### 1. "Ordering_DIA_Assay_Libraries.Rmd"
 
-This file includes the code used to align the export of multiple Skyline files to one desired order for a DIA assay library. Instructions for using this file are included in the supplementary information of the corresponding publication.
+This file includes the code reorder the list of peptides exported from Skyline so that it matches that of the excel workbook used for histone PTM quantification. Instructions for using this file are included in Supplementary File 2 of the corresponding publication.
 
 ### 2. "Tilapia_Tissue_Analysis.Rmd" 
 
