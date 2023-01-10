@@ -1,6 +1,6 @@
 # Histone PTM Quantification Pipeline
 
-This repository corresponds to the publication entitled, "A strategy to characterize the global histone PTM landscape within tissues of non-model organisms" (Mojica and Kültz, in press). 
+This repository corresponds to the publication entitled, "A strategy to characterize the global histone PTM landscape within tissues of non-model organisms" (Mojica and Kültz, in review). 
 
 This repository includes two Rmd files in the "code" folder: 
 
