@@ -1,0 +1,6 @@
+Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
+XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,1.007812397,1.007812397,0.575020921,2,2.12E-08,significant,24,4.43E-07,significant,Gills_Kidney,XP_003459572.1 H2A K123 Acetyl,a
+XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,-1.249374937,1.249374937,0.055500457,2,4.04E-08,significant,31,6.54E-07,significant,Gills_Kidney,XP_003448939.1 H2A T76 Phospho / Dehydrated,b
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,4.812471305,4.812471305,0.538887314,2,0.000709736,significant,110,0.003238979,significant,Gills_Kidney,XP_003448939.1 H2A R77 Deamidated,d
+XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-4.718132515,4.718132515,2.98E-05,3,0.017350074,significant,243,0.035842539,significant,Gills_Testes,XP_003448939.1 H2A K118 Lactyl / Carboxyethyl,e
+XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-3.822455654,3.822455654,0.533535263,2,4.44E-09,significant,16,1.39E-07,significant,Kidney_Testes,XP_003451211.1 H2A K118 ADP-Ribosyl,f

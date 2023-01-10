@@ -1,0 +1,52 @@
+Digestion Method,Full Digestion Method,PTM Description,Number Detected
+V8 Napho,V8 in Sodium Phosphate,Oxidation,33
+V8 Napho,V8 in Sodium Phosphate,Acetyl,37
+V8 Napho,V8 in Sodium Phosphate,Phosphoryl,42
+V8 Napho,V8 in Sodium Phosphate,Methyl,28
+V8 Napho,V8 in Sodium Phosphate,Dimethyl,27
+V8 Napho,V8 in Sodium Phosphate,Dioxidation,43
+V8 Napho,V8 in Sodium Phosphate,ADP-Ribosyl,3
+V8 Napho,V8 in Sodium Phosphate,Lactyl / Carboxyethyl,18
+V8 Napho,V8 in Sodium Phosphate,Deamidated,13
+V8 Napho,V8 in Sodium Phosphate,Ubiquityl,21
+V8 Napho,V8 in Sodium Phosphate,Acrolein112,0
+V8 Napho,V8 in Sodium Phosphate,Amidated,3
+V8 Napho,V8 in Sodium Phosphate,Biotin,5
+V8 Napho,V8 in Sodium Phosphate,4-hydroxynonenal,8
+V8 Napho,V8 in Sodium Phosphate,Formyl,0
+V8 Napho,V8 in Sodium Phosphate,Trimethyl,3
+V8 Napho,V8 in Sodium Phosphate,Butyryl,0
+V8 Ambic,V8 in Ammonium Bicarbonate,Oxidation,50
+V8 Ambic,V8 in Ammonium Bicarbonate,Acetyl,24
+V8 Ambic,V8 in Ammonium Bicarbonate,Phosphoryl,34
+V8 Ambic,V8 in Ammonium Bicarbonate,Methyl,29
+V8 Ambic,V8 in Ammonium Bicarbonate,Dimethyl,27
+V8 Ambic,V8 in Ammonium Bicarbonate,Dioxidation,33
+V8 Ambic,V8 in Ammonium Bicarbonate,ADP-Ribosyl,0
+V8 Ambic,V8 in Ammonium Bicarbonate,Lactyl / Carboxyethyl,12
+V8 Ambic,V8 in Ammonium Bicarbonate,Deamidated,13
+V8 Ambic,V8 in Ammonium Bicarbonate,Ubiquityl,30
+V8 Ambic,V8 in Ammonium Bicarbonate,Acrolein112,0
+V8 Ambic,V8 in Ammonium Bicarbonate,Amidated,2
+V8 Ambic,V8 in Ammonium Bicarbonate,Biotin,0
+V8 Ambic,V8 in Ammonium Bicarbonate,4-hydroxynonenal,6
+V8 Ambic,V8 in Ammonium Bicarbonate,Formyl,1
+V8 Ambic,V8 in Ammonium Bicarbonate,Trimethyl,3
+V8 Ambic,V8 in Ammonium Bicarbonate,Butyryl,0
+Trypsin,Trypsin,Oxidation,10
+Trypsin,Trypsin,Acetyl,16
+Trypsin,Trypsin,Phosphoryl,20
+Trypsin,Trypsin,Methyl,14
+Trypsin,Trypsin,Dimethyl,14
+Trypsin,Trypsin,Dioxidation,11
+Trypsin,Trypsin,ADP-Ribosyl,0
+Trypsin,Trypsin,Lactyl / Carboxyethyl,3
+Trypsin,Trypsin,Deamidated,4
+Trypsin,Trypsin,Ubiquityl,12
+Trypsin,Trypsin,Acrolein112,7
+Trypsin,Trypsin,Amidated,0
+Trypsin,Trypsin,Biotin,0
+Trypsin,Trypsin,4-hydroxynonenal,0
+Trypsin,Trypsin,Formyl,0
+Trypsin,Trypsin,Trimethyl,1
+Trypsin,Trypsin,Butyryl,1

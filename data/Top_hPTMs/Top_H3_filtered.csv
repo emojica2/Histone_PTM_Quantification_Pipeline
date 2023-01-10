@@ -1,0 +1,7 @@
+Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
+XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,1.047694681,1.047694681,0.19514674,2,5.33E-17,significant,1,2.67E-14,significant,Gills_Kidney,XP_005463512.2 H3 K23 Acetyl,a
+XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,-2.679907943,2.679907943,0.014006805,3,9.72E-11,significant,7,6.97E-09,significant,Gills_Kidney,XP_005463512.2 H3 R42 Oxidation,b
+XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,1.50230458,1.50230458,0.555950161,2,1.99E-10,significant,9,1.11E-08,significant,Gills_Kidney,XP_005463512.2 H3 K79 Dimethyl,c
+XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,-3.678956782,3.678956782,0.997518098,2,3.50E-08,significant,29,6.07E-07,significant,Gills_Kidney,XP_005463512.2 H3 K36 Methyl,d
+XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,3.649206666,3.649206666,0.024479391,3,1.87E-08,significant,22,4.27E-07,significant,Gills_Kidney,XP_005463512.2 H3 K64 Acetyl,e
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,3.224751023,3.224751023,0.183775378,2,3.18E-08,significant,26,6.14E-07,significant,Gills_Kidney,XP_005463512.2 H3 R69 Deamidated,f

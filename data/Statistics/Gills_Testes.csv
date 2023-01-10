@@ -1,0 +1,523 @@
+Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues
+XP_019209844.1,H1-like,1,S,S1,1,Acetyl,Yes,Ambic only,0,8.66253E-06,3,1.29161E-19,significant,1,6.48388E-17,significant,Gills_Testes
+XP_019209842.1,H1-like,9,P,P9,425,Dioxidation,Yes,Ambic only,0,0.026450131,3,3.50144E-19,significant,2,8.78861E-17,significant,Gills_Testes
+XP_019209842.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic only,0,0.026450131,3,3.50144E-19,significant,3,5.85907E-17,significant,Gills_Testes
+XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,1.432912775,0.17585851,2,9.61329E-17,significant,4,1.20647E-14,significant,Gills_Testes
+XP_003448795.2,H1.10,113,K,K113,1,Acetyl,Yes,Ambic and Napho,4.970908852,0.040572745,3,6.1354E-13,significant,5,6.15994E-11,significant,Gills_Testes
+XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,3.762111182,9.56305E-05,3,1.47115E-12,significant,6,1.23086E-10,significant,Gills_Testes
+XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,4.939327365,0.38623515,2,1.92222E-12,significant,7,1.37851E-10,significant,Gills_Testes
+XP_003438147.1,H2B.L4,98,K,K98,121,GlyGly,Other,Ambic only,5.2106684,0.56406654,2,6.11912E-12,significant,8,3.83975E-10,significant,Gills_Testes
+XP_005461836.1,H1-like,67,K,K67,255,Dimethyl,Yes,Ambic only,2.914832145,0.574824913,2,6.83348E-12,significant,9,3.81156E-10,significant,Gills_Testes
+XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-1.047599883,0.002586937,3,1.64301E-11,significant,10,8.24792E-10,significant,Gills_Testes
+XP_019209842.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,3.265131702,0.851993342,2,3.00183E-11,significant,11,1.36993E-09,significant,Gills_Testes
+XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,1.442338805,0.005723662,3,5.14243E-11,significant,12,2.15125E-09,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,425,Dioxidation,Yes,Napho only,-1.428271664,0.001086226,3,6.88974E-11,significant,13,2.6605E-09,significant,Gills_Testes
+XP_019218826.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic and Napho,1.536601598,2.22251E-05,3,7.64888E-11,significant,14,2.74267E-09,significant,Gills_Testes
+XP_003448795.2,H1.10,116,K,K116,1,Acetyl,Yes,Napho only,3.628572492,0.001344387,3,5.23077E-10,significant,15,1.75056E-08,significant,Gills_Testes
+XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.523105146,0.241271175,2,2.85424E-09,significant,16,8.95517E-08,significant,Gills_Testes
+XP_019209842.1,H1-like,55,K,K55,3,Biotin,Yes,Napho only,-2.064467865,0.001413603,3,4.96115E-09,significant,17,1.465E-07,significant,Gills_Testes
+XP_003438147.1,H2B.L4,76,R,R76,35,Oxidation,Yes,Ambic and Napho,1.401249564,0.175418113,2,8.20756E-09,significant,18,2.289E-07,significant,Gills_Testes
+XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,2.153928252,0.094513343,2,1.60988E-08,significant,19,4.25347E-07,significant,Gills_Testes
+XP_003459589.1,H1-like,35,K,K35,34,Methyl,Yes,Ambic only,4.302960848,0.008611532,3,2.37607E-08,significant,20,5.96393E-07,significant,Gills_Testes
+XP_003459589.1,H1-like,38,T,T38,21 + 23,Phospho / Dehydrated,Yes,Ambic only,4.302960848,0.008611532,3,2.37607E-08,significant,21,5.67993E-07,significant,Gills_Testes
+XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.297302219,0.080629574,2,2.57507E-08,significant,22,5.87584E-07,significant,Gills_Testes
+XP_003459589.1,H1-like,35,K,K35,255,Dimethyl,Yes,Ambic only,2.696879292,0.230462625,2,4.14876E-08,significant,23,9.05511E-07,significant,Gills_Testes
+XP_003438147.1,H2B.L4,98,K,K98,1,Acetyl,Yes,Napho only,2.809321282,0.34292087,2,5.89837E-08,significant,24,1.23374E-06,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,1.719058478,0.404622358,2,7.42593E-08,significant,25,1.49113E-06,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,88,T,T88,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.311176638,0.587650101,2,8.00003E-08,significant,26,1.54462E-06,significant,Gills_Testes
+XP_019209842.1,H1-like,55,K,K55,255,Dimethyl,Yes,Ambic and Napho,-0.993829758,0.270401056,2,1.7618E-07,significant,27,3.27564E-06,significant,Gills_Testes
+XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,2.172328749,0.591347366,2,1.83339E-07,significant,28,3.28701E-06,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,94,T,T94,1,Acetyl,Yes,Ambic and Napho,2.892982043,2.02796E-05,3,1.94549E-07,significant,29,3.36771E-06,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,35,Oxidation,Yes,Ambic and Napho,-0.812922274,1.28784E-05,3,2.44587E-07,significant,30,4.09276E-06,significant,Gills_Testes
+XP_019209843.1,H1-like,18,K,K18,255,Dimethyl,Yes,Ambic only,2.703757129,0.139268624,2,3.08174E-07,significant,31,4.99043E-06,significant,Gills_Testes
+XP_025766521.1,H4-like,80,R,R80,425,Dioxidation,Yes,Napho only,-2.035401063,3.46218E-09,3,3.10514E-07,significant,32,4.87119E-06,significant,Gills_Testes
+XP_003459589.1,H1-like,52,K,K52,425,Dioxidation,Yes,Napho only,5.42321536,5.24523E-06,3,3.25211E-07,significant,33,4.94716E-06,significant,Gills_Testes
+XP_019210164.1,H1 isoform X1,17,K,K17,37,Trimethyl,Yes,Napho only,-1.317708995,3.50391E-10,3,3.53414E-07,significant,34,5.21806E-06,significant,Gills_Testes
+XP_003459589.1,H1-like,35,K,K35,3,Biotin,Yes,Napho only,-1.833719092,0.144469311,2,4.24697E-07,significant,35,6.09136E-06,significant,Gills_Testes
+XP_019209842.1,H1-like,38,K,K38,121,GlyGly,Other,Ambic only,2.10686359,0.066431373,2,4.5395E-07,significant,36,6.33009E-06,significant,Gills_Testes
+XP_003448795.2,H1.10,113,K,K113,35,Oxidation,Yes,Napho only,3.68623052,0.000951917,3,5.12092E-07,significant,37,6.94784E-06,significant,Gills_Testes
+XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,2.177625583,0.028759921,3,5.47179E-07,significant,38,7.22853E-06,significant,Gills_Testes
+XP_019209842.1,H1-like,38,K,K38,1,Acetyl,Yes,Napho only,2.477840917,0.571675537,2,6.09349E-07,significant,39,7.84341E-06,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,94,T,T94,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.612538345,1.04289E-06,3,6.45312E-07,significant,40,8.09867E-06,significant,Gills_Testes
+XP_025766521.1,H4-like,81,K,K81,425,Dioxidation,Yes,Napho only,-1.881379934,2.604E-09,3,7.111E-07,significant,41,8.70664E-06,significant,Gills_Testes
+XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,-1.607901005,1.97519E-10,3,7.34117E-07,significant,42,8.77445E-06,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,94,T,T94,121,GlyGly,Other,Ambic and Napho,2.661180434,0.294811887,2,8.65762E-07,significant,43,1.01073E-05,significant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.017827125,0.693242362,2,1.32559E-06,significant,44,1.51238E-05,significant,Gills_Testes
+XP_019209845.1,H1-like,17,K,K17,425,Dioxidation,Yes,Ambic only,1.991559922,0.015632072,3,1.37995E-06,significant,45,1.53942E-05,significant,Gills_Testes
+XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,-0.56371271,0.801142897,2,1.49751E-06,significant,46,1.63424E-05,significant,Gills_Testes
+XP_003438147.1,H2B.L4,89,R,R89,35,Oxidation,Yes,Ambic and Napho,-0.429790214,0.096389361,2,1.67267E-06,significant,47,1.78655E-05,significant,Gills_Testes
+XP_025766521.1,H4-like,81,K,K81,1,Acetyl,Yes,Napho only,-1.689710658,5.73104E-10,3,1.88126E-06,significant,48,1.96749E-05,significant,Gills_Testes
+XP_003448795.2,H1.10,141,S,S141,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.851990641,0.000172581,3,1.91802E-06,significant,49,1.965E-05,significant,Gills_Testes
+XP_003459589.1,H1-like,13,K,K13,255,Dimethyl,Yes,Ambic and Napho,-1.156064268,0.308296517,2,2.88736E-06,significant,50,2.89891E-05,significant,Gills_Testes
+XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-1.018540638,0.567847089,2,2.98351E-06,significant,51,2.93671E-05,significant,Gills_Testes
+XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,-1.676147912,1.79247E-19,3,3.08848E-06,significant,52,2.98157E-05,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,113,T,T113,121,GlyGly,Other,Ambic and Napho,3.134426459,0.008823712,3,3.2313E-06,significant,53,3.06059E-05,significant,Gills_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,37,Trimethyl,Yes,Napho only,-0.93607806,2.99944E-09,3,3.26685E-06,significant,54,3.03696E-05,significant,Gills_Testes
+XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.215034395,5.07508E-06,3,3.6393E-06,significant,55,3.32169E-05,significant,Gills_Testes
+XP_025766521.1,H4-like,61,K,K61,378,Lactyl / Carboxyethyl,Yes,Napho only,-1.770396121,4.15085E-07,3,3.7365E-06,significant,56,3.3495E-05,significant,Gills_Testes
+XP_005461836.1,H1-like,34,K,K34,255,Dimethyl,Yes,Napho only,2.28964065,0.006891997,3,3.85373E-06,significant,57,3.39399E-05,significant,Gills_Testes
+XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,-0.731787349,0.266460265,2,3.88031E-06,significant,58,3.35848E-05,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,255,Dimethyl,Yes,Ambic and Napho,-0.490280126,0.13243137,2,3.91886E-06,significant,59,3.33435E-05,significant,Gills_Testes
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,2.568948396,1.11389E-11,3,4.67381E-06,significant,60,3.91042E-05,significant,Gills_Testes
+XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,-1.651812529,0.00331929,3,5.87546E-06,significant,61,4.83521E-05,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,7,Deamidated,Yes,Ambic and Napho,0.744450114,0.017402372,3,6.33907E-06,significant,62,5.1326E-05,significant,Gills_Testes
+XP_003438147.1,H2B.L4,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.186465062,0.393354809,2,6.47258E-06,significant,63,5.15752E-05,significant,Gills_Testes
+XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,-2.361341137,0.308819246,2,6.60277E-06,significant,64,5.17905E-05,significant,Gills_Testes
+XP_003438147.1,H2B.L4,89,R,R89,34,Methyl,Yes,Ambic and Napho,0.462242413,0.130287776,2,7.2323E-06,significant,65,5.58556E-05,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,1,Acetyl,Yes,Ambic and Napho,0.880582384,0.004226607,3,7.41825E-06,significant,66,5.64237E-05,significant,Gills_Testes
+XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,2.201280065,0.982972305,2,7.95682E-06,significant,67,5.96168E-05,significant,Gills_Testes
+XP_019210164.1,H1 isoform X1,25,K,K25,121,GlyGly,Other,Ambic only,-1.590644095,0.259157554,2,8.11944E-06,significant,68,5.99406E-05,significant,Gills_Testes
+XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,2.2664895,0.06983085,2,1.00578E-05,significant,69,7.31744E-05,significant,Gills_Testes
+XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,-2.020299661,0.157353946,2,1.07964E-05,significant,70,7.74255E-05,significant,Gills_Testes
+XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,-0.799336408,5.26391E-10,3,1.13798E-05,significant,71,8.04598E-05,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,3,Biotin,Yes,Napho only,-1.030190385,0.012121034,3,1.20003E-05,significant,72,8.36689E-05,significant,Gills_Testes
+XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,1.122215853,0.244618626,2,1.27456E-05,significant,73,8.76478E-05,significant,Gills_Testes
+XP_003438147.1,H2B.L4,86,T,T86,1,Acetyl,Yes,Ambic and Napho,2.066883357,0.004814243,3,1.29539E-05,significant,74,8.78766E-05,significant,Gills_Testes
+XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.564771848,0.005097611,3,1.43575E-05,significant,75,9.60998E-05,significant,Gills_Testes
+XP_025766521.1,H4-like,61,K,K61,425,Dioxidation,Yes,Napho only,-0.933295344,0.000472813,3,1.50433E-05,significant,76,9.93651E-05,significant,Gills_Testes
+XP_025766521.1,H4-like,69,R,R69,7,Deamidated,Yes,Ambic and Napho,-0.704833474,7.0704E-07,3,1.54962E-05,significant,77,0.000101027,significant,Gills_Testes
+XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,-0.731312506,0.000471625,3,1.57081E-05,significant,78,0.000101096,significant,Gills_Testes
+XP_003438147.1,H2B.L4,93,P,P93,35,Oxidation,Yes,Napho only,1.3386086,0.024653581,3,1.57126E-05,significant,79,9.98449E-05,significant,Gills_Testes
+XP_003438147.1,H2B.L4,75,K,K75,425,Dioxidation,Yes,Ambic and Napho,1.556355445,0.570288171,2,1.74081E-05,significant,80,0.000109236,significant,Gills_Testes
+XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,-0.751287896,0.015242821,3,1.90153E-05,significant,81,0.000117848,significant,Gills_Testes
+XP_019209843.1,H1-like,17,K,K17,37,Trimethyl,Yes,Ambic only,-3.669408322,0.470251777,2,2.22851E-05,significant,82,0.000136428,significant,Gills_Testes
+XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,3.297415982,0.399406121,2,3.02687E-05,significant,83,0.000183071,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,70,R,R70,35,Oxidation,Yes,Ambic and Napho,-0.67773023,0.808963894,2,3.13473E-05,significant,84,0.000187338,significant,Gills_Testes
+XP_019218826.1,H1-like,13,K,K13,53,4-hydroxynonenal,Yes,Napho only,-0.904365201,2.27032E-07,3,3.51907E-05,significant,85,0.000207832,significant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,-2.039666553,0.717851891,2,3.58668E-05,significant,86,0.000209362,significant,Gills_Testes
+XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-2.137256026,0.272707992,2,3.75655E-05,significant,87,0.000216757,significant,Gills_Testes
+XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.364080377,0.324864788,2,3.84225E-05,significant,88,0.000219183,significant,Gills_Testes
+XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-1.241595636,7.45426E-12,3,4.19668E-05,significant,89,0.000236712,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,425,Dioxidation,Yes,Ambic and Napho,-0.804628854,0.507947645,2,4.24585E-05,significant,90,0.000236824,significant,Gills_Testes
+XP_025766521.1,H4-like,57,R,R57,425,Dioxidation,Yes,Ambic and Napho,-2.044732496,0.66112948,2,4.53298E-05,significant,91,0.000250061,significant,Gills_Testes
+XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.893797852,0.156411471,2,4.85888E-05,significant,92,0.000265126,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,110,S,S110,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.27062467,0.350535863,2,5.67831E-05,significant,93,0.000306507,significant,Gills_Testes
+XP_003459589.1,H1-like,64,K,K64,1,Acetyl,Yes,Napho only,-0.500355346,0.00019263,3,6.57749E-05,significant,94,0.000351266,significant,Gills_Testes
+XP_003438147.1,H2B.L4,89,R,R89,7,Deamidated,Yes,Ambic and Napho,1.713943209,0.029182153,3,6.68411E-05,significant,95,0.000353202,significant,Gills_Testes
+XP_003448795.2,H1.10,110,K,K110,34,Methyl,Yes,Ambic and Napho,1.262937648,0.912880964,2,6.98216E-05,significant,96,0.000365109,significant,Gills_Testes
+XP_025766521.1,H4-like,74,Y,Y74,425,Dioxidation,Yes,Ambic only,-0.867646104,0.048652387,3,7.39803E-05,significant,97,0.000382867,significant,Gills_Testes
+XP_019210164.1,H1 isoform X1,22,S,S22,121,GlyGly,Other,Ambic only,-0.375554409,5.44064E-05,3,7.76523E-05,significant,98,0.00039777,significant,Gills_Testes
+XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-2.254438097,0.116237404,2,7.77649E-05,significant,99,0.000394323,significant,Gills_Testes
+XP_003438147.1,H2B.L4,86,T,T86,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.335863242,0.002645974,3,8.4683E-05,significant,100,0.000425109,significant,Gills_Testes
+XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.975333867,1.50974E-12,3,0.00011111,significant,101,0.000552249,significant,Gills_Testes
+XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.975333867,1.50974E-12,3,0.00011111,significant,102,0.000546835,significant,Gills_Testes
+XP_025766521.1,H4-like,84,T,T84,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.136722663,1.50144E-10,3,0.00011924,significant,103,0.00058115,significant,Gills_Testes
+XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,-1.421145134,0.034364929,3,0.000124997,significant,104,0.00060335,significant,Gills_Testes
+XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.93219845,0.001499562,3,0.00014227,significant,105,0.000680188,significant,Gills_Testes
+XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,0.672498518,0.130494821,2,0.000148735,significant,106,0.000704388,significant,Gills_Testes
+XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,-1.380183036,0.009675507,3,0.000159312,significant,107,0.000747427,significant,Gills_Testes
+XP_003438147.1,H2B.L4,69,R,R69,34,Methyl,Yes,Ambic and Napho,1.675003107,0.022430279,3,0.000159841,significant,108,0.000742966,significant,Gills_Testes
+XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.78049494,0.032331298,3,0.000177542,significant,109,0.000817671,significant,Gills_Testes
+XP_019210164.1,H1 isoform X1,16,K,K16,121,GlyGly,Other,Ambic only,-2.205527265,1.95165E-05,3,0.000201539,significant,110,0.000919751,significant,Gills_Testes
+XP_019209843.1,H1-like,16,K,K16,37,Trimethyl,Yes,Ambic only,-2.945933585,0.511991542,2,0.000207972,significant,111,0.00094056,significant,Gills_Testes
+XP_019209842.1,H1-like,55,K,K55,35,Oxidation,Yes,Ambic only,1.425204527,0.001911727,3,0.00021572,significant,112,0.000966886,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,34,Methyl,Yes,Ambic and Napho,1.198702887,0.808136193,2,0.000246273,significant,113,0.001094064,significant,Gills_Testes
+XP_025766521.1,H4-like,61,K,K61,35,Oxidation,Yes,Ambic and Napho,0.696832385,0.029994703,3,0.000250004,significant,114,0.001100895,significant,Gills_Testes
+XP_003459589.1,H1-like,53,K,K53,35,Oxidation,Yes,Ambic only,-2.019177055,0.264194252,2,0.000256993,significant,115,0.001121828,significant,Gills_Testes
+XP_003448795.2,H1.10,119,K,K119,1,Acetyl,Yes,Trypsin only,0,1.37068E-07,3,0.000263824,significant,116,0.001141719,significant,Gills_Testes
+XP_005461836.1,H1-like,34,K,K34,378,Lactyl / Carboxyethyl,Yes,Napho only,1.956196371,0.773283275,2,0.000268243,significant,117,0.001150922,significant,Gills_Testes
+XP_003459589.1,H1-like,75,S,S75,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.879582426,0.442319566,2,0.000270484,significant,118,0.001150704,significant,Gills_Testes
+XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,-0.610136522,0.000141553,3,0.000277787,significant,119,0.001171842,significant,Gills_Testes
+XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.820651995,0.004029513,3,0.000281507,significant,120,0.001177639,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,34,Methyl,Yes,Ambic and Napho,0.548051651,8.37647E-06,3,0.000312,significant,121,0.001294412,significant,Gills_Testes
+XP_003459589.1,H1-like,44,K,K44,425,Dioxidation,Yes,Napho only,2.385293855,1.03363E-08,3,0.000348691,significant,122,0.001434777,significant,Gills_Testes
+XP_003459589.1,H1-like,47,S,S47,21 + 23,Phospho / Dehydrated,Yes,Napho only,2.385293855,1.03363E-08,3,0.000348691,significant,123,0.001423112,significant,Gills_Testes
+XP_003459589.1,H1-like,53,K,K53,1,Acetyl,Yes,Ambic and Napho,-0.382836722,0.45946684,2,0.000365151,significant,124,0.001478273,significant,Gills_Testes
+XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,0.843328577,0.10633062,2,0.000379515,significant,125,0.001524132,significant,Gills_Testes
+XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-2.249160205,0.395348585,2,0.000399392,significant,126,0.001591228,significant,Gills_Testes
+XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,2.449804287,0.000145337,3,0.000410656,significant,127,0.001623222,significant,Gills_Testes
+XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-2.313195123,0.403729578,2,0.000414843,significant,128,0.001626962,significant,Gills_Testes
+XP_003438501.2,H1.0-B,89,S,S89,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.579444418,0.080925812,2,0.000480531,significant,129,0.001869972,significant,Gills_Testes
+XP_003438501.2,H1.0-B,91,R,R91,34,Methyl,Yes,Trypsin only,-1.579444418,0.080925812,2,0.000480531,significant,130,0.001855587,significant,Gills_Testes
+XP_019210164.1,H1 isoform X1,5,P,P5,35,Oxidation,Yes,Ambic only,-0.350200058,9.80458E-07,3,0.000516884,significant,131,0.001980732,significant,Gills_Testes
+XP_003459589.1,H1-like,13,K,K13,34,Methyl,Yes,Napho only,1.075799786,0.343108136,2,0.000526529,significant,132,0.002002404,significant,Gills_Testes
+XP_025766521.1,H4-like,49,S,S49,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.312489443,5.0149E-05,3,0.000577953,significant,133,0.002181446,significant,Gills_Testes
+XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,-0.805024252,0.001828894,3,0.000582928,significant,134,0.002183803,significant,Gills_Testes
+XP_003438147.1,H2B.L4,75,K,K75,255,Dimethyl,Yes,Ambic and Napho,1.835632871,0.003607102,3,0.000592544,significant,135,0.002203384,significant,Gills_Testes
+XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,-0.682410279,0.057658912,2,0.000604719,significant,136,0.002232125,significant,Gills_Testes
+XP_003459589.1,H1-like,1,A,A1,122,Formyl,Yes,Ambic only,1.691617214,0.086220965,2,0.000645394,significant,137,0.002364876,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,425,Dioxidation,Yes,Ambic and Napho,-0.543673046,0.005843243,3,0.000647374,significant,138,0.002354939,significant,Gills_Testes
+XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-1.255954055,1.7889E-13,3,0.00065201,significant,139,0.002354741,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,101,P,P101,35,Oxidation,Yes,Ambic and Napho,-0.502078583,0.138563559,2,0.000669372,significant,140,0.002400176,significant,Gills_Testes
+XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.311051516,0.244254418,2,0.000680424,significant,141,0.002422501,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,58,S,S58,121,GlyGly,Other,Ambic and Napho,-0.676498226,0.929840706,2,0.000691346,significant,142,0.002444053,significant,Gills_Testes
+XP_003459589.1,H1-like,43,R,R43,36,Dimethyl,Yes,Ambic only,2.386260618,0.029797796,3,0.000761325,significant,143,0.002672623,significant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.495181222,0.036225504,3,0.000795218,significant,144,0.002772219,significant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.58675163,2,0.000803636,significant,145,0.002782244,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,76,S,S76,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.468872413,1.83525E-06,3,0.000805547,significant,146,0.002769758,significant,Gills_Testes
+XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,0.480438826,0.07485473,2,0.000822715,significant,147,0.002809545,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,425,Dioxidation,Yes,Ambic and Napho,-0.345047973,8.49415E-05,3,0.000874174,significant,148,0.002965105,significant,Gills_Testes
+XP_019209842.1,H1-like,56,K,K56,255,Dimethyl,Yes,Ambic only,-1.279062384,0.142653337,2,0.00087947,significant,149,0.002963048,significant,Gills_Testes
+XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,0.488925898,0.06273068,2,0.000885174,significant,150,0.002962384,significant,Gills_Testes
+XP_019209843.1,H1-like,13,K,K13,34,Methyl,Yes,Napho only,-0.034321488,1.56192E-19,3,0.001003042,significant,151,0.003334615,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,35,Oxidation,Yes,Ambic only,1.439775334,0.004549704,3,0.001045634,significant,152,0.003453344,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,36,Dimethyl,Yes,Ambic and Napho,0.764060268,0.000225336,3,0.001058546,significant,153,0.003473138,significant,Gills_Testes
+XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,0.695275515,0.127575646,2,0.001134433,significant,154,0.003697956,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,118,K,K118,53,4-hydroxynonenal,Yes,Napho only,-1.110076565,0.948196218,2,0.001383967,significant,155,0.004482269,significant,Gills_Testes
+XP_003438147.1,H2B.L4,74,N,N74,35,Oxidation,Yes,Ambic only,1.460569905,0.023268829,3,0.001414481,significant,156,0.004551726,significant,Gills_Testes
+XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.352159279,0.00089859,3,0.00142485,significant,157,0.00455589,significant,Gills_Testes
+XP_019218826.1,H1-like,13,K,K13,378,Lactyl / Carboxyethyl,Yes,Napho only,0.13169379,7.34004E-13,3,0.001541163,significant,158,0.004896607,significant,Gills_Testes
+XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.664609627,0.363847659,2,0.001586849,significant,159,0.005010052,significant,Gills_Testes
+XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,0.664609627,0.363847659,2,0.001586849,significant,160,0.004978739,significant,Gills_Testes
+XP_003459589.1,H1-like,53,K,K53,378,Lactyl / Carboxyethyl,Yes,Ambic only,-1.084079335,0.003085519,3,0.001630259,significant,161,0.005083169,significant,Gills_Testes
+XP_003438147.1,H2B.L4,93,P,P93,425,Dioxidation,Yes,Napho only,2.265556402,0.172096587,2,0.001732165,significant,162,0.005367574,significant,Gills_Testes
+XP_003438147.1,H2B.L4,73,Y,Y73,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.453171166,0.687362697,2,0.001750025,significant,163,0.005389648,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,425,Dioxidation,Yes,Ambic and Napho,-0.321776788,3.04565E-05,3,0.001788711,significant,164,0.0054752,significant,Gills_Testes
+XP_025766521.1,H4-like,47,R,R47,34,Methyl,Yes,Trypsin only,-0.600936929,1.64678E-13,3,0.001827111,significant,165,0.005558846,significant,Gills_Testes
+XP_025766521.1,H4-like,79,K,K79,425,Dioxidation,Yes,Ambic and Napho,0.110244791,0.000298254,3,0.001868169,significant,166,0.005649523,significant,Gills_Testes
+XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.859765598,0.52427534,2,0.001927597,significant,167,0.005794333,significant,Gills_Testes
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,0.739113046,0.066315143,2,0.001974779,significant,168,0.005900828,significant,Gills_Testes
+XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,1.109179876,0.000210271,3,0.002024155,significant,169,0.006012578,significant,Gills_Testes
+XP_019209842.1,H1-like,56,K,K56,34,Methyl,Yes,Ambic only,-0.778028365,0.699235372,2,0.002041684,significant,170,0.006028972,significant,Gills_Testes
+XP_019209842.1,H1-like,64,D,D64,35,Oxidation,Yes,Ambic only,-0.778028365,0.699235372,2,0.002041684,significant,171,0.005993715,significant,Gills_Testes
+XP_003459589.1,H1-like,13,K,K13,1,Acetyl,Yes,Ambic and Napho,-1.34995096,0.114105539,2,0.002155203,significant,172,0.006290186,significant,Gills_Testes
+XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,1.146578014,0.515747339,2,0.002360327,significant,173,0.00684904,significant,Gills_Testes
+XP_019209843.1,H1-like,1,S,S1,21 + 23,Phospho / Dehydrated,Yes,Napho only,2.161885377,0.000882933,3,0.002448343,significant,174,0.007063612,significant,Gills_Testes
+XP_003450682.1,H1,267,K,K267,209,Acrolein112,Other,Trypsin only,-0.693191624,0.041053069,3,0.00269896,significant,175,0.007742161,significant,Gills_Testes
+XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,1.555041575,0.007385532,3,0.002783143,significant,176,0.007938283,significant,Gills_Testes
+XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,1.293651716,0.254094386,2,0.002815258,significant,177,0.007984517,significant,Gills_Testes
+XP_003459589.1,H1-like,52,K,K52,378,Lactyl / Carboxyethyl,Yes,Ambic only,-1.457490088,0.002666658,3,0.002831286,significant,178,0.007984862,significant,Gills_Testes
+XP_019209842.1,H1-like,66,D,D66,2,Amidated,Yes,Napho only,0.424458829,0.416101904,2,0.002881167,significant,179,0.008080143,significant,Gills_Testes
+XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,-0.682926221,0.047372089,3,0.002915522,significant,180,0.008131067,significant,Gills_Testes
+XP_019209842.1,H1-like,55,K,K55,53,4-hydroxynonenal,Yes,Ambic only,-0.997056283,0.353241802,2,0.002947318,significant,181,0.00817433,significant,Gills_Testes
+XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,-0.853966917,0.031895558,3,0.003297186,significant,182,0.009094437,significant,Gills_Testes
+XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.494944332,4.28882E-12,3,0.00345532,significant,183,0.009478529,significant,Gills_Testes
+XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.494944332,4.28882E-12,3,0.00345532,significant,184,0.009427016,significant,Gills_Testes
+XP_003438501.2,H1.0-B,81,T,T81,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.487651803,0.669916672,2,0.003539004,significant,185,0.009603135,significant,Gills_Testes
+XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.519637555,0.644306807,2,0.003741199,significant,186,0.010097214,significant,Gills_Testes
+XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,-0.68610501,0.01728211,3,0.003751324,significant,187,0.010070398,significant,Gills_Testes
+XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-1.754422679,0.593384272,2,0.003951207,significant,188,0.010550562,significant,Gills_Testes
+XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,-0.696025646,0.017192189,3,0.0042689,significant,189,0.01133856,significant,Gills_Testes
+XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,1.447523833,0.094704802,2,0.004442701,significant,190,0.011738084,significant,Gills_Testes
+XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,0.304740092,0.004496957,3,0.004657416,significant,191,0.012240957,significant,Gills_Testes
+XP_025766521.1,H4-like,79,K,K79,1,Acetyl,Yes,Napho only,0.960276337,1.50749E-12,3,0.004871744,significant,192,0.01273758,significant,Gills_Testes
+XP_019218826.1,H1-like,5,P,P5,425,Dioxidation,Yes,Napho only,-0.150877432,2.82174E-13,3,0.004879976,significant,193,0.012692995,significant,Gills_Testes
+XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,0.469845727,0.756871054,2,0.004946234,significant,194,0.012799018,significant,Gills_Testes
+XP_025766521.1,H4-like,46,K,K46,1,Acetyl,Yes,Trypsin only,-0.481259195,5.56958E-14,3,0.004953773,significant,195,0.01275279,significant,Gills_Testes
+XP_003459589.1,H1-like,53,K,K53,425,Dioxidation,Yes,Napho only,1.788951522,6.31395E-09,3,0.005065583,significant,196,0.012974095,significant,Gills_Testes
+XP_003459589.1,H1-like,44,K,K44,209,Acrolein112,Other,Trypsin only,0.518636011,1.05954E-12,3,0.005333695,significant,197,0.013591446,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,35,Oxidation,Yes,Ambic and Napho,0.712225894,0.982776627,2,0.005497346,significant,198,0.013937717,significant,Gills_Testes
+XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.584615852,0.000228157,3,0.005528817,significant,199,0.013947066,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,36,Dimethyl,Yes,Napho only,-0.526097983,0.026908741,3,0.005534659,significant,200,0.013891994,significant,Gills_Testes
+XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-2.264887582,0.205413101,2,0.005546445,significant,201,0.013852316,significant,Gills_Testes
+XP_025766521.1,H4-like,61,K,K61,1,Acetyl,Yes,Ambic and Napho,-1.682337025,0.018003773,3,0.006693297,significant,202,0.016633837,significant,Gills_Testes
+XP_019209845.1,H1-like,1,S,S1,1,Acetyl,Yes,Ambic only,1.236553321,0.000323703,3,0.006784173,significant,203,0.016776624,significant,Gills_Testes
+XP_003448795.2,H1.10,78,T,T78,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-2.137363411,0.000153746,3,0.007671721,significant,204,0.01887845,significant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,1.308213447,8.45091E-06,3,0.007789841,significant,205,0.019075611,significant,Gills_Testes
+XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,1.563224054,0.676899525,2,0.008322187,significant,206,0.020280281,significant,Gills_Testes
+XP_003459589.1,H1-like,53,K,K53,121,GlyGly,Other,Ambic and Napho,-0.37494012,3.8172E-08,3,0.008458758,significant,207,0.020513509,significant,Gills_Testes
+XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-1.651921369,0.71991406,2,0.008513186,significant,208,0.020546247,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,34,Methyl,Yes,Ambic and Napho,-0.306731992,0.198772051,2,0.008591994,significant,209,0.02063723,significant,Gills_Testes
+XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-0.821033886,0.421161101,2,0.00867022,significant,210,0.020725954,significant,Gills_Testes
+XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,0.838802097,0.384080642,2,0.009358537,significant,211,0.022265334,significant,Gills_Testes
+XP_019209842.1,H1-like,43,S,S43,121,GlyGly,Other,Ambic only,2.522733303,0.377103695,2,0.009950027,significant,212,0.023560914,significant,Gills_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,0.627890374,0.004508161,3,0.0099693,significant,213,0.023495721,significant,Gills_Testes
+XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.80063559,0.715652092,2,0.010657434,significant,214,0.025000148,significant,Gills_Testes
+XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.104621082,0.000210148,3,0.010700845,significant,215,0.024985228,significant,Gills_Testes
+XP_025766521.1,H4-like,47,R,R47,425,Dioxidation,Yes,Trypsin only,-0.360444411,4.43987E-13,3,0.010722834,significant,216,0.02492066,significant,Gills_Testes
+XP_019210164.1,H1 isoform X1,17,K,K17,121,GlyGly,Other,Ambic only,-1.018112078,0.877051578,2,0.010735192,significant,217,0.024834408,significant,Gills_Testes
+XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,1.266078824,0.326683957,2,0.011527265,significant,218,0.026544437,significant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.332259317,1.14931E-10,3,0.011530607,significant,219,0.02643089,significant,Gills_Testes
+XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-1.50391626,0.6487037,2,0.011697429,significant,220,0.026691407,significant,Gills_Testes
+XP_025766521.1,H4-like,46,K,K46,255,Dimethyl,Yes,Trypsin only,-0.355253292,2.0084E-12,3,0.011851859,significant,221,0.026921417,significant,Gills_Testes
+XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,-0.116776047,3.06673E-06,3,0.01189122,significant,222,0.026889156,significant,Gills_Testes
+XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.292637853,8.19661E-07,3,0.012456776,significant,223,0.028041712,significant,Gills_Testes
+XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,-0.185317515,0.00596431,3,0.012992517,significant,224,0.029117159,significant,Gills_Testes
+XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.655866072,4.00111E-08,3,0.012992776,significant,225,0.028988326,significant,Gills_Testes
+XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.788442681,0.092928106,2,0.013278111,significant,226,0.029493857,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,35,Oxidation,Yes,Ambic and Napho,-0.362987562,0.010309314,3,0.013380171,significant,227,0.029589629,significant,Gills_Testes
+XP_025766521.1,H4-like,74,Y,Y74,35,Oxidation,Yes,Ambic only,-0.850483629,0.039216191,3,0.013524843,significant,228,0.029778382,significant,Gills_Testes
+XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,0.447278578,0.676091132,2,0.013557913,significant,229,0.02972084,significant,Gills_Testes
+XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,0.413946441,0.791412872,2,0.013982588,significant,230,0.030518519,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,113,T,T113,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.270691634,0.426574839,2,0.014011991,significant,231,0.030450301,significant,Gills_Testes
+XP_003438147.1,H2B.L4,54,S,S54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.366675998,0.742089341,2,0.014179341,significant,232,0.030681161,significant,Gills_Testes
+XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,-0.867598161,0.274346769,2,0.014297134,significant,233,0.030803268,significant,Gills_Testes
+XP_025766521.1,H4-like,46,K,K46,425,Dioxidation,Yes,Trypsin only,-0.852482237,0.157201956,2,0.014885781,significant,234,0.031934454,significant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.304392212,8.66812E-11,3,0.015098631,significant,235,0.032253246,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,55,K,K55,425,Dioxidation,Yes,Napho only,1.882181379,0.09088246,2,0.015437943,significant,236,0.032838337,significant,Gills_Testes
+XP_003459589.1,H1-like,18,K,K18,37,Trimethyl,Yes,Napho only,0.722739031,6.47187E-08,3,0.01557842,significant,237,0.032997329,significant,Gills_Testes
+XP_003459589.1,H1-like,21,K,K21,35,Oxidation,Yes,Ambic and Napho,0.722739031,6.47187E-08,3,0.01557842,significant,238,0.032858685,significant,Gills_Testes
+XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.520731861,0.111093912,2,0.015721543,significant,239,0.033021819,significant,Gills_Testes
+XP_019219600.2,H2B 1/2 isoform X1,101,P,P101,425,Dioxidation,Yes,Ambic and Napho,0.260904629,0.063702528,2,0.015939067,significant,240,0.033339215,significant,Gills_Testes
+XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-2.3698861,0.139175905,2,0.016565631,significant,241,0.034506004,significant,Gills_Testes
+XP_019209842.1,H1-like,56,K,K56,425,Dioxidation,Yes,Napho only,0.159235496,4.08052E-09,3,0.017248823,significant,242,0.035780616,significant,Gills_Testes
+XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-4.718132515,2.98147E-05,3,0.017350074,significant,243,0.035842539,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,101,P,P101,425,Dioxidation,Yes,Ambic and Napho,-0.354313842,0.078689853,2,0.017910351,significant,244,0.036848345,significant,Gills_Testes
+XP_019209842.1,H1-like,63,Y,Y63,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.236063035,7.57515E-08,3,0.018540755,significant,245,0.037989629,significant,Gills_Testes
+XP_003438147.1,H2B.L4,89,R,R89,36,Dimethyl,Yes,Ambic and Napho,0.345464841,0.876892583,2,0.018963397,significant,246,0.038697663,significant,Gills_Testes
+XP_003451196.1,H2B 1/2,86,T,T86,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.348232062,0.042473959,3,0.021185571,significant,247,0.043057314,significant,Gills_Testes
+XP_019219600.2,H2B 1/2 isoform X1,101,P,P101,35,Oxidation,Yes,Ambic only,-0.225079958,2.46082E-08,3,0.021300363,significant,248,0.043116058,significant,Gills_Testes
+XP_003459589.1,H1-like,44,K,K44,255,Dimethyl,Yes,Ambic only,1.035295755,0.000330666,3,0.021691286,significant,249,0.043731026,significant,Gills_Testes
+XP_025766521.1,H4-like,80,R,R80,35,Oxidation,Yes,Napho only,0.887921476,1.92358E-13,3,0.021984035,significant,250,0.044143943,significant,Gills_Testes
+XP_003459589.1,H1-like,52,K,K52,35,Oxidation,Yes,Ambic and Napho,-0.271628219,0.024648384,3,0.023878269,significant,251,0.047756538,significant,Gills_Testes
+XP_025766521.1,H4-like,42,R,R42,36,Dimethyl,Yes,Trypsin only,1.913343785,2.37289E-05,3,0.024976312,significant,252,0.049754399,significant,Gills_Testes
+XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.469799829,0.696861789,2,0.027048303,significant,253,0.053668965,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic and Napho,-0.527630211,0.747307331,2,0.02737241,significant,254,0.054098228,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,-0.53728774,9.74065E-08,3,0.030064404,significant,255,0.05918561,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,57,R,R57,35,Oxidation,Yes,"Ambic, Napho, and Trypsin",-0.789264105,0.270118617,2,0.030324492,significant,256,0.059464433,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,52,K,K52,121,GlyGly,Other,Ambic and Napho,-0.254154514,1.63607E-19,3,0.030754949,significant,257,0.060073869,nonsignificant,Gills_Testes
+XP_003448795.2,H1.10,113,K,K113,425,Dioxidation,Yes,Ambic only,-1.633997128,0.034081975,3,0.030809944,significant,258,0.059948031,nonsignificant,Gills_Testes
+XP_019209845.1,H1-like,47,S,S47,21 + 23,Phospho / Dehydrated,Yes,Napho only,0,0.705655814,2,0.032257351,significant,259,0.062521969,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,76,R,R76,425,Dioxidation,Yes,Ambic and Napho,0.993000691,0.004939778,3,0.032928998,significant,260,0.063578297,nonsignificant,Gills_Testes
+XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.03984363,0.311964473,2,0.033414094,significant,261,0.06426772,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,-0.309775717,0.234684884,2,0.035046194,significant,262,0.067149578,nonsignificant,Gills_Testes
+XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,1.38183461,0.416416642,2,0.035050692,significant,263,0.066902842,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,7,Deamidated,Yes,Ambic and Napho,0.282727698,0.844062827,2,0.035601328,significant,264,0.067696465,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,0.384127128,0.132447366,2,0.036504763,significant,265,0.06915242,nonsignificant,Gills_Testes
+XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,-1.2025927,0.999383424,2,0.036924204,significant,266,0.069684024,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,73,T,T73,21 + 23,Phospho / Dehydrated,Yes,"Ambic, Napho, and Trypsin",-0.331608321,0.77415379,2,0.037048427,significant,267,0.069656593,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.132275544,0.057516082,2,0.040518769,significant,268,0.075897097,nonsignificant,Gills_Testes
+XP_019209842.1,H1-like,55,K,K55,121,GlyGly,Other,Trypsin only,-3.20343E-16,0.030360991,3,0.043277613,significant,269,0.080763426,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,43,R,R43,7,Deamidated,Yes,Ambic and Napho,-0.171718714,8.7514E-05,3,0.044796249,significant,270,0.083287841,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,11,P,P11,425,Dioxidation,Yes,Napho only,0.562787623,0.104509432,2,0.052507802,nonsignificant,271,0.097265375,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.615432779,2.14895E-07,3,0.053277939,nonsignificant,272,0.098329137,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,0.680701623,0.587082304,2,0.054185898,nonsignificant,273,0.099638537,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,1,A,A1,1,Acetyl,Yes,Ambic only,0.377648766,0.020025842,3,0.055246477,nonsignificant,274,0.101217998,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,47,R,R47,36,Dimethyl,Yes,Trypsin only,-0.448601599,0.062493696,2,0.055613709,nonsignificant,275,0.101520297,nonsignificant,Gills_Testes
+XP_019210164.1,H1 isoform X1,19,T,T19,121,GlyGly,Other,Ambic only,-1.382656091,0.695404046,2,0.05585124,nonsignificant,276,0.101584502,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,75,T,T75,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.24933768,0.708549594,2,0.060044158,nonsignificant,277,0.108816488,nonsignificant,Gills_Testes
+XP_019209843.1,H1-like,13,K,K13,255,Dimethyl,Yes,Ambic and Napho,-2.052199013,0.200724291,2,0.060494316,nonsignificant,278,0.109237938,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.196576472,1.49945E-12,3,0.06094022,nonsignificant,279,0.10964871,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.473796549,0.625720578,2,0.060942101,nonsignificant,280,0.109260481,nonsignificant,Gills_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,121,GlyGly,Other,Ambic only,-0.28391452,0.723862898,2,0.062866638,nonsignificant,281,0.112309795,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,69,R,R69,36,Dimethyl,Yes,Ambic and Napho,-0.223935165,0.086767468,2,0.063905781,nonsignificant,282,0.113761355,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,68,R,R68,7,Deamidated,Yes,Napho only,-0.063992709,0.290502091,2,0.066147534,nonsignificant,283,0.117335909,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,36,Dimethyl,Yes,Ambic only,1.794351149,0.193372761,2,0.069262648,nonsignificant,284,0.122429046,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,0.31981201,4.11284E-08,3,0.069882958,nonsignificant,285,0.123092088,nonsignificant,Gills_Testes
+XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,-0.824369729,0.862992527,2,0.071347128,nonsignificant,286,0.125231672,nonsignificant,Gills_Testes
+XP_019210164.1,H1 isoform X1,11,P,P11,35,Oxidation,Yes,Ambic only,0.733880772,7.51134E-20,3,0.071678126,nonsignificant,287,0.125374282,nonsignificant,Gills_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,255,Dimethyl,Yes,Ambic only,0.733880772,7.51134E-20,3,0.071678126,nonsignificant,288,0.124938955,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,35,K,K35,378,Lactyl / Carboxyethyl,Yes,Napho only,0.257205532,0.006752773,3,0.072862373,nonsignificant,289,0.126563708,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,52,K,K52,255,Dimethyl,Yes,Ambic only,0.314292102,0.002191517,3,0.073195761,nonsignificant,290,0.126704386,nonsignificant,Gills_Testes
+XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,0.585491599,0.047637358,3,0.073485683,nonsignificant,291,0.126769116,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,1.628816733,2.17516E-06,3,0.074183412,nonsignificant,292,0.127534495,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,85,S,S85,121,GlyGly,Other,Ambic only,-0.483253371,0.331949253,2,0.076044847,nonsignificant,293,0.130288441,nonsignificant,Gills_Testes
+XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,-0.135450335,0.001109986,3,0.077586691,nonsignificant,294,0.132477955,nonsignificant,Gills_Testes
+XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,-0.856498963,0.346987873,2,0.08046942,nonsignificant,295,0.136934403,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,81,Y,Y81,35,Oxidation,Yes,Ambic only,0.475119628,4.03607E-05,3,0.081431671,nonsignificant,296,0.138103712,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.269543994,0.030296235,3,0.084132484,nonsignificant,297,0.142203727,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,35,Oxidation,Yes,Ambic and Napho,-0.183855716,0.036139237,3,0.087964901,nonsignificant,298,0.148182485,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.145408158,3.79204E-09,3,0.088398453,nonsignificant,299,0.148414794,nonsignificant,Gills_Testes
+XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,0.010222216,3,0.091060128,nonsignificant,300,0.152373947,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,77,S,S77,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.197369363,0.011343157,3,0.094841579,nonsignificant,301,0.158174327,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,76,R,R76,34,Methyl,Yes,Ambic only,-0.448200266,0.222867772,2,0.097084946,nonsignificant,302,0.161379611,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.023926072,0.049564815,3,0.10041501,nonsignificant,303,0.166364141,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,60,Y,Y60,35,Oxidation,Yes,Ambic only,0.335794822,0.000313468,3,0.10623835,nonsignificant,304,0.175433065,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,56,T,T56,21 + 23,Phospho / Dehydrated,Yes,"Ambic, Napho, and Trypsin",0.438240108,6.98374E-05,3,0.10746539,nonsignificant,305,0.176877461,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,7,K,K7,35,Oxidation,Yes,Napho only,0,9.82948E-05,3,0.109463861,nonsignificant,306,0.179577968,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,0.393662091,0.674464049,2,0.111534571,nonsignificant,307,0.182379005,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,-0.311808985,0.066177657,2,0.112214133,nonsignificant,308,0.182894463,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,-0.387434236,0.087100313,2,0.113173438,nonsignificant,309,0.183861055,nonsignificant,Gills_Testes
+XP_019218826.1,H1-like,16,K,K16,425,Dioxidation,Yes,Ambic and Napho,1.665021562,4.37501E-08,3,0.120005401,nonsignificant,310,0.194331326,nonsignificant,Gills_Testes
+XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,-2.150863982,0.04895647,3,0.120348984,nonsignificant,311,0.194261061,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,68,S,S68,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.157591036,0.597758059,2,0.121992208,nonsignificant,312,0.196282335,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,7,Deamidated,Yes,Ambic and Napho,-0.17441592,0.117585942,2,0.122048377,nonsignificant,313,0.195745321,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,0.224909322,0.083338763,2,0.124609647,nonsignificant,314,0.199216696,nonsignificant,Gills_Testes
+XP_005461836.1,H1-like,66,P,P66,425,Dioxidation,Yes,Napho only,-0.135535913,3.77908E-05,3,0.126347999,nonsignificant,315,0.201354589,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,119,Y,Y119,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.293413366,0.055240303,2,0.128078395,nonsignificant,316,0.203466312,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,0.216442253,1.81085E-07,3,0.130704097,nonsignificant,317,0.206982513,nonsignificant,Gills_Testes
+XP_005461836.1,H1-like,74,T,T74,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.061025418,0.001098252,3,0.137372237,nonsignificant,318,0.21685806,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,0.755620835,0.543069161,2,0.137945841,nonsignificant,319,0.217080915,nonsignificant,Gills_Testes
+XP_003446112.1,protamine-like protein,25,K,K25,209,Acrolein112,Other,Trypsin only,0.602196294,0.765471267,2,0.138646734,nonsignificant,320,0.217502063,nonsignificant,Gills_Testes
+XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,0.1834755,3.50759E-08,3,0.140372516,nonsignificant,321,0.219523374,nonsignificant,Gills_Testes
+XP_019209845.1,H1-like,19,K,K19,121,GlyGly,Other,Ambic only,-0.515035312,0.36680832,2,0.140419989,nonsignificant,322,0.218915636,nonsignificant,Gills_Testes
+XP_019210164.1,H1 isoform X1,1,S,S1,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.399250752,0.739579068,2,0.140637428,nonsignificant,323,0.218575817,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,0.284288437,0.191039282,2,0.141070514,nonsignificant,324,0.218572216,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,121,GlyGly,Other,Ambic only,2.050417378,0.924458349,2,0.148460526,nonsignificant,325,0.229314413,nonsignificant,Gills_Testes
+XP_003446112.1,protamine-like protein,1,S,S1,1,Acetyl,Yes,Ambic only,0,0.341576668,2,0.149709571,nonsignificant,326,0.230534369,nonsignificant,Gills_Testes
+XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,0.33643147,0.994121134,2,0.149950156,nonsignificant,327,0.230198711,nonsignificant,Gills_Testes
+XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,-0.975863849,0.379247418,2,0.150845552,nonsignificant,328,0.230867278,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,-0.34104861,0.450207213,2,0.153016273,nonsignificant,329,0.233477717,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,69,R,R69,34,Methyl,Yes,Ambic and Napho,0.002610234,1.17123E-12,3,0.157830128,nonsignificant,330,0.240093104,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,0.529021368,0.682261613,2,0.15936931,nonsignificant,331,0.241702096,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.126081216,0.01178216,3,0.163924407,nonsignificant,332,0.247861604,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,0.112352143,7.66188E-18,3,0.166067695,nonsignificant,333,0.250348297,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,0.055715285,0.248707763,2,0.167437891,nonsignificant,334,0.251658147,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,5,P,P5,35,Oxidation,Yes,Ambic and Napho,-0.196873425,0.351874851,2,0.16980898,nonsignificant,335,0.254460024,nonsignificant,Gills_Testes
+XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,0.528400845,0.654762578,2,0.171637604,nonsignificant,336,0.256434754,nonsignificant,Gills_Testes
+XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,0.528400845,0.654762578,2,0.171637604,nonsignificant,337,0.25567382,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,82,N,N82,35,Oxidation,Yes,Ambic only,-0.639287358,0.205267133,2,0.174577523,nonsignificant,338,0.259283776,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.061964025,1.17095E-10,3,0.17641719,nonsignificant,339,0.261243154,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,-0.061964025,1.17095E-10,3,0.17641719,nonsignificant,340,0.260474792,nonsignificant,Gills_Testes
+XP_019209845.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic only,1.713704561,3.83737E-05,3,0.176463513,nonsignificant,341,0.25977913,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,0.272772027,0.099252189,2,0.178157362,nonsignificant,342,0.261505836,nonsignificant,Gills_Testes
+XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.737365085,0.030516118,3,0.181921894,nonsignificant,343,0.266253034,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,54,S,S54,1,Acetyl,Yes,Trypsin only,0.541469631,0.845397107,2,0.183778616,nonsignificant,344,0.268188561,nonsignificant,Gills_Testes
+XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.485042265,0.636562284,2,0.186656226,nonsignificant,345,0.271598335,nonsignificant,Gills_Testes
+XP_019210164.1,H1 isoform X1,5,P,P5,425,Dioxidation,Yes,Napho only,-0.114114622,4.63411E-19,3,0.186738673,nonsignificant,346,0.270932987,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,74,N,N74,213,ADP-Ribosyl,Yes,Napho only,-0.03521958,0.000112967,3,0.187550651,nonsignificant,347,0.271326878,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,34,Methyl,Yes,Napho only,-1.047512264,0.000420123,3,0.187640229,nonsignificant,348,0.270676422,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,89,R,R89,425,Dioxidation,Yes,Ambic and Napho,-0.148293698,0.50267811,2,0.188434375,nonsignificant,349,0.271043142,nonsignificant,Gills_Testes
+XP_019209843.1,H1-like,16,K,K16,255,Dimethyl,Yes,Ambic and Napho,0.317421285,6.29341E-05,3,0.192368931,nonsignificant,350,0.275912009,nonsignificant,Gills_Testes
+XP_019209843.1,H1-like,16,K,K16,378,Lactyl / Carboxyethyl,Yes,Ambic only,-2.126630254,0.407103056,2,0.195437481,nonsignificant,351,0.279514574,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,0.973577003,0.734995028,2,0.197127192,nonsignificant,352,0.281130256,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,-0.616795763,2.2038E-13,3,0.205073954,nonsignificant,353,0.291634915,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,-0.020026676,0.035694176,3,0.212400991,nonsignificant,354,0.301201406,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.073843179,9.23395E-05,3,0.213780717,nonsignificant,355,0.302303999,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,22,K,K22,34,Methyl,Yes,Trypsin only,1.772697448,1.21181E-07,3,0.217220773,nonsignificant,356,0.306305697,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,0.487933779,2,0.220699122,nonsignificant,357,0.310338822,nonsignificant,Gills_Testes
+XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,-0.121784099,0.002319802,3,0.222082199,nonsignificant,358,0.311411352,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,0.699491613,0.362875595,2,0.222630078,nonsignificant,359,0.311310026,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,61,D,D61,35,Oxidation,Yes,Ambic only,0.223095514,0.11561914,2,0.222918846,nonsignificant,360,0.310847946,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,121,GlyGly,Other,Napho only,-0.088096903,0.008326832,3,0.240187909,nonsignificant,361,0.334000914,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,0.208707959,0.057739698,2,0.240527583,nonsignificant,362,0.333549301,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.719288981,0.02350292,3,0.248831534,nonsignificant,363,0.344114133,nonsignificant,Gills_Testes
+XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,0.394771274,0.445248174,2,0.25025127,nonsignificant,364,0.345126752,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,0.021114574,0.148094265,2,0.25744972,nonsignificant,365,0.354081533,nonsignificant,Gills_Testes
+XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,0.193938102,0.702452599,2,0.258228759,nonsignificant,366,0.354182615,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,50,S,S50,1,Acetyl,Yes,Trypsin only,0.666806192,0.286238107,2,0.259232611,nonsignificant,367,0.354590656,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,0.245198509,0.008557386,3,0.274069086,nonsignificant,368,0.373865982,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,85,S,S85,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.134150788,0.149594856,2,0.274129101,nonsignificant,369,0.37293444,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,57,R,R57,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.479344493,4.71744E-05,3,0.284279591,nonsignificant,370,0.385698255,nonsignificant,Gills_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,34,Methyl,Yes,Ambic only,-2.162365819,1.35298E-06,3,0.285679171,nonsignificant,371,0.386552409,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,0.302959144,9.94131E-12,3,0.286909602,nonsignificant,372,0.38717371,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,43,R,R43,34,Methyl,Yes,Ambic and Napho,0.101070399,0.794237068,2,0.28711163,nonsignificant,373,0.386407609,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,117,T,T117,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.198455612,0.761114907,2,0.292103225,nonsignificant,374,0.392074382,nonsignificant,Gills_Testes
+XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.200378068,0.225433963,2,0.29491214,nonsignificant,375,0.394789052,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,0.76483076,4.18202E-07,3,0.29689251,nonsignificant,376,0.396383086,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,56,T,T56,121,GlyGly,Other,Ambic only,0.860356373,0.559309247,2,0.297333179,nonsignificant,377,0.39591845,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,52,K,K52,53,4-hydroxynonenal,Yes,Ambic only,0.4307204,0.216432174,2,0.299046114,nonsignificant,378,0.397145898,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,-3.20343E-16,1.72607E-21,3,0.3008852,nonsignificant,379,0.398533959,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,21,K,K21,255,Dimethyl,Yes,Napho only,0.058477732,0.000189794,3,0.301128684,nonsignificant,380,0.39780684,nonsignificant,Gills_Testes
+XP_019218826.1,H1-like,9,P,P9,35,Oxidation,Yes,Napho only,-0.550680656,1.5149E-07,3,0.30117851,nonsignificant,381,0.396828378,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,53,K,K53,53,4-hydroxynonenal,Yes,Ambic only,-0.203786104,0.09152888,2,0.301458996,nonsignificant,382,0.396158157,nonsignificant,Gills_Testes
+XP_019209843.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic only,-0.026606566,7.6945E-14,3,0.303910007,nonsignificant,383,0.398336354,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,75,K,K75,34,Methyl,Yes,Ambic and Napho,0.267764032,0.006740464,3,0.310821336,nonsignificant,384,0.406334142,nonsignificant,Gills_Testes
+XP_019209845.1,H1-like,17,K,K17,378,Lactyl / Carboxyethyl,Yes,Napho only,0.12627856,2.64548E-07,3,0.313859119,nonsignificant,385,0.409239683,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,0.065832364,0.755122322,2,0.314441921,nonsignificant,386,0.40893742,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,0.067285832,0.181928339,2,0.317804878,nonsignificant,387,0.41224302,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,0.423778892,0.670571507,2,0.317944078,nonsignificant,388,0.411360637,nonsignificant,Gills_Testes
+XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.386594227,0.027640999,3,0.324728242,nonsignificant,389,0.41905804,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,0.184981808,0.272190764,2,0.325441955,nonsignificant,390,0.418902209,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.060436815,3.89409E-08,3,0.334563675,nonsignificant,391,0.42954211,nonsignificant,Gills_Testes
+XP_003448795.2,H1.10,145,R,R145,7,Deamidated,Yes,Trypsin only,-0.510577549,0.715944756,2,0.335071821,nonsignificant,392,0.429097077,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,76,R,R76,36,Dimethyl,Yes,Ambic and Napho,0.262064487,0.139176755,2,0.344462738,nonsignificant,393,0.440000749,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,-0.346314648,0.4126273,2,0.348256597,nonsignificant,394,0.443717796,nonsignificant,Gills_Testes
+XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.63951615,0.073878573,2,0.354952374,nonsignificant,395,0.45110403,nonsignificant,Gills_Testes
+XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.38032589,0.827443539,2,0.359368378,nonsignificant,396,0.455562944,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,0.275476799,0.892088216,2,0.360375964,nonsignificant,397,0.455689506,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.054370864,0.005239929,3,0.368810837,nonsignificant,398,0.465183518,nonsignificant,Gills_Testes
+XP_019209842.1,H1-like,38,K,K38,425,Dioxidation,Yes,Ambic and Napho,0.111581207,0.023804519,3,0.377342123,nonsignificant,399,0.474751243,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.03576619,0.199682779,2,0.378588371,nonsignificant,400,0.475128405,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,-0.411350495,0.527697069,2,0.380174748,nonsignificant,401,0.475929485,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,0.70871561,0.091096554,2,0.382623283,nonsignificant,402,0.477803204,nonsignificant,Gills_Testes
+XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,1.919170546,7.63391E-05,3,0.401242584,nonsignificant,403,0.499810862,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,53,K,K53,255,Dimethyl,Yes,Ambic only,-0.460414388,0.503919147,2,0.404332651,nonsignificant,404,0.502413344,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,81,Y,Y81,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.185925033,0.058014438,2,0.406453287,nonsignificant,405,0.503801359,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,75,K,K75,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,0.19952738,0.567704046,2,0.410603574,nonsignificant,406,0.507692104,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,-0.137414042,0.01613787,3,0.415519126,nonsignificant,407,0.51250762,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,60,Y,Y60,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.215363406,0.584514487,2,0.419386752,nonsignificant,408,0.51601017,nonsignificant,Gills_Testes
+XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,-0.178940392,0.92474613,2,0.426161849,nonsignificant,409,0.523064176,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.005371161,4.1461E-14,3,0.431093452,nonsignificant,410,0.527826617,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,55,K,K55,1,Acetyl,Yes,Ambic and Napho,0.021211463,1.68605E-06,3,0.433761005,nonsignificant,411,0.529800546,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,255,Dimethyl,Yes,Ambic and Napho,0.512380165,0.910871492,2,0.446982817,nonsignificant,412,0.544624695,nonsignificant,Gills_Testes
+XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.0865374,0.191957424,2,0.450277503,nonsignificant,413,0.547310669,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,82,R,R82,34,Methyl,Yes,Ambic only,-0.210635983,0.895554444,2,0.450624226,nonsignificant,414,0.546409086,nonsignificant,Gills_Testes
+XP_019218826.1,H1-like,17,K,K17,425,Dioxidation,Yes,Ambic and Napho,0.014351682,1.79074E-19,3,0.454110801,nonsignificant,415,0.549309933,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,0.605835422,0.169917103,2,0.460113603,nonsignificant,416,0.555233242,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,0.605835422,0.169917103,2,0.460113603,nonsignificant,417,0.553901748,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,61,K,K61,121,GlyGly,Other,"Ambic, Napho, and Trypsin",0.343915434,0.713427884,2,0.460225111,nonsignificant,418,0.55271054,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,3.262810442,0.543393247,2,0.460342365,nonsignificant,419,0.551531903,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.03560623,1.93721E-05,3,0.47033512,nonsignificant,420,0.562162453,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.329397899,0.941194085,2,0.477427526,nonsignificant,421,0.569284129,nonsignificant,Gills_Testes
+XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,-0.86967636,0.312492624,2,0.483705277,nonsignificant,422,0.57540296,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,34,Methyl,Yes,Ambic and Napho,-0.526067396,0.594232353,2,0.48649512,nonsignificant,423,0.577353546,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,1.662316155,2.15658E-07,3,0.492204305,nonsignificant,424,0.582751323,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,69,R,R69,35,Oxidation,Yes,Ambic only,-0.580347386,0.425840318,2,0.494036789,nonsignificant,425,0.58354463,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,75,T,T75,1,Acetyl,Yes,Ambic and Napho,-0.191036729,0.806175143,2,0.499315718,nonsignificant,426,0.588395517,nonsignificant,Gills_Testes
+XP_019218826.1,H1-like,13,K,K13,35,Oxidation,Yes,Ambic only,-0.093677668,0.266267026,2,0.50495081,nonsignificant,427,0.593642404,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,7,P,P7,35,Oxidation,Yes,Napho only,-0.424102944,0.028999119,3,0.508848561,nonsignificant,428,0.596827051,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,-0.032860486,0.426156564,2,0.511795944,nonsignificant,429,0.598884764,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,-0.001251064,0.00362715,3,0.520012817,nonsignificant,430,0.60708473,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,-0.800685121,0.824057492,2,0.520067778,nonsignificant,431,0.605740196,nonsignificant,Gills_Testes
+XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,-0.909382677,0.025611129,3,0.52194567,nonsignificant,432,0.6065202,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,61,K,K61,34,Methyl,Yes,Napho only,0.002460905,0.085855279,2,0.534419494,nonsignificant,433,0.61958103,nonsignificant,Gills_Testes
+XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,-1.439215559,1.26901E-05,3,0.535792533,nonsignificant,434,0.619741594,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,69,R,R69,425,Dioxidation,Yes,Napho only,-0.167661173,0.389135921,2,0.536987761,nonsignificant,435,0.619696221,nonsignificant,Gills_Testes
+XP_019219600.2,H2B 1/2 isoform X1,94,T,T94,1,Acetyl,Yes,Napho only,0.293269657,0.883894221,2,0.55370188,nonsignificant,436,0.637519138,nonsignificant,Gills_Testes
+XP_019219600.2,H2B 1/2 isoform X1,97,R,R97,36,Dimethyl,Yes,Napho only,0.293269657,0.883894221,2,0.55370188,nonsignificant,437,0.636060284,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,-0.385211701,0.118037171,2,0.555471166,nonsignificant,438,0.636635903,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,35,Oxidation,Yes,Ambic and Napho,-0.046455231,2.37218E-07,3,0.587133331,nonsignificant,439,0.671391646,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,0.054937519,0.139816719,2,0.599022306,nonsignificant,440,0.683429995,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,118,K,K118,34,Methyl,Yes,Ambic only,0.053349838,6.5376E-10,3,0.60085517,nonsignificant,441,0.683966657,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,119,Y,Y119,425,Dioxidation,Yes,Ambic only,0.053349838,6.5376E-10,3,0.60085517,nonsignificant,442,0.682419221,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,0.189910177,0.859243968,2,0.601161873,nonsignificant,443,0.681226322,nonsignificant,Gills_Testes
+XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-0.737487769,0.021038632,3,0.603060401,nonsignificant,444,0.681838561,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,44,K,K44,1,Acetyl,Yes,Ambic and Napho,0.558997617,0.000480297,3,0.604586322,nonsignificant,445,0.682027716,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,255,Dimethyl,Yes,Napho only,-0.114612598,0.669547221,2,0.613854334,nonsignificant,446,0.690930215,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,-0.305924513,7.79199E-06,3,0.614776041,nonsignificant,447,0.690419626,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,44,K,K44,34,Methyl,Yes,Ambic and Napho,-0.145648621,0.284415273,2,0.615740286,nonsignificant,448,0.689958981,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.102219087,0.742633066,2,0.616713848,nonsignificant,449,0.689510805,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,73,Y,Y73,425,Dioxidation,Yes,Ambic only,-0.15161069,0.074147011,2,0.618290863,nonsignificant,450,0.689737807,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,52,K,K52,1,Acetyl,Yes,Ambic and Napho,-0.082186908,0.776956081,2,0.622152144,nonsignificant,451,0.692506377,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,1,Acetyl,Yes,Ambic and Napho,0.005529322,0.044619303,3,0.628268838,nonsignificant,452,0.697767603,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,118,K,K118,1,Acetyl,Yes,Napho only,-0.048161597,0.0099884,3,0.640208632,nonsignificant,453,0.709458572,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,70,R,R70,7,Deamidated,Yes,Ambic and Napho,0.015261328,0.184308408,2,0.640220562,nonsignificant,454,0.70790908,nonsignificant,Gills_Testes
+XP_019209843.1,H1-like,15,T,T15,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-2.300101812,0.084487625,2,0.640554247,nonsignificant,455,0.706721389,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,74,Y,Y74,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.030238175,0.248587444,2,0.641042076,nonsignificant,456,0.705708601,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.599250282,0.748543406,2,0.651820102,nonsignificant,457,0.7160037,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,73,T,T73,1,Acetyl,Yes,Ambic and Napho,0.088620064,6.11729E-08,3,0.656432203,nonsignificant,458,0.719495559,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,1.923602391,0.388393376,2,0.65800999,nonsignificant,459,0.719653627,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,-0.130548314,0.617321069,2,0.660837741,nonsignificant,460,0.7211751,nonsignificant,Gills_Testes
+XP_019218826.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic and Napho,-0.07343267,2.3575E-11,3,0.669090868,nonsignificant,461,0.728597865,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.030020064,0.450834083,2,0.672876142,nonsignificant,462,0.731133817,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,76,R,R76,7,Deamidated,Yes,Ambic and Napho,0.024263325,0.197621941,2,0.676823219,nonsignificant,463,0.733834246,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.303200364,0.645540628,2,0.692061542,nonsignificant,464,0.748738995,nonsignificant,Gills_Testes
+XP_019209842.1,H1-like,56,K,K56,1,Acetyl,Yes,Ambic and Napho,0.372705951,0.004600085,3,0.702174257,nonsignificant,465,0.758046188,nonsignificant,Gills_Testes
+XP_019209845.1,H1-like,18,K,K18,121,GlyGly,Other,Ambic only,-0.958455241,0.302799367,2,0.712263649,nonsignificant,466,0.767288309,nonsignificant,Gills_Testes
+XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,2.449923546,0.056201559,2,0.720461802,nonsignificant,467,0.774457868,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,121,GlyGly,Other,Ambic only,0.713799484,2.01972E-06,3,0.729474753,nonsignificant,468,0.782470782,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,-0.026840033,0.006338443,3,0.731247266,nonsignificant,469,0.782699633,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,56,T,T56,1,Acetyl,Yes,Ambic and Napho,0.075468051,0.705368122,2,0.731256617,nonsignificant,470,0.781044301,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,69,R,R69,35,Oxidation,Yes,Ambic and Napho,0.125857642,0.961413529,2,0.732374,nonsignificant,471,0.780576959,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.017839644,0.308347819,2,0.744249788,nonsignificant,472,0.791553799,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.373088856,0.712364961,2,0.760974621,nonsignificant,473,0.80763057,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,-0.373088856,0.712364961,2,0.760974621,nonsignificant,474,0.805926708,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,13,K,K13,35,Oxidation,Yes,Ambic only,-1.454096822,0.000847539,3,0.762777284,nonsignificant,475,0.806135151,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,21,K,K21,37,Trimethyl,Yes,Ambic only,-1.454096822,0.000847539,3,0.762777284,nonsignificant,476,0.80444159,nonsignificant,Gills_Testes
+XP_003448795.2,H1.10,76,P,P76,35,Oxidation,Yes,Ambic only,-0.912528403,0.033481972,3,0.768374443,nonsignificant,477,0.80864564,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,0.0671232,0.00045973,3,0.771936697,nonsignificant,478,0.810695025,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,57,R,R57,7,Deamidated,Yes,Ambic and Napho,-0.028187963,0.911091386,2,0.781322641,nonsignificant,479,0.818839177,nonsignificant,Gills_Testes
+XP_005461836.1,H1-like,70,K,K70,34,Methyl,Yes,Napho only,0.144010853,0.01201866,3,0.801293667,nonsignificant,480,0.838019627,nonsignificant,Gills_Testes
+XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,0.335188544,0.301041614,2,0.803569085,nonsignificant,481,0.838652143,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,81,Y,Y81,425,Dioxidation,Yes,Ambic only,-0.714023132,0.363452125,2,0.819494078,nonsignificant,482,0.853497982,nonsignificant,Gills_Testes
+XP_003459589.1,H1-like,21,K,K21,34,Methyl,Yes,Ambic only,-0.387875922,0.016473826,3,0.819694828,nonsignificant,483,0.851939552,nonsignificant,Gills_Testes
+XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.414460942,0.085334518,2,0.828843814,nonsignificant,484,0.859668584,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,1,Acetyl,Yes,Ambic and Napho,0.084863348,0.000306578,3,0.833422304,nonsignificant,485,0.862635045,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,117,T,T117,121,GlyGly,Other,Ambic only,0.539984419,0.001188012,3,0.835289484,nonsignificant,486,0.862788727,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,50,S,S50,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.053958295,0.828679554,2,0.848615038,nonsignificant,487,0.874753078,nonsignificant,Gills_Testes
+XP_003451196.1,H2B 1/2,54,S,S54,121,GlyGly,Other,Napho only,0.293622132,3.10926E-09,3,0.850529822,nonsignificant,488,0.874930268,nonsignificant,Gills_Testes
+XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,-0.598544811,0.176270994,2,0.85424126,nonsignificant,489,0.87695115,nonsignificant,Gills_Testes
+XP_025766521.1,H4-like,49,S,S49,1,Acetyl,Yes,Trypsin only,0.012506474,0.756181671,2,0.872655747,nonsignificant,490,0.894026908,nonsignificant,Gills_Testes
+XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.415382336,0.585831642,2,0.87886574,nonsignificant,491,0.898555196,nonsignificant,Gills_Testes
+XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,0.039611135,0.318591008,2,0.892087385,nonsignificant,492,0.910219243,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,-0.0449955,1.77035E-13,3,0.908325209,nonsignificant,493,0.924907211,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,0.039076159,0.277274651,2,0.927332199,nonsignificant,494,0.942349725,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,-0.021322155,0.992308895,2,0.931113348,nonsignificant,495,0.944280608,nonsignificant,Gills_Testes
+XP_019210164.1,H1 isoform X1,1,S,S1,1,Acetyl,Yes,Ambic only,-0.080585658,0.170273021,2,0.95600191,nonsignificant,496,0.967566449,nonsignificant,Gills_Testes
+XP_019209843.1,H1-like,16,K,K16,53,4-hydroxynonenal,Yes,Ambic only,-2.44456018,0.099318252,2,0.96493305,nonsignificant,497,0.974640626,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,0.001254196,0.004731747,3,0.966798301,nonsignificant,498,0.97456375,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,0.001254196,0.004731747,3,0.966798301,nonsignificant,499,0.972610716,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,-0.19260392,0.949026214,2,0.975750237,nonsignificant,500,0.979653238,nonsignificant,Gills_Testes
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,0.14344572,0.082129878,2,0.984822729,nonsignificant,501,0.986788443,nonsignificant,Gills_Testes
+XP_003438147.1,H2B.L4,73,Y,Y73,35,Oxidation,Yes,Ambic only,-0.114322539,0.880057955,2,0.989332043,nonsignificant,502,0.989332043,nonsignificant,Gills_Testes
+XP_003448939.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003448939.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003448939.1,H2A,127,K,K127,255,Dimethyl,Yes,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003451196.1,H2B 1/2,118,K,K118,35,Oxidation,Yes,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003451211.1,H2A,123,P,P123,35,Oxidation,Yes,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003459572.1,H2A,117,K,K117,1,Acetyl,Yes,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003459589.1,H1-like,18,K,K18,1,Acetyl,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003459589.1,H1-like,47,S,S47,121,GlyGly,Other,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003459589.1,H1-like,52,K,K52,34,Methyl,Yes,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_003459589.1,H1-like,53,K,K53,34,Methyl,Yes,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_005461836.1,H1-like,71,R,R71,7,Deamidated,Yes,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_005463512.2,H3,64,K,K64,425,Dioxidation,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_005463512.2,H3,72,R,R72,7,Deamidated,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_005463512.2,H3,83,R,R83,425,Dioxidation,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_005464230.1,H2A.Z isoform X1,161,K,K161,255,Dimethyl,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_019209843.1,H1-like,17,K,K17,255,Dimethyl,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_019209845.1,H1-like,17,K,K17,121,GlyGly,Other,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_019210164.1,H1 isoform X1,18,K,K18,121,GlyGly,Other,Ambic only,#NUM!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_019210164.1,H1 isoform X1,23,K,K23,121,GlyGly,Other,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_025766521.1,H4-like,53,Y,Y53,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
