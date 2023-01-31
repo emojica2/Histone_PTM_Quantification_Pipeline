@@ -807,7 +807,7 @@ Target_Ambic <- c(
 Gills/Ambic/Exp1
 
 ```{r}
-Gills_Ambic_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Exp1_Ambic.csv")
+Gills_Ambic_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Ambic_Exp1.csv")
 
 Sorted_Gills_Ambic_Exp1 <- Gills_Ambic_Exp1[match(Target_Ambic, Gills_Ambic_Exp1$`Peptide Modified Sequence`),]
 
@@ -817,7 +817,7 @@ write_csv(Sorted_Gills_Ambic_Exp1, file = "../data/Sorting_DIA_Assay_Libraries/S
 Kidney/Ambic/Exp1
 
 ```{r}
-Kidney_Ambic_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Exp1_Ambic.csv")
+Kidney_Ambic_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Ambic_Exp1.csv")
 
 Sorted_Kidney_Ambic_Exp1 <- Kidney_Ambic_Exp1[match(Target_Ambic, Kidney_Ambic_Exp1$`Peptide Modified Sequence`),]
 
@@ -827,7 +827,7 @@ write_csv(Sorted_Kidney_Ambic_Exp1, file = "../data/Sorting_DIA_Assay_Libraries/
 Testes/Ambic/Exp1
 
 ```{r}
-Testes_Ambic_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Exp1_Ambic.csv")
+Testes_Ambic_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Ambic_Exp1.csv")
 
 Sorted_Testes_Exp1 <- Testes_Ambic_Exp1[match(Target_Ambic, Testes_Ambic_Exp1$`Peptide Modified Sequence`),]
 
@@ -837,7 +837,7 @@ write_csv(Sorted_Testes_Exp1, file = "../data/Sorting_DIA_Assay_Libraries/Sorted
 Gills/Ambic/Exp2
 
 ```{r}
-Gills_Ambic_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Exp2_Ambic.csv")
+Gills_Ambic_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Ambic_Exp2.csv")
 
 Sorted_Gills_Exp2 <- Gills_Ambic_Exp2[match(Target_Ambic, Gills_Ambic_Exp2$`Peptide Modified Sequence`),]
 
@@ -848,7 +848,7 @@ write_csv(Sorted_Gills_Exp2, file = "../data/Sorting_DIA_Assay_Libraries/Sorted_
 Kidney/Ambic/Exp2
 
 ```{r}
-Kidney_Ambic_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Exp2_Ambic.csv")
+Kidney_Ambic_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Ambic_Exp2.csv")
 
 Sorted_Kidney_Exp2 <- Kidney_Ambic_Exp2[match(Target_Ambic, Kidney_Ambic_Exp2$`Peptide Modified Sequence`),]
 
@@ -859,7 +859,7 @@ write_csv(Sorted_Kidney_Exp2, file = "../data/Sorting_DIA_Assay_Libraries/Sorted
 Testes/Ambic/Exp2
 
 ```{r}
-Testes_Ambic_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Exp2_Ambic.csv")
+Testes_Ambic_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Ambic_Exp2.csv")
 
 Sorted_Testes_Exp2 <- Testes_Ambic_Exp2[match(Target_Ambic, Testes_Ambic_Exp2$`Peptide Modified Sequence`),]
 
@@ -1718,7 +1718,7 @@ Target_Napho <- c(
 Gills/Napho/Exp1
 
 ```{r}
-Gills_Napho_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Exp1_Napho.csv")
+Gills_Napho_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Napho_Exp1.csv")
 
 Sorted_Gills_Napho_Exp1 <- Gills_Napho_Exp1[match(Target_Napho, Gills_Napho_Exp1$`Peptide Modified Sequence`),]
 
@@ -1728,7 +1728,7 @@ write_csv(Sorted_Gills_Napho_Exp1, file = "../data/Sorting_DIA_Assay_Libraries/S
 Kidney/Napho/Exp1
 
 ```{r}
-Kidney_Napho_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Exp1_Napho.csv")
+Kidney_Napho_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Napho_Exp1.csv")
 
 Sorted_Kidney_Napho_Exp1 <- Kidney_Napho_Exp1[match(Target_Napho, Kidney_Napho_Exp1$`Peptide Modified Sequence`),]
 
@@ -1738,7 +1738,7 @@ write_csv(Sorted_Kidney_Napho_Exp1, file = "../data/Sorting_DIA_Assay_Libraries/
 Testes/Napho/Exp1
 
 ```{r}
-Testes_Napho_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Exp1_Napho.csv")
+Testes_Napho_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Napho_Exp1.csv")
 
 Sorted_Testes_Napho_Exp1 <- Testes_Napho_Exp1[match(Target_Napho, Testes_Napho_Exp1$`Peptide Modified Sequence`),]
 
@@ -1749,7 +1749,7 @@ write_csv(Sorted_Testes_Napho_Exp1, file = "../data/Sorting_DIA_Assay_Libraries/
 Gills/Napho/Exp2
 
 ```{r}
-Gills_Napho_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Exp2_Napho.csv")
+Gills_Napho_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Napho_Exp2.csv")
 
 Sorted_Gills_Napho_Exp2 <- Gills_Napho_Exp2[match(Target_Napho, Gills_Napho_Exp2$`Peptide Modified Sequence`),]
 
@@ -1760,7 +1760,7 @@ write_csv(Sorted_Gills_Napho_Exp2, file = "../data/Sorting_DIA_Assay_Libraries/S
 Kidney/Napho/Exp2
 
 ```{r}
-Kidney_Napho_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Exp2_Napho.csv")
+Kidney_Napho_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Napho_Exp2.csv")
 
 Sorted_Kidney_Napho_Exp2 <- Kidney_Napho_Exp2[match(Target_Napho, Kidney_Napho_Exp2$`Peptide Modified Sequence`),]
 
@@ -1771,7 +1771,7 @@ write_csv(Sorted_Kidney_Napho_Exp2, file = "../data/Sorting_DIA_Assay_Libraries/
 Testes/Napho/Exp2
 
 ```{r}
-Testes_Napho_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Exp2_Napho.csv")
+Testes_Napho_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Napho_Exp2.csv")
 
 Sorted_Testes_Napho_Exp2 <- Testes_Napho_Exp2[match(Target_Napho, Testes_Napho_Exp2$`Peptide Modified Sequence`),]
 
@@ -2142,7 +2142,7 @@ Target_Trypsin <- c(
 Gills/Trypsin/Exp1
 
 ```{r}
-Gills_Trypsin_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Exp1_Trypsin.csv")
+Gills_Trypsin_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Tryp_Exp1.csv")
 
 Sorted_Gills_Trypsin_Exp1 <- Gills_Trypsin_Exp1[match(Target_Trypsin, Gills_Trypsin_Exp1$`Peptide Modified Sequence`),]
 
@@ -2153,7 +2153,7 @@ write_csv(Sorted_Gills_Trypsin_Exp1, file = "../data/Sorting_DIA_Assay_Libraries
 Kidney/Trypsin/Exp1
 
 ```{r}
-Kidney_Trypsin_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Exp1_Trypsin.csv")
+Kidney_Trypsin_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Tryp_Exp1.csv")
 
 Sorted_Kidney_Trypsin_Exp1 <- Kidney_Trypsin_Exp1[match(Target_Trypsin, Kidney_Trypsin_Exp1$`Peptide Modified Sequence`),]
 
@@ -2164,7 +2164,7 @@ write_csv(Sorted_Kidney_Trypsin_Exp1, file = "../data/Sorting_DIA_Assay_Librarie
 Testes/Trypsin/Exp1
 
 ```{r}
-Testes_Trypsin_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Exp1_Trypsin.csv")
+Testes_Trypsin_Exp1 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Tryp_Exp1.csv")
 
 Sorted_Testes_Trypsin_Exp1 <- Testes_Trypsin_Exp1[match(Target_Trypsin, Testes_Trypsin_Exp1$`Peptide Modified Sequence`),]
 
@@ -2174,7 +2174,7 @@ write_csv(Sorted_Testes_Trypsin_Exp1, file = "../data/Sorting_DIA_Assay_Librarie
 Gills/Trypsin/Exp2
 
 ```{r}
-Gills_Trypsin_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Exp2_Trypsin.csv")
+Gills_Trypsin_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Gills_Tryp_Exp2.csv")
 
 Sorted_Gills_Trypsin_Exp2 <- Gills_Trypsin_Exp2[match(Target_Trypsin, Gills_Trypsin_Exp2$`Peptide Modified Sequence`),]
 
@@ -2185,7 +2185,7 @@ write_csv(Sorted_Gills_Trypsin_Exp2, file = "../data/Sorting_DIA_Assay_Libraries
 Kidney/Trypsin/Exp2
 
 ```{r}
-Kidney_Trypsin_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Exp2_Trypsin.csv")
+Kidney_Trypsin_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Kidney_Tryp_Exp2.csv")
 
 Sorted_Kidney_Trypsin_Exp2 <- Kidney_Trypsin_Exp2[match(Target_Trypsin, Kidney_Trypsin_Exp2$`Peptide Modified Sequence`),]
 
@@ -2196,7 +2196,7 @@ write_csv(Sorted_Kidney_Trypsin_Exp2, file = "../data/Sorting_DIA_Assay_Librarie
 Testes/Trypsin/Exp2
 
 ```{r}
-Testes_Trypsin_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Exp2_Trypsin.csv")
+Testes_Trypsin_Exp2 <- read_csv("../data/Sorting_DIA_Assay_Libraries/Testes_Tryp_Exp2.csv")
 
 Sorted_Testes_Trypsin_Exp2 <- Testes_Trypsin_Exp2[match(Target_Trypsin, Testes_Trypsin_Exp2$`Peptide Modified Sequence`),]
 
