@@ -411,7 +411,6 @@ Full_H1_Maps$`Amino Acid + Position` <- factor(Full_H1_Maps$`Amino Acid + Positi
 H1_like_9589_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_Relative_Abundance, x = abbreviation)) +
   geom_bar(position = "stack", stat = "identity") +
   facet_wrap(~ `Amino Acid + Position`, scales = "free", ncol = 4) +
-  ggtitle("XP_003459589.1 histone H1-like") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
   scale_fill_manual(values = colors_H1_like_9589) +
@@ -833,7 +832,6 @@ Full_H2A_Maps$`Amino Acid + Position` <- factor(Full_H2A_Maps$`Amino Acid + Posi
 H2A_8939_map <- ggplot(Full_H2A_Maps, aes(fill = `PTM Description`, y = mean_Relative_Abundance, x = abbreviation)) +
   geom_bar(position = "stack", stat = "identity") +
   facet_wrap(~ `Amino Acid + Position`, scales = "free", ncol = 4) +
-  ggtitle("XP_003448939.1 histone H2A") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
   scale_fill_manual(values = colors_H2A_8939) +
@@ -1102,7 +1100,6 @@ Full_H2B_Maps$`Amino Acid + Position` <- factor(Full_H2B_Maps$`Amino Acid + Posi
 H2B_1_2_map <- ggplot(Full_H2B_Maps, aes(fill = `PTM Description`, y = mean_Relative_Abundance, x = abbreviation)) +
   geom_bar(position = "stack", stat = "identity") +
   facet_wrap(~ `Amino Acid + Position`, scales = "free", ncol = 6) +
-  ggtitle("XP_003451196.1 histone H2B 1/2") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
   scale_fill_manual(values = colors_H2B_1_2) +
@@ -1181,7 +1178,6 @@ Full_H3_Maps$`Amino Acid + Position` <- factor(Full_H3_Maps$`Amino Acid + Positi
 H3_map <- ggplot(Full_H3_Maps, aes(fill = `PTM Description`, y = mean_Relative_Abundance, x = abbreviation)) +
   geom_bar(position = "stack", stat = "identity") +
   facet_wrap(~ `Amino Acid + Position`, scales = "free", ncol = 5) +
-  ggtitle("XP_005463512.2 histone H3") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
   scale_fill_manual(values = colors_H3) +
@@ -1260,7 +1256,6 @@ Full_H4_Maps$`Amino Acid + Position` <- factor(Full_H4_Maps$`Amino Acid + Positi
 H4_like_map <- ggplot(Full_H4_Maps, aes(fill = `PTM Description`, y = mean_Relative_Abundance, x = abbreviation)) +
   geom_bar(position = "stack", stat = "identity") +
   facet_wrap(~ `Amino Acid + Position`, scales = "free", ncol = 4) +
-  ggtitle("XP_025766521.1 histone H4-like") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
   scale_fill_manual(values = colors_H4_like) +
@@ -1507,7 +1502,7 @@ print(Volcano_Plot_Gills_Kidney)
 
 ## Without legend
 
-Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Kidney_H1 <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -1517,7 +1512,7 @@ Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Kidney)
+print(Volcano_Plot_Gills_Kidney_H1)
 ```
 
 
@@ -1601,7 +1596,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Gills_Testes_Statistics$Key <- factor(Exp2_Gills_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Testes_H1 <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -1611,7 +1606,7 @@ Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Testes)
+print(Volcano_Plot_Gills_Testes_H1)
 ```
 
 
@@ -1695,7 +1690,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Kidney_Testes_Statistics$Key <- factor(Exp2_Kidney_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Kidney_Testes_H1 <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -1705,13 +1700,13 @@ Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=L
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Kidney_Testes)
+print(Volcano_Plot_Kidney_Testes_H1)
 ```
 
 ### Cow Plot for Volcano Plots
 
 ```{r}
-panel_volcano_plot_H1 <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=1, nrow = 3)
+panel_volcano_plot_H1 <- plot_grid(Volcano_Plot_Gills_Kidney_H1, Volcano_Plot_Gills_Testes_H1, Volcano_Plot_Kidney_Testes_H1, ncol=1, nrow = 3, labels = c('B', 'C', 'D'), label_size = 12)
 
 print(panel_volcano_plot_H1)
 ```
@@ -1812,7 +1807,7 @@ print(Volcano_Plot_Gills_Kidney)
 
 ## Without legend
 
-Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Kidney_H2A <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -1822,7 +1817,7 @@ Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Kidney)
+print(Volcano_Plot_Gills_Kidney_H2A)
 ```
 
 
@@ -1904,7 +1899,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Gills_Testes_Statistics$Key <- factor(Exp2_Gills_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Testes_H2A <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -1914,7 +1909,7 @@ Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Testes)
+print(Volcano_Plot_Gills_Testes_H2A)
 ```
 
 
@@ -1996,7 +1991,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Kidney_Testes_Statistics$Key <- factor(Exp2_Kidney_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Kidney_Testes_H2A <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2006,13 +2001,13 @@ Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=L
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Kidney_Testes)
+print(Volcano_Plot_Kidney_Testes_H2A)
 ```
 
 #### Compiled Volcano Plots
 
 ```{r}
-panel_volcano_plot_H2A <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=1, nrow = 3)
+panel_volcano_plot_H2A <- plot_grid(Volcano_Plot_Gills_Kidney_H2A, Volcano_Plot_Gills_Testes_H2A, Volcano_Plot_Kidney_Testes_H2A, ncol=1, nrow = 3, labels = c('B', 'C', 'D'), label_size = 12)
 
 print(panel_volcano_plot_H2A)
 ```
@@ -2110,7 +2105,7 @@ print(Volcano_Plot_Gills_Kidney)
 
 ## Without legend
 
-Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Kidney_H2B <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2120,7 +2115,7 @@ Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Kidney)
+print(Volcano_Plot_Gills_Kidney_H2B)
 ```
 
 
@@ -2198,7 +2193,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Gills_Testes_Statistics$Key <- factor(Exp2_Gills_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Testes_H2B <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2208,7 +2203,7 @@ Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Testes)
+print(Volcano_Plot_Gills_Testes_H2B)
 ```
 
 
@@ -2286,7 +2281,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Kidney_Testes_Statistics$Key <- factor(Exp2_Kidney_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Kidney_Testes_H2B <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2296,13 +2291,13 @@ Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=L
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Kidney_Testes)
+print(Volcano_Plot_Kidney_Testes_H2B)
 ```
 
 #### Compiled Volcano Plots
 
 ```{r}
-panel_volcano_plot_H2B <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=3, nrow = 1)
+panel_volcano_plot_H2B <- plot_grid(Volcano_Plot_Gills_Kidney_H2B, Volcano_Plot_Gills_Testes_H2B, Volcano_Plot_Kidney_Testes_H2B, ncol=3, nrow = 1, labels = c('B', 'C', 'D'), label_size = 12)
 
 print(panel_volcano_plot_H2B)
 ```
@@ -2397,7 +2392,7 @@ print(Volcano_Plot_Gills_Kidney)
 
 ## Without legend
 
-Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Kidney_H3 <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2407,7 +2402,7 @@ Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Kidney)
+print(Volcano_Plot_Gills_Kidney_H3)
 ```
 
 
@@ -2483,7 +2478,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Gills_Testes_Statistics$Key <- factor(Exp2_Gills_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Testes_H3 <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2493,7 +2488,7 @@ Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Testes)
+print(Volcano_Plot_Gills_Testes_H3)
 ```
 
 
@@ -2569,7 +2564,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Kidney_Testes_Statistics$Key <- factor(Exp2_Kidney_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Kidney_Testes_H3 <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2579,13 +2574,13 @@ Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=L
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Kidney_Testes)
+print(Volcano_Plot_Kidney_Testes_H3)
 ```
 
 #### Compiled Volcano Plots
 
 ```{r}
-panel_volcano_plot_H3 <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=1)
+panel_volcano_plot_H3 <- plot_grid(Volcano_Plot_Gills_Kidney_H3, Volcano_Plot_Gills_Testes_H3, Volcano_Plot_Kidney_Testes_H3, ncol=1, labels = c('B', 'C', 'D'), label_size = 12)
 
 print(panel_volcano_plot_H3)
 ```
@@ -2678,7 +2673,7 @@ print(Volcano_Plot_Gills_Kidney)
 
 ## Without legend
 
-Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Kidney_H4 <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2688,7 +2683,7 @@ Volcano_Plot_Gills_Kidney <- ggplot(data=Exp2_Gills_Kidney_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Kidney)
+print(Volcano_Plot_Gills_Kidney_H4)
 ```
 
 
@@ -2762,7 +2757,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Gills_Testes_Statistics$Key <- factor(Exp2_Gills_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Gills_Testes_H4 <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=colors_volcano) +
@@ -2772,7 +2767,7 @@ Volcano_Plot_Gills_Testes <- ggplot(data=Exp2_Gills_Testes_Statistics, aes(x=Log
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Gills_Testes)
+print(Volcano_Plot_Gills_Testes_H4)
 ```
 
 
@@ -2846,7 +2841,7 @@ order <- c("Adjusted p-value & Log2FC", "Adjusted p-value", "Log2FC", "Nonsignif
 
 Exp2_Kidney_Testes_Statistics$Key <- factor(Exp2_Kidney_Testes_Statistics$Key, levels= order)
 
-Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
+Volcano_Plot_Kidney_Testes_H4 <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
   scale_color_manual(values=c("#990f26", "#3e9fb3", "#666666")) +
@@ -2856,13 +2851,13 @@ Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=L
   xlab(expression("Log"[2]*" Fold Change")) +
   ylab(expression("-Log"[10]*"(p"[Adj.]*")"))
 
-print(Volcano_Plot_Kidney_Testes)
+print(Volcano_Plot_Kidney_Testes_H4)
 ```
 
 #### Compiled Volcano Plots
 
 ```{r}
-panel_volcano_plot_H4 <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=3, nrow = 1)
+panel_volcano_plot_H4 <- plot_grid(Volcano_Plot_Gills_Kidney_H4, Volcano_Plot_Gills_Testes_H4, Volcano_Plot_Kidney_Testes_H4, ncol = 1, labels = c('B', 'C', 'D'), label_size = 12)
 
 print(panel_volcano_plot_H4)
 ```
@@ -3419,7 +3414,7 @@ Top_hPTMs_Plot_H2B <- ggplot(Top_hPTMs_H2B, aes(x=`Tissue`, y=`Mean Relative Abu
   geom_bar(stat="identity", color="black", fill="#999999", position=position_dodge()) +
   geom_errorbar(aes(ymin=`Mean Relative Abundance` - SEM, ymax=`Mean Relative Abundance` + SEM), width=.2, position=position_dodge(0.9)) +
   theme_classic2() + 
-  facet_wrap(~ hPTM_Name, scales = "free", nrow = 4) +
+  facet_wrap(~ hPTM_Name, scales = "free", ncol = 1) +
   ylab("Average Relative Abundance (%)") +
   theme(strip.text.x = element_text(size = 8.3))
 
@@ -5032,4 +5027,111 @@ Down_Reg <- PTM %>%
 length(unique(Down_Reg$hPTM_Name)) # 0 decreased
 ```
 
+
+# Panel Plots of Histone Proteins
+
+## Histone H1
+
+```{r}
+H1_left_column <- plot_grid(
+  H1_like_9589_map,
+  Top_hPTMs_Plot_H1,
+  ncol = 1,
+  labels = c('A', 'E'),
+  label_size = 12,
+  rel_heights = c(5, 2)
+)
+
+panel_Histone_H1 <- plot_grid(
+  H1_left_column,
+  panel_volcano_plot_H1,
+  ncol = 2,
+  rel_widths = c(5, 2.25)
+)
+```
+
+## Histone H2A
+
+```{r}
+H2A_top_row <- plot_grid(
+  H2A_8939_map,
+  panel_volcano_plot_H2A,
+  labels = c('A', ''),
+  label_size = 12,
+  rel_widths = c(7, 3)
+)
+
+panel_Histone_H2A <- plot_grid(
+  H2A_top_row,
+  Top_hPTMs_Plot_H2A,
+  labels = c('', 'E'),
+  label_size = 12,
+  ncol = 1,
+  rel_heights = c(5, 1)
+)
+```
+
+## Histone H2B
+
+```{r}
+H2B_left_column <- plot_grid(
+  H2B_1_2_map,
+  panel_volcano_plot_H2B,
+  ncol = 1,
+  labels = c('A', ''),
+  label_size = 12,
+  rel_heights = c(7, 3)
+)
+
+panel_Histone_H2B <- plot_grid(
+  H2B_left_column,
+  Top_hPTMs_Plot_H2B,
+  labels = c('', 'E'),
+  label_size = 12,
+  ncol = 2,
+  rel_widths = c(5, 1)
+)
+```
+
+## Histone H3
+
+```{r}
+H3_top_row <- plot_grid(
+  H3_map,
+  panel_volcano_plot_H3,
+  labels = c('A', ''),
+  label_size = 12,
+  rel_widths = c(7, 2.5)
+)
+
+panel_Histone_H3 <- plot_grid(
+  H3_top_row,
+  Top_hPTMs_Plot_H3,
+  labels = c('', 'E'),
+  label_size = 12,
+  ncol = 1,
+  rel_heights = c(5, 1)
+)
+```
+
+## Histone H4
+
+```{r}
+H4_top_row <- plot_grid(
+  H4_like_map,
+  panel_volcano_plot_H4,
+  labels = c('A', ''),
+  label_size = 12,
+  rel_widths = c(7, 2.5)
+)
+
+panel_Histone_H4 <- plot_grid(
+  H4_top_row,
+  Top_hPTMs_Plot_H4,
+  labels = c('', 'E'),
+  label_size = 12,
+  ncol = 1,
+  rel_heights = c(5, 1.75)
+)
+```
 
