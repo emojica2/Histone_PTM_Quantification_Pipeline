@@ -1,253 +1,253 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name
-XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,1.047694681,0.19514674,2,5.32668E-17,significant,1,2.67399e-14,significant,Gills_Kidney,XP_005463512.2 H3 K23 Acetyl
-XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,-2.679907943,0.014006805,3,9.72085E-11,significant,7,6.97124e-9,significant,Gills_Kidney,XP_005463512.2 H3 R42 Oxidation
-XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,1.50230458,0.555950161,2,1.98835E-10,significant,9,1.10906e-8,significant,Gills_Kidney,XP_005463512.2 H3 K79 Dimethyl
-XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,2.297387439,0.411055826,2,1.51593E-09,significant,11,6.91813e-8,significant,Gills_Kidney,XP_005463512.2 H3 K18 GlyGly
-XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,-2.434837649,0.00115866,3,1.56839E-09,significant,12,6.56109e-8,significant,Gills_Kidney,XP_005463512.2 H3 K27 Acrolein112
-XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,1.161765767,0.25392961,2,2.66385E-09,significant,13,1.02865e-7,significant,Gills_Kidney,XP_005463512.2 H3 K14 Acetyl
-XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-1.066133989,0.97177082,2,4.19177E-09,significant,16,1.31517e-7,significant,Gills_Kidney,XP_005463512.2 H3 R83 Methyl
-XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,3.10487296,0.45575555,2,5.50522E-09,significant,17,1.62566e-7,significant,Gills_Kidney,XP_003439548.1 H3.3 T127 GlyGly
-XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,2.470764392,0.062871256,2,1.13312E-08,significant,18,3.16014e-7,significant,Gills_Kidney,XP_005463512.2 H3 K64 Oxidation
-XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.957929536,0.005413751,3,1.28665E-08,significant,19,3.39948e-7,significant,Gills_Kidney,XP_005463512.2 H3 Y41 Phospho / Dehydrated
-XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,1.957929536,0.005413751,3,1.28665E-08,significant,20,3.2295e-7,significant,Gills_Kidney,XP_005463512.2 H3 P43 Dioxidation
-XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,3.649206666,0.024479391,3,1.86964E-08,significant,22,4.26618e-7,significant,Gills_Kidney,XP_005463512.2 H3 K64 Acetyl
-XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,-2.533163321,0.381750513,2,2.03693E-08,significant,23,4.44583e-7,significant,Gills_Kidney,XP_005463512.2 H3 K56 Acetyl
-XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,3.224751023,0.183775378,2,3.18037E-08,significant,26,6.14056e-7,significant,Gills_Kidney,XP_005463512.2 H3 R69 Deamidated
-XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,1.642852187,0.787818181,2,3.3509E-08,significant,28,6.00769e-7,significant,Gills_Kidney,XP_005463512.2 H3 K18 Acrolein112
-XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,-3.678956782,0.997518098,2,3.5037E-08,significant,29,6.06502e-7,significant,Gills_Kidney,XP_005463512.2 H3 K36 Methyl
-XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,-2.639378558,0.192891886,2,6.71504E-08,significant,34,9.91456e-7,significant,Gills_Kidney,XP_005463512.2 H3 K27 Butyryl
-XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,-2.48958701,0.02892369,3,8.93825E-08,significant,36,1.24639e-6,significant,Gills_Kidney,XP_005463512.2 H3 K36 Acetyl
-XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,0.745369001,0.031060202,3,1.5087E-07,significant,39,1.94197e-6,significant,Gills_Kidney,XP_003439548.1 H3.3 R131 Methyl
-XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,-1.192813677,0.862181981,2,1.63515E-07,significant,40,2.05211e-6,significant,Gills_Kidney,XP_003439548.1 H3.3 T127 Acetyl
-XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,-1.521197403,0.768258511,2,1.88932E-07,significant,41,2.31326e-6,significant,Gills_Kidney,XP_003439548.1 H3.3 R131 Dioxidation
-XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,-1.993468018,3.54357E-07,3,3.4039E-07,significant,44,3.88354e-6,significant,Gills_Kidney,XP_005463512.2 H3 K37 GlyGly
-XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,-1.605100787,4.84093E-10,3,7.94134E-07,significant,46,8.66642e-6,significant,Gills_Kidney,XP_005463512.2 H3 P66 Dioxidation
-XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-2.006383671,0.489302202,2,8.97828E-07,significant,47,9.58957e-6,significant,Gills_Kidney,XP_005463512.2 H3 S87 Phospho / Dehydrated
-XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,-1.743170662,1.18911E-17,3,2.34872E-06,significant,52,2.26742e-5,significant,Gills_Kidney,XP_005463512.2 H3 P66 Oxidation
-XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,0.810405283,0.014802476,3,2.88769E-06,significant,54,2.68448e-5,significant,Gills_Kidney,XP_005463512.2 H3 K36 GlyGly
-XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,0.717893388,0.001998834,3,3.3998E-06,significant,55,3.10309e-5,significant,Gills_Kidney,XP_005463512.2 H3 K9 Acrolein112
-XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,1.213412876,0.39398757,2,4.56582E-06,significant,57,4.02112e-5,significant,Gills_Kidney,XP_005463512.2 H3 K122 Lactyl / Carboxyethyl
-XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,2.230258672,0.684279621,2,8.96682E-06,significant,65,6.92514e-5,significant,Gills_Kidney,XP_005463512.2 H3 K64 GlyGly
-XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.504303141,0.846005931,2,2.39539E-05,significant,73,1.64724e-4,significant,Gills_Kidney,XP_005463512.2 H3 T22 Phospho / Dehydrated
-XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,-0.724949144,4.58512E-09,3,3.5266E-05,significant,75,2.36047e-4,significant,Gills_Kidney,XP_005463512.2 H3 R63 Dioxidation
-XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,-0.710693189,0.01053936,3,4.61236E-05,significant,77,3.00702e-4,significant,Gills_Kidney,XP_003439548.1 H3.3 P130 Dioxidation
-XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,-1.406143692,2.48367E-06,3,8.07708E-05,significant,82,4.94475e-4,significant,Gills_Kidney,XP_005463512.2 H3 R69 Oxidation
-XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,-2.123003445,0.221860427,2,8.95131E-05,significant,84,5.34948e-4,significant,Gills_Kidney,XP_005463512.2 H3 K79 Lactyl / Carboxyethyl
-XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,-1.933100251,0.992140964,2,9.69654E-05,significant,86,5.66008e-4,significant,Gills_Kidney,XP_005463512.2 H3 K79 4-hydroxynonenal
-XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,-1.933100251,0.992140964,2,9.69654E-05,significant,87,5.59502e-4,significant,Gills_Kidney,XP_005463512.2 H3 T80 GlyGly
-XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,2.166561507,0.677375289,2,9.9958E-05,significant,88,5.70215e-4,significant,Gills_Kidney,XP_005463512.2 H3 K56 Methyl
-XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.334952175,0.072539952,2,0.000321131,significant,97,0.001661935,significant,Gills_Kidney,XP_005463512.2 H3 K79 Methyl
-XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-1.363543985,0.012788591,3,0.000357576,significant,100,0.001795029,significant,Gills_Kidney,XP_005463512.2 H3 T32 GlyGly
-XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,-0.580607273,0.00042177,3,0.000533299,significant,104,0.002574195,significant,Gills_Kidney,XP_003439548.1 H3.3 P130 Oxidation
-XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.288589023,0.871055569,2,0.000745213,significant,114,0.003281553,significant,Gills_Kidney,XP_005463512.2 H3 R63 Deamidated
-XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,1.364330102,0.242095156,2,0.00085249,significant,118,0.003626695,significant,Gills_Kidney,XP_005463512.2 H3 K122 Acetyl
-XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,-2.261700837,3.24002E-05,3,0.000955244,significant,119,0.004029684,significant,Gills_Kidney,XP_005463512.2 H3 R83 Dimethyl
-XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.269420619,0.292453344,2,0.000961315,significant,120,0.004021502,significant,Gills_Kidney,XP_005463512.2 H3 S57 Phospho / Dehydrated
-XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,2.533367961,0.039287952,3,0.002054669,significant,137,0.007528788,significant,Gills_Kidney,XP_005463512.2 H3 T58 Phospho / Dehydrated
-XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.574421693,0.000539876,3,0.00363787,significant,148,0.012339262,significant,Gills_Kidney,XP_005463512.2 H3 K79 Trimethyl
-XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.517250492,0.000601788,3,0.004411684,significant,150,0.014764434,significant,Gills_Kidney,XP_005463512.2 H3 R83 Oxidation
-XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.232090203,0.964745019,2,0.004875461,significant,156,0.015688985,significant,Gills_Kidney,XP_005463512.2 H3 T32 Phospho / Dehydrated
-XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.271292622,3.25673E-05,3,0.005045826,significant,160,0.015831281,significant,Gills_Kidney,XP_005463512.2 H3 K27 Dimethyl
-XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,-1.180293557,0.985778456,2,0.006516839,significant,165,0.019826988,significant,Gills_Kidney,XP_005463512.2 H3 S28 GlyGly
-XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,-0.330331066,0.297090767,2,0.012470916,significant,182,0.034397802,significant,Gills_Kidney,XP_005463512.2 H3 P121 Dioxidation
-XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-1.052643989,0.022070451,3,0.01505751,significant,192,0.039369116,significant,Gills_Kidney,XP_005463512.2 H3 K27 Methyl
-XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.332086797,1.71907E-05,3,0.017100522,significant,195,0.044022883,significant,Gills_Kidney,XP_003439548.1 H3.3 T127 Phospho / Dehydrated
-XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.533076392,0.054153763,2,0.020293012,significant,200,0.050935461,nonsignificant,Gills_Kidney,XP_005463512.2 H3 T80 Acetyl
-XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,-0.995928696,0.839487633,2,0.026107985,significant,207,0.063315016,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K122 Dimethyl
-XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-0.60830593,0.357602907,2,0.038328362,significant,225,0.085514834,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K79 Oxidation
-XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,-1.359024295,0.033676672,3,0.048360947,significant,234,0.103748699,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K122 Dioxidation
-XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,-0.633044092,0.54981475,2,0.053132411,nonsignificant,239,0.111600294,nonsignificant,Gills_Kidney,XP_003439548.1 H3.3 R131 Oxidation
-XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-2.030300677,0.131530716,2,0.054313821,nonsignificant,242,0.112667512,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K79 Dioxidation
-XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.259581432,0.000544446,3,0.081444618,nonsignificant,254,0.160965347,nonsignificant,Gills_Kidney,XP_005463512.2 H3 T118 GlyGly
-XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,0.494327173,0.654576215,2,0.084855274,nonsignificant,258,0.165105998,nonsignificant,Gills_Kidney,XP_005463512.2 H3 T80 Phospho / Dehydrated
-XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.255009959,0.010104125,3,0.090563638,nonsignificant,263,0.172862914,nonsignificant,Gills_Kidney,XP_005463512.2 H3 Y54 Phospho / Dehydrated
-XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,-0.271267262,0.745054606,2,0.101403207,nonsignificant,266,0.191369963,nonsignificant,Gills_Kidney,XP_003439548.1 H3.3 R131 Dimethyl
-XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,0.683777224,0.199175024,2,0.103666513,nonsignificant,268,0.194181305,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K27 Acetyl
-XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,-0.888214132,0.61328276,2,0.103771753,nonsignificant,269,0.193655836,nonsignificant,Gills_Kidney,XP_005463512.2 H3 R128 Deamidated
-XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-0.585902386,0.128163813,2,0.105695511,nonsignificant,270,0.196515357,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K27 Dioxidation
-XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.607439905,0.152496139,2,0.133532755,nonsignificant,285,0.235205063,nonsignificant,Gills_Kidney,XP_005463512.2 H3 S28 Phospho / Dehydrated
-XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,0.954450831,0.151563111,2,0.166958892,nonsignificant,295,0.284113098,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K56 Lactyl / Carboxyethyl
-XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,0.088806859,1.19088E-08,3,0.182932568,nonsignificant,301,0.305090197,nonsignificant,Gills_Kidney,XP_005463512.2 H3 R63 Oxidation
-XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.131155061,0.024924394,3,0.194844738,nonsignificant,308,0.317571619,nonsignificant,Gills_Kidney,XP_005463512.2 H3 T118 Phospho / Dehydrated
-XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-0.443821118,0.179092705,2,0.236658329,nonsignificant,322,0.368951805,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K27 Lactyl / Carboxyethyl
-XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-0.414251801,0.203035482,2,0.284235692,nonsignificant,331,0.431076487,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K27 Oxidation
-XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,-1.487391666,0.072488982,2,0.338649814,nonsignificant,352,0.482960814,nonsignificant,Gills_Kidney,XP_005463512.2 H3 R40 Dimethyl
-XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,0.037414018,0.40711534,2,0.346827732,nonsignificant,358,0.486333859,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K79 Acetyl
-XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,0.055801045,7.43906E-06,3,0.363728681,nonsignificant,361,0.505794454,nonsignificant,Gills_Kidney,XP_005463512.2 H3 R83 Deamidated
-XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,-0.04583675,0.001288423,3,0.442455995,nonsignificant,376,0.590725823,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K64 Methyl
-XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,-0.522475812,0.18525973,2,0.50898743,nonsignificant,387,0.660236925,nonsignificant,Gills_Kidney,XP_005463512.2 H3 D81 Oxidation
-XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-0.137360645,0.279391977,2,0.612326522,nonsignificant,408,0.75340175,nonsignificant,Gills_Kidney,XP_005463512.2 H3 P30 Dioxidation
-XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,0.293166733,0.480883012,2,0.692787645,nonsignificant,427,0.814471658,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K37 Dimethyl
-XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.145740884,0.620561863,2,0.707809532,nonsignificant,429,0.828252646,nonsignificant,Gills_Kidney,XP_005463512.2 H3 S86 Phospho / Dehydrated
-XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,1.397601515,0.709396874,2,0.872612772,nonsignificant,472,0.928075448,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K36 Dimethyl
+XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,1.026416979,0.212847527,2,2.88081E-20,significant,2,7.230830000000001e-18,significant,Gills_Kidney,XP_005463512.2 H3 K23 Acetyl
+XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,-3.036546187,0.143796954,2,1.41788E-13,significant,10,7.11778e-12,significant,Gills_Kidney,XP_005463512.2 H3 R42 Oxidation
+XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-0.836366006,5.27573E-06,3,1.48467E-13,significant,11,6.77547e-12,significant,Gills_Kidney,XP_005463512.2 H3 R83 Methyl
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,2.83221407,0.044910879,3,4.51111E-13,significant,15,1.50972e-11,significant,Gills_Kidney,XP_005463512.2 H3 R69 Deamidated
+XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,2.345279394,0.838432117,2,3.29274E-12,significant,24,6.88731e-11,significant,Gills_Kidney,XP_005463512.2 H3 K18 GlyGly
+XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,4.19253523,0.000219326,3,8.49414E-12,significant,28,1.52288e-10,significant,Gills_Kidney,XP_005463512.2 H3 K64 Acetyl
+XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,-1.956120342,0.944881028,2,1.75379E-11,significant,33,2.66789e-10,significant,Gills_Kidney,XP_005463512.2 H3 K79 Lactyl / Carboxyethyl
+XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,-1.31602787,2.94817E-11,3,2.74423E-11,significant,36,3.82667e-10,significant,Gills_Kidney,XP_005463512.2 H3 R83 Dimethyl
+XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,5.785008999,0.000151055,3,4.0366E-11,significant,39,5.19583e-10,significant,Gills_Kidney,XP_005463512.2 H3 K64 GlyGly
+XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,1.588022138,0.840987654,2,1.00651E-10,significant,40,1.26317e-9,significant,Gills_Kidney,XP_005463512.2 H3 K79 Dimethyl
+XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,1.09158936,0.112772375,2,1.43374E-10,significant,44,1.63577e-9,significant,Gills_Kidney,XP_005463512.2 H3 K14 Acetyl
+XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,-0.828379651,1.95596E-10,3,2.83102E-10,significant,49,2.90035e-9,significant,Gills_Kidney,XP_005463512.2 H3 R63 Dioxidation
+XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,-1.818904592,0.560211439,2,5.14552E-10,significant,51,5.06481e-9,significant,Gills_Kidney,XP_005463512.2 H3 K79 4-hydroxynonenal
+XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,-1.818904592,0.560211439,2,5.14552E-10,significant,52,4.96741e-9,significant,Gills_Kidney,XP_005463512.2 H3 T80 GlyGly
+XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,-0.99551395,0.340800451,2,8.26065E-10,significant,55,7.53972e-9,significant,Gills_Kidney,XP_003439548.1 H3.3 T127 Acetyl
+XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,3.454732861,0.313753421,2,2.47289E-09,significant,62,2.00224e-8,significant,Gills_Kidney,XP_003439548.1 H3.3 T127 GlyGly
+XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,0.8903305,7.08373E-07,3,2.83718E-09,significant,63,2.26074e-8,significant,Gills_Kidney,XP_005463512.2 H3 K64 Oxidation
+XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,-0.45441202,1.01233E-08,3,2.8581E-09,significant,64,2.24182e-8,significant,Gills_Kidney,XP_005463512.2 H3 K64 Methyl
+XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,1.714683143,0.654330114,2,4.36897E-09,significant,68,3.22533e-8,significant,Gills_Kidney,XP_005463512.2 H3 K18 Acrolein112
+XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.422820558,0.017696326,3,7.62183E-09,significant,75,5.10154e-8,significant,Gills_Kidney,XP_005463512.2 H3 K79 Methyl
+XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,0.865998587,0.004385825,3,1.16211E-08,significant,78,7.47925e-8,significant,Gills_Kidney,XP_003439548.1 H3.3 R131 Methyl
+XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.941501056,0.005985277,3,1.36978E-08,significant,81,8.48926e-8,significant,Gills_Kidney,XP_005463512.2 H3 Y41 Phospho / Dehydrated
+XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,1.941501056,0.005985277,3,1.36978E-08,significant,82,8.38573e-8,significant,Gills_Kidney,XP_005463512.2 H3 P43 Dioxidation
+XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,-2.024304795,6.36679E-06,3,1.37822E-08,significant,83,8.33571e-8,significant,Gills_Kidney,XP_005463512.2 H3 K37 GlyGly
+XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.211020319,5.5079E-08,3,1.62879E-08,significant,84,9.73398e-8,significant,Gills_Kidney,XP_005463512.2 H3 R63 Deamidated
+XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,-1.847274622,3.25919E-16,3,2.50973E-08,significant,87,1.44814e-7,significant,Gills_Kidney,XP_005463512.2 H3 P66 Oxidation
+XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,-1.655183153,4.74216E-16,3,3.11607E-08,significant,88,1.77757e-7,significant,Gills_Kidney,XP_005463512.2 H3 P66 Dioxidation
+XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,-1.725607954,0.106320886,2,1.21985E-07,significant,97,6.31302e-7,significant,Gills_Kidney,XP_005463512.2 H3 K36 Acetyl
+XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,1.607965512,0.03287107,3,3.26757E-07,significant,106,1.54747e-6,significant,Gills_Kidney,XP_005463512.2 H3 K79 Acetyl
+XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,0.732654673,0.212391313,2,3.5224E-07,significant,107,1.65256e-6,significant,Gills_Kidney,XP_005463512.2 H3 K36 GlyGly
+XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,-2.161034907,0.034905983,3,3.52457E-07,significant,108,1.63827e-6,significant,Gills_Kidney,XP_005463512.2 H3 K56 Acetyl
+XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,1.436912627,0.72363834,2,4.1747E-07,significant,110,1.90518e-6,significant,Gills_Kidney,XP_005463512.2 H3 K122 Lactyl / Carboxyethyl
+XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,-0.527990737,3.34312E-08,3,7.63117E-07,significant,113,3.39013e-6,significant,Gills_Kidney,XP_005463512.2 H3 R63 Oxidation
+XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,-1.314410712,0.459951579,2,1.02162E-06,significant,121,4.23846e-6,significant,Gills_Kidney,XP_003439548.1 H3.3 R131 Dioxidation
+XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,-1.701856432,0.16038153,2,1.48551E-06,significant,127,5.87188e-6,significant,Gills_Kidney,XP_005463512.2 H3 K27 Butyryl
+XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,-1.135165446,0.020072798,3,1.54403E-06,significant,129,6.00854e-6,significant,Gills_Kidney,XP_005463512.2 H3 K122 Dimethyl
+XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,0.719627632,0.006302006,3,1.56635E-06,significant,130,6.04853e-6,significant,Gills_Kidney,XP_005463512.2 H3 K9 Acrolein112
+XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,-1.28604441,0.799963479,2,1.89088E-06,significant,131,7.24597e-6,significant,Gills_Kidney,XP_005463512.2 H3 K122 Dioxidation
+XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,1.893207188,0.503715413,2,1.90129E-06,significant,132,7.23067e-6,significant,Gills_Kidney,XP_005463512.2 H3 K56 Methyl
+XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,-0.283818505,0.767319175,2,5.81762E-06,significant,142,2.05665e-5,significant,Gills_Kidney,XP_005463512.2 H3 R83 Deamidated
+XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,-1.482170183,7.94668E-18,3,7.18903E-06,significant,146,2.47184e-5,significant,Gills_Kidney,XP_005463512.2 H3 R69 Oxidation
+XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.939799522,0.30155354,2,1.1484E-05,significant,151,3.81786e-5,significant,Gills_Kidney,XP_005463512.2 H3 S87 Phospho / Dehydrated
+XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,0.952277706,0.40480239,2,1.56059E-05,significant,154,5.08712e-5,significant,Gills_Kidney,XP_005463512.2 H3 K27 Acetyl
+XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-1.279320533,0.005725924,3,3.34959E-05,significant,161,1.04441e-4,significant,Gills_Kidney,XP_005463512.2 H3 T32 GlyGly
+XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.375136941,0.831581191,2,4.80541E-05,significant,169,1.42741e-4,significant,Gills_Kidney,XP_005463512.2 H3 T22 Phospho / Dehydrated
+XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,-1.384265372,0.71847917,2,9.35634E-05,significant,180,2.60938e-4,significant,Gills_Kidney,XP_005463512.2 H3 K36 Methyl
+XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,-0.442359034,0.527071357,2,0.000224683,significant,188,5.99951e-4,significant,Gills_Kidney,XP_003439548.1 H3.3 R131 Dimethyl
+XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,-0.321594759,0.708734397,2,0.000460331,significant,195,0.001185057,significant,Gills_Kidney,XP_005463512.2 H3 P121 Dioxidation
+XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,-0.447287906,0.000815809,3,0.000569069,significant,199,0.001435542,significant,Gills_Kidney,XP_003439548.1 H3.3 P130 Dioxidation
+XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.796828346,0.81300674,2,0.000785944,significant,211,0.001869875,significant,Gills_Kidney,XP_005463512.2 H3 T58 Phospho / Dehydrated
+XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.242574215,0.17780935,2,0.000920308,significant,217,0.002129007,significant,Gills_Kidney,XP_005463512.2 H3 S57 Phospho / Dehydrated
+XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.282600886,0.281072363,2,0.001152232,significant,221,0.002617287,significant,Gills_Kidney,XP_005463512.2 H3 T32 Phospho / Dehydrated
+XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-0.627721744,3.20123E-05,3,0.001449684,significant,224,0.003248845,significant,Gills_Kidney,XP_005463512.2 H3 K79 Oxidation
+XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,-0.359963561,0.000444768,3,0.001658601,significant,227,0.003667919,significant,Gills_Kidney,XP_003439548.1 H3.3 P130 Oxidation
+XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,-1.34420727,0.796025887,2,0.004456179,significant,250,0.008948007,significant,Gills_Kidney,XP_003439548.1 H3.3 R131 Oxidation
+XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,-5.895330424,0.431919172,2,0.0047218,significant,256,0.009259154,significant,Gills_Kidney,XP_005463512.2 H3 R40 Dimethyl
+XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.479717417,0.000265699,3,0.004866429,significant,257,0.009505631,significant,Gills_Kidney,XP_005463512.2 H3 R83 Oxidation
+XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.514852837,0.000218988,3,0.005222535,significant,258,0.010161676,significant,Gills_Kidney,XP_005463512.2 H3 K79 Trimethyl
+XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,1.167500879,0.280999911,2,0.005343075,significant,259,0.010356076,significant,Gills_Kidney,XP_005463512.2 H3 T80 Phospho / Dehydrated
+XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.498891842,0.000307725,3,0.005565036,significant,261,0.010703633,significant,Gills_Kidney,XP_005463512.2 H3 T80 Acetyl
+XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,-0.414959524,1.73922E-06,3,0.008975567,significant,267,0.01687541,significant,Gills_Kidney,XP_005463512.2 H3 R128 Deamidated
+XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,-0.695352944,0.004227548,3,0.009290024,significant,269,0.017336774,significant,Gills_Kidney,XP_005463512.2 H3 K27 Acrolein112
+XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-0.770786674,0.001144372,3,0.010487932,significant,271,0.01942783,significant,Gills_Kidney,XP_005463512.2 H3 K27 Methyl
+XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,-1.132520524,0.601418989,2,0.010835245,significant,272,0.0199974,significant,Gills_Kidney,XP_005463512.2 H3 S28 GlyGly
+XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.159932942,0.018399828,3,0.012948507,significant,278,0.023381837,significant,Gills_Kidney,XP_005463512.2 H3 K27 Dimethyl
+XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,-0.844289745,0.01664927,3,0.014794942,significant,283,0.026244031,significant,Gills_Kidney,XP_005463512.2 H3 D81 Oxidation
+XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,0.820710364,0.011561649,3,0.01721932,significant,287,0.03011881,significant,Gills_Kidney,XP_005463512.2 H3 K36 Dimethyl
+XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.305031501,3.26327E-06,3,0.018258181,significant,290,0.031605541,significant,Gills_Kidney,XP_003439548.1 H3.3 T127 Phospho / Dehydrated
+XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-0.34584309,0.662036567,2,0.019733053,significant,291,0.034041212,significant,Gills_Kidney,XP_005463512.2 H3 K79 Dioxidation
+XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.607005853,0.00428015,3,0.028429881,significant,299,0.047731773,significant,Gills_Kidney,XP_005463512.2 H3 S28 Phospho / Dehydrated
+XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,-0.306713858,0.038707635,3,0.02984937,significant,301,0.049782006,significant,Gills_Kidney,XP_005463512.2 H3 K122 Acetyl
+XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-0.537759302,0.001575406,3,0.030931511,significant,302,0.051415955,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K27 Lactyl / Carboxyethyl
+XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-0.439463264,0.001776756,3,0.041905734,significant,320,0.06573962,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K27 Dioxidation
+XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-0.433588028,0.012890385,3,0.065405477,nonsignificant,335,0.098010595,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K27 Oxidation
+XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.311193466,0.149635331,2,0.078605437,nonsignificant,342,0.115379911,nonsignificant,Gills_Kidney,XP_005463512.2 H3 T118 Phospho / Dehydrated
+XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-0.288522282,0.014039178,3,0.113450548,nonsignificant,359,0.158641157,nonsignificant,Gills_Kidney,XP_005463512.2 H3 P30 Dioxidation
+XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,0.900264017,0.011814435,3,0.266086092,nonsignificant,405,0.329815354,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K56 Lactyl / Carboxyethyl
+XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.209231994,0.002481339,3,0.37137079,nonsignificant,420,0.443876515,nonsignificant,Gills_Kidney,XP_005463512.2 H3 S86 Phospho / Dehydrated
+XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.078431578,0.130801915,2,0.526767001,nonsignificant,445,0.594240527,nonsignificant,Gills_Kidney,XP_005463512.2 H3 T118 GlyGly
+XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,0.435535125,0.116038897,2,0.711373298,nonsignificant,467,0.764688214,nonsignificant,Gills_Kidney,XP_005463512.2 H3 K37 Dimethyl
+XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.264130349,0.618628683,2,0.718953546,nonsignificant,468,0.771185213,nonsignificant,Gills_Kidney,XP_005463512.2 H3 Y54 Phospho / Dehydrated
 XP_005463512.2,H3,64,K,K64,425,Dioxidation,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 K64 Dioxidation
 XP_005463512.2,H3,72,R,R72,7,Deamidated,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 R72 Deamidated
 XP_005463512.2,H3,83,R,R83,425,Dioxidation,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 R83 Dioxidation
-XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,1.432912775,0.17585851,2,9.61329E-17,significant,4,1.20647e-14,significant,Gills_Testes,XP_005463512.2 H3 K23 Acetyl
-XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-1.047599883,0.002586937,3,1.64301E-11,significant,10,8.24792e-10,significant,Gills_Testes,XP_005463512.2 H3 R83 Methyl
-XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,1.442338805,0.005723662,3,5.14243E-11,significant,12,2.15125e-9,significant,Gills_Testes,XP_005463512.2 H3 K79 Dimethyl
-XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.523105146,0.241271175,2,2.85424E-09,significant,16,8.95517e-8,significant,Gills_Testes,XP_005463512.2 H3 K79 Methyl
-XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,2.153928252,0.094513343,2,1.60988E-08,significant,19,4.25347e-7,significant,Gills_Testes,XP_005463512.2 H3 K18 GlyGly
-XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,-1.607901005,1.97519E-10,3,7.34117E-07,significant,42,8.77445e-6,significant,Gills_Testes,XP_005463512.2 H3 P66 Dioxidation
-XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,-1.676147912,1.79247E-19,3,3.08848E-06,significant,52,2.98157e-5,significant,Gills_Testes,XP_005463512.2 H3 P66 Oxidation
-XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.215034395,5.07508E-06,3,3.6393E-06,significant,55,3.32169e-5,significant,Gills_Testes,XP_003439548.1 H3.3 T127 Phospho / Dehydrated
-XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,-0.731787349,0.266460265,2,3.88031E-06,significant,58,3.35848e-5,significant,Gills_Testes,XP_005463512.2 H3 P121 Dioxidation
-XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,2.568948396,1.11389E-11,3,4.67381E-06,significant,60,3.91042e-5,significant,Gills_Testes,XP_005463512.2 H3 R69 Deamidated
-XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,-1.651812529,0.00331929,3,5.87546E-06,significant,61,4.83521e-5,significant,Gills_Testes,XP_005463512.2 H3 K27 Acrolein112
-XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,-2.361341137,0.308819246,2,6.60277E-06,significant,64,5.17905e-5,significant,Gills_Testes,XP_005463512.2 H3 K36 Methyl
-XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,2.201280065,0.982972305,2,7.95682E-06,significant,67,5.96168e-5,significant,Gills_Testes,XP_005463512.2 H3 K64 Oxidation
-XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,2.2664895,0.06983085,2,1.00578E-05,significant,69,7.31744e-5,significant,Gills_Testes,XP_003439548.1 H3.3 T127 GlyGly
-XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,-2.020299661,0.157353946,2,1.07964E-05,significant,70,7.74255e-5,significant,Gills_Testes,XP_005463512.2 H3 K27 Butyryl
-XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,-0.799336408,5.26391E-10,3,1.13798E-05,significant,71,8.04598e-5,significant,Gills_Testes,XP_005463512.2 H3 R63 Dioxidation
-XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,1.122215853,0.244618626,2,1.27456E-05,significant,73,8.76478e-5,significant,Gills_Testes,XP_005463512.2 H3 K122 Lactyl / Carboxyethyl
-XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,-0.731312506,0.000471625,3,1.57081E-05,significant,78,1.01096e-4,significant,Gills_Testes,XP_003439548.1 H3.3 P130 Dioxidation
-XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,-0.751287896,0.015242821,3,1.90153E-05,significant,81,1.17848e-4,significant,Gills_Testes,XP_003439548.1 H3.3 T127 Acetyl
-XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-2.137256026,0.272707992,2,3.75655E-05,significant,87,2.16757e-4,significant,Gills_Testes,XP_005463512.2 H3 T32 GlyGly
-XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.364080377,0.324864788,2,3.84225E-05,significant,88,2.19183e-4,significant,Gills_Testes,XP_005463512.2 H3 R63 Deamidated
-XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,-1.421145134,0.034364929,3,0.000124997,significant,104,6.0335e-4,significant,Gills_Testes,XP_005463512.2 H3 K36 Acetyl
-XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.93219845,0.001499562,3,0.00014227,significant,105,6.80188e-4,significant,Gills_Testes,XP_005463512.2 H3 K79 Trimethyl
-XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,0.672498518,0.130494821,2,0.000148735,significant,106,7.04388e-4,significant,Gills_Testes,XP_005463512.2 H3 K36 GlyGly
-XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,-1.380183036,0.009675507,3,0.000159312,significant,107,7.47427e-4,significant,Gills_Testes,XP_005463512.2 H3 K37 GlyGly
-XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,-0.610136522,0.000141553,3,0.000277787,significant,119,0.001171842,significant,Gills_Testes,XP_003439548.1 H3.3 P130 Oxidation
-XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.820651995,0.004029513,3,0.000281507,significant,120,0.001177639,significant,Gills_Testes,XP_005463512.2 H3 R83 Oxidation
-XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,0.843328577,0.10633062,2,0.000379515,significant,125,0.001524132,significant,Gills_Testes,XP_005463512.2 H3 K18 Acrolein112
-XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-2.249160205,0.395348585,2,0.000399392,significant,126,0.001591228,significant,Gills_Testes,XP_005463512.2 H3 K27 Dioxidation
-XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,2.449804287,0.000145337,3,0.000410656,significant,127,0.001623222,significant,Gills_Testes,XP_005463512.2 H3 K64 Acetyl
-XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-2.313195123,0.403729578,2,0.000414843,significant,128,0.001626962,significant,Gills_Testes,XP_005463512.2 H3 K27 Methyl
-XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.352159279,0.00089859,3,0.00142485,significant,157,0.00455589,significant,Gills_Testes,XP_005463512.2 H3 K27 Dimethyl
-XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.664609627,0.363847659,2,0.001586849,significant,159,0.005010052,significant,Gills_Testes,XP_005463512.2 H3 Y41 Phospho / Dehydrated
-XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,0.664609627,0.363847659,2,0.001586849,significant,160,0.004978739,significant,Gills_Testes,XP_005463512.2 H3 P43 Dioxidation
-XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.859765598,0.52427534,2,0.001927597,significant,167,0.005794333,significant,Gills_Testes,XP_005463512.2 H3 S28 Phospho / Dehydrated
-XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,1.146578014,0.515747339,2,0.002360327,significant,173,0.00684904,significant,Gills_Testes,XP_005463512.2 H3 R40 Dimethyl
-XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,1.293651716,0.254094386,2,0.002815258,significant,177,0.007984517,significant,Gills_Testes,XP_005463512.2 H3 K122 Acetyl
-XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,-0.853966917,0.031895558,3,0.003297186,significant,182,0.009094437,significant,Gills_Testes,XP_005463512.2 H3 S28 GlyGly
-XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.519637555,0.644306807,2,0.003741199,significant,186,0.010097214,significant,Gills_Testes,XP_005463512.2 H3 T58 Phospho / Dehydrated
-XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-1.754422679,0.593384272,2,0.003951207,significant,188,0.010550562,significant,Gills_Testes,XP_005463512.2 H3 K27 Lactyl / Carboxyethyl
-XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,0.304740092,0.004496957,3,0.004657416,significant,191,0.012240957,significant,Gills_Testes,XP_003439548.1 H3.3 R131 Methyl
-XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,0.469845727,0.756871054,2,0.004946234,significant,194,0.012799018,significant,Gills_Testes,XP_005463512.2 H3 K9 Acrolein112
-XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-1.651921369,0.71991406,2,0.008513186,significant,208,0.020546247,significant,Gills_Testes,XP_005463512.2 H3 K27 Oxidation
-XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,0.838802097,0.384080642,2,0.009358537,significant,211,0.022265334,significant,Gills_Testes,XP_005463512.2 H3 D81 Oxidation
-XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.80063559,0.715652092,2,0.010657434,significant,214,0.025000148,significant,Gills_Testes,XP_005463512.2 H3 S87 Phospho / Dehydrated
-XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,1.266078824,0.326683957,2,0.011527265,significant,218,0.026544437,significant,Gills_Testes,XP_005463512.2 H3 K56 Methyl
-XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-1.50391626,0.6487037,2,0.011697429,significant,220,0.026691407,significant,Gills_Testes,XP_005463512.2 H3 P30 Dioxidation
-XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,0.413946441,0.791412872,2,0.013982588,significant,230,0.030518519,significant,Gills_Testes,XP_005463512.2 H3 K14 Acetyl
-XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-2.3698861,0.139175905,2,0.016565631,significant,241,0.034506004,significant,Gills_Testes,XP_005463512.2 H3 K79 Dioxidation
-XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.03984363,0.311964473,2,0.033414094,significant,261,0.06426772,nonsignificant,Gills_Testes,XP_005463512.2 H3 T32 Phospho / Dehydrated
-XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,1.38183461,0.416416642,2,0.035050692,significant,263,0.066902842,nonsignificant,Gills_Testes,XP_003439548.1 H3.3 R131 Oxidation
-XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,-1.2025927,0.999383424,2,0.036924204,significant,266,0.069684024,nonsignificant,Gills_Testes,XP_005463512.2 H3 R69 Oxidation
-XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,-0.824369729,0.862992527,2,0.071347128,nonsignificant,286,0.125231672,nonsignificant,Gills_Testes,XP_005463512.2 H3 R42 Oxidation
-XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,0.585491599,0.047637358,3,0.073485683,nonsignificant,291,0.126769116,nonsignificant,Gills_Testes,XP_005463512.2 H3 K27 Acetyl
-XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,-0.135450335,0.001109986,3,0.077586691,nonsignificant,294,0.132477955,nonsignificant,Gills_Testes,XP_005463512.2 H3 R63 Oxidation
-XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,-0.856498963,0.346987873,2,0.08046942,nonsignificant,295,0.136934403,nonsignificant,Gills_Testes,XP_005463512.2 H3 K122 Dioxidation
-XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,-2.150863982,0.04895647,3,0.120348984,nonsignificant,311,0.194261061,nonsignificant,Gills_Testes,XP_005463512.2 H3 K79 Lactyl / Carboxyethyl
-XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,0.1834755,3.50759E-08,3,0.140372516,nonsignificant,321,0.219523374,nonsignificant,Gills_Testes,XP_005463512.2 H3 R83 Deamidated
-XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,0.33643147,0.994121134,2,0.149950156,nonsignificant,327,0.230198711,nonsignificant,Gills_Testes,XP_005463512.2 H3 K79 Acetyl
-XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,-0.975863849,0.379247418,2,0.150845552,nonsignificant,328,0.230867278,nonsignificant,Gills_Testes,XP_005463512.2 H3 K56 Acetyl
-XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,0.528400845,0.654762578,2,0.171637604,nonsignificant,336,0.256434754,nonsignificant,Gills_Testes,XP_005463512.2 H3 K79 4-hydroxynonenal
-XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,0.528400845,0.654762578,2,0.171637604,nonsignificant,337,0.25567382,nonsignificant,Gills_Testes,XP_005463512.2 H3 T80 GlyGly
-XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.737365085,0.030516118,3,0.181921894,nonsignificant,343,0.266253034,nonsignificant,Gills_Testes,XP_005463512.2 H3 T118 Phospho / Dehydrated
-XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.485042265,0.636562284,2,0.186656226,nonsignificant,345,0.271598335,nonsignificant,Gills_Testes,XP_005463512.2 H3 S57 Phospho / Dehydrated
-XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,-0.121784099,0.002319802,3,0.222082199,nonsignificant,358,0.311411352,nonsignificant,Gills_Testes,XP_005463512.2 H3 K64 Methyl
-XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,0.394771274,0.445248174,2,0.25025127,nonsignificant,364,0.345126752,nonsignificant,Gills_Testes,XP_005463512.2 H3 T80 Phospho / Dehydrated
-XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,0.193938102,0.702452599,2,0.258228759,nonsignificant,366,0.354182615,nonsignificant,Gills_Testes,XP_005463512.2 H3 K37 Dimethyl
-XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.200378068,0.225433963,2,0.29491214,nonsignificant,375,0.394789052,nonsignificant,Gills_Testes,XP_005463512.2 H3 Y54 Phospho / Dehydrated
-XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.386594227,0.027640999,3,0.324728242,nonsignificant,389,0.41905804,nonsignificant,Gills_Testes,XP_005463512.2 H3 T22 Phospho / Dehydrated
-XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.63951615,0.073878573,2,0.354952374,nonsignificant,395,0.45110403,nonsignificant,Gills_Testes,XP_005463512.2 H3 T80 Acetyl
-XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.38032589,0.827443539,2,0.359368378,nonsignificant,396,0.455562944,nonsignificant,Gills_Testes,XP_005463512.2 H3 T118 GlyGly
-XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,1.919170546,7.63391E-05,3,0.401242584,nonsignificant,403,0.499810862,nonsignificant,Gills_Testes,XP_005463512.2 H3 K64 GlyGly
-XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,-0.178940392,0.92474613,2,0.426161849,nonsignificant,409,0.523064176,nonsignificant,Gills_Testes,XP_003439548.1 H3.3 R131 Dioxidation
-XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.0865374,0.191957424,2,0.450277503,nonsignificant,413,0.547310669,nonsignificant,Gills_Testes,XP_005463512.2 H3 S86 Phospho / Dehydrated
-XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,-0.86967636,0.312492624,2,0.483705277,nonsignificant,422,0.57540296,nonsignificant,Gills_Testes,XP_005463512.2 H3 R128 Deamidated
-XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,-0.909382677,0.025611129,3,0.52194567,nonsignificant,432,0.6065202,nonsignificant,Gills_Testes,XP_005463512.2 H3 K122 Dimethyl
-XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,-1.439215559,1.26901E-05,3,0.535792533,nonsignificant,434,0.619741594,nonsignificant,Gills_Testes,XP_005463512.2 H3 R83 Dimethyl
-XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-0.737487769,0.021038632,3,0.603060401,nonsignificant,444,0.681838561,nonsignificant,Gills_Testes,XP_005463512.2 H3 K79 Oxidation
-XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,2.449923546,0.056201559,2,0.720461802,nonsignificant,467,0.774457868,nonsignificant,Gills_Testes,XP_005463512.2 H3 K36 Dimethyl
-XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,0.335188544,0.301041614,2,0.803569085,nonsignificant,481,0.838652143,nonsignificant,Gills_Testes,XP_005463512.2 H3 K56 Lactyl / Carboxyethyl
-XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,0.039611135,0.318591008,2,0.892087385,nonsignificant,492,0.910219243,nonsignificant,Gills_Testes,XP_003439548.1 H3.3 R131 Dimethyl
+XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,1.567566784,0.506082502,2,2.90769E-19,significant,9,1.62185e-17,significant,Gills_Testes,XP_005463512.2 H3 S86 Phospho / Dehydrated
+XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-0.834214843,3.36689E-05,3,1.17131E-13,significant,33,1.78182e-12,significant,Gills_Testes,XP_005463512.2 H3 R83 Methyl
+XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,1.373050629,0.02692392,3,1.36973E-13,significant,34,2.02236e-12,significant,Gills_Testes,XP_005463512.2 H3 K23 Acetyl
+XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,1.641599422,0.020619256,3,2.15047E-12,significant,44,2.45349e-11,significant,Gills_Testes,XP_005463512.2 H3 K79 Dimethyl
+XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.27864572,2.709E-07,3,7.36232E-11,significant,64,5.77482e-10,significant,Gills_Testes,XP_005463512.2 H3 R63 Deamidated
+XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,-1.176317406,6.28286E-07,3,1.46713E-10,significant,71,1.03732e-9,significant,Gills_Testes,XP_005463512.2 H3 R83 Dimethyl
+XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,1.031669091,2.70906E-08,3,1.75196E-10,significant,72,1.22151e-9,significant,Gills_Testes,XP_005463512.2 H3 K64 Oxidation
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,2.33596583,4.20401E-09,3,4.6036E-10,significant,74,3.12299e-9,significant,Gills_Testes,XP_005463512.2 H3 R69 Deamidated
+XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,-0.779320715,1.08871E-08,3,8.03402E-10,significant,81,4.97911e-9,significant,Gills_Testes,XP_005463512.2 H3 R63 Dioxidation
+XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,1.806823769,0.563441464,2,2.73983E-09,significant,94,1.46318e-8,significant,Gills_Testes,XP_005463512.2 H3 K18 GlyGly
+XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.421857629,0.007216037,3,7.92498E-09,significant,101,3.93895e-8,significant,Gills_Testes,XP_005463512.2 H3 K79 Methyl
+XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,3.202607701,2.12951E-06,3,1.59254E-08,significant,107,7.47156e-8,significant,Gills_Testes,XP_005463512.2 H3 K64 Acetyl
+XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,1.596662431,0.264957968,2,3.8882E-08,significant,117,1.66827e-7,significant,Gills_Testes,XP_005463512.2 H3 K122 Lactyl / Carboxyethyl
+XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,-1.680339478,6.93517E-18,3,7.32598E-08,significant,120,3.0647e-7,significant,Gills_Testes,XP_005463512.2 H3 P66 Oxidation
+XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-2.548814925,0.186301889,2,7.72464E-08,significant,122,3.1785e-7,significant,Gills_Testes,XP_005463512.2 H3 K79 Dioxidation
+XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,-1.486970832,2.43732E-21,3,1.21561E-07,significant,128,4.76748e-7,significant,Gills_Testes,XP_005463512.2 H3 P66 Dioxidation
+XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,-0.346612842,2.16448E-08,3,3.87547E-07,significant,139,1.39963e-6,significant,Gills_Testes,XP_005463512.2 H3 K64 Methyl
+XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.969477726,0.894717605,2,1.20479E-06,significant,151,4.00534e-6,significant,Gills_Testes,XP_005463512.2 H3 S87 Phospho / Dehydrated
+XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,2.660206627,0.054591065,2,2.42052E-06,significant,155,7.83935e-6,significant,Gills_Testes,XP_003439548.1 H3.3 T127 GlyGly
+XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,0.573786195,4.88506E-06,3,6.83636E-06,significant,169,2.03068e-5,significant,Gills_Testes,XP_003439548.1 H3.3 R131 Methyl
+XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,0.951072663,0.169160952,2,1.56929E-05,significant,177,4.45074e-5,significant,Gills_Testes,XP_005463512.2 H3 D81 Oxidation
+XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,0.651564472,0.845273205,2,1.65683E-05,significant,178,4.67264e-5,significant,Gills_Testes,XP_005463512.2 H3 K36 GlyGly
+XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.975540612,6.24963E-05,3,1.85036E-05,significant,180,5.16045e-5,significant,Gills_Testes,XP_003439548.1 H3.3 T127 Phospho / Dehydrated
+XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,-1.266050336,2.59817E-23,3,2.33707E-05,significant,185,6.34168e-5,significant,Gills_Testes,XP_005463512.2 H3 R69 Oxidation
+XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,-0.392278755,1.89004E-09,3,3.60124E-05,significant,187,9.66749e-5,significant,Gills_Testes,XP_005463512.2 H3 R63 Oxidation
+XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,3.211743071,3.42895E-07,3,4.64955E-05,significant,190,1.22846e-4,significant,Gills_Testes,XP_005463512.2 H3 K64 GlyGly
+XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,0.92469057,0.121423714,2,6.21154E-05,significant,194,1.60732e-4,significant,Gills_Testes,XP_005463512.2 H3 K18 Acrolein112
+XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,-1.220813067,0.023200087,3,8.34005E-05,significant,196,2.13607e-4,significant,Gills_Testes,XP_005463512.2 H3 K37 GlyGly
+XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-1.79790428,0.793035871,2,9.64547E-05,significant,198,2.44547e-4,significant,Gills_Testes,XP_005463512.2 H3 T32 GlyGly
+XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,1.530506594,0.723928688,2,9.81567E-05,significant,199,2.47611e-4,significant,Gills_Testes,XP_005463512.2 H3 K56 Methyl
+XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,-0.387334525,0.001608176,3,0.000103194,significant,200,2.59018e-4,significant,Gills_Testes,XP_003439548.1 H3.3 R131 Dimethyl
+XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,0.920335974,0.971195152,2,0.000134746,significant,213,3.17571e-4,significant,Gills_Testes,XP_005463512.2 H3 K79 Acetyl
+XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-1.035939327,0.035955715,3,0.000213624,significant,218,4.91923e-4,significant,Gills_Testes,XP_005463512.2 H3 K79 Oxidation
+XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.3655113,0.7942718,2,0.000222398,significant,220,5.07473e-4,significant,Gills_Testes,XP_005463512.2 H3 K27 Dimethyl
+XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-2.208960662,0.237236472,2,0.000237594,significant,221,5.39694e-4,significant,Gills_Testes,XP_005463512.2 H3 K27 Methyl
+XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,-1.065056959,0.017790536,3,0.000275415,significant,224,6.17225e-4,significant,Gills_Testes,XP_005463512.2 H3 R128 Deamidated
+XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.931407694,0.913927387,2,0.000289147,significant,225,6.4512e-4,significant,Gills_Testes,XP_005463512.2 H3 T58 Phospho / Dehydrated
+XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,-0.216174812,0.533238943,2,0.000697034,significant,244,0.001434062,significant,Gills_Testes,XP_005463512.2 H3 R83 Deamidated
+XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-2.011643518,0.211465558,2,0.000740329,significant,245,0.00151692,significant,Gills_Testes,XP_005463512.2 H3 K27 Lactyl / Carboxyethyl
+XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,-0.491571686,0.365150933,2,0.000766869,significant,246,0.001564911,significant,Gills_Testes,XP_003439548.1 H3.3 T127 Acetyl
+XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-1.826255921,0.212563965,2,0.001220297,significant,254,0.002411767,significant,Gills_Testes,XP_005463512.2 H3 K27 Dioxidation
+XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.200342217,0.206264966,2,0.001274852,significant,260,0.002461446,significant,Gills_Testes,XP_005463512.2 H3 T32 Phospho / Dehydrated
+XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.893807153,0.105780497,2,0.001278103,significant,261,0.002458268,significant,Gills_Testes,XP_005463512.2 H3 T80 Acetyl
+XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.929486453,0.106651701,2,0.001314873,significant,263,0.002509757,significant,Gills_Testes,XP_005463512.2 H3 K79 Trimethyl
+XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,1.500739994,0.267206089,2,0.001339793,significant,264,0.002547637,significant,Gills_Testes,XP_003439548.1 H3.3 R131 Oxidation
+XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,-0.382622935,1.11489E-05,3,0.001346222,significant,265,0.002550201,significant,Gills_Testes,XP_003439548.1 H3.3 P130 Dioxidation
+XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.763106416,0.291098279,2,0.001385504,significant,266,0.002614747,significant,Gills_Testes,XP_005463512.2 H3 S28 Phospho / Dehydrated
+XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,1.377885944,0.803960985,2,0.0015077,significant,270,0.002803206,significant,Gills_Testes,XP_005463512.2 H3 T80 Phospho / Dehydrated
+XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.660695197,0.36838458,2,0.00172212,significant,273,0.003166683,significant,Gills_Testes,XP_005463512.2 H3 Y41 Phospho / Dehydrated
+XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,0.660695197,0.36838458,2,0.00172212,significant,274,0.003155126,significant,Gills_Testes,XP_005463512.2 H3 P43 Dioxidation
+XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-1.739693478,0.552050237,2,0.001965622,significant,280,0.003524079,significant,Gills_Testes,XP_005463512.2 H3 K27 Oxidation
+XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,0.838609848,0.014232011,3,0.002030946,significant,282,0.003615372,significant,Gills_Testes,XP_005463512.2 H3 K27 Acetyl
+XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.835170467,0.225633164,2,0.002049139,significant,283,0.003634869,significant,Gills_Testes,XP_005463512.2 H3 R83 Oxidation
+XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,-0.940447679,0.15742509,2,0.002442961,significant,289,0.004243483,significant,Gills_Testes,XP_005463512.2 H3 K27 Butyryl
+XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-1.641079929,0.517376831,2,0.003150386,significant,297,0.005324894,significant,Gills_Testes,XP_005463512.2 H3 P30 Dioxidation
+XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.950966928,0.008584583,3,0.003914817,significant,300,0.006550794,significant,Gills_Testes,XP_005463512.2 H3 T118 Phospho / Dehydrated
+XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,0.472357575,0.472635536,2,0.00443391,significant,302,0.007370275,significant,Gills_Testes,XP_005463512.2 H3 K9 Acrolein112
+XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,-0.22568037,0.605242471,2,0.005767833,significant,307,0.00943144,significant,Gills_Testes,XP_005463512.2 H3 P121 Dioxidation
+XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,-1.195163887,0.633007307,2,0.005897408,significant,310,0.009549997,significant,Gills_Testes,XP_005463512.2 H3 R42 Oxidation
+XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,0.408027056,0.417925045,2,0.007300236,significant,315,0.011634027,significant,Gills_Testes,XP_005463512.2 H3 K14 Acetyl
+XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,-0.242786954,0.000601686,3,0.018924827,significant,332,0.02861525,significant,Gills_Testes,XP_003439548.1 H3.3 P130 Oxidation
+XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.70955087,0.648996296,2,0.071682447,nonsignificant,364,0.098858759,nonsignificant,Gills_Testes,XP_005463512.2 H3 S57 Phospho / Dehydrated
+XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,1.34631538,0.01797448,3,0.090775727,nonsignificant,372,0.12249842699999999,nonsignificant,Gills_Testes,XP_005463512.2 H3 K36 Dimethyl
+XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,0.440659048,0.964942547,2,0.097614529,nonsignificant,376,0.13032578,nonsignificant,Gills_Testes,XP_005463512.2 H3 K79 4-hydroxynonenal
+XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,0.440659048,0.964942547,2,0.097614529,nonsignificant,377,0.129980089,nonsignificant,Gills_Testes,XP_005463512.2 H3 T80 GlyGly
+XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,-0.542639698,0.425345997,2,0.101836322,nonsignificant,380,0.134531141,nonsignificant,Gills_Testes,XP_005463512.2 H3 K122 Dioxidation
+XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,-0.498644081,0.157917408,2,0.110906543,nonsignificant,385,0.144610609,nonsignificant,Gills_Testes,XP_005463512.2 H3 S28 GlyGly
+XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.395245471,0.77689441,2,0.119701307,nonsignificant,387,0.155271462,nonsignificant,Gills_Testes,XP_005463512.2 H3 K79 Lactyl / Carboxyethyl
+XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,0.297354251,0.894397536,2,0.16409179,nonsignificant,402,0.204910643,nonsignificant,Gills_Testes,XP_005463512.2 H3 K122 Acetyl
+XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,0.640900086,0.403666653,2,0.164220917,nonsignificant,403,0.204563029,nonsignificant,Gills_Testes,XP_005463512.2 H3 K36 Acetyl
+XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,-0.379040422,0.713580378,2,0.17534798,nonsignificant,405,0.217344904,nonsignificant,Gills_Testes,XP_005463512.2 H3 K122 Dimethyl
+XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.138057251,0.009418424,3,0.195115818,nonsignificant,410,0.238897904,nonsignificant,Gills_Testes,XP_005463512.2 H3 T118 GlyGly
+XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.10148695,0.162416451,2,0.335796567,nonsignificant,433,0.389306875,nonsignificant,Gills_Testes,XP_005463512.2 H3 Y54 Phospho / Dehydrated
+XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,0.37089834,0.021783481,3,0.403490394,nonsignificant,435,0.46563719,nonsignificant,Gills_Testes,XP_005463512.2 H3 K36 Methyl
+XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.306177326,0.032094226,3,0.434849148,nonsignificant,444,0.491653766,nonsignificant,Gills_Testes,XP_005463512.2 H3 T22 Phospho / Dehydrated
+XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,-0.589296028,0.017843496,3,0.580758812,nonsignificant,460,0.633784616,nonsignificant,Gills_Testes,XP_005463512.2 H3 K56 Acetyl
+XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,-0.359643455,8.39877E-05,3,0.658521483,nonsignificant,468,0.706362787,nonsignificant,Gills_Testes,XP_005463512.2 H3 K27 Acrolein112
+XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,0.475065177,0.258082963,2,0.737227648,nonsignificant,477,0.775866413,nonsignificant,Gills_Testes,XP_005463512.2 H3 K56 Lactyl / Carboxyethyl
+XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,0.18746883,0.561953745,2,0.758810091,nonsignificant,481,0.791939014,nonsignificant,Gills_Testes,XP_005463512.2 H3 K37 Dimethyl
+XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,-0.304711897,0.365003928,2,0.788338445,nonsignificant,487,0.812619916,nonsignificant,Gills_Testes,XP_003439548.1 H3.3 R131 Dioxidation
+XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,-2.287317975,0.743164479,2,0.984879683,nonsignificant,501,0.986845511,nonsignificant,Gills_Testes,XP_005463512.2 H3 R40 Dimethyl
 XP_005463512.2,H3,64,K,K64,425,Dioxidation,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 K64 Dioxidation
 XP_005463512.2,H3,72,R,R72,7,Deamidated,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 R72 Deamidated
 XP_005463512.2,H3,83,R,R83,425,Dioxidation,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 R83 Dioxidation
-XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,2.807019261,0.77103525,2,7.34118E-09,significant,18,2.04737e-7,significant,Kidney_Testes,XP_005463512.2 H3 S87 Phospho / Dehydrated
-XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.882947598,0.548616419,2,1.4671E-07,significant,22,3.34766e-6,significant,Kidney_Testes,XP_003439548.1 H3.3 T127 Phospho / Dehydrated
-XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,1.855538214,0.029086288,3,1.83869E-06,significant,31,2.97749e-5,significant,Kidney_Testes,XP_005463512.2 H3 R42 Oxidation
-XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,2.461501096,0.674213728,2,2.66919E-06,significant,35,3.82838e-5,significant,Kidney_Testes,XP_005463512.2 H3 K79 4-hydroxynonenal
-XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,2.461501096,0.674213728,2,2.66919E-06,significant,36,3.72203e-5,significant,Kidney_Testes,XP_005463512.2 H3 T80 GlyGly
-XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,-1.199402379,0.066812914,2,9.71311E-06,significant,45,1.08355e-4,significant,Kidney_Testes,XP_005463512.2 H3 K64 Acetyl
-XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,1.342257011,0.717097577,2,1.12427E-05,significant,48,1.1758e-4,significant,Kidney_Testes,XP_003439548.1 H3.3 R131 Dioxidation
-XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,-0.311088125,2.95828E-05,3,1.45645E-05,significant,51,1.43361e-4,significant,Kidney_Testes,XP_005463512.2 H3 K64 GlyGly
-XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.293319909,0.087921746,2,2.38093E-05,significant,58,2.06074e-4,significant,Kidney_Testes,XP_005463512.2 H3 Y41 Phospho / Dehydrated
-XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,-1.293319909,0.087921746,2,2.38093E-05,significant,59,2.02581e-4,significant,Kidney_Testes,XP_005463512.2 H3 P43 Dioxidation
-XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,-0.440628908,0.403469485,2,3.3609E-05,significant,64,2.6362e-4,significant,Kidney_Testes,XP_003439548.1 H3.3 R131 Methyl
-XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,1.557299472,0.977903592,2,5.71459E-05,significant,68,4.21871e-4,significant,Kidney_Testes,XP_005463512.2 H3 K56 Acetyl
-XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.117708914,0.021145134,3,9.1487E-05,significant,72,6.37867e-4,significant,Kidney_Testes,XP_005463512.2 H3 T22 Phospho / Dehydrated
-XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,2.014878703,0.818285469,2,0.00010708,significant,73,7.36357e-4,significant,Kidney_Testes,XP_003439548.1 H3.3 R131 Oxidation
-XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,-0.747819326,0.186388753,2,0.000195684,significant,81,0.001212755,significant,Kidney_Testes,XP_005463512.2 H3 K14 Acetyl
-XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,0.385218095,0.013772017,3,0.001250775,significant,116,0.005412837,significant,Kidney_Testes,XP_005463512.2 H3 K23 Acetyl
-XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,-0.79952361,0.185504432,2,0.001477829,significant,118,0.006287037,significant,Kidney_Testes,XP_005463512.2 H3 K18 Acrolein112
-XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,-0.655802627,2.27644E-09,3,0.00155891,significant,119,0.006576243,significant,Kidney_Testes,XP_005463512.2 H3 R69 Deamidated
-XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,-0.401456282,0.916150231,2,0.003341077,significant,136,0.012332505,significant,Kidney_Testes,XP_005463512.2 H3 P121 Dioxidation
-XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,2.63396968,0.280367402,2,0.003908575,significant,140,0.014015034000000001,significant,Kidney_Testes,XP_005463512.2 H3 R40 Dimethyl
-XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,0.613284982,0.006319288,3,0.005829055,significant,149,0.01963883,significant,Kidney_Testes,XP_005463512.2 H3 K37 GlyGly
-XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,1.068441876,0.985362257,2,0.006093522,significant,151,0.020257935,significant,Kidney_Testes,XP_005463512.2 H3 K36 Acetyl
-XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,-0.838383461,0.275878497,2,0.007789404,significant,155,0.025227618,significant,Kidney_Testes,XP_003439548.1 H3.3 T127 GlyGly
-XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,1.361277908,0.691761492,2,0.007995479,significant,156,0.025729042,significant,Kidney_Testes,XP_005463512.2 H3 D81 Oxidation
-XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-1.66325782,0.535162685,2,0.00878434,significant,162,0.02722061,significant,Kidney_Testes,XP_005463512.2 H3 K27 Dioxidation
-XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,0.441525781,0.026761221,3,0.011296102,significant,171,0.033161657,significant,Kidney_Testes,XP_003439548.1 H3.3 T127 Acetyl
-XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,-0.269484327,0.087538487,2,0.012787213,significant,176,0.036472619,significant,Kidney_Testes,XP_005463512.2 H3 K64 Oxidation
-XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,0.78302512,0.795654921,2,0.015493434,significant,181,0.042970739,significant,Kidney_Testes,XP_005463512.2 H3 K27 Acrolein112
-XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-1.366555615,0.560592714,2,0.021328737,significant,193,0.055476818,nonsignificant,Kidney_Testes,XP_005463512.2 H3 P30 Dioxidation
-XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.252325694,0.457965591,2,0.031748158,significant,208,0.076622959,nonsignificant,Kidney_Testes,XP_005463512.2 H3 S28 Phospho / Dehydrated
-XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-1.310601561,0.441216876,2,0.034185059,significant,209,0.082109566,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K27 Lactyl / Carboxyethyl
-XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,0.822485278,0.766876033,2,0.037191298,significant,214,0.087243138,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R83 Dimethyl
-XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-1.260551134,0.161990184,2,0.037434109,significant,215,0.087404293,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K27 Methyl
-XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.784378354,0.594074388,2,0.040786735,significant,220,0.093067914,nonsignificant,Kidney_Testes,XP_005463512.2 H3 S57 Phospho / Dehydrated
-XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,1.317615645,0.319676316,2,0.051429272,nonsignificant,235,0.109861679,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K36 Methyl
-XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-1.237669568,0.384455491,2,0.056018502,nonsignificant,239,0.117662292,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K27 Oxidation
-XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,-0.900482683,0.183084915,2,0.05766475,nonsignificant,240,0.120615436,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K56 Methyl
-XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.357776757,0.87498158,2,0.06171883,nonsignificant,243,0.127501452,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Trimethyl
-XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,0.310878397,0.209710444,2,0.076102079,nonsignificant,256,0.149231421,nonsignificant,Kidney_Testes,XP_003439548.1 H3.3 R131 Dimethyl
-XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.027860537,0.456912052,2,0.081221342,nonsignificant,259,0.15742515,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Lactyl / Carboxyethyl
-XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.188152971,0.007298438,3,0.087841072,nonsignificant,263,0.167666228,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Methyl
-XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-0.773712041,0.178830913,2,0.098651518,nonsignificant,271,0.182741926,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T32 GlyGly
-XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.303401503,0.639865166,2,0.102120018,nonsignificant,275,0.186415451,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R83 Oxidation
-XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,0.619078897,0.871702975,2,0.117285793,nonsignificant,282,0.208785348,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K27 Butyryl
-XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,-0.074387264,0.322593825,2,0.156871035,nonsignificant,295,0.266946643,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R63 Dioxidation
-XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,0.203550992,4.79928E-06,3,0.20462793,nonsignificant,317,0.324048015,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R69 Oxidation
-XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-0.619262287,0.727930099,2,0.218329941,nonsignificant,321,0.341438101,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K56 Lactyl / Carboxyethyl
-XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,-0.248047661,0.001247054,3,0.252346971,nonsignificant,333,0.380414953,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K9 Acrolein112
-XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,0.06702275,0.056460329,2,0.254001954,nonsignificant,334,0.381763416,nonsignificant,Kidney_Testes,XP_005463512.2 H3 P66 Oxidation
-XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,-0.224257194,0.005346659,3,0.272673481,nonsignificant,339,0.403781969,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R63 Oxidation
-XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-0.091197023,0.060693077,2,0.307762735,nonsignificant,349,0.442684507,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K122 Lactyl / Carboxyethyl
-XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.080866658,0.431252767,2,0.319371436,nonsignificant,351,0.456764846,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K27 Dimethyl
-XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,0.086546019,0.054592675,2,0.343568272,nonsignificant,359,0.480421372,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K122 Dimethyl
-XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,-0.143459188,0.380721517,2,0.346286569,nonsignificant,360,0.482877382,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K18 GlyGly
-XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,-0.059965774,0.027787835,3,0.400105017,nonsignificant,369,0.54431631,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Dimethyl
-XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.075491354,0.422954585,2,0.408063158,nonsignificant,370,0.553642446,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R63 Deamidated
-XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-0.12918184,0.002912718,3,0.417180125,nonsignificant,375,0.558465127,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Oxidation
-XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,-0.137906765,0.385925898,2,0.422392953,nonsignificant,379,0.559475626,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K36 GlyGly
-XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,-0.09922863,0.765819477,2,0.431822971,nonsignificant,384,0.564518571,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K37 Dimethyl
-XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,0.018537772,0.627659395,2,0.454375283,nonsignificant,388,0.587877299,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R128 Deamidated
-XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,0.127674456,0.210449907,2,0.462989874,nonsignificant,391,0.594426897,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R83 Deamidated
-XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,-0.075947349,0.968507769,2,0.47090303,nonsignificant,392,0.603044186,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K64 Methyl
-XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.106439758,0.000666344,3,0.491946083,nonsignificant,396,0.62362862,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T80 Acetyl
-XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.868520147,9.75064E-05,3,0.578998545,nonsignificant,412,0.70547881,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T118 Phospho / Dehydrated
-XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.054631891,0.191206562,2,0.588602845,nonsignificant,415,0.711996694,nonsignificant,Kidney_Testes,XP_005463512.2 H3 Y54 Phospho / Dehydrated
-XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.120744458,0.001706662,3,0.614639461,nonsignificant,418,0.738155525,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T118 GlyGly
-XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,0.502525332,0.284820863,2,0.627054808,nonsignificant,423,0.744164335,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K122 Dioxidation
-XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,-0.099555899,0.751968987,2,0.654416961,nonsignificant,427,0.769361392,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T80 Phospho / Dehydrated
-XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,-0.098285625,0.485598162,2,0.671345549,nonsignificant,434,0.776533331,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K27 Acetyl
-XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,0.299017452,0.44237504,2,0.696419403,nonsignificant,439,0.79636114,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Acetyl
-XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.059203484,0.417345556,2,0.698457569,nonsignificant,440,0.79687659,nonsignificant,Kidney_Testes,XP_005463512.2 H3 S86 Phospho / Dehydrated
-XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.192246572,0.352107984,2,0.712155761,nonsignificant,443,0.807002691,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T32 Phospho / Dehydrated
-XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,-0.029529249,0.60054587,2,0.733414069,nonsignificant,450,0.81816414,nonsignificant,Kidney_Testes,XP_003439548.1 H3.3 P130 Oxidation
-XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,0.32632664,0.034541121,3,0.7415814,nonsignificant,451,0.825440938,nonsignificant,Kidney_Testes,XP_005463512.2 H3 S28 GlyGly
-XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,-0.070678386,0.989573377,2,0.746484439,nonsignificant,454,0.825407904,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K122 Acetyl
-XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,-0.020619317,0.23855458,2,0.773589653,nonsignificant,464,0.836943978,nonsignificant,Kidney_Testes,XP_003439548.1 H3.3 P130 Dioxidation
-XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-0.339585423,0.888727663,2,0.793652312,nonsignificant,469,0.849495651,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Dioxidation
-XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.018534107,0.003564602,3,0.826074034,nonsignificant,474,0.874871656,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R83 Methyl
-XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.013730407,0.10022743,2,0.836211242,nonsignificant,479,0.876363348,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T58 Phospho / Dehydrated
-XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,1.052322031,0.127384159,2,0.847993321,nonsignificant,483,0.881351237,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K36 Dimethyl
-XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,-0.002800218,0.473214476,2,0.890930339,nonsignificant,486,0.920261379,nonsignificant,Kidney_Testes,XP_005463512.2 H3 P66 Dioxidation
+XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,-2.573265928,0.057802419,2,1.10002E-12,significant,23,2.40092e-11,significant,Kidney_Testes,XP_005463512.2 H3 K64 GlyGly
+XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,1.776798777,0.031919965,3,1.31939E-12,significant,25,2.64933e-11,significant,Kidney_Testes,XP_005463512.2 H3 S86 Phospho / Dehydrated
+XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,1.909277248,0.28439485,2,3.04245E-11,significant,31,4.9268e-10,significant,Kidney_Testes,XP_005463512.2 H3 S87 Phospho / Dehydrated
+XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,2.25956364,0.558132483,2,4.49534E-11,significant,33,6.83837e-10,significant,Kidney_Testes,XP_005463512.2 H3 K79 4-hydroxynonenal
+XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,2.25956364,0.558132483,2,4.49534E-11,significant,34,6.63724e-10,significant,Kidney_Testes,XP_005463512.2 H3 T80 GlyGly
+XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,2.36650804,0.470707043,2,3.59684E-10,significant,46,3.92525e-9,significant,Kidney_Testes,XP_005463512.2 H3 K36 Acetyl
+XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,1.560874871,0.737700283,2,8.00855E-08,significant,81,4.96332e-7,significant,Kidney_Testes,XP_005463512.2 H3 K79 Lactyl / Carboxyethyl
+XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.0676254,0.964823757,2,1.90621E-07,significant,91,1.05156e-6,significant,Kidney_Testes,XP_005463512.2 H3 R63 Deamidated
+XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,1.8413823,0.068340103,2,2.20806E-07,significant,94,1.1792e-6,significant,Kidney_Testes,XP_005463512.2 H3 R42 Oxidation
+XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,2.844947264,0.192688983,2,2.62949E-07,significant,96,1.375e-6,significant,Kidney_Testes,XP_003439548.1 H3.3 R131 Oxidation
+XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,0.107799177,0.824725975,2,3.19205E-07,significant,103,1.55574e-6,significant,Kidney_Testes,XP_005463512.2 H3 K64 Methyl
+XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,1.795362408,0.358048415,2,1.41266E-06,significant,124,5.719e-6,significant,Kidney_Testes,XP_005463512.2 H3 D81 Oxidation
+XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,-0.989927529,0.127230765,2,1.91653E-06,significant,129,7.45812e-6,significant,Kidney_Testes,XP_005463512.2 H3 K64 Acetyl
+XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,0.168212321,0.000372851,3,4.70752E-06,significant,142,1.66421e-5,significant,Kidney_Testes,XP_005463512.2 H3 P66 Dioxidation
+XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.67050911,0.573866243,2,5.12608E-06,significant,145,1.77469e-5,significant,Kidney_Testes,XP_003439548.1 H3.3 T127 Phospho / Dehydrated
+XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,0.216119846,0.000192413,3,5.50277E-06,significant,146,1.89205e-5,significant,Kidney_Testes,XP_005463512.2 H3 R69 Oxidation
+XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.280805859,0.092196895,2,2.58477E-05,significant,168,7.72355e-5,significant,Kidney_Testes,XP_005463512.2 H3 Y41 Phospho / Dehydrated
+XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,-1.280805859,0.092196895,2,2.58477E-05,significant,169,7.67785e-5,significant,Kidney_Testes,XP_005463512.2 H3 P43 Dioxidation
+XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,0.135711982,0.258079052,2,5.42356E-05,significant,177,1.53821e-4,significant,Kidney_Testes,XP_005463512.2 H3 R63 Oxidation
+XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,1.009698814,0.122431515,2,6.81739E-05,significant,186,1.83996e-4,significant,Kidney_Testes,XP_003439548.1 H3.3 R131 Dioxidation
+XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,1.57173888,0.765309571,2,7.36306E-05,significant,188,1.96609e-4,significant,Kidney_Testes,XP_005463512.2 H3 K56 Acetyl
+XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,0.503942265,0.989552964,2,0.00010577,significant,195,2.72291e-4,significant,Kidney_Testes,XP_003439548.1 H3.3 T127 Acetyl
+XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.068959615,0.023611407,3,0.000114332,significant,196,2.92831e-4,significant,Kidney_Testes,XP_005463512.2 H3 T22 Phospho / Dehydrated
+XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,3.608012449,0.47719545,2,0.000158149,significant,201,3.94979e-4,significant,Kidney_Testes,XP_005463512.2 H3 R40 Dimethyl
+XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,1.755163713,0.054709703,2,0.000174595,significant,203,4.31756e-4,significant,Kidney_Testes,XP_005463512.2 H3 K36 Methyl
+XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,0.166935144,0.079901375,2,0.000213358,significant,208,5.14931e-4,significant,Kidney_Testes,XP_005463512.2 H3 P66 Oxidation
+XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,-0.292212392,0.029335679,3,0.000359465,significant,220,8.20235e-4,significant,Kidney_Testes,XP_003439548.1 H3.3 R131 Methyl
+XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,0.756125024,0.061266242,2,0.000393174,significant,221,8.93093e-4,significant,Kidney_Testes,XP_005463512.2 H3 K122 Dimethyl
+XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,0.803491727,0.017976302,3,0.000479613,significant,225,0.00107007,significant,Kidney_Testes,XP_005463512.2 H3 K37 GlyGly
+XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,-0.683562303,0.024952276,3,0.000500734,significant,228,0.001102492,significant,Kidney_Testes,XP_005463512.2 H3 K14 Acetyl
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,-0.496248241,7.34722E-06,3,0.000688553,significant,234,0.001477152,significant,Kidney_Testes,XP_005463512.2 H3 R69 Deamidated
+XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,0.141338591,0.235937477,2,0.001088873,significant,245,0.002231079,significant,Kidney_Testes,XP_005463512.2 H3 K64 Oxidation
+XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,0.604068109,0.037270543,3,0.001244026,significant,251,0.002488052,significant,Kidney_Testes,XP_005463512.2 H3 K122 Acetyl
+XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,-0.789992573,0.27270382,2,0.00149113,significant,255,0.00293548,significant,Kidney_Testes,XP_005463512.2 H3 K18 Acrolein112
+XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,0.346633649,0.00149687,3,0.001506822,significant,256,0.002954783,significant,Kidney_Testes,XP_005463512.2 H3 K23 Acetyl
+XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,0.139710464,0.043215843,3,0.001987059,significant,266,0.003750014,significant,Kidney_Testes,XP_005463512.2 H3 R83 Dimethyl
+XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,-0.687629538,0.057447054,2,0.003895877,significant,292,0.006697706,significant,Kidney_Testes,XP_005463512.2 H3 K79 Acetyl
+XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,0.743404712,0.3205531,2,0.004104807,significant,298,0.006914808,significant,Kidney_Testes,XP_005463512.2 H3 K122 Dioxidation
+XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-2.202971835,0.529280347,2,0.004391896,significant,301,0.007324691,significant,Kidney_Testes,XP_005463512.2 H3 K79 Dioxidation
+XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,0.761408754,0.950193029,2,0.012436383,significant,331,0.018861222,significant,Kidney_Testes,XP_005463512.2 H3 K27 Butyryl
+XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,-0.794526234,0.337576119,2,0.013756258,significant,332,0.020800125,significant,Kidney_Testes,XP_003439548.1 H3.3 T127 GlyGly
+XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-1.473884215,0.058598871,2,0.015580024,significant,334,0.023416683,significant,Kidney_Testes,XP_005463512.2 H3 K27 Lactyl / Carboxyethyl
+XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,-0.650097434,0.00761098,3,0.016737299,significant,335,0.025080968,significant,Kidney_Testes,XP_005463512.2 H3 R128 Deamidated
+XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-1.438173988,0.039960859,3,0.018199753,significant,338,0.027030402,significant,Kidney_Testes,XP_005463512.2 H3 K27 Methyl
+XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-1.386792658,0.063313026,2,0.019597384,significant,343,0.028681886,significant,Kidney_Testes,XP_005463512.2 H3 K27 Dioxidation
+XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,-0.538455625,0.458141245,2,0.025482917,significant,350,0.036549784,significant,Kidney_Testes,XP_005463512.2 H3 K18 GlyGly
+XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.205578358,0.045201331,3,0.026010954,significant,351,0.037200852,significant,Kidney_Testes,XP_005463512.2 H3 K27 Dimethyl
+XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-1.352557647,0.080382576,2,0.027225473,significant,353,0.038717245,significant,Kidney_Testes,XP_005463512.2 H3 P30 Dioxidation
+XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-1.30610545,0.067310622,2,0.031503116,significant,356,0.044422934,significant,Kidney_Testes,XP_005463512.2 H3 K27 Oxidation
+XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.156100563,0.077910478,2,0.043443308,significant,369,0.059101736,nonsignificant,Kidney_Testes,XP_005463512.2 H3 S28 Phospho / Dehydrated
+XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,0.049058936,0.599747513,2,0.05823173,nonsignificant,377,0.077539333,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R63 Dioxidation
+XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,0.117176607,0.931268844,2,0.13105677,nonsignificant,401,0.164066082,nonsignificant,Kidney_Testes,XP_003439548.1 H3.3 P130 Oxidation
+XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.533023345,0.405143287,2,0.131237569,nonsignificant,402,0.16388373,nonsignificant,Kidney_Testes,XP_005463512.2 H3 S57 Phospho / Dehydrated
+XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.394915311,0.045413823,3,0.141285754,nonsignificant,403,0.175993669,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T80 Acetyl
+XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-0.408217583,0.032993412,3,0.142310396,nonsignificant,404,0.176831235,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Oxidation
+XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.414633615,0.035726739,3,0.147687809,nonsignificant,405,0.18305995,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Trimethyl
+XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,0.335709489,0.249740292,2,0.155051699,nonsignificant,409,0.190307954,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K27 Acrolein112
+XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.35545305,0.014926369,3,0.22335711,nonsignificant,425,0.263824163,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R83 Oxidation
+XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,0.633876443,0.368990779,2,0.231696247,nonsignificant,428,0.271755878,nonsignificant,Kidney_Testes,XP_005463512.2 H3 S28 GlyGly
+XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.365617298,0.386081382,2,0.249905983,nonsignificant,430,0.291750705,nonsignificant,Kidney_Testes,XP_005463512.2 H3 Y54 Phospho / Dehydrated
+XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,-0.247270057,0.001225819,3,0.269679503,nonsignificant,432,0.313377571,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K9 Acrolein112
+XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,0.067643693,0.749246753,2,0.276491728,nonsignificant,433,0.320551611,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R83 Deamidated
+XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,-0.362700594,0.779042827,2,0.277961651,nonsignificant,434,0.321513246,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K56 Methyl
+XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,0.095914389,0.402084004,2,0.315255055,nonsignificant,440,0.359677358,nonsignificant,Kidney_Testes,XP_005463512.2 H3 P121 Dioxidation
+XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,0.525605016,0.951666364,2,0.345602838,nonsignificant,441,0.393407312,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K36 Dimethyl
+XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,0.210385065,0.438962724,2,0.420314547,nonsignificant,447,0.472031102,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T80 Phospho / Dehydrated
+XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-0.42519884,0.183040001,2,0.423288452,nonsignificant,448,0.474309828,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K56 Lactyl / Carboxyethyl
+XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-0.518583747,0.016266544,3,0.429912653,nonsignificant,450,0.479591449,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T32 GlyGly
+XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,0.064664971,0.146496622,2,0.454412458,nonsignificant,456,0.500252311,nonsignificant,Kidney_Testes,XP_003439548.1 H3.3 P130 Dioxidation
+XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.059625674,0.232743042,2,0.481257123,nonsignificant,459,0.526342213,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T118 GlyGly
+XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,0.055024509,0.010256675,3,0.539375897,nonsignificant,463,0.584809288,nonsignificant,Kidney_Testes,XP_003439548.1 H3.3 R131 Dimethyl
+XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,-0.081090201,0.32401436,2,0.606791,nonsignificant,466,0.653667558,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K36 GlyGly
+XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,-0.113667857,0.002450601,3,0.64801607,nonsignificant,472,0.689203533,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K27 Acetyl
+XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.134579348,0.745695678,2,0.656968515,nonsignificant,473,0.697247768,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T58 Phospho / Dehydrated
+XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.262160394,0.000218213,3,0.787884862,nonsignificant,481,0.822283161,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T118 Phospho / Dehydrated
+XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,0.053577283,0.037489544,3,0.880202806,nonsignificant,493,0.896271418,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Dimethyl
+XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,0.159749805,0.163823362,2,0.895018331,nonsignificant,494,0.909512555,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K122 Lactyl / Carboxyethyl
+XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.002151163,0.799419976,2,0.941624992,nonsignificant,496,0.953015617,nonsignificant,Kidney_Testes,XP_005463512.2 H3 R83 Methyl
+XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-9.62929e-4,0.654217149,2,0.958481338,nonsignificant,497,0.968124007,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K79 Methyl
+XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.082258669,0.822447604,2,0.961267476,nonsignificant,498,0.9689885,nonsignificant,Kidney_Testes,XP_005463512.2 H3 T32 Phospho / Dehydrated
+XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,-0.248066295,0.358328473,2,0.976792056,nonsignificant,501,0.978741741,nonsignificant,Kidney_Testes,XP_005463512.2 H3 K37 Dimethyl
 XP_005463512.2,H3,64,K,K64,425,Dioxidation,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 K64 Dioxidation
 XP_005463512.2,H3,72,R,R72,7,Deamidated,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 R72 Deamidated
 XP_005463512.2,H3,83,R,R83,425,Dioxidation,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005463512.2 H3 R83 Dioxidation

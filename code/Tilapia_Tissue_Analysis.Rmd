@@ -1274,6 +1274,25 @@ print(H4_like_map)
 
 # Statistics
 
+Filtering the data for statistics
+
+```{r}
+imported_M_values <- imported_M_values %>% 
+  filter(`Unimod Accession` != 21) %>% 
+  filter(`Unimod Accession` != 23) %>% 
+  filter(`Biologically Relevant` != "Not specified")
+
+imported_relative_abundance <- imported_relative_abundance %>% 
+  filter(`Unimod Accession` != 21) %>% 
+  filter(`Unimod Accession` != 23) %>% 
+  filter(`Biologically Relevant` != "Not specified")
+
+write_csv(imported_M_values, file = "../data/Statistics/filtered_M_values.csv")
+
+write_csv(imported_relative_abundance, file = "../data/Statistics/filtered_relative_abundance.csv")
+```
+
+
 Importing statistics files
 
 ```{r, results=FALSE, message=FALSE}
@@ -1993,7 +2012,7 @@ print(Volcano_Plot_Kidney_Testes)
 #### Compiled Volcano Plots
 
 ```{r}
-panel_volcano_plot_H2A <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=3, nrow = 1)
+panel_volcano_plot_H2A <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=1, nrow = 3)
 
 print(panel_volcano_plot_H2A)
 ```
@@ -2566,7 +2585,7 @@ print(Volcano_Plot_Kidney_Testes)
 #### Compiled Volcano Plots
 
 ```{r}
-panel_volcano_plot_H3 <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=3)
+panel_volcano_plot_H3 <- plot_grid(Volcano_Plot_Gills_Kidney, Volcano_Plot_Gills_Testes, Volcano_Plot_Kidney_Testes, ncol=1)
 
 print(panel_volcano_plot_H3)
 ```
@@ -2796,7 +2815,7 @@ Exp2_Kidney_Testes_Statistics$delabel[Exp2_Kidney_Testes_Statistics$labeling != 
 ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key, label=delabel)) +
   geom_point(alpha=0.7, size = 2.5) +
   theme_classic() +
-  scale_color_manual(values=c("#990f26", "#3e9fb3", "#78b33e", "#666666")) +
+  scale_color_manual(values=c("#990f26", "#3e9fb3", "#666666")) +
   geom_vline(xintercept=c(-0.6, 0.6), col="black", linetype = "longdash") +
   geom_hline(yintercept=-log10(0.05), col="black", linetype = "longdash") +
   geom_text_repel(label.size = 0.1, max.overlaps = 5, force = 0.5, col = "black") +
@@ -2830,7 +2849,7 @@ Exp2_Kidney_Testes_Statistics$Key <- factor(Exp2_Kidney_Testes_Statistics$Key, l
 Volcano_Plot_Kidney_Testes <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(x=Log2FC, y=-log10(`Adjusted pvalue`), col=Key)) +
   geom_point(alpha=0.55) +
   theme_classic() +
-  scale_color_manual(values=colors_volcano) +
+  scale_color_manual(values=c("#990f26", "#3e9fb3", "#666666")) +
   geom_vline(xintercept=c(-0.6, 0.6), col="black", linetype = "longdash") +
   geom_hline(yintercept=-log10(0.05), col="black", linetype = "longdash") +
   theme(legend.position="none") +
@@ -2957,7 +2976,7 @@ length(unique(Exp2_Data$hPTM_Name)) # 503 biologically relevant histone PTMs tha
 
 
 Exp2_Data_hPTMs_Total <- as.data.frame(unique(Exp2_Data$hPTM_Name))
-#write_csv(Exp2_Data_hPTMs_Total, "../data/Number_of_hPTMs/Exp2_hPTMs_Total.csv")
+write_csv(Exp2_Data_hPTMs_Total, "../data/Number_of_hPTMs/Exp2_hPTMs_Total.csv")
 
 num_napho_only <- length(unique(Napho_only$hPTM_Name)) # 133 biologically relevant histone PTMs detected only using the V8 Napho digestion condition
 
@@ -2988,11 +3007,11 @@ unique(Exp2_Data$`Digestion Conditions`)
 ```{r}
 ## Adding the total number of histone PTMs that can be detected using each digestion condition
 
-Total_Napho_hPTMs <- num_napho_only + num_ambic_and_napho + num_napho_and_trypsin + num_ambic_napho_trypsin # 293 biologically relevant histone PTMs can be detected using the V8 napho digestion method
+Total_Napho_hPTMs <- num_napho_only + num_ambic_and_napho + num_napho_and_trypsin + num_ambic_napho_trypsin # 284 biologically relevant histone PTMs can be detected using the V8 napho digestion method
 
-Total_Ambic_hPTMs <- num_ambic_only + num_ambic_and_napho + num_trypsin_and_ambic + num_ambic_napho_trypsin # 274 biologically relevant histone PTMs can be detected using the V8 ambic digestion method
+Total_Ambic_hPTMs <- num_ambic_only + num_ambic_and_napho + num_trypsin_and_ambic + num_ambic_napho_trypsin # 265 biologically relevant histone PTMs can be detected using the V8 ambic digestion method
 
-Total_Trypsin_hPTMs <- num_trypsin_only + num_trypsin_and_ambic + num_napho_and_trypsin + num_ambic_napho_trypsin # 115 biologically relevant histone PTMs can be detected using the trypsin/propionylation digestion method
+Total_Trypsin_hPTMs <- num_trypsin_only + num_trypsin_and_ambic + num_napho_and_trypsin + num_ambic_napho_trypsin # 114 biologically relevant histone PTMs can be detected using the trypsin/propionylation digestion method
 
 ## Napho PTMs
 
@@ -3270,36 +3289,36 @@ Tissue_Statistics_SEM <- Tissue_Statistics_SEM %>%
   mutate(hPTM_Name = paste(Tissue_Statistics_SEM$`Protein Accession`, Tissue_Statistics_SEM$`Protein Description`, Tissue_Statistics_SEM$`Amino Acid + Position`, Tissue_Statistics_SEM$`PTM Description`))
 
 Tissue_Statistics_SEM_2 <- Tissue_Statistics_SEM %>% 
-  filter(hPTM_Name == "XP_019209842.1 H1-like K38 Acetyl" |
-           hPTM_Name == "XP_019209842.1 H1-like K44 4-hydroxynonenal" |
-           hPTM_Name == "XP_003448795.2 H1.10 K116 Acetyl" |
-           hPTM_Name == "XP_019209843.1 H1-like S1 Phospho / Dehydrated" |
+  filter(hPTM_Name == "XP_019209842.1 H1-like K44 4-hydroxynonenal" |
            hPTM_Name == "XP_003459589.1 H1-like K52 Dioxidation" |
-           hPTM_Name == "XP_003448795.2 H1.10 K116 Acetyl" |
-           hPTM_Name == "XP_003459572.1 H2A K123 Acetyl" |
-           hPTM_Name == "XP_003448939.1 H2A T76 Phospho / Dehydrated" |
-           hPTM_Name == "XP_003459572.1 H2A K123 Amidated" |
+           hPTM_Name == "XP_003459589.1 H1-like K52 Dioxidation" |
+           hPTM_Name == "XP_003459589.1 H1-like K52 Dioxidation" |
+           hPTM_Name == "XP_003459589.1 H1-like K52 Dioxidation" |
+           hPTM_Name == "XP_019209842.1 H1-like K44 4-hydroxynonenal" |
+           hPTM_Name == "XP_003448939.1 H2A Y50 Phospho / Dehydrated" |
+           hPTM_Name == "XP_003448939.1 H2A P48 Dioxidation" |
+           hPTM_Name == "XP_003451211.1 H2A K95 Lactyl / Carboxyethyl" |
            hPTM_Name == "XP_003448939.1 H2A R77 Deamidated" |
-           hPTM_Name == "XP_003448939.1 H2A K118 Lactyl / Carboxyethyl" |
-           hPTM_Name == "XP_003451211.1 H2A K118 ADP-Ribosyl" |
-           hPTM_Name == "XP_003451196.1 H2B 1/2 K106 Methyl" |
+           hPTM_Name == "XP_003448939.1 H2A R42 Deamidated" |
+           hPTM_Name == "XP_003459572.1 H2A K118 Acetyl" |
+           hPTM_Name == "XP_003438147.1 H2B.L4 K7 Oxidation" |
            hPTM_Name == "XP_003451196.1 H2B 1/2 K106 Acetyl" |
+           hPTM_Name == "XP_003451196.1 H2B 1/2 S76 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 T86 GlyGly" |
-           hPTM_Name == "XP_003438147.1 H2B.L4 K98 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 T86 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 K98 GlyGly" |
            hPTM_Name == "XP_005463512.2 H3 K23 Acetyl" |
-           hPTM_Name == "XP_005463512.2 H3 R42 Oxidation" |
-           hPTM_Name == "XP_005463512.2 H3 K79 Dimethyl" |
-           hPTM_Name == "XP_005463512.2 H3 K36 Methyl" |
+           hPTM_Name == "XP_005463512.2 H3 S86 Phospho / Dehydrated" |
+           hPTM_Name == "XP_005463512.2 H3 R83 Methyl" |
+           hPTM_Name == "XP_005463512.2 H3 R40 Dimethyl" |
+           hPTM_Name == "XP_005463512.2 H3 K64 GlyGly" |
            hPTM_Name == "XP_005463512.2 H3 K64 Acetyl" |
-           hPTM_Name == "XP_005463512.2 H3 R69 Deamidated" |
-           hPTM_Name == "XP_025766521.1 H4-like T73 Phospho / Dehydrated" |
-           hPTM_Name == "XP_025766521.1 H4-like S49 Phospho / Dehydrated" |
-           hPTM_Name == "XP_025766521.1 H4-like K61 Lactyl / Carboxyethyl" |
-           hPTM_Name == "XP_025766521.1 H4-like R57 Dioxidation" |
            hPTM_Name == "XP_025766521.1 H4-like K61 Acetyl" |
-           hPTM_Name == "XP_025766521.1 H4-like R42 Dimethyl"
+           hPTM_Name == "XP_025766521.1 H4-like T84 Phospho / Dehydrated" |
+           hPTM_Name == "XP_025766521.1 H4-like R80 Dioxidation" |
+           hPTM_Name == "XP_025766521.1 H4-like R42 Dimethyl" |
+           hPTM_Name == "XP_025766521.1 H4-like K61 Dioxidation" |
+           hPTM_Name == "XP_025766521.1 H4-like T84 Phospho / Dehydrated"
          )
 
 Tissue_Statistics_SEM_2 <- Tissue_Statistics_SEM_2[,c(19,10:18)]
@@ -3319,18 +3338,11 @@ Preparing the plots
 ```{r}
 
 Top_hPTMs_H1 <- Tissue_Statistics_SEM_3 %>% 
-  filter(hPTM_Name == "XP_019209842.1 H1-like K38 Acetyl" |
-           hPTM_Name == "XP_019209842.1 H1-like K44 4-hydroxynonenal" |
-           hPTM_Name == "XP_003448795.2 H1.10 K116 Acetyl" |
-           hPTM_Name == "XP_019209843.1 H1-like S1 Phospho / Dehydrated" |
-           hPTM_Name == "XP_003459589.1 H1-like K52 Dioxidation" |
-           hPTM_Name == "XP_003448795.2 H1.10 K116 Acetyl")
+  filter(hPTM_Name == "XP_003459589.1 H1-like K52 Dioxidation" |
+           hPTM_Name == "XP_019209842.1 H1-like K44 4-hydroxynonenal")
 
-rep_str = c("XP_019209842.1 H1-like K38 Acetyl" = "H1-like K38 Acetyl", 
-            "XP_019209842.1 H1-like K44 4-hydroxynonenal" = "H1-like K44 4-hydroxynonenal",
-            "XP_003448795.2 H1.10 K116 Acetyl" = "H1.10 K116 Acetyl",
-            "XP_019209843.1 H1-like S1 Phospho / Dehydrated" = "H1-like S1 Phosphoryl",
-            "XP_003459589.1 H1-like K52 Dioxidation" = "H1-like K52 Dioxidation"
+rep_str = c("XP_003459589.1 H1-like K52 Dioxidation" = "H1-like K52 Dioxidation", 
+            "XP_019209842.1 H1-like K44 4-hydroxynonenal" = "H1-like K44 4-hydroxynonenal"
             )
 
 Top_hPTMs_H1$hPTM_Name <- str_replace_all(Top_hPTMs_H1$hPTM_Name, rep_str)
@@ -3352,17 +3364,19 @@ print(Top_hPTMs_Plot_H1)
 
 ```{r}
 Top_hPTMs_H2A <- Tissue_Statistics_SEM_3 %>% 
-  filter(hPTM_Name == "XP_003459572.1 H2A K123 Acetyl" |
-           hPTM_Name == "XP_003448939.1 H2A T76 Phospho / Dehydrated" |
+  filter(hPTM_Name == "XP_003448939.1 H2A Y50 Phospho / Dehydrated" |
+           hPTM_Name == "XP_003448939.1 H2A P48 Dioxidation" |
+           hPTM_Name == "XP_003451211.1 H2A K95 Lactyl / Carboxyethyl" |
            hPTM_Name == "XP_003448939.1 H2A R77 Deamidated" |
-           hPTM_Name == "XP_003448939.1 H2A K118 Lactyl / Carboxyethyl" |
-           hPTM_Name == "XP_003451211.1 H2A K118 ADP-Ribosyl")
+           hPTM_Name == "XP_003448939.1 H2A R42 Deamidated" |
+           hPTM_Name == "XP_003459572.1 H2A K118 Acetyl")
 
-rep_str = c("XP_003459572.1 H2A K123 Acetyl" = "H2A K123 Acetyl", 
-            "XP_003448939.1 H2A T76 Phospho / Dehydrated" = "H2A T76 Phosphoryl",
+rep_str = c("XP_003448939.1 H2A Y50 Phospho / Dehydrated" = "H2A Y50 Phosphoryl", 
+            "XP_003448939.1 H2A P48 Dioxidation" = "H2A P48 Dioxidation",
+            "XP_003451211.1 H2A K95 Lactyl / Carboxyethyl" = "H2A K95 Lactyl / Carboxyethyl",
             "XP_003448939.1 H2A R77 Deamidated" = "H2A R77 Deamidated",
-            "XP_003448939.1 H2A K118 Lactyl / Carboxyethyl" = "H2A K118 Lactyl / Carboxyethyl",
-            "XP_003451211.1 H2A K118 ADP-Ribosyl" = "H2A K118 ADP-Ribosyl"
+            "XP_003448939.1 H2A R42 Deamidated" = "H2A R42 Deamidated", 
+            "XP_003459572.1 H2A K118 Acetyl" = "H2A K118 Acetyl"
             )
 
 Top_hPTMs_H2A$hPTM_Name <- str_replace_all(Top_hPTMs_H2A$hPTM_Name, rep_str)
@@ -3384,15 +3398,16 @@ print(Top_hPTMs_Plot_H2A)
 
 ```{r}
 Top_hPTMs_H2B <- Tissue_Statistics_SEM_3 %>% 
-  filter(hPTM_Name == "XP_003451196.1 H2B 1/2 K106 Methyl" |
+  filter(hPTM_Name == "XP_003438147.1 H2B.L4 K7 Oxidation" |
            hPTM_Name == "XP_003451196.1 H2B 1/2 K106 Acetyl" |
+           hPTM_Name == "XP_003451196.1 H2B 1/2 S76 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 T86 GlyGly" |
-           hPTM_Name == "XP_003438147.1 H2B.L4 K98 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 T86 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 K98 GlyGly")
 
-rep_str = c("XP_003451196.1 H2B 1/2 K106 Methyl" = "H2B 1/2 K106 Methyl", 
+rep_str = c("XP_003438147.1 H2B.L4 K7 Oxidation" = "H2B.L4 K7 Oxidation", 
             "XP_003451196.1 H2B 1/2 K106 Acetyl" = "H2B 1/2 K106 Acetyl",
+            "XP_003451196.1 H2B 1/2 S76 GlyGly" = "H2B 1/2 S76 Ubiquityl",
             "XP_003438147.1 H2B.L4 T86 GlyGly" = "H2B.L4 T86 Ubiquityl",
             "XP_003438147.1 H2B.L4 K98 GlyGly" = "H2B.L4 K98 Ubiquityl"
             )
@@ -3417,18 +3432,18 @@ print(Top_hPTMs_Plot_H2B)
 ```{r}
 Top_hPTMs_H3 <- Tissue_Statistics_SEM_3 %>% 
   filter(hPTM_Name == "XP_005463512.2 H3 K23 Acetyl" |
-           hPTM_Name == "XP_005463512.2 H3 R42 Oxidation" |
-           hPTM_Name == "XP_005463512.2 H3 K79 Dimethyl" |
-           hPTM_Name == "XP_005463512.2 H3 K36 Methyl" |
-           hPTM_Name == "XP_005463512.2 H3 K64 Acetyl" |
-           hPTM_Name == "XP_005463512.2 H3 R69 Deamidated")
+           hPTM_Name == "XP_005463512.2 H3 S86 Phospho / Dehydrated" |
+           hPTM_Name == "XP_005463512.2 H3 R83 Methyl" |
+           hPTM_Name == "XP_005463512.2 H3 R40 Dimethyl" |
+           hPTM_Name == "XP_005463512.2 H3 K64 GlyGly" |
+           hPTM_Name == "XP_005463512.2 H3 K64 Acetyl")
 
 rep_str = c("XP_005463512.2 H3 K23 Acetyl" = "H3 K23 Acetyl", 
-            "XP_005463512.2 H3 R42 Oxidation" = "H3 R42 Oxidation",
-            "XP_005463512.2 H3 K79 Dimethyl" = "H3 K79 Dimethyl",
-            "XP_005463512.2 H3 K36 Methyl" = "H3 K36 Methyl",
-            "XP_005463512.2 H3 K64 Acetyl" = "H3 K64 Acetyl",
-            "XP_005463512.2 H3 R69 Deamidated" = "H3 R69 Deamidated"
+            "XP_005463512.2 H3 S86 Phospho / Dehydrated" = "H3 S86 Phosphoryl",
+            "XP_005463512.2 H3 R83 Methyl" = "H3 R83 Methyl",
+            "XP_005463512.2 H3 R40 Dimethyl" = "H3 R40 Dimethyl",
+            "XP_005463512.2 H3 K64 GlyGly" = "H3 K64 GlyGly",
+            "XP_005463512.2 H3 K64 Acetyl" = "H3 K64 Acetyl"
             )
 
 Top_hPTMs_H3$hPTM_Name <- str_replace_all(Top_hPTMs_H3$hPTM_Name, rep_str)
@@ -3449,18 +3464,17 @@ print(Top_hPTMs_Plot_H3)
 
 ```{r}
 Top_hPTMs_H4 <- Tissue_Statistics_SEM_3 %>% 
-  filter(hPTM_Name == "XP_025766521.1 H4-like T73 Phospho / Dehydrated" |
-           hPTM_Name == "XP_025766521.1 H4-like S49 Phospho / Dehydrated" |
-           hPTM_Name == "XP_025766521.1 H4-like R57 Dioxidation" |
-           hPTM_Name == "XP_025766521.1 H4-like K61 Acetyl" |
-           hPTM_Name == "XP_025766521.1 H4-like R42 Dimethyl")
+  filter(hPTM_Name == "XP_025766521.1 H4-like K61 Acetyl" |
+           hPTM_Name == "XP_025766521.1 H4-like T84 Phospho / Dehydrated" |
+           hPTM_Name == "XP_025766521.1 H4-like R80 Dioxidation" |
+           hPTM_Name == "XP_025766521.1 H4-like R42 Dimethyl" |
+           hPTM_Name == "XP_025766521.1 H4-like K61 Dioxidation")
 
-rep_str = c("XP_025766521.1 H4-like T73 Phospho / Dehydrated" = "H4-like T73 Phosphoryl", 
-            "XP_025766521.1 H4-like S49 Phospho / Dehydrated" = "H4-like S49 Phosphoryl",
-            "XP_025766521.1 H4-like K61 Lactyl / Carboxyethyl" = "H4-like K61 Lactyl / Carboxyethyl",
-            "XP_025766521.1 H4-like R57 Dioxidation" = "H4-like R57 Dioxidation",
-            "XP_025766521.1 H4-like K61 Acetyl" = "H4-like K61 Acetyl",
-            "XP_025766521.1 H4-like R42 Dimethyl" = "H4-like R42 Dimethyl"
+rep_str = c("XP_025766521.1 H4-like K61 Acetyl" = "H4-like K61 Acetyl", 
+            "XP_025766521.1 H4-like T84 Phospho / Dehydrated" = "H4-like T84 Phosphoryl",
+            "XP_025766521.1 H4-like R80 Dioxidation" = "H4-like R80 Dioxidation",
+            "XP_025766521.1 H4-like R42 Dimethyl" = "H4-like R42 Dimethyl",
+            "XP_025766521.1 H4-like K61 Dioxidation" = "H4-like K61 Dioxidation"
             )
 
 Top_hPTMs_H4$hPTM_Name <- str_replace_all(Top_hPTMs_H4$hPTM_Name, rep_str)
@@ -3772,7 +3786,7 @@ Top_H1_td <- Top_H1 %>%
 
 length(unique(Top_H1_td$hPTM_Name))
 
-99 / 137
+123 / 137
 
 ```
 
@@ -3786,7 +3800,7 @@ Top_H1_Tissues2 <- Top_H1_Tissues %>%
 
 length(unique(Top_H1_Tissues2$hPTM_Name))
 
-43 / 137
+67 / 137
 ```
 
 
@@ -3799,7 +3813,7 @@ Top_H1_Tissues2 <- Top_H1_Tissues %>%
 
 length(unique(Top_H1_Tissues2$hPTM_Name))
 
-76 / 137
+97 / 137
 ```
 
 
@@ -3812,7 +3826,7 @@ Top_H1_Tissues2 <- Top_H1_Tissues %>%
 
 length(unique(Top_H1_Tissues2$hPTM_Name))
 
-64 / 137
+95 / 137
 ```
 
 
@@ -3839,7 +3853,7 @@ Top_H2A_td <- Top_H2A %>%
 
 length(unique(Top_H2A_td$hPTM_Name))
 
-74/135
+116/135
 
 ```
 
@@ -3853,7 +3867,7 @@ Top_H2A_Tissues2 <- Top_H2A_Tissues %>%
 
 length(unique(Top_H2A_Tissues2$hPTM_Name))
 
-33/135
+56/135
 
 ```
 
@@ -3867,7 +3881,7 @@ Top_H2A_Tissues2 <- Top_H2A_Tissues %>%
 
 length(unique(Top_H2A_Tissues2$hPTM_Name))
 
-50/135
+86/135
 
 ```
 
@@ -3881,7 +3895,7 @@ Top_H2A_Tissues2 <- Top_H2A_Tissues %>%
 
 length(unique(Top_H2A_Tissues2$hPTM_Name))
 
-39/135
+96/135
 
 ```
 
@@ -3908,7 +3922,7 @@ Top_H2B_td <- Top_H2B %>%
 length(unique(Top_H2B_td$hPTM_Name))
 
 
-74 / 110
+101 / 110
 ```
 
 
@@ -3921,7 +3935,7 @@ Top_H2B_Tissues2 <- Top_H2B_Tissues %>%
 
 length(unique(Top_H2B_Tissues2$hPTM_Name))
 
-59 / 110
+86 / 110
 
 ```
 
@@ -3935,7 +3949,7 @@ Top_H2B_Tissues2 <- Top_H2B_Tissues %>%
 
 length(unique(Top_H2B_Tissues2$hPTM_Name))
 
-55 / 110 
+67 / 110 
 
 ```
 
@@ -3949,7 +3963,7 @@ Top_H2B_Tissues2 <- Top_H2B_Tissues %>%
 
 length(unique(Top_H2B_Tissues2$hPTM_Name))
 
-39 / 110
+88 / 110
 
 ```
 
@@ -3974,7 +3988,7 @@ Top_H3_td <- Top_H3 %>%
 
 length(unique(Top_H3_td$hPTM_Name))
 
-62/81
+77/81
 
 ```
 
@@ -3988,7 +4002,7 @@ Top_H3_Tissues2 <- Top_H3_Tissues %>%
 
 length(unique(Top_H3_Tissues2$hPTM_Name))
 
-53/81
+71/81
 
 ```
 
@@ -4002,8 +4016,7 @@ Top_H3_Tissues2 <- Top_H3_Tissues %>%
 
 length(unique(Top_H3_Tissues2$hPTM_Name))
 
-49 / 81
-
+61 / 81
 ```
 
 
@@ -4016,8 +4029,7 @@ Top_H3_Tissues2 <- Top_H3_Tissues %>%
 
 length(unique(Top_H3_Tissues2$hPTM_Name))
 
-28 / 81
-
+49 / 81
 ```
 
 
@@ -4040,8 +4052,7 @@ Top_H4_td <- Top_H4 %>%
 
 length(unique(Top_H4_td$hPTM_Name))
 
-23/40
-
+38/40
 ```
 
 
@@ -4054,8 +4065,7 @@ Top_H4_Tissues2 <- Top_H4_Tissues %>%
 
 length(unique(Top_H4_Tissues2$hPTM_Name))
 
-11/40
-
+21/40
 ```
 
 
@@ -4068,8 +4078,7 @@ Top_H4_Tissues2 <- Top_H4_Tissues %>%
 
 length(unique(Top_H4_Tissues2$hPTM_Name))
 
-22/40
-
+32/40
 ```
 
 
@@ -4082,11 +4091,8 @@ Top_H4_Tissues2 <- Top_H4_Tissues %>%
 
 length(unique(Top_H4_Tissues2$hPTM_Name))
 
-17/40
-
+36/40
 ```
-
-
 
 
 # All Histones - Tissue Differences
@@ -4099,7 +4105,7 @@ Sig_Tissue_Stats <- Tissue_Stats %>%
 
 length(unique(Sig_Tissue_Stats$hPTM_Name))
 
-332/503
+455/503
 
 ```
 
@@ -4113,7 +4119,7 @@ Sig_GK_Tissue_Stats <- Tissue_Stats %>%
 
 length(unique(Sig_GK_Tissue_Stats$hPTM_Name))
 
-199/503
+301/503
 
 ```
 
@@ -4128,7 +4134,7 @@ Sig_GK_Tissue_Stats <- Tissue_Stats %>%
 
 length(unique(Sig_GK_Tissue_Stats$hPTM_Name))
 
-252/503
+343/503
 
 ```
 
@@ -4143,7 +4149,7 @@ Sig_GK_Tissue_Stats <- Tissue_Stats %>%
 
 length(unique(Sig_GK_Tissue_Stats$hPTM_Name))
 
-187/503
+364/503
 
 ```
 
@@ -4161,13 +4167,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 18 increased
+length(unique(Up_Reg$hPTM_Name)) # 29 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 4 decreased
+length(unique(Down_Reg$hPTM_Name)) # 11 decreased
 
 # Gills vs testes
 
@@ -4175,13 +4181,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 15 increased
+length(unique(Up_Reg$hPTM_Name)) # 26 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 6 decreased
+length(unique(Down_Reg$hPTM_Name)) # 13 decreased
 
 # Kidney vs testes
 
@@ -4189,13 +4195,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 9 increased
+length(unique(Up_Reg$hPTM_Name)) # 16 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 14 decreased
+length(unique(Down_Reg$hPTM_Name)) # 25 decreased
 
 ```
 
@@ -4212,13 +4218,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 9 increased
+length(unique(Up_Reg$hPTM_Name)) # 14 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 7 decreased
+length(unique(Down_Reg$hPTM_Name)) # 12 decreased
 
 # Gills vs testes
 
@@ -4226,13 +4232,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 12 increased
+length(unique(Up_Reg$hPTM_Name)) # 14 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 11 decreased
+length(unique(Down_Reg$hPTM_Name)) # 17 decreased
 
 # Kidney vs testes
 
@@ -4240,13 +4246,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 7 increased
+length(unique(Up_Reg$hPTM_Name)) # 13 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 9 decreased
+length(unique(Down_Reg$hPTM_Name)) # 22 decreased
 
 ```
 
@@ -4264,13 +4270,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 2 increased
+length(unique(Up_Reg$hPTM_Name)) # 3 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 2 decreased
+length(unique(Down_Reg$hPTM_Name)) # 4 decreased
 
 # Gills vs testes
 
@@ -4278,7 +4284,7 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 1 increased
+length(unique(Up_Reg$hPTM_Name)) # 4 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
@@ -4292,13 +4298,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 2 increased
+length(unique(Up_Reg$hPTM_Name)) # 5 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 3 decreased
+length(unique(Down_Reg$hPTM_Name)) # 5 decreased
 
 ```
 
@@ -4315,13 +4321,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 18 increased
+length(unique(Up_Reg$hPTM_Name)) # 23 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 6 decreased
+length(unique(Down_Reg$hPTM_Name)) # 10 decreased
 
 # Gills vs testes
 
@@ -4329,13 +4335,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 12 increased
+length(unique(Up_Reg$hPTM_Name)) # 18 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 13 decreased
+length(unique(Down_Reg$hPTM_Name)) # 20 decreased
 
 # Kidney vs testes
 
@@ -4343,13 +4349,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 10 increased
+length(unique(Up_Reg$hPTM_Name)) # 12 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 11 decreased
+length(unique(Down_Reg$hPTM_Name)) # 23 decreased
 
 ```
 
@@ -4367,13 +4373,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 8 increased
+length(unique(Up_Reg$hPTM_Name)) # 15 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 15 decreased
+length(unique(Down_Reg$hPTM_Name)) # 25 decreased
 
 # Gills vs testes
 
@@ -4381,13 +4387,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 13 increased
+length(unique(Up_Reg$hPTM_Name)) # 17 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 18 decreased
+length(unique(Down_Reg$hPTM_Name)) # 28 decreased
 
 # Kidney vs testes
 
@@ -4395,13 +4401,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 14 increased
+length(unique(Up_Reg$hPTM_Name)) # 27 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 10 decreased
+length(unique(Down_Reg$hPTM_Name)) # 22 decreased
 
 ```
 
@@ -4419,13 +4425,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 13 increased
+length(unique(Up_Reg$hPTM_Name)) # 18 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 6 decreased
+length(unique(Down_Reg$hPTM_Name)) # 11 decreased
 
 # Gills vs testes
 
@@ -4439,7 +4445,7 @@ Down_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 6 decreased
+length(unique(Down_Reg$hPTM_Name)) # 12 decreased
 
 # Kidney vs testes
 
@@ -4447,13 +4453,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 9 increased
+length(unique(Up_Reg$hPTM_Name)) # 17 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 5 decreased
+length(unique(Down_Reg$hPTM_Name)) # 16 decreased
 
 ```
 
@@ -4471,7 +4477,7 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 3 increased
+length(unique(Up_Reg$hPTM_Name)) # 4 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
@@ -4491,7 +4497,7 @@ Down_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 2 decreased
+length(unique(Down_Reg$hPTM_Name)) # 1 decreased
 
 # Kidney vs testes
 
@@ -4499,13 +4505,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 2 increased
+length(unique(Up_Reg$hPTM_Name)) # 1 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 1 decreased
+length(unique(Down_Reg$hPTM_Name)) # 3 decreased
 
 ```
 
@@ -4522,13 +4528,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 18 increased
+length(unique(Up_Reg$hPTM_Name)) # 17 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 12 decreased
+length(unique(Down_Reg$hPTM_Name)) # 22 decreased
 
 # Gills vs testes
 
@@ -4536,13 +4542,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 18 increased
+length(unique(Up_Reg$hPTM_Name)) # 27 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 16 decreased
+length(unique(Down_Reg$hPTM_Name)) # 17 decreased
 
 # Kidney vs testes
 
@@ -4550,13 +4556,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 12 increased
+length(unique(Up_Reg$hPTM_Name)) # 31 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 13 decreased
+length(unique(Down_Reg$hPTM_Name)) # 18 decreased
 
 ```
 
@@ -4573,13 +4579,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 14 increased
+length(unique(Up_Reg$hPTM_Name)) # 18 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 14 decreased
+length(unique(Down_Reg$hPTM_Name)) # 21 decreased
 
 # Gills vs testes
 
@@ -4587,13 +4593,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 14 increased
+length(unique(Up_Reg$hPTM_Name)) # 17 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 24 decreased
+length(unique(Down_Reg$hPTM_Name)) # 32 decreased
 
 # Kidney vs testes
 
@@ -4601,13 +4607,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 7 increased
+length(unique(Up_Reg$hPTM_Name)) # 20 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 21 decreased
+length(unique(Down_Reg$hPTM_Name)) # 31 decreased
 
 ```
 
@@ -4631,7 +4637,7 @@ Down_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 2 decreased
+length(unique(Down_Reg$hPTM_Name)) # 8 decreased
 
 # Gills vs testes
 
@@ -4639,13 +4645,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 5 increased
+length(unique(Up_Reg$hPTM_Name)) # 6 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 1 decreased
+length(unique(Down_Reg$hPTM_Name)) # 8 decreased
 
 # Kidney vs testes
 
@@ -4653,13 +4659,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 2 increased
+length(unique(Up_Reg$hPTM_Name)) # 5 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 2 decreased
+length(unique(Down_Reg$hPTM_Name)) # 7 decreased
 
 ```
 
@@ -4683,7 +4689,7 @@ Down_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 0 decreased
+length(unique(Down_Reg$hPTM_Name)) # 1 decreased
 
 # Gills vs testes
 
@@ -4697,7 +4703,7 @@ Down_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 0 decreased
+length(unique(Down_Reg$hPTM_Name)) # 1 decreased
 
 # Kidney vs testes
 
@@ -4705,13 +4711,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 1 increased
+length(unique(Up_Reg$hPTM_Name)) # 2 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 1 decreased
+length(unique(Down_Reg$hPTM_Name)) # 2 decreased
 
 ```
 
@@ -4757,7 +4763,7 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 0 increased
+length(unique(Up_Reg$hPTM_Name)) # 1 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
@@ -4781,13 +4787,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 3 increased
+length(unique(Up_Reg$hPTM_Name)) # 6 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 5 decreased
+length(unique(Down_Reg$hPTM_Name)) # 7 decreased
 
 # Gills vs testes
 
@@ -4795,7 +4801,7 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 4 increased
+length(unique(Up_Reg$hPTM_Name)) # 9 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
@@ -4809,13 +4815,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 5 increased
+length(unique(Up_Reg$hPTM_Name)) # 9 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 3 decreased
+length(unique(Down_Reg$hPTM_Name)) # 10 decreased
 
 ```
 
@@ -4833,7 +4839,7 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 1 increased
+length(unique(Up_Reg$hPTM_Name)) # 2 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
@@ -4861,13 +4867,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 0 increased
+length(unique(Up_Reg$hPTM_Name)) # 1 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 1 decreased
+length(unique(Down_Reg$hPTM_Name)) # 2 decreased
 
 ```
 
@@ -4905,7 +4911,7 @@ Down_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 5 decreased
+length(unique(Down_Reg$hPTM_Name)) # 4 decreased
 
 # Kidney vs testes
 
@@ -4919,7 +4925,7 @@ Down_Reg <- PTM %>%
   filter(Tissues == "Kidney_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 3 decreased
+length(unique(Down_Reg$hPTM_Name)) # 5 decreased
 
 ```
 
@@ -4937,7 +4943,7 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Kidney") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 0 increased
+length(unique(Up_Reg$hPTM_Name)) # 1 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Kidney") %>% 
@@ -4951,13 +4957,13 @@ Up_Reg <- PTM %>%
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC > 0)
 
-length(unique(Up_Reg$hPTM_Name)) # 1 increased
+length(unique(Up_Reg$hPTM_Name)) # 0 increased
 
 Down_Reg <- PTM %>% 
   filter(Tissues == "Gills_Testes") %>% 
   filter(Log2FC < 0)
 
-length(unique(Down_Reg$hPTM_Name)) # 5 decreased
+length(unique(Down_Reg$hPTM_Name)) # 3 decreased
 
 # Kidney vs testes
 

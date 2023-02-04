@@ -1,6 +1,7 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
-XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,1.007812397,1.007812397,0.575020921,2,2.12E-08,significant,24,4.43E-07,significant,Gills_Kidney,XP_003459572.1 H2A K123 Acetyl,a
-XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,-1.249374937,1.249374937,0.055500457,2,4.04E-08,significant,31,6.54E-07,significant,Gills_Kidney,XP_003448939.1 H2A T76 Phospho / Dehydrated,b
-XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,4.812471305,4.812471305,0.538887314,2,0.000709736,significant,110,0.003238979,significant,Gills_Kidney,XP_003448939.1 H2A R77 Deamidated,d
-XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-4.718132515,4.718132515,2.98E-05,3,0.017350074,significant,243,0.035842539,significant,Gills_Testes,XP_003448939.1 H2A K118 Lactyl / Carboxyethyl,e
-XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-3.822455654,3.822455654,0.533535263,2,4.44E-09,significant,16,1.39E-07,significant,Kidney_Testes,XP_003451211.1 H2A K118 ADP-Ribosyl,f
+XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.310045844,0.310045844,0.278585129,2,9.83E-19,significant,10,4.94E-17,significant,Gills_Testes,XP_003448939.1 H2A Y50 Phospho / Dehydrated,a
+XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,-0.821603355,0.821603355,0.720741049,2,1.07E-15,significant,21,2.57E-14,significant,Gills_Testes,XP_003448939.1 H2A P48 Dioxidation,b
+XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.757647627,0.757647627,0.946857761,2,2.83E-16,significant,5,2.85E-14,significant,Kidney_Testes,XP_003451211.1 H2A K95 Lactyl / Carboxyethyl,c
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,5.109741032,5.109741032,3.46E-01,2,0.000119022,significant,181,0.000330105,significant,Gills_Kidney,XP_003448939.1 H2A R77 Deamidated,d
+XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,4.021956468,4.021956468,0.017298155,3,1.80E-03,significant,263,3.44E-03,significant,Kidney_Testes,XP_003448939.1 H2A R42 Deamidated,e
+XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,3.9627297,3.9627297,0.80093604,2,9.65118E-14,significant,32,1.51403E-12,significant,Gills_Testes,XP_003459572.1 H2A K118 Acetyl,f

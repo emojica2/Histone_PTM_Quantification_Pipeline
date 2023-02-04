@@ -1,506 +1,506 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues
-XP_019218826.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic and Napho,1.542941311,0.036508261,3,3.49051E-16,significant,1,1.75223E-13,significant,Kidney_Testes
-XP_025766521.1,H4-like,61,K,K61,425,Dioxidation,Yes,Napho only,-2.630005201,0.066361548,2,8.63853E-14,significant,2,2.16827E-11,significant,Kidney_Testes
-XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,2.037817618,0.867926111,2,1.40474E-13,significant,3,2.35061E-11,significant,Kidney_Testes
-XP_025766521.1,H4-like,81,K,K81,425,Dioxidation,Yes,Napho only,-1.910339736,0.042043762,3,4.14027E-13,significant,4,5.19604E-11,significant,Kidney_Testes
-XP_025766521.1,H4-like,80,R,R80,425,Dioxidation,Yes,Napho only,-1.92068142,0.038475928,3,4.74376E-13,significant,5,4.76274E-11,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,118,K,K118,53,4-hydroxynonenal,Yes,Napho only,-3.844677065,0.863430838,2,2.8454E-12,significant,6,2.38065E-10,significant,Kidney_Testes
-XP_019209844.1,H1-like,1,S,S1,1,Acetyl,Yes,Ambic only,0,6.33418E-08,3,3.74053E-12,significant,7,2.6825E-10,significant,Kidney_Testes
-XP_019218826.1,H1-like,13,K,K13,378,Lactyl / Carboxyethyl,Yes,Napho only,0.227847877,3.73034E-05,3,9.57988E-12,significant,8,6.01137E-10,significant,Kidney_Testes
-XP_025766521.1,H4-like,79,K,K79,1,Acetyl,Yes,Napho only,-1.490641511,0.014469027,3,6.92738E-11,significant,9,3.86394E-09,significant,Kidney_Testes
-XP_025766521.1,H4-like,80,R,R80,35,Oxidation,Yes,Napho only,-1.595515696,0.001696286,3,9.30538E-11,significant,10,4.6713E-09,significant,Kidney_Testes
-XP_005461836.1,H1-like,67,K,K67,255,Dimethyl,Yes,Ambic only,2.874085052,0.002114564,3,9.78593E-11,significant,11,4.46594E-09,significant,Kidney_Testes
-XP_019209842.1,H1-like,56,K,K56,425,Dioxidation,Yes,Napho only,-1.714940937,0.000505728,3,2.16193E-10,significant,12,9.04409E-09,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,84,R,R84,425,Dioxidation,Yes,Ambic and Napho,-0.89618556,0.003108864,3,3.77994E-10,significant,13,1.45964E-08,significant,Kidney_Testes
-XP_019218826.1,H1-like,5,P,P5,425,Dioxidation,Yes,Napho only,-0.132066035,9.72479E-06,3,1.439E-09,significant,14,5.15986E-08,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,76,R,R76,35,Oxidation,Yes,Ambic and Napho,1.152790161,0.763388572,2,3.64391E-09,significant,15,1.21949E-07,significant,Kidney_Testes
-XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-3.822455654,0.533535263,2,4.44132E-09,significant,16,1.39346E-07,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,98,K,K98,121,GlyGly,Other,Ambic only,4.42866824,0.863549573,2,4.63077E-09,significant,17,1.36744E-07,significant,Kidney_Testes
-XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,2.807019261,0.77103525,2,7.34118E-09,significant,18,2.04737E-07,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,117,T,T117,121,GlyGly,Other,Ambic only,-2.312237599,0.002172235,3,5.42938E-08,significant,19,1.4345E-06,significant,Kidney_Testes
-XP_003448795.2,H1.10,113,K,K113,35,Oxidation,Yes,Napho only,4.375068317,0.000749966,3,1.12923E-07,significant,20,2.83438E-06,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,83,K,K83,425,Dioxidation,Yes,Ambic and Napho,-0.852149602,6.02923E-05,3,1.4239E-07,significant,21,3.4038E-06,significant,Kidney_Testes
-XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.882947598,0.548616419,2,1.4671E-07,significant,22,3.34766E-06,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,83,K,K83,255,Dimethyl,Yes,Ambic and Napho,-0.650408114,0.070556334,2,1.51459E-07,significant,23,3.30576E-06,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,83,K,K83,1,Acetyl,Yes,Ambic and Napho,-0.560151699,0.026371259,3,5.20989E-07,significant,24,1.08974E-05,significant,Kidney_Testes
-XP_025766521.1,H4-like,57,R,R57,425,Dioxidation,Yes,Ambic and Napho,-2.943202601,0.460908883,2,8.32339E-07,significant,25,1.67134E-05,significant,Kidney_Testes
-XP_019209842.1,H1-like,9,P,P9,425,Dioxidation,Yes,Ambic only,0,5.41567E-08,3,9.28103E-07,significant,26,1.79195E-05,significant,Kidney_Testes
-XP_019209842.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic only,0,5.41567E-08,3,9.28103E-07,significant,27,1.72558E-05,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,114,K,K114,121,GlyGly,Other,Napho only,-1.012061808,0.127856831,2,1.66894E-06,significant,28,2.99218E-05,significant,Kidney_Testes
-XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,-2.263609134,0.003373989,3,1.67104E-06,significant,29,2.89263E-05,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,25,K,K25,121,GlyGly,Other,Ambic only,-2.536697939,0.219811746,2,1.83539E-06,significant,30,3.07121E-05,significant,Kidney_Testes
-XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,1.855538214,0.029086288,3,1.83869E-06,significant,31,2.97749E-05,significant,Kidney_Testes
-XP_019209845.1,H1-like,17,K,K17,378,Lactyl / Carboxyethyl,Yes,Napho only,0.279734857,0.019473014,3,1.89812E-06,significant,32,2.97767E-05,significant,Kidney_Testes
-XP_003459589.1,H1-like,35,K,K35,378,Lactyl / Carboxyethyl,Yes,Napho only,2.540075981,0.475622202,2,2.36848E-06,significant,33,3.60296E-05,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,76,R,R76,425,Dioxidation,Yes,Ambic and Napho,-1.087310516,0.413135191,2,2.60128E-06,significant,34,3.84071E-05,significant,Kidney_Testes
-XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,2.461501096,0.674213728,2,2.66919E-06,significant,35,3.82838E-05,significant,Kidney_Testes
-XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,2.461501096,0.674213728,2,2.66919E-06,significant,36,3.72203E-05,significant,Kidney_Testes
-XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,-2.217765086,0.00426958,3,3.30906E-06,significant,37,4.48958E-05,significant,Kidney_Testes
-XP_003459589.1,H1-like,52,K,K52,425,Dioxidation,Yes,Napho only,6.145459148,2.56041E-07,3,3.60095E-06,significant,38,4.75705E-05,significant,Kidney_Testes
-XP_003446112.1,protamine-like protein,25,K,K25,209,Acrolein112,Other,Trypsin only,1.881858959,0.003669593,3,4.10001E-06,significant,39,5.27744E-05,significant,Kidney_Testes
-XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.246371014,0.066523527,2,4.17108E-06,significant,40,5.2347E-05,significant,Kidney_Testes
-XP_003448795.2,H1.10,110,K,K110,34,Methyl,Yes,Ambic and Napho,1.963957777,0.684983587,2,4.74392E-06,significant,41,5.80842E-05,significant,Kidney_Testes
-XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,2.584486226,0.250936277,2,6.71946E-06,significant,42,8.03136E-05,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,84,R,R84,35,Oxidation,Yes,Ambic and Napho,-0.573612459,0.855559328,2,8.35726E-06,significant,43,9.75662E-05,significant,Kidney_Testes
-XP_019209842.1,H1-like,56,K,K56,1,Acetyl,Yes,Ambic and Napho,-1.09361157,0.145768279,2,8.93413E-06,significant,44,0.00010193,significant,Kidney_Testes
-XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,-1.199402379,0.066812914,2,9.71311E-06,significant,45,0.000108355,significant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.078632028,2,1.06E-05,significant,46,0.000115678,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,5,P,P5,35,Oxidation,Yes,Ambic only,-1.137777078,2.45878E-06,3,1.07533E-05,significant,47,0.000114855,significant,Kidney_Testes
-XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,1.342257011,0.717097577,2,1.12427E-05,significant,48,0.00011758,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,54,S,S54,121,GlyGly,Other,Napho only,0.400463426,0.193579759,2,1.22158E-05,significant,49,0.00012515,significant,Kidney_Testes
-XP_005461836.1,H1-like,34,K,K34,255,Dimethyl,Yes,Napho only,1.936470221,5.3724E-05,3,1.26145E-05,significant,50,0.000126649,significant,Kidney_Testes
-XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,-0.311088125,2.95828E-05,3,1.45645E-05,significant,51,0.000143361,significant,Kidney_Testes
-XP_025766521.1,H4-like,61,K,K61,1,Acetyl,Yes,Ambic and Napho,-2.795857914,0.481760705,2,1.83089E-05,significant,52,0.000176752,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,77,R,R77,35,Oxidation,Yes,Ambic and Napho,0.862547994,0.249320179,2,1.84864E-05,significant,53,0.000175098,significant,Kidney_Testes
-XP_003459589.1,H1-like,35,K,K35,3,Biotin,Yes,Napho only,-1.503326893,0.062123277,2,1.92225E-05,significant,54,0.000178698,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,55,K,K55,425,Dioxidation,Yes,Napho only,-2.139398731,0.016035354,3,1.96659E-05,significant,55,0.000179496,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,84,R,R84,7,Deamidated,Yes,Ambic and Napho,-0.803551306,0.005634483,3,2.05207E-05,significant,56,0.000183953,significant,Kidney_Testes
-XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,-1.11968608,0.003990133,3,2.14698E-05,significant,57,0.000189085,significant,Kidney_Testes
-XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.293319909,0.087921746,2,2.38093E-05,significant,58,0.000206074,significant,Kidney_Testes
-XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,-1.293319909,0.087921746,2,2.38093E-05,significant,59,0.000202581,significant,Kidney_Testes
-XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,0.250243044,0.025985962,3,2.59917E-05,significant,60,0.000217464,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,22,S,S22,121,GlyGly,Other,Ambic only,-1.033811875,0.000291651,3,2.74582E-05,significant,61,0.000225968,significant,Kidney_Testes
-XP_019209842.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,1.745414078,0.993231213,2,3.11378E-05,significant,62,0.000252116,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,76,R,R76,36,Dimethyl,Yes,Ambic and Napho,-0.872580897,0.240244515,2,3.31504E-05,significant,63,0.000264151,significant,Kidney_Testes
-XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,-0.440628908,0.403469485,2,3.3609E-05,significant,64,0.00026362,significant,Kidney_Testes
-XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,1.418390637,0.406907625,2,3.39624E-05,significant,65,0.000262294,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,77,R,R77,425,Dioxidation,Yes,Napho only,-0.788329546,0.000961813,3,3.59549E-05,significant,66,0.000273475,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,88,T,T88,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.815525116,0.014210277,3,4.43967E-05,significant,67,0.000332644,significant,Kidney_Testes
-XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,1.557299472,0.977903592,2,5.71459E-05,significant,68,0.000421871,significant,Kidney_Testes
-XP_019209842.1,H1-like,38,K,K38,1,Acetyl,Yes,Napho only,-1.658204726,0.381872923,2,6.64144E-05,significant,69,0.000483189,significant,Kidney_Testes
-XP_019209842.1,H1-like,55,K,K55,53,4-hydroxynonenal,Yes,Ambic only,-1.578417586,0.710556076,2,8.72226E-05,significant,70,0.000625511,significant,Kidney_Testes
-XP_025766521.1,H4-like,81,K,K81,1,Acetyl,Yes,Napho only,-1.633185166,1.19776E-08,3,8.76472E-05,significant,71,0.000619703,significant,Kidney_Testes
-XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.117708914,0.021145134,3,9.1487E-05,significant,72,0.000637867,significant,Kidney_Testes
-XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,2.014878703,0.818285469,2,0.00010708,significant,73,0.000736357,significant,Kidney_Testes
-XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-2.220611756,0.496391789,2,0.000128645,significant,74,0.000872697,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,77,R,R77,7,Deamidated,Yes,Ambic and Napho,0.60445267,0.576655659,2,0.000129243,significant,75,0.000865067,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,75,K,K75,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.836256691,0.659309603,2,0.000145153,significant,76,0.000958774,significant,Kidney_Testes
-XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-1.30766229,8.20237E-07,3,0.000151685,significant,77,0.000988904,significant,Kidney_Testes
-XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,-0.344702293,0.005648301,3,0.000170764,significant,78,0.00109902,significant,Kidney_Testes
-XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.961148673,0.035683584,3,0.000170968,significant,79,0.001086402,significant,Kidney_Testes
-XP_025766521.1,H4-like,84,T,T84,21 + 23,Phospho / Dehydrated,Yes,Napho only,-2.031452625,2.47394E-10,3,0.000178492,significant,80,0.00112004,significant,Kidney_Testes
-XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,-0.747819326,0.186388753,2,0.000195684,significant,81,0.001212755,significant,Kidney_Testes
-XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,-0.518886498,0.022298261,3,0.000200808,significant,82,0.001229338,significant,Kidney_Testes
-XP_019209842.1,H1-like,63,Y,Y63,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.783561562,1.14534E-05,3,0.000203004,significant,83,0.001227805,significant,Kidney_Testes
-XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,-0.624105363,0.501232601,2,0.000207159,significant,84,0.001238019,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,13,K,K13,37,Trimethyl,Yes,Napho only,-0.55344726,1.23834E-06,3,0.000213342,significant,85,0.001259975,significant,Kidney_Testes
-XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.891476805,2.81036E-08,3,0.000236735,significant,86,0.001381874,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,84,R,R84,34,Methyl,Yes,Ambic and Napho,-0.473975183,0.20727827,2,0.000260837,significant,87,0.001505062,significant,Kidney_Testes
-XP_025766521.1,H4-like,79,K,K79,425,Dioxidation,Yes,Ambic and Napho,0.130656409,0.002170103,3,0.000263952,significant,88,0.001505729,significant,Kidney_Testes
-XP_003459589.1,H1-like,13,K,K13,1,Acetyl,Yes,Ambic and Napho,-2.212125597,0.007709922,3,0.000277799,significant,89,0.001566909,significant,Kidney_Testes
-XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.162146788,0.684634895,2,0.000283957,significant,90,0.00158385,significant,Kidney_Testes
-XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,-1.417420947,3.38935E-06,3,0.000299268,significant,91,0.001650904,significant,Kidney_Testes
-XP_019209843.1,H1-like,17,K,K17,37,Trimethyl,Yes,Ambic only,-1.623874083,0.029043326,3,0.000313593,significant,92,0.001711129,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.816623384,0.094972804,2,0.000328785,significant,93,0.001774734,significant,Kidney_Testes
-XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,-0.682653696,0.000328994,3,0.000349175,significant,94,0.001864741,significant,Kidney_Testes
-XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,1.313593931,0.202820611,2,0.000374898,significant,95,0.001981041,significant,Kidney_Testes
-XP_019209842.1,H1-like,38,K,K38,121,GlyGly,Other,Ambic only,3.454322223,1.78462E-05,3,0.000390843,significant,96,0.002043783,significant,Kidney_Testes
-XP_019209842.1,H1-like,55,K,K55,3,Biotin,Yes,Napho only,-0.802516288,0.000355124,3,0.000403642,significant,97,0.002088953,significant,Kidney_Testes
-XP_025766521.1,H4-like,74,Y,Y74,425,Dioxidation,Yes,Ambic only,-0.372719337,4.16889E-05,3,0.000456733,significant,98,0.002339594,significant,Kidney_Testes
-XP_003459589.1,H1-like,13,K,K13,255,Dimethyl,Yes,Ambic and Napho,-1.180462283,2.39269E-05,3,0.000460211,significant,99,0.002333598,significant,Kidney_Testes
-XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,-2.163242733,3.83481E-05,3,0.000504546,significant,100,0.002532822,significant,Kidney_Testes
-XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,-0.476879418,0.012617755,3,0.000521159,significant,101,0.002590316,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,54,S,S54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.596986581,0.450811383,2,0.000607677,significant,102,0.002990722,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,55,K,K55,1,Acetyl,Yes,Ambic and Napho,0.627693399,0.000222261,3,0.000653353,significant,103,0.003184305,significant,Kidney_Testes
-XP_003459589.1,H1-like,43,R,R43,36,Dimethyl,Yes,Ambic only,1.635456351,0.343355257,2,0.000661884,significant,104,0.003194863,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,17,K,K17,121,GlyGly,Other,Ambic only,-1.760811144,0.64782719,2,0.000753915,significant,105,0.003604434,significant,Kidney_Testes
-XP_003459589.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic and Napho,-1.089407237,0.021297157,3,0.000771563,significant,106,0.003654006,significant,Kidney_Testes
-XP_025766521.1,H4-like,73,T,T73,21 + 23,Phospho / Dehydrated,Yes,"Ambic, Napho, and Trypsin",0.50368708,0.500232229,2,0.000882616,significant,107,0.004140872,significant,Kidney_Testes
-XP_025766521.1,H4-like,61,K,K61,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.700220412,0.091196396,2,0.000923969,significant,108,0.004294745,significant,Kidney_Testes
-XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.288802027,0.022917143,3,0.000935623,significant,109,0.004309017,significant,Kidney_Testes
-XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.288802027,0.022917143,3,0.000935623,significant,110,0.004269844,significant,Kidney_Testes
-XP_019218826.1,H1-like,13,K,K13,53,4-hydroxynonenal,Yes,Napho only,-1.15459148,1.7893E-09,3,0.000939316,significant,111,0.004248077,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,89,R,R89,35,Oxidation,Yes,Ambic and Napho,0.353937114,0.493688337,2,0.001042344,significant,112,0.004671935,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,1,S,S1,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-1.063451065,0.584492144,2,0.001072452,significant,113,0.004764344,significant,Kidney_Testes
-XP_025766521.1,H4-like,46,K,K46,425,Dioxidation,Yes,Trypsin only,-1.275249921,0.675986821,2,0.001074542,significant,114,0.004731754,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,17,K,K17,37,Trimethyl,Yes,Napho only,-0.662114261,5.5294E-09,3,0.001160623,significant,115,0.00506637,significant,Kidney_Testes
-XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,0.385218095,0.013772017,3,0.001250775,significant,116,0.005412837,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,113,T,T113,121,GlyGly,Other,Ambic and Napho,1.676492816,0.010122285,3,0.001297438,significant,117,0.005566783,significant,Kidney_Testes
-XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,-0.79952361,0.185504432,2,0.001477829,significant,118,0.006287037,significant,Kidney_Testes
-XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,-0.655802627,2.27644E-09,3,0.00155891,significant,119,0.006576243,significant,Kidney_Testes
-XP_003459589.1,H1-like,35,K,K35,34,Methyl,Yes,Ambic only,2.431225728,0.792167064,2,0.001800792,significant,120,0.007533312,significant,Kidney_Testes
-XP_003459589.1,H1-like,38,T,T38,21 + 23,Phospho / Dehydrated,Yes,Ambic only,2.431225728,0.792167064,2,0.001800792,significant,121,0.007471054,significant,Kidney_Testes
-XP_003459589.1,H1-like,7,P,P7,35,Oxidation,Yes,Napho only,-1.2891671,0.07341538,2,0.001882707,significant,122,0.007746876,significant,Kidney_Testes
-XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,2.667247739,0.155152918,2,0.001929003,significant,123,0.00787284,significant,Kidney_Testes
-XP_019209842.1,H1-like,56,K,K56,255,Dimethyl,Yes,Ambic only,-1.128666841,0.343347844,2,0.002016477,significant,124,0.008163479,significant,Kidney_Testes
-XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,1.758347267,0.055532575,2,0.00209656,significant,125,0.008419784,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,97,R,R97,34,Methyl,Yes,Ambic and Napho,0.900835673,0.704281327,2,0.002110428,significant,126,0.008408215,significant,Kidney_Testes
-XP_019218826.1,H1-like,9,P,P9,35,Oxidation,Yes,Napho only,0.830584016,8.68085E-06,3,0.002256685,significant,127,0.008920124,significant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,0.852102512,0.011015554,3,0.002343587,significant,128,0.009191256,significant,Kidney_Testes
-XP_003459589.1,H1-like,44,K,K44,34,Methyl,Yes,Ambic and Napho,3.32870586,0.136297076,2,0.00241048,significant,129,0.009380317,significant,Kidney_Testes
-XP_025766521.1,H4-like,61,K,K61,35,Oxidation,Yes,Ambic and Napho,0.718441028,0.968893937,2,0.00255652,significant,130,0.009872102,significant,Kidney_Testes
-XP_003459589.1,H1-like,13,K,K13,34,Methyl,Yes,Napho only,1.221066844,0.991118642,2,0.002787787,significant,131,0.01068297,significant,Kidney_Testes
-XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,-1.388575079,0.807720996,2,0.003017978,significant,132,0.011477463,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,81,Y,Y81,35,Oxidation,Yes,Ambic only,1.069274693,4.21147E-06,3,0.003124593,significant,133,0.011793577,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,81,Y,Y81,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.298477845,0.136467448,2,0.003272806,significant,134,0.012260809,significant,Kidney_Testes
-XP_019209843.1,H1-like,18,K,K18,255,Dimethyl,Yes,Ambic only,1.92001937,0.967448392,2,0.003313479,significant,135,0.012321233,significant,Kidney_Testes
-XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,-0.401456282,0.916150231,2,0.003341077,significant,136,0.012332505,significant,Kidney_Testes
-XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.409484763,0.803358165,2,0.003514411,significant,137,0.012877623,significant,Kidney_Testes
-XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,1.632836457,0.854936846,2,0.003568336,significant,138,0.012980468,significant,Kidney_Testes
-XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,-0.78078747,0.00154408,3,0.003772233,significant,139,0.013623461,significant,Kidney_Testes
-XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,2.63396968,0.280367402,2,0.003908575,significant,140,0.014015034,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,97,R,R97,36,Dimethyl,Yes,Napho only,0.792299017,0.17089089,2,0.004037523,significant,141,0.014374726,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,76,S,S76,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.356064991,0.007771174,3,0.004101817,significant,142,0.014500791,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,89,R,R89,34,Methyl,Yes,Ambic and Napho,-0.310974763,0.101659696,2,0.00419818,significant,143,0.014737666,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,16,K,K16,121,GlyGly,Other,Ambic only,0.795467997,0.951639935,2,0.004446707,significant,144,0.015501714,significant,Kidney_Testes
-XP_003459589.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,0.963862011,0.582372511,2,0.004719993,significant,145,0.016340943,significant,Kidney_Testes
-XP_025766521.1,H4-like,74,Y,Y74,35,Oxidation,Yes,Ambic only,0.01424539,0.262319035,2,0.004941371,significant,146,0.016990192,significant,Kidney_Testes
-XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.533284499,0.132753851,2,0.004997262,significant,147,0.01706548,significant,Kidney_Testes
-XP_003459589.1,H1-like,21,K,K21,34,Methyl,Yes,Ambic only,-1.928047494,0.748773664,2,0.005732865,significant,148,0.019445258,significant,Kidney_Testes
-XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,0.613284982,0.006319288,3,0.005829055,significant,149,0.01963883,significant,Kidney_Testes
-XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-1.149934615,4.70431E-05,3,0.00609025,significant,150,0.020382038,significant,Kidney_Testes
-XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,1.068441876,0.985362257,2,0.006093522,significant,151,0.020257935,significant,Kidney_Testes
-XP_003448795.2,H1.10,116,K,K116,1,Acetyl,Yes,Napho only,-2.139940182,0.966090856,2,0.006558104,significant,152,0.021659001,significant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.002681011,0.00710517,3,0.007183357,significant,153,0.023568925,significant,Kidney_Testes
-XP_003448795.2,H1.10,113,K,K113,425,Dioxidation,Yes,Ambic only,-0.839893869,0.31178948,2,0.007518917,significant,154,0.024509718,significant,Kidney_Testes
-XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,-0.838383461,0.275878497,2,0.007789404,significant,155,0.025227618,significant,Kidney_Testes
-XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,1.361277908,0.691761492,2,0.007995479,significant,156,0.025729042,significant,Kidney_Testes
-XP_019209842.1,H1-like,56,K,K56,34,Methyl,Yes,Ambic only,-0.562447095,0.002445584,3,0.008269286,significant,157,0.026440647,significant,Kidney_Testes
-XP_019209842.1,H1-like,64,D,D64,35,Oxidation,Yes,Ambic only,-0.562447095,0.002445584,3,0.008269286,significant,158,0.026273301,significant,Kidney_Testes
-XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.341521602,0.080833218,2,0.008315651,significant,159,0.026254445,significant,Kidney_Testes
-XP_019209842.1,H1-like,38,K,K38,425,Dioxidation,Yes,Ambic and Napho,-0.579005938,0.584418199,2,0.008510313,significant,160,0.026701106,significant,Kidney_Testes
-XP_003459589.1,H1-like,1,A,A1,1,Acetyl,Yes,Ambic only,0.871976654,0.400009914,2,0.008611026,significant,161,0.026849286,significant,Kidney_Testes
-XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-1.66325782,0.535162685,2,0.00878434,significant,162,0.02722061,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,101,P,P101,35,Oxidation,Yes,Ambic and Napho,0.31356056,0.648969953,2,0.009013015,significant,163,0.027757876,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,97,R,R97,7,Deamidated,Yes,Ambic and Napho,0.255302817,0.614098006,2,0.009048896,significant,164,0.027698451,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,106,K,K106,121,GlyGly,Other,Ambic only,-0.020402562,8.9288E-08,3,0.009550908,significant,165,0.029057915,significant,Kidney_Testes
-XP_003459589.1,H1-like,35,K,K35,255,Dimethyl,Yes,Ambic only,1.210903837,0.262896326,2,0.009662132,significant,166,0.029219219,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,13,K,K13,34,Methyl,Yes,Ambic only,0.681644084,0.690730001,2,0.010110548,significant,167,0.030392187,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,106,K,K106,1,Acetyl,Yes,Ambic and Napho,-0.587561858,0.112600424,2,0.010183127,significant,168,0.030428153,significant,Kidney_Testes
-XP_025766521.1,H4-like,46,K,K46,1,Acetyl,Yes,Trypsin only,0.08097298,0.000581155,3,0.010408671,significant,169,0.030918065,significant,Kidney_Testes
-XP_003438147.1,H2B.L4,68,S,S68,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.26591447,0.864180519,2,0.010526039,significant,170,0.031082775,significant,Kidney_Testes
-XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,0.441525781,0.026761221,3,0.011296102,significant,171,0.033161657,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,106,K,K106,34,Methyl,Yes,Ambic and Napho,-0.499699982,0.008806093,3,0.011487406,significant,172,0.033527196,significant,Kidney_Testes
-XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,-0.69560927,0.00189712,3,0.011939643,significant,173,0.034645669,significant,Kidney_Testes
-XP_003451196.1,H2B 1/2,113,T,T113,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.274449924,0.000350338,3,0.012388817,significant,174,0.035742449,significant,Kidney_Testes
-XP_019209843.1,H1-like,16,K,K16,37,Trimethyl,Yes,Ambic only,-0.461145067,0.063765016,2,0.01262541,significant,175,0.036216891,significant,Kidney_Testes
-XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,-0.269484327,0.087538487,2,0.012787213,significant,176,0.036472619,significant,Kidney_Testes
-XP_005461836.1,H1-like,34,K,K34,378,Lactyl / Carboxyethyl,Yes,Napho only,0.99487026,0.404308529,2,0.013068234,significant,177,0.037063579,significant,Kidney_Testes
-XP_019209843.1,H1-like,1,S,S1,21 + 23,Phospho / Dehydrated,Yes,Napho only,-4.889786575,0.147364993,2,0.013222398,significant,178,0.037290134,significant,Kidney_Testes
-XP_003459589.1,H1-like,18,K,K18,37,Trimethyl,Yes,Napho only,0.98724127,0.001134629,3,0.014175748,significant,179,0.039755448,significant,Kidney_Testes
-XP_003459589.1,H1-like,21,K,K21,35,Oxidation,Yes,Ambic and Napho,0.98724127,0.001134629,3,0.014175748,significant,180,0.039534585,significant,Kidney_Testes
-XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,0.78302512,0.795654921,2,0.015493434,significant,181,0.042970739,significant,Kidney_Testes
-XP_003448795.2,H1.10,78,T,T78,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-1.735883687,0.131781756,2,0.015695322,significant,182,0.043291492,significant,Kidney_Testes
-XP_003459589.1,H1-like,5,P,P5,35,Oxidation,Yes,Ambic and Napho,-0.412485364,0.001897481,3,0.015830661,significant,183,0.043426183,significant,Kidney_Testes
-XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,1.155975841,0.041110621,3,0.016624679,significant,184,0.045356462,significant,Kidney_Testes
-XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.170875702,0.105058778,2,0.016839769,significant,185,0.04569494,significant,Kidney_Testes
-XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,0.016623819,3,0.017555188,significant,186,0.047380131,significant,Kidney_Testes
-XP_019209845.1,H1-like,18,K,K18,121,GlyGly,Other,Ambic only,2.28041,0.018654956,3,0.018277846,significant,187,0.049066732,significant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,13,K,K13,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.318328325,0.3229015,2,0.019670349,significant,188,0.052524016,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,5.909959705,0.531145397,2,0.020087401,significant,189,0.053353837,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,106,K,K106,3,Biotin,Yes,Napho only,-0.482629714,0.518379235,2,0.020156302,significant,190,0.053255071,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,106,K,K106,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.065272302,0.000288332,3,0.020255843,significant,191,0.05323787,nonsignificant,Kidney_Testes
-XP_003450682.1,H1,267,K,K267,209,Acrolein112,Other,Trypsin only,-0.461398147,0.412775241,2,0.021218005,significant,192,0.055476243,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-1.366555615,0.560592714,2,0.021328737,significant,193,0.055476818,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,44,K,K44,255,Dimethyl,Yes,Ambic only,1.500128428,1.65572E-05,3,0.021493357,significant,194,0.055616831,nonsignificant,Kidney_Testes
-XP_019209842.1,H1-like,43,S,S43,121,GlyGly,Other,Ambic only,3.578390397,0.063593669,2,0.021940351,significant,195,0.05648234,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,47,R,R47,36,Dimethyl,Yes,Trypsin only,-1.352240161,0.823509727,2,0.022128805,significant,196,0.056676838,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,-0.900120912,2.42253E-06,3,0.022405926,significant,197,0.057095305,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,58,S,S58,121,GlyGly,Other,Ambic and Napho,-0.463747013,0.053048672,2,0.024115304,significant,198,0.061140821,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-0.409656919,0.016064796,3,0.024189576,significant,199,0.061020941,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,69,R,R69,36,Dimethyl,Yes,Ambic and Napho,0.295421007,0.304529214,2,0.024822014,significant,200,0.062303254,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,89,R,R89,425,Dioxidation,Yes,Ambic and Napho,0.288127791,0.658040777,2,0.025258213,significant,201,0.063082701,nonsignificant,Kidney_Testes
-XP_019209842.1,H1-like,55,K,K55,35,Oxidation,Yes,Ambic only,-0.346649732,0.015487175,3,0.028279983,significant,202,0.070279958,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.52442289,7.9443E-10,3,0.028836742,significant,203,0.071310565,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,47,R,R47,425,Dioxidation,Yes,Trypsin only,0.063832252,0.004725964,3,0.029785704,significant,204,0.073296194,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.477064813,7.32635E-07,3,0.031610147,significant,205,0.077406311,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,57,R,R57,7,Deamidated,Yes,Ambic and Napho,-0.372148481,0.917221222,2,0.031651132,significant,206,0.077130429,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,-0.636106758,0.000707931,3,0.031688413,significant,207,0.076848228,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.252325694,0.457965591,2,0.031748158,significant,208,0.076622959,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-1.310601561,0.441216876,2,0.034185059,significant,209,0.082109566,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.405168027,4.83795E-16,3,0.036049628,significant,210,0.086175777,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,49,S,S49,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.105526664,0.711077977,2,0.03642385,significant,211,0.086657689,nonsignificant,Kidney_Testes
-XP_019209842.1,H1-like,66,D,D66,2,Amidated,Yes,Napho only,0.226790548,0.270389885,2,0.036690729,significant,212,0.086880878,nonsignificant,Kidney_Testes
-XP_019209845.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic only,0.288711867,5.05284E-05,3,0.037019137,significant,213,0.087246981,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,0.822485278,0.766876033,2,0.037191298,significant,214,0.087243138,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-1.260551134,0.161990184,2,0.037434109,significant,215,0.087404293,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.325619767,0.000233679,3,0.037963893,significant,216,0.088230899,nonsignificant,Kidney_Testes
-XP_019209843.1,H1-like,15,T,T15,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.463326384,1.17375E-07,3,0.03822063,significant,217,0.088418231,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,53,K,K53,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.29465947,0.011040572,3,0.038242954,significant,218,0.088064049,nonsignificant,Kidney_Testes
-XP_019209842.1,H1-like,55,K,K55,255,Dimethyl,Yes,Ambic and Napho,-0.33168039,0.0001191,3,0.038770961,significant,219,0.088872249,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.784378354,0.594074388,2,0.040786735,significant,220,0.093067914,nonsignificant,Kidney_Testes
-XP_003438501.2,H1.0-B,89,S,S89,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.968171722,0.104913741,2,0.041092409,significant,221,0.093341129,nonsignificant,Kidney_Testes
-XP_003438501.2,H1.0-B,91,R,R91,34,Methyl,Yes,Trypsin only,-0.968171722,0.104913741,2,0.041092409,significant,222,0.092920674,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,75,T,T75,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.246230499,0.724503708,2,0.041333675,significant,223,0.093047107,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.279389114,0.096226503,2,0.042497378,significant,224,0.09523966,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,42,R,R42,36,Dimethyl,Yes,Trypsin only,-0.81983897,0.036450821,3,0.042983393,significant,225,0.095900725,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,86,T,T86,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.143210385,0.081748227,2,0.043385253,significant,226,0.096369013,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,1.36404155,0.152116445,2,0.044147207,significant,227,0.097629507,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,69,R,R69,425,Dioxidation,Yes,Napho only,0.351236796,0.231946919,2,0.04583778,significant,228,0.100923533,nonsignificant,Kidney_Testes
-XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.210226895,5.0804E-09,3,0.047027417,significant,229,0.10309067,nonsignificant,Kidney_Testes
-XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.210226895,5.0804E-09,3,0.047027417,significant,230,0.102642449,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,46,K,K46,255,Dimethyl,Yes,Trypsin only,0.059965996,0.000570661,3,0.047159425,significant,231,0.102484984,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,73,Y,Y73,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.270434505,0.790571451,2,0.047392554,significant,232,0.102547681,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,2.925744518,0.641344993,2,0.048816727,significant,233,0.105175953,nonsignificant,Kidney_Testes
-XP_019209843.1,H1-like,13,K,K13,255,Dimethyl,Yes,Ambic and Napho,0.373553512,0.000900564,3,0.050303077,nonsignificant,234,0.107915148,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,1.317615645,0.319676316,2,0.051429272,nonsignificant,235,0.109861679,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.914942945,0.633459234,2,0.051630382,nonsignificant,236,0.109823948,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,84,R,R84,36,Dimethyl,Yes,Ambic and Napho,-0.204168722,0.614763472,2,0.051911258,nonsignificant,237,0.109955491,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,70,R,R70,7,Deamidated,Yes,Ambic and Napho,0.4939769,0.257518913,2,0.053887406,nonsignificant,238,0.113661671,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-1.237669568,0.384455491,2,0.056018502,nonsignificant,239,0.117662292,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,-0.900482683,0.183084915,2,0.05766475,nonsignificant,240,0.120615436,nonsignificant,Kidney_Testes
-XP_019209845.1,H1-like,1,S,S1,1,Acetyl,Yes,Ambic only,-0.492875675,0.001503719,3,0.058538301,nonsignificant,241,0.121934553,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.151719692,0.376257907,2,0.059605932,nonsignificant,242,0.123645362,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.357776757,0.87498158,2,0.06171883,nonsignificant,243,0.127501452,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,97,R,R97,35,Oxidation,Yes,Ambic and Napho,0.140340468,0.541360879,2,0.062008007,nonsignificant,244,0.127573851,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,114,K,K114,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.106630528,7.85904E-06,3,0.064431573,nonsignificant,245,0.132018978,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,-4.073358259,0.045054932,3,0.066108552,nonsignificant,246,0.134904443,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,2.086055944,0.000499755,3,0.068203622,nonsignificant,247,0.138616268,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,-0.585151523,0.000517133,3,0.068508097,nonsignificant,248,0.138673647,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,94,T,T94,1,Acetyl,Yes,Ambic and Napho,-0.415617356,6.61608E-05,3,0.06868043,nonsignificant,249,0.13846416,nonsignificant,Kidney_Testes
-XP_003448795.2,H1.10,119,K,K119,1,Acetyl,Yes,Trypsin only,0,1.43135E-14,3,0.07174237,nonsignificant,250,0.14405868,nonsignificant,Kidney_Testes
-XP_019209845.1,H1-like,17,K,K17,425,Dioxidation,Yes,Ambic only,1.119340725,0.001732718,3,0.07292569,nonsignificant,251,0.145851381,nonsignificant,Kidney_Testes
-XP_019209843.1,H1-like,16,K,K16,255,Dimethyl,Yes,Ambic and Napho,-1.14608519,0.277795289,2,0.073067958,nonsignificant,252,0.145556011,nonsignificant,Kidney_Testes
-XP_003446112.1,protamine-like protein,1,S,S1,1,Acetyl,Yes,Ambic only,0,0.294857448,2,0.07368185,nonsignificant,253,0.14619877,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,74,N,N74,213,ADP-Ribosyl,Yes,Napho only,-0.082723334,1.30685E-11,3,0.074147796,nonsignificant,254,0.146544069,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,69,R,R69,34,Methyl,Yes,Ambic and Napho,0.568719411,0.059784868,2,0.075317546,nonsignificant,255,0.148272189,nonsignificant,Kidney_Testes
-XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,0.310878397,0.209710444,2,0.076102079,nonsignificant,256,0.149231421,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,77,S,S77,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.091404841,0.001641908,3,0.078309458,nonsignificant,257,0.152962444,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,56,T,T56,21 + 23,Phospho / Dehydrated,Yes,"Ambic, Napho, and Trypsin",0.731946295,9.68024E-07,3,0.07919601,nonsignificant,258,0.154094562,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.027860537,0.456912052,2,0.081221342,nonsignificant,259,0.15742515,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,0,1.74306E-14,3,0.08188443,nonsignificant,260,0.158099938,nonsignificant,Kidney_Testes
-XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,-0.046195932,9.25887E-07,3,0.082241527,nonsignificant,261,0.158181022,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,74,N,N74,35,Oxidation,Yes,Ambic only,0.527266547,0.008792949,3,0.085832775,nonsignificant,262,0.164458218,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.188152971,0.007298438,3,0.087841072,nonsignificant,263,0.167666228,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,98,K,K98,1,Acetyl,Yes,Napho only,0.014756473,0.009663301,3,0.087848199,nonsignificant,264,0.167044682,nonsignificant,Kidney_Testes
-XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.130104555,0.013061302,3,0.088065015,nonsignificant,265,0.166825047,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,0.748454644,0.341605149,2,0.08961698,nonsignificant,266,0.169126782,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.32618482,0.25106042,2,0.090279802,nonsignificant,267,0.169739552,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,7,K,K7,35,Oxidation,Yes,Napho only,0,0.034977313,3,0.0922915,nonsignificant,268,0.172874376,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,43,R,R43,7,Deamidated,Yes,Ambic and Napho,-0.155483224,1.05656E-05,3,0.093249251,nonsignificant,269,0.174019047,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,52,K,K52,121,GlyGly,Other,Ambic and Napho,-0.173268281,1.77959E-18,3,0.094679189,nonsignificant,270,0.176033158,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-0.773712041,0.178830913,2,0.098651518,nonsignificant,271,0.182741926,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,-1.207951982,0.404604764,2,0.099170289,nonsignificant,272,0.183027519,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,89,R,R89,7,Deamidated,Yes,Ambic and Napho,0.742239452,0.231261081,2,0.099446148,nonsignificant,273,0.182864345,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.082309579,0.000674628,3,0.101712199,nonsignificant,274,0.186348627,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.303401503,0.639865166,2,0.102120018,nonsignificant,275,0.186415451,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,75,K,K75,255,Dimethyl,Yes,Ambic and Napho,-0.402044987,0.580198429,2,0.104826152,nonsignificant,276,0.190662059,nonsignificant,Kidney_Testes
-XP_019219600.2,H2B 1/2 isoform X1,101,P,P101,35,Oxidation,Yes,Ambic only,-0.255861407,5.40607E-18,3,0.105151351,nonsignificant,277,0.190563099,nonsignificant,Kidney_Testes
-XP_019209843.1,H1-like,16,K,K16,378,Lactyl / Carboxyethyl,Yes,Ambic only,0.388336482,6.01928E-05,3,0.105994927,nonsignificant,278,0.191400911,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,11,P,P11,425,Dioxidation,Yes,Napho only,0.625097025,0.028628707,3,0.107560341,nonsignificant,279,0.19353151,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.414248979,0.368237937,2,0.108666053,nonsignificant,280,0.19482271,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.338834055,0.039171189,3,0.113106055,nonsignificant,281,0.202061351,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,0.619078897,0.871702975,2,0.117285793,nonsignificant,282,0.208785348,nonsignificant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,13,K,K13,121,GlyGly,Other,Ambic only,-0.092718717,0.013725668,3,0.121127577,nonsignificant,283,0.214862344,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,44,K,K44,425,Dioxidation,Yes,Napho only,0.717916335,2.95799E-05,3,0.124497311,nonsignificant,284,0.220062148,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,47,S,S47,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.717916335,2.95799E-05,3,0.124497311,nonsignificant,285,0.21929,nonsignificant,Kidney_Testes
-XP_019209842.1,H1-like,55,K,K55,121,GlyGly,Other,Trypsin only,0,0.000203031,3,0.125010805,nonsignificant,286,0.21942456,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,53,K,K53,121,GlyGly,Other,Ambic and Napho,-0.148626905,3.42363E-08,3,0.130101851,nonsignificant,287,0.22756491,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.541675271,0.974085504,2,0.132553938,nonsignificant,288,0.231048877,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,53,K,K53,53,4-hydroxynonenal,Yes,Ambic only,-1.301627362,0.002105276,3,0.137687795,nonsignificant,289,0.239167035,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.14603253,4.21036E-10,3,0.138735782,nonsignificant,290,0.240156422,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,-0.578646698,0.702939926,2,0.147699417,nonsignificant,291,0.254794183,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,53,K,K53,255,Dimethyl,Yes,Ambic only,-0.324136218,0.984932696,2,0.149251995,nonsignificant,292,0.256590758,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.165474953,3.91652E-11,3,0.149508457,nonsignificant,293,0.256154421,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,0.206309025,7.74771E-21,3,0.154030797,nonsignificant,294,0.263004966,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,-0.074387264,0.322593825,2,0.156871035,nonsignificant,295,0.266946643,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,-0.388695462,0.31296541,2,0.159029675,nonsignificant,296,0.269705732,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,89,R,R89,36,Dimethyl,Yes,Ambic and Napho,-0.204144526,0.827022334,2,0.1640114,nonsignificant,297,0.277217921,nonsignificant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,19,T,T19,121,GlyGly,Other,Ambic only,-1.80346765,0.793271196,2,0.165400327,nonsignificant,298,0.278627397,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,82,N,N82,35,Oxidation,Yes,Ambic only,-0.780404434,0.788375202,2,0.168090578,nonsignificant,299,0.282212275,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,0.031409561,0.395800215,2,0.168105379,nonsignificant,300,0.281296334,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,86,T,T86,1,Acetyl,Yes,Ambic and Napho,-0.258704983,0.136855187,2,0.169694044,nonsignificant,301,0.283011329,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,53,K,K53,1,Acetyl,Yes,Ambic and Napho,-0.128099636,0.004875132,3,0.17150522,nonsignificant,302,0.285084835,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,77,R,R77,36,Dimethyl,Yes,Ambic only,0.110718863,4.72701E-05,3,0.173427703,nonsignificant,303,0.287329065,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,-0.433957629,0.343545247,2,0.174033299,nonsignificant,304,0.287383935,nonsignificant,Kidney_Testes
-XP_005461836.1,H1-like,70,K,K70,34,Methyl,Yes,Napho only,-0.038548148,5.97726E-07,3,0.175417104,nonsignificant,305,0.288719299,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,93,P,P93,425,Dioxidation,Yes,Napho only,-0.469904099,0.657909026,2,0.179809573,nonsignificant,306,0.294981717,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,52,K,K52,53,4-hydroxynonenal,Yes,Ambic only,-0.272391377,0.272528096,2,0.186202873,nonsignificant,307,0.304475056,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,50,S,S50,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.83373381,0.403440771,2,0.192209048,nonsignificant,308,0.313275786,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.101807624,0.020011,3,0.193972694,nonsignificant,309,0.315127159,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,54,S,S54,1,Acetyl,Yes,Trypsin only,0.228921179,0.156402309,2,0.196328633,nonsignificant,310,0.317925722,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,0.078401458,0.926612451,2,0.196762304,nonsignificant,311,0.317603462,nonsignificant,Kidney_Testes
-XP_003448795.2,H1.10,76,P,P76,35,Oxidation,Yes,Ambic only,-0.227758922,0.114761334,2,0.197851748,nonsignificant,312,0.318338389,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.395882162,0.517774946,2,0.197949843,nonsignificant,313,0.317478662,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,-0.494832176,0.013101517,3,0.198562107,nonsignificant,314,0.317446425,nonsignificant,Kidney_Testes
-XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.35357791,0.844015145,2,0.200428981,nonsignificant,315,0.319413805,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,0.811407146,0.405802672,2,0.203000184,nonsignificant,316,0.322487634,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,0.203550992,4.79928E-06,3,0.20462793,nonsignificant,317,0.324048015,nonsignificant,Kidney_Testes
-XP_003448795.2,H1.10,141,S,S141,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.432415762,0.000519104,3,0.215650148,nonsignificant,318,0.340428849,nonsignificant,Kidney_Testes
-XP_019219600.2,H2B 1/2 isoform X1,94,T,T94,1,Acetyl,Yes,Napho only,-0.847349178,0.25276774,2,0.217098392,nonsignificant,319,0.341640729,nonsignificant,Kidney_Testes
-XP_019219600.2,H2B 1/2 isoform X1,97,R,R97,36,Dimethyl,Yes,Napho only,-0.847349178,0.25276774,2,0.217098392,nonsignificant,320,0.340573102,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-0.619262287,0.727930099,2,0.218329941,nonsignificant,321,0.341438101,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,0.684406632,0.390782002,2,0.218983925,nonsignificant,322,0.3413973,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,21,K,K21,255,Dimethyl,Yes,Napho only,0.412571104,0.36118469,2,0.219974182,nonsignificant,323,0.34187938,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,52,K,K52,35,Oxidation,Yes,Ambic and Napho,-0.06195957,0.000591733,3,0.220914664,nonsignificant,324,0.342281363,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.091564224,1.41877E-06,3,0.222680532,nonsignificant,325,0.343955775,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,50,S,S50,1,Acetyl,Yes,Trypsin only,-0.66027514,0.429871184,2,0.224757058,nonsignificant,326,0.346098292,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,52,K,K52,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.023475785,0.375374442,2,0.22602233,nonsignificant,327,0.346982293,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,0.166720025,0.105456777,2,0.228933746,nonsignificant,328,0.350380306,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,93,P,P93,35,Oxidation,Yes,Napho only,1.365581392,0.353346837,2,0.230756514,nonsignificant,329,0.352096565,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,1.360493808,0.22863822,2,0.23601754,nonsignificant,330,0.359032743,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,77,R,R77,34,Methyl,Yes,Napho only,-0.761437221,0.875736147,2,0.242765329,nonsignificant,331,0.368181859,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,106,K,K106,35,Oxidation,Yes,Ambic only,0.119701985,4.29887E-06,3,0.243726549,nonsignificant,332,0.368526287,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,-0.248047661,0.001247054,3,0.252346971,nonsignificant,333,0.380414953,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,0.06702275,0.056460329,2,0.254001954,nonsignificant,334,0.381763416,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.338771793,0.009051884,3,0.262663041,nonsignificant,335,0.393602527,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,1.518033379,0.002923395,3,0.26886282,nonsignificant,336,0.401693856,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,0.27614365,0.112406859,2,0.268870883,nonsignificant,337,0.400513896,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,0.27614365,0.112406859,2,0.268870883,nonsignificant,338,0.399328944,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,-0.224257194,0.005346659,3,0.272673481,nonsignificant,339,0.403781969,nonsignificant,Kidney_Testes
-XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,0.497207341,2,0.272763732,nonsignificant,340,0.402727628,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.491445811,0.439373365,2,0.281597169,nonsignificant,341,0.414550672,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,0.447114589,0.02912141,3,0.28607038,nonsignificant,342,0.419904476,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-1.176227944,0.355204857,2,0.290334406,nonsignificant,343,0.424920909,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,106,K,K106,425,Dioxidation,Yes,Ambic and Napho,0.114814575,0.035052247,3,0.291804876,nonsignificant,344,0.425831534,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,0.185892465,0.015158871,3,0.292728637,nonsignificant,345,0.425941379,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,0.886848853,1.1115E-05,3,0.295255112,nonsignificant,346,0.428375913,nonsignificant,Kidney_Testes
-XP_003448795.2,H1.10,145,R,R145,7,Deamidated,Yes,Trypsin only,-0.894688748,0.022634882,3,0.303903174,nonsignificant,347,0.439652431,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,60,Y,Y60,35,Oxidation,Yes,Ambic only,-0.835328175,0.088338952,2,0.306531762,nonsignificant,348,0.442180875,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-0.091197023,0.060693077,2,0.307762735,nonsignificant,349,0.442684507,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,60,Y,Y60,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.285620788,0.535092607,2,0.310358262,nonsignificant,350,0.445142422,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.080866658,0.431252767,2,0.319371436,nonsignificant,351,0.456764846,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,47,R,R47,34,Methyl,Yes,Trypsin only,0.032086526,0.00246805,3,0.328207672,nonsignificant,352,0.468068895,nonsignificant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,1,S,S1,1,Acetyl,Yes,Ambic only,-0.199851446,0.07889244,2,0.329322125,nonsignificant,353,0.468327781,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,85,S,S85,121,GlyGly,Other,Ambic only,-1.316951945,0.612748611,2,0.334978565,nonsignificant,354,0.475026101,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,83,K,K83,34,Methyl,Yes,Ambic and Napho,-0.705728128,0.693567776,2,0.337510164,nonsignificant,355,0.477267894,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,3.06373097,0.016606987,3,0.339089382,nonsignificant,356,0.478154129,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,-0.05163565,1.09913E-25,3,0.34003626,nonsignificant,357,0.478146225,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,-0.05163565,1.09913E-25,3,0.34003626,nonsignificant,358,0.476810621,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,0.086546019,0.054592675,2,0.343568272,nonsignificant,359,0.480421372,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,-0.143459188,0.380721517,2,0.346286569,nonsignificant,360,0.482877382,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,0.314767347,0.756498275,2,0.349272433,nonsignificant,361,0.485691859,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.131951222,1.57427E-08,3,0.351325161,nonsignificant,362,0.48719677,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,-0.131951222,1.57427E-08,3,0.351325161,nonsignificant,363,0.48585463,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,0.173947411,0.001022452,3,0.358218791,nonsignificant,364,0.494027014,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.046251666,4.73588E-06,3,0.365309711,nonsignificant,365,0.502425959,nonsignificant,Kidney_Testes
-XP_019209845.1,H1-like,47,S,S47,21 + 23,Phospho / Dehydrated,Yes,Napho only,0,1.90466E-05,3,0.373974892,nonsignificant,366,0.512938239,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,0.049686452,2.14154E-20,3,0.375297982,nonsignificant,367,0.513350373,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,106,K,K106,255,Dimethyl,Yes,Ambic and Napho,0.459546831,0.508939968,2,0.385359206,nonsignificant,368,0.525680221,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,-0.059965774,0.027787835,3,0.400105017,nonsignificant,369,0.54431631,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.075491354,0.422954585,2,0.408063158,nonsignificant,370,0.553642446,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,117,T,T117,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.222939337,0.597668854,2,0.415397361,nonsignificant,371,0.562074057,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,-1.536676809,0.002398614,3,0.415511061,nonsignificant,372,0.56071654,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,0.134229166,0.012179991,3,0.417164819,nonsignificant,373,0.561438979,nonsignificant,Kidney_Testes
-XP_003438501.2,H1.0-B,81,T,T81,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.015268211,0.001348555,3,0.417174964,nonsignificant,374,0.559951423,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-0.12918184,0.002912718,3,0.417180125,nonsignificant,375,0.558465127,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,94,T,T94,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.055871126,0.036258175,3,0.419947542,nonsignificant,376,0.560674644,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,-0.326288917,0.29772408,2,0.421395618,nonsignificant,377,0.561115651,nonsignificant,Kidney_Testes
-XP_005461836.1,H1-like,66,P,P66,425,Dioxidation,Yes,Napho only,0.015768113,3.2304E-08,3,0.421721981,nonsignificant,378,0.560064641,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,-0.137906765,0.385925898,2,0.422392953,nonsignificant,379,0.559475626,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,83,K,K83,121,GlyGly,Other,Ambic only,-0.77918405,0.000659263,3,0.426217038,nonsignificant,380,0.56305514,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,75,T,T75,1,Acetyl,Yes,Ambic and Napho,-0.157098705,0.147245031,2,0.4264861,nonsignificant,381,0.561931817,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,22,K,K22,34,Methyl,Yes,Trypsin only,0.674690788,0.000444701,3,0.426602612,nonsignificant,382,0.560613903,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,69,R,R69,34,Methyl,Yes,Ambic and Napho,0.003897109,4.98771E-08,3,0.43142588,nonsignificant,383,0.565472041,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,-0.09922863,0.765819477,2,0.431822971,nonsignificant,384,0.564518571,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,70,R,R70,35,Oxidation,Yes,Ambic and Napho,-0.10569329,0.819030993,2,0.43433385,nonsignificant,385,0.566326214,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,-1.384903473,0.623344714,2,0.439556203,nonsignificant,386,0.571650813,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,0.200659217,0.010438478,3,0.441533778,nonsignificant,387,0.572738905,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,0.018537772,0.627659395,2,0.454375283,nonsignificant,388,0.587877299,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,83,K,K83,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.662003795,0.033111134,3,0.46043019,nonsignificant,389,0.594179834,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,75,K,K75,425,Dioxidation,Yes,Ambic and Napho,0.245602578,0.059555114,2,0.462165435,nonsignificant,390,0.594889867,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,0.127674456,0.210449907,2,0.462989874,nonsignificant,391,0.594426897,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,-0.075947349,0.968507769,2,0.47090303,nonsignificant,392,0.603044186,nonsignificant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,5,P,P5,425,Dioxidation,Yes,Napho only,-0.013863417,0.000428083,3,0.473972909,nonsignificant,393,0.605431044,nonsignificant,Kidney_Testes
-XP_019218826.1,H1-like,16,K,K16,425,Dioxidation,Yes,Ambic and Napho,0.460952464,0.000351063,3,0.47752431,nonsignificant,394,0.608419298,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,119,Y,Y119,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.226489454,0.765382922,2,0.489897039,nonsignificant,395,0.622603326,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.106439758,0.000666344,3,0.491946083,nonsignificant,396,0.62362862,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,76,R,R76,34,Methyl,Yes,Ambic only,-0.522182382,0.641481179,2,0.492807325,nonsignificant,397,0.623146794,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,68,R,R68,7,Deamidated,Yes,Napho only,0.022651708,0.816227153,2,0.503827891,nonsignificant,398,0.635481411,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,64,K,K64,1,Acetyl,Yes,Napho only,0.052197023,1.41248E-05,3,0.511190405,nonsignificant,399,0.643151838,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.068390661,0.18336582,2,0.518437107,nonsignificant,400,0.65063857,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,61,D,D61,35,Oxidation,Yes,Ambic only,0.776140505,0.050053999,2,0.530959276,nonsignificant,401,0.664692161,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,0.944439203,0.115421774,2,0.53101077,nonsignificant,402,0.663103001,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,75,S,S75,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.306366952,0.040243173,3,0.534710433,nonsignificant,403,0.666066098,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,-1.172046662,0.05494107,2,0.539701791,nonsignificant,404,0.670619552,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,61,K,K61,121,GlyGly,Other,"Ambic, Napho, and Trypsin",0.08551835,0.261548286,2,0.549594686,nonsignificant,405,0.681226006,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,0.047478165,0.682119826,2,0.552027279,nonsignificant,406,0.682555896,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,0.139730668,0.473675976,2,0.565506704,nonsignificant,407,0.697504583,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,73,Y,Y73,35,Oxidation,Yes,Ambic only,-0.545321756,0.815019179,2,0.568027522,nonsignificant,408,0.698896608,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,97,R,R97,425,Dioxidation,Yes,Ambic and Napho,0.360717835,0.003729812,3,0.572239639,nonsignificant,409,0.702357698,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,69,R,R69,35,Oxidation,Yes,Ambic and Napho,0.242963235,0.855202121,2,0.578602829,nonsignificant,410,0.708435659,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,76,R,R76,7,Deamidated,Yes,Ambic and Napho,0.050085719,0.04836003,3,0.578811808,nonsignificant,411,0.706967221,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.868520147,9.75064E-05,3,0.578998545,nonsignificant,412,0.70547881,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,43,R,R43,34,Methyl,Yes,Ambic and Napho,1.161261663,0.000744422,3,0.582956936,nonsignificant,413,0.708582039,nonsignificant,Kidney_Testes
-XP_019218826.1,H1-like,13,K,K13,35,Oxidation,Yes,Ambic only,-0.569443141,0.912724363,2,0.585051613,nonsignificant,414,0.709410411,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.054631891,0.191206562,2,0.588602845,nonsignificant,415,0.711996694,nonsignificant,Kidney_Testes
-XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.301971291,0.096978491,2,0.596944755,nonsignificant,416,0.720351604,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,0.221198168,0.345304755,2,0.60510027,nonsignificant,417,0.728442052,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.120744458,0.001706662,3,0.614639461,nonsignificant,418,0.738155525,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,83,K,K83,35,Oxidation,Yes,Ambic and Napho,0.033682358,0.787432183,2,0.615883645,nonsignificant,419,0.737884463,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,114,K,K114,1,Acetyl,Yes,Ambic and Napho,0.132178686,0.763100769,2,0.617695323,nonsignificant,420,0.738292981,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,101,P,P101,425,Dioxidation,Yes,Ambic and Napho,0.263075439,0.039281562,3,0.623560621,nonsignificant,421,0.743533092,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,81,Y,Y81,425,Dioxidation,Yes,Ambic only,-0.314296857,0.287635668,2,0.623593854,nonsignificant,422,0.741810699,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,0.502525332,0.284820863,2,0.627054808,nonsignificant,423,0.744164335,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,114,K,K114,255,Dimethyl,Yes,Napho only,-0.040704626,2.91853E-18,3,0.629899876,nonsignificant,424,0.745777683,nonsignificant,Kidney_Testes
-XP_019218826.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic and Napho,-0.058726601,0.268859505,2,0.634542307,nonsignificant,425,0.749506443,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,110,S,S110,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.04105463,0.103693777,2,0.65175596,nonsignificant,426,0.768031672,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,-0.099555899,0.751968987,2,0.654416961,nonsignificant,427,0.769361392,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,73,Y,Y73,425,Dioxidation,Yes,Ambic only,-0.008207446,0.866060996,2,0.658070539,nonsignificant,428,0.77184909,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,118,K,K118,1,Acetyl,Yes,Napho only,0.001842662,0.394152025,2,0.66206235,nonsignificant,429,0.774720978,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,0.82304287,0.000265281,3,0.665186898,nonsignificant,430,0.77656703,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,52,K,K52,255,Dimethyl,Yes,Ambic only,1.041613774,0.009003296,3,0.667815264,nonsignificant,431,0.777826595,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,94,T,T94,121,GlyGly,Other,Ambic and Napho,0.838507904,0.472630984,2,0.669277231,nonsignificant,432,0.777724931,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,0.361269988,0.008882668,3,0.67012532,nonsignificant,433,0.776912034,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,-0.098285625,0.485598162,2,0.671345549,nonsignificant,434,0.776533331,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,57,R,R57,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.635276061,3.40279E-07,3,0.674858719,nonsignificant,435,0.778802475,nonsignificant,Kidney_Testes
-XP_005461836.1,H1-like,74,T,T74,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.00249271,4.56732E-08,3,0.680709022,nonsignificant,436,0.78375213,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.490784836,0.226865907,2,0.681217522,nonsignificant,437,0.782542783,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,-0.14968146,0.37952497,2,0.687740264,nonsignificant,438,0.788231992,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,0.299017452,0.44237504,2,0.696419403,nonsignificant,439,0.79636114,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.059203484,0.417345556,2,0.698457569,nonsignificant,440,0.79687659,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,57,R,R57,35,Oxidation,Yes,"Ambic, Napho, and Trypsin",1.851971589,0.000399636,3,0.700157898,nonsignificant,441,0.797005135,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,61,K,K61,34,Methyl,Yes,Napho only,-0.014133119,0.201665788,2,0.707568042,nonsignificant,442,0.803618002,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.192246572,0.352107984,2,0.712155761,nonsignificant,443,0.807002691,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,0.025203016,0.387584979,2,0.712704296,nonsignificant,444,0.805805308,nonsignificant,Kidney_Testes
-XP_019218826.1,H1-like,17,K,K17,425,Dioxidation,Yes,Ambic and Napho,-0.112098339,0.206586476,2,0.717362427,nonsignificant,445,0.8092493,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,1.686635262,0.081116585,2,0.718528458,nonsignificant,446,0.808747278,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.923930949,0.068774806,2,0.732083019,nonsignificant,447,0.822160348,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,0.923930949,0.068774806,2,0.732083019,nonsignificant,448,0.820325169,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,69,R,R69,7,Deamidated,Yes,Ambic and Napho,0.132768783,4.10266E-06,3,0.732233151,nonsignificant,449,0.818666018,nonsignificant,Kidney_Testes
-XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,-0.029529249,0.60054587,2,0.733414069,nonsignificant,450,0.81816414,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,0.32632664,0.034541121,3,0.7415814,nonsignificant,451,0.825440938,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,13,K,K13,35,Oxidation,Yes,Ambic only,-1.662320254,0.011600065,3,0.743407068,nonsignificant,452,0.825642363,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,21,K,K21,37,Trimethyl,Yes,Ambic only,-1.662320254,0.011600065,3,0.743407068,nonsignificant,453,0.823819753,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,-0.070678386,0.989573377,2,0.746484439,nonsignificant,454,0.825407904,nonsignificant,Kidney_Testes
-XP_019209843.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic only,-0.464613435,0.00010814,3,0.749029711,nonsignificant,455,0.82640201,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,44,K,K44,1,Acetyl,Yes,Ambic and Napho,0.296418033,0.00559015,3,0.756670884,nonsignificant,456,0.833001719,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.145473061,0.601645702,2,0.758478839,nonsignificant,457,0.833164939,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,69,R,R69,35,Oxidation,Yes,Ambic only,-1.079833147,0.037960533,3,0.759377621,nonsignificant,458,0.83233093,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,56,T,T56,1,Acetyl,Yes,Ambic and Napho,-0.080807259,0.433468251,2,0.759771631,nonsignificant,459,0.830948495,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,0.00574595,0.038818455,3,0.760586341,nonsignificant,460,0.830031181,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.086512848,0.872618124,2,0.762196356,nonsignificant,461,0.829983884,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,0.10043961,0.883204357,2,0.772009779,nonsignificant,462,0.838850452,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,-0.880571551,0.185742168,2,0.773250652,nonsignificant,463,0.838384076,nonsignificant,Kidney_Testes
-XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,-0.020619317,0.23855458,2,0.773589653,nonsignificant,464,0.836943978,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,74,Y,Y74,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.041534912,0.556973612,2,0.77465008,nonsignificant,465,0.836288904,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,-0.456211889,0.647658276,2,0.775527952,nonsignificant,466,0.835439983,nonsignificant,Kidney_Testes
-XP_019209843.1,H1-like,13,K,K13,34,Methyl,Yes,Napho only,0.009400241,0.004078268,3,0.776449917,nonsignificant,467,0.834642095,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,-0.098324619,0.415015961,2,0.787397824,nonsignificant,468,0.844601939,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-0.339585423,0.888727663,2,0.793652312,nonsignificant,469,0.849495651,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,114,K,K114,35,Oxidation,Yes,Ambic and Napho,-0.127391928,3.68981E-05,3,0.803491052,nonsignificant,470,0.858196826,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,52,K,K52,1,Acetyl,Yes,Ambic and Napho,0.089323631,0.037085306,3,0.817401625,nonsignificant,471,0.871200883,nonsignificant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,11,P,P11,35,Oxidation,Yes,Ambic only,-0.194188131,0.064443751,2,0.825338747,nonsignificant,472,0.877796719,nonsignificant,Kidney_Testes
-XP_019210164.1,H1 isoform X1,13,K,K13,255,Dimethyl,Yes,Ambic only,-0.194188131,0.064443751,2,0.825338747,nonsignificant,473,0.875940912,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.018534107,0.003564602,3,0.826074034,nonsignificant,474,0.874871656,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.286608078,0.00020022,3,0.8309964,nonsignificant,475,0.878231984,nonsignificant,Kidney_Testes
-XP_003448795.2,H1.10,113,K,K113,1,Acetyl,Yes,Ambic and Napho,0.02281546,0.017427501,3,0.832327729,nonsignificant,476,0.877791008,nonsignificant,Kidney_Testes
-XP_019209845.1,H1-like,19,K,K19,121,GlyGly,Other,Ambic only,-0.810342793,0.403993796,2,0.832714652,nonsignificant,477,0.876357977,nonsignificant,Kidney_Testes
-XP_019209843.1,H1-like,16,K,K16,53,4-hydroxynonenal,Yes,Ambic only,-0.982118746,0.022471956,3,0.834817677,nonsignificant,478,0.876733209,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.013730407,0.10022743,2,0.836211242,nonsignificant,479,0.876363348,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,49,S,S49,1,Acetyl,Yes,Trypsin only,0.510265564,0.145239141,2,0.840863686,nonsignificant,480,0.879403272,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.035527795,0.549187531,2,0.84245375,nonsignificant,481,0.879234475,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,53,K,K53,425,Dioxidation,Yes,Napho only,0.551433312,3.43654E-07,3,0.843852274,nonsignificant,482,0.878866891,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,1.052322031,0.127384159,2,0.847993321,nonsignificant,483,0.881351237,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,82,R,R82,34,Methyl,Yes,Ambic only,-0.604512737,0.065047774,2,0.883912589,nonsignificant,484,0.916785371,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,56,T,T56,121,GlyGly,Other,Ambic only,1.090146023,0.359167933,2,0.884673098,nonsignificant,485,0.915682259,nonsignificant,Kidney_Testes
-XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,-0.002800218,0.473214476,2,0.890930339,nonsignificant,486,0.920261379,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,86,T,T86,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.14838954,0.040228317,3,0.901162884,nonsignificant,487,0.928919441,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,1,A,A1,122,Formyl,Yes,Ambic only,0.750895619,0.016856574,3,0.919157732,nonsignificant,488,0.945527011,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,0.063137325,0.186993197,2,0.936379902,nonsignificant,489,0.961273437,nonsignificant,Kidney_Testes
-XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,0.040887326,0.004071915,3,0.946871813,nonsignificant,490,0.970060511,nonsignificant,Kidney_Testes
-XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,-0.247580423,0.036330293,3,0.949977763,nonsignificant,491,0.971260361,nonsignificant,Kidney_Testes
-XP_003438147.1,H2B.L4,75,K,K75,34,Methyl,Yes,Ambic and Napho,0.17365126,5.56293E-05,3,0.958632535,nonsignificant,492,0.978116936,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,53,K,K53,35,Oxidation,Yes,Ambic only,0.131434419,0.554701726,2,0.961795138,nonsignificant,493,0.979353264,nonsignificant,Kidney_Testes
-XP_003459589.1,H1-like,44,K,K44,209,Acrolein112,Other,Trypsin only,-0.029783969,0.712148637,2,0.964866884,nonsignificant,494,0.980492258,nonsignificant,Kidney_Testes
-XP_025766521.1,H4-like,73,T,T73,1,Acetyl,Yes,Ambic and Napho,-0.019717055,0.001685072,3,0.979898828,nonsignificant,495,0.993755983,nonsignificant,Kidney_Testes
-XP_019219600.2,H2B 1/2 isoform X1,101,P,P101,425,Dioxidation,Yes,Ambic and Napho,0.16779296,5.64507E-08,3,0.980161724,nonsignificant,496,0.992018519,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,85,S,S85,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.042661703,0.317778724,2,0.982083826,nonsignificant,497,0.991963945,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.859153646,0.104129658,2,0.985816001,nonsignificant,498,0.993734202,nonsignificant,Kidney_Testes
-XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,0.38042874,0.003166951,3,0.985874401,nonsignificant,499,0.991801501,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,0.264416365,0.102141931,2,0.987609086,nonsignificant,500,0.991559522,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,118,K,K118,34,Methyl,Yes,Ambic only,0.02893907,0.029923848,3,0.993840546,nonsignificant,501,0.99582426,nonsignificant,Kidney_Testes
-XP_003451196.1,H2B 1/2,119,Y,Y119,425,Dioxidation,Yes,Ambic only,0.02893907,0.029923848,3,0.993840546,nonsignificant,502,0.993840546,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,52,K,K52,425,Dioxidation,Yes,Napho only,7.694834817,0.007788144,3,5.95403E-23,significant,1,2.98892E-20,significant,Kidney_Testes
+XP_025766521.1,H4-like,61,K,K61,1,Acetyl,Yes,Ambic and Napho,-1.630682394,0.014863748,3,7.25073E-21,significant,2,1.81993E-18,significant,Kidney_Testes
+XP_025766521.1,H4-like,61,K,K61,425,Dioxidation,Yes,Napho only,-2.623174737,0.856295671,2,1.89356E-17,significant,3,3.16856E-15,significant,Kidney_Testes
+XP_025766521.1,H4-like,57,R,R57,425,Dioxidation,Yes,Ambic and Napho,-2.147917925,0.000111436,3,2.21831E-17,significant,4,2.78398E-15,significant,Kidney_Testes
+XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.757647627,0.946857761,2,2.83461E-16,significant,5,2.84595E-14,significant,Kidney_Testes
+XP_025766521.1,H4-like,74,Y,Y74,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.150140386,0.928731071,2,1.2373E-15,significant,6,1.03521E-13,significant,Kidney_Testes
+XP_019209842.1,H1-like,38,K,K38,121,GlyGly,Other,Ambic only,3.551298617,0.745720961,2,4.97952E-15,significant,7,3.57103E-13,significant,Kidney_Testes
+XP_019218826.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic and Napho,1.45718619,0.005743634,3,5.29001E-15,significant,8,3.31948E-13,significant,Kidney_Testes
+XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,2.519326414,0.444710943,2,6.92957E-15,significant,9,3.86516E-13,significant,Kidney_Testes
+XP_025766521.1,H4-like,74,Y,Y74,35,Oxidation,Yes,Ambic only,-1.174623582,0.112073017,2,1.36037E-14,significant,10,6.82907E-13,significant,Kidney_Testes
+XP_025766521.1,H4-like,56,T,T56,21 + 23,Phospho / Dehydrated,Yes,"Ambic, Napho, and Trypsin",0.830407125,0.990113688,2,1.38793E-14,significant,11,6.334E-13,significant,Kidney_Testes
+XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.34648648,0.188504984,2,1.66196E-14,significant,12,6.95253E-13,significant,Kidney_Testes
+XP_025766521.1,H4-like,74,Y,Y74,425,Dioxidation,Yes,Ambic only,-1.097411829,0.183802149,2,2.34365E-14,significant,13,9.05011E-13,significant,Kidney_Testes
+XP_025766521.1,H4-like,57,R,R57,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.934916649,0.555850201,2,3.35577E-14,significant,14,1.20328E-12,significant,Kidney_Testes
+XP_019209844.1,H1-like,1,S,S1,1,Acetyl,Yes,Ambic only,0,9.4107E-08,3,6.69432E-14,significant,15,2.24036E-12,significant,Kidney_Testes
+XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,-0.921748969,0.303219644,2,9.73338E-14,significant,16,3.05385E-12,significant,Kidney_Testes
+XP_019209843.1,H1-like,18,K,K18,255,Dimethyl,Yes,Ambic only,2.10945346,0.075952155,2,1.16894E-13,significant,17,3.4518E-12,significant,Kidney_Testes
+XP_025766521.1,H4-like,81,K,K81,425,Dioxidation,Yes,Napho only,-1.90441125,0.04378325,3,2.95055E-13,significant,18,8.22877E-12,significant,Kidney_Testes
+XP_025766521.1,H4-like,80,R,R80,425,Dioxidation,Yes,Napho only,-1.915055575,0.039249099,3,3.30208E-13,significant,19,8.72445E-12,significant,Kidney_Testes
+XP_025766521.1,H4-like,84,T,T84,21 + 23,Phospho / Dehydrated,Yes,Napho only,-1.955514536,0.030191136,3,4.25946E-13,significant,20,1.06912E-11,significant,Kidney_Testes
+XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,-0.88546388,0.490791582,2,4.54676E-13,significant,21,1.08689E-11,significant,Kidney_Testes
+XP_003446112.1,protamine-like protein,25,K,K25,209,Acrolein112,Other,Trypsin only,1.867349221,0.313566779,2,1.02277E-12,significant,22,2.33378E-11,significant,Kidney_Testes
+XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,-2.573265928,0.057802419,2,1.10002E-12,significant,23,2.40092E-11,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,17,K,K17,121,GlyGly,Other,Ambic only,-3.619380439,0.267994534,2,1.16483E-12,significant,24,2.43643E-11,significant,Kidney_Testes
+XP_005463512.2,H3,86,S,S86,21 + 23,Phospho / Dehydrated,Yes,Ambic only,1.776798777,0.031919965,3,1.31939E-12,significant,25,2.64933E-11,significant,Kidney_Testes
+XP_019218826.1,H1-like,13,K,K13,378,Lactyl / Carboxyethyl,Yes,Napho only,0.186009374,2.02045E-05,3,2.90328E-12,significant,26,5.60556E-11,significant,Kidney_Testes
+XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.776587616,0.582156625,2,3.05833E-12,significant,27,5.68623E-11,significant,Kidney_Testes
+XP_003459589.1,H1-like,35,K,K35,378,Lactyl / Carboxyethyl,Yes,Napho only,3.534670796,8.93072E-07,3,6.8262E-12,significant,28,1.22384E-10,significant,Kidney_Testes
+XP_025766521.1,H4-like,79,K,K79,425,Dioxidation,Yes,Ambic and Napho,0.139992597,0.008052589,3,8.49094E-12,significant,29,1.46981E-10,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,118,K,K118,53,4-hydroxynonenal,Yes,Napho only,-3.195793077,6.0058E-10,3,2.49728E-11,significant,30,4.17877E-10,significant,Kidney_Testes
+XP_005463512.2,H3,87,S,S87,21 + 23,Phospho / Dehydrated,Yes,Ambic only,1.909277248,0.28439485,2,3.04245E-11,significant,31,4.9268E-10,significant,Kidney_Testes
+XP_025766521.1,H4-like,75,T,T75,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.126405867,0.035926352,3,3.17253E-11,significant,32,4.97691E-10,significant,Kidney_Testes
+XP_005463512.2,H3,79,K,K79,53,4-hydroxynonenal,Yes,Napho only,2.25956364,0.558132483,2,4.49534E-11,significant,33,6.83837E-10,significant,Kidney_Testes
+XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,2.25956364,0.558132483,2,4.49534E-11,significant,34,6.63724E-10,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,1,S,S1,1,Acetyl,Yes,Ambic only,-0.444410197,2.21038E-05,3,6.13756E-11,significant,35,8.80301E-10,significant,Kidney_Testes
+XP_025766521.1,H4-like,80,R,R80,35,Oxidation,Yes,Napho only,-1.533228032,0.006113544,3,6.97521E-11,significant,36,9.72655E-10,significant,Kidney_Testes
+XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,2.93298883,0.226317727,2,7.10936E-11,significant,37,9.64567E-10,significant,Kidney_Testes
+XP_025766521.1,H4-like,81,K,K81,1,Acetyl,Yes,Napho only,-1.567027935,0.018167484,3,7.49376E-11,significant,38,9.89965E-10,significant,Kidney_Testes
+XP_025766521.1,H4-like,69,R,R69,35,Oxidation,Yes,Ambic and Napho,0.266408339,2.20163E-05,3,7.86912E-11,significant,39,1.0129E-09,significant,Kidney_Testes
+XP_025766521.1,H4-like,79,K,K79,1,Acetyl,Yes,Napho only,-1.470639027,0.021673196,3,9.74909E-11,significant,40,1.22351E-09,significant,Kidney_Testes
+XP_005461836.1,H1-like,34,K,K34,255,Dimethyl,Yes,Napho only,2.160854428,0.433323337,2,1.21753E-10,significant,41,1.49074E-09,significant,Kidney_Testes
+XP_003448795.2,H1.10,76,P,P76,35,Oxidation,Yes,Ambic only,2.044636787,0.872442251,2,1.96515E-10,significant,42,2.34882E-09,significant,Kidney_Testes
+XP_019209842.1,H1-like,56,K,K56,425,Dioxidation,Yes,Napho only,-1.039028034,7.84867E-05,3,2.82121E-10,significant,43,3.2936E-09,significant,Kidney_Testes
+XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,-0.649346642,0.012702328,3,3.45721E-10,significant,44,3.94436E-09,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,5,P,P5,35,Oxidation,Yes,Ambic only,-1.049064766,0.009148011,3,3.56033E-10,significant,45,3.97174E-09,significant,Kidney_Testes
+XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,2.36650804,0.470707043,2,3.59684E-10,significant,46,3.92525E-09,significant,Kidney_Testes
+XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.190615708,0.088759758,2,4.22833E-10,significant,47,4.51622E-09,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,22,S,S22,121,GlyGly,Other,Ambic only,-1.021157755,0.003811897,3,4.71664E-10,significant,48,4.93281E-09,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.636935,0.000606642,3,7.10724E-10,significant,49,7.28129E-09,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,76,R,R76,35,Oxidation,Yes,Ambic and Napho,1.5891055,0.00045067,3,8.34155E-10,significant,50,8.37491E-09,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.020685474,0.867292302,2,1.21363E-09,significant,51,1.1946E-08,significant,Kidney_Testes
+XP_019209843.1,H1-like,16,K,K16,53,4-hydroxynonenal,Yes,Ambic only,-2.021566796,3.23608E-06,3,1.27302E-09,significant,52,1.22896E-08,significant,Kidney_Testes
+XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.265475658,0.739105622,2,1.69374E-09,significant,53,1.60426E-08,significant,Kidney_Testes
+XP_019218826.1,H1-like,5,P,P5,425,Dioxidation,Yes,Napho only,-0.185772698,4.47666E-06,3,2.25587E-09,significant,54,2.09712E-08,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,88,T,T88,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.474582508,0.24719664,2,2.27139E-09,significant,55,2.07316E-08,significant,Kidney_Testes
+XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.115255161,0.540621132,2,2.78774E-09,significant,56,2.49901E-08,significant,Kidney_Testes
+XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,0.281589039,0.097528584,2,2.90439E-09,significant,57,2.5579E-08,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,117,T,T117,121,GlyGly,Other,Ambic only,-2.054300558,0.008194189,3,3.08529E-09,significant,58,2.67037E-08,significant,Kidney_Testes
+XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,-1.738989509,0.146138721,2,3.95604E-09,significant,59,3.36598E-08,significant,Kidney_Testes
+XP_003459589.1,H1-like,7,P,P7,35,Oxidation,Yes,Napho only,0.315310493,0.783974078,2,3.95939E-09,significant,60,3.31269E-08,significant,Kidney_Testes
+XP_019209842.1,H1-like,9,P,P9,425,Dioxidation,Yes,Ambic only,0,1.15681E-06,3,4.203E-09,significant,61,3.45886E-08,significant,Kidney_Testes
+XP_019209842.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic only,0,1.15681E-06,3,4.203E-09,significant,62,3.40308E-08,significant,Kidney_Testes
+XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,-0.679155593,0.000208467,3,5.42782E-09,significant,63,4.32502E-08,significant,Kidney_Testes
+XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,-1.717796234,0.162486452,2,5.47267E-09,significant,64,4.29263E-08,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,35,Oxidation,Yes,Ambic and Napho,1.166923519,0.028387842,3,6.08627E-09,significant,65,4.70047E-08,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,25,K,K25,121,GlyGly,Other,Ambic only,-1.758962673,0.147145649,2,7.10843E-09,significant,66,5.40671E-08,significant,Kidney_Testes
+XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.282955456,0.104046591,2,7.85945E-09,significant,67,5.88872E-08,significant,Kidney_Testes
+XP_025766521.1,H4-like,61,K,K61,35,Oxidation,Yes,Ambic and Napho,0.528732955,0.231507169,2,8.35653E-09,significant,68,6.16908E-08,significant,Kidney_Testes
+XP_005461836.1,H1-like,34,K,K34,378,Lactyl / Carboxyethyl,Yes,Napho only,1.550842829,0.082424599,2,1.04668E-08,significant,69,7.61494E-08,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,378,Lactyl / Carboxyethyl,Yes,Napho only,0.052978,0.541690396,2,1.28396E-08,significant,70,9.20781E-08,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,34,Methyl,Yes,Napho only,-0.88038624,0.000226565,3,1.86362E-08,significant,71,1.31766E-07,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,425,Dioxidation,Yes,Ambic and Napho,-0.695916323,0.000156223,3,1.87012E-08,significant,72,1.30389E-07,significant,Kidney_Testes
+XP_005461836.1,H1-like,67,K,K67,255,Dimethyl,Yes,Ambic only,1.220912879,0.605425103,2,2.61482E-08,significant,73,1.79814E-07,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.393226961,4.97238E-05,3,3.03143E-08,significant,74,2.05646E-07,significant,Kidney_Testes
+XP_003459589.1,H1-like,64,K,K64,1,Acetyl,Yes,Napho only,-0.79543214,0.022393028,3,3.36964E-08,significant,75,2.25541E-07,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,75,K,K75,425,Dioxidation,Yes,Ambic and Napho,1.14566867,2.06765E-05,3,3.84647E-08,significant,76,2.5407E-07,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,117,T,T117,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.090554451,0.511936572,2,4.99605E-08,significant,77,3.25716E-07,significant,Kidney_Testes
+XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,2.237245813,0.122261128,2,6.41179E-08,significant,78,4.12656E-07,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,7,K,K7,35,Oxidation,Yes,Napho only,0,0.099642846,2,6.8924E-08,significant,79,4.37973E-07,significant,Kidney_Testes
+XP_025766521.1,H4-like,57,R,R57,7,Deamidated,Yes,Ambic and Napho,-0.554851061,0.007841493,3,7.50831E-08,significant,80,4.71146E-07,significant,Kidney_Testes
+XP_005463512.2,H3,79,K,K79,378,Lactyl / Carboxyethyl,Yes,Napho only,1.560874871,0.737700283,2,8.00855E-08,significant,81,4.96332E-07,significant,Kidney_Testes
+XP_003448795.2,H1.10,113,K,K113,35,Oxidation,Yes,Napho only,3.657323998,0.000193341,3,8.74304E-08,significant,82,5.35245E-07,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,425,Dioxidation,Yes,Ambic and Napho,-0.684240445,4.82944E-05,3,9.19466E-08,significant,83,5.56111E-07,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.593131673,0.664822078,2,9.71483E-08,significant,84,5.80577E-07,significant,Kidney_Testes
+XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.213946102,0.486878126,2,9.7905E-08,significant,85,5.78215E-07,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,121,GlyGly,Other,Napho only,-0.892832,0.016117543,3,1.19452E-07,significant,86,6.97264E-07,significant,Kidney_Testes
+XP_025766521.1,H4-like,61,K,K61,378,Lactyl / Carboxyethyl,Yes,Napho only,-1.174229793,0.698406777,2,1.34377E-07,significant,87,7.75372E-07,significant,Kidney_Testes
+XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,2.199981865,0.167737002,2,1.51859E-07,significant,88,8.66287E-07,significant,Kidney_Testes
+XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,0.322729923,0.391328947,2,1.59613E-07,significant,89,9.0029E-07,significant,Kidney_Testes
+XP_019209842.1,H1-like,56,K,K56,1,Acetyl,Yes,Ambic and Napho,-0.937116777,0.250918593,2,1.89263E-07,significant,90,1.05567E-06,significant,Kidney_Testes
+XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,0.0676254,0.964823757,2,1.90621E-07,significant,91,1.05156E-06,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,1.539182567,3.58277E-06,3,1.98731E-07,significant,92,1.08438E-06,significant,Kidney_Testes
+XP_019209842.1,H1-like,43,S,S43,121,GlyGly,Other,Ambic only,2.484324957,0.025473232,3,1.99926E-07,significant,93,1.07917E-06,significant,Kidney_Testes
+XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,1.8413823,0.068340103,2,2.20806E-07,significant,94,1.1792E-06,significant,Kidney_Testes
+XP_005461836.1,H1-like,70,K,K70,34,Methyl,Yes,Napho only,0.866424141,0.106552679,2,2.55753E-07,significant,95,1.35145E-06,significant,Kidney_Testes
+XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,2.844947264,0.192688983,2,2.62949E-07,significant,96,1.375E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,118,K,K118,34,Methyl,Yes,Ambic only,0.138160456,0.825824556,2,2.6403E-07,significant,97,1.36642E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,119,Y,Y119,425,Dioxidation,Yes,Ambic only,0.138160456,0.825824556,2,2.6403E-07,significant,98,1.35248E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,1,Acetyl,Yes,Ambic and Napho,-0.361900457,0.000668244,3,2.71619E-07,significant,99,1.3773E-06,significant,Kidney_Testes
+XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.276997165,1.89578E-06,3,2.78152E-07,significant,100,1.39632E-06,significant,Kidney_Testes
+XP_003459589.1,H1-like,43,R,R43,7,Deamidated,Yes,Ambic and Napho,-0.521039964,0.001443354,3,2.8478E-07,significant,101,1.41544E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,35,Oxidation,Yes,Ambic and Napho,-0.43817625,0.000423337,3,3.11229E-07,significant,102,1.53174E-06,significant,Kidney_Testes
+XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,0.107799177,0.824725975,2,3.19205E-07,significant,103,1.55574E-06,significant,Kidney_Testes
+XP_019209842.1,H1-like,55,K,K55,53,4-hydroxynonenal,Yes,Ambic only,-1.283892134,0.761599104,2,3.28358E-07,significant,104,1.58496E-06,significant,Kidney_Testes
+XP_003459589.1,H1-like,75,S,S75,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.889032201,0.947496513,2,3.36348E-07,significant,105,1.60806E-06,significant,Kidney_Testes
+XP_019218826.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic and Napho,-0.116804951,0.001309061,3,3.51958E-07,significant,106,1.66682E-06,significant,Kidney_Testes
+XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.374374779,0.085788503,2,3.63317E-07,significant,107,1.70453E-06,significant,Kidney_Testes
+XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.193471833,0.155507006,2,3.66474E-07,significant,108,1.70343E-06,significant,Kidney_Testes
+XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,-0.570184207,0.754947568,2,4.06548E-07,significant,109,1.87236E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,35,Oxidation,Yes,Ambic and Napho,-0.098752325,0.164381557,2,4.64207E-07,significant,110,2.11847E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,255,Dimethyl,Yes,Ambic and Napho,-0.733244636,8.3377E-06,3,4.75956E-07,significant,111,2.15252E-06,significant,Kidney_Testes
+XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,2.159187221,0.185007805,2,4.9716E-07,significant,112,2.22834E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,0.100771519,0.315889787,2,7.24395E-07,significant,113,3.21811E-06,significant,Kidney_Testes
+XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.150469,0.409410378,2,7.29284E-07,significant,114,3.21141E-06,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.536095989,4.44317E-07,3,7.58246E-07,significant,115,3.30991E-06,significant,Kidney_Testes
+XP_019209845.1,H1-like,47,S,S47,21 + 23,Phospho / Dehydrated,Yes,Napho only,0,4.06367E-05,3,7.67472E-07,significant,116,3.3213E-06,significant,Kidney_Testes
+XP_025766521.1,H4-like,56,T,T56,1,Acetyl,Yes,Ambic and Napho,-0.567089703,0.002947958,3,8.18245E-07,significant,117,3.51076E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,121,GlyGly,Other,Ambic only,-0.779341867,0.000170232,3,8.55226E-07,significant,118,3.63834E-06,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,121,GlyGly,Other,Ambic only,-0.747156608,0.085402131,2,8.86721E-07,significant,119,3.74062E-06,significant,Kidney_Testes
+XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,0.206863117,0.662707794,2,9.1887E-07,significant,120,3.84394E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,121,GlyGly,Other,Ambic only,1.968890282,0.300304585,2,9.76374E-07,significant,121,4.05074E-06,significant,Kidney_Testes
+XP_019209845.1,H1-like,17,K,K17,425,Dioxidation,Yes,Ambic only,0.766868431,0.286797748,2,1.20645E-06,significant,122,4.96426E-06,significant,Kidney_Testes
+XP_019209845.1,H1-like,17,K,K17,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.184472714,0.001548516,3,1.29347E-06,significant,123,5.27903E-06,significant,Kidney_Testes
+XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,1.795362408,0.358048415,2,1.41266E-06,significant,124,5.719E-06,significant,Kidney_Testes
+XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.099558562,0.067838979,2,1.53389E-06,significant,125,6.16012E-06,significant,Kidney_Testes
+XP_019209843.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic only,-0.409969201,0.203762729,2,1.62921E-06,significant,126,6.491E-06,significant,Kidney_Testes
+XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,2.483726062,0.975445915,2,1.64306E-06,significant,127,6.49461E-06,significant,Kidney_Testes
+XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,2.284982471,0.159168497,2,1.67903E-06,significant,128,6.58494E-06,significant,Kidney_Testes
+XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,-0.989927529,0.127230765,2,1.91653E-06,significant,129,7.45812E-06,significant,Kidney_Testes
+XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,-0.296918902,0.056941004,2,2.04827E-06,significant,130,7.90946E-06,significant,Kidney_Testes
+XP_019209842.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,1.399435198,0.001796319,3,2.09117E-06,significant,131,8.0135E-06,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,0.930432513,0.006145342,3,2.14817E-06,significant,132,8.16957E-06,significant,Kidney_Testes
+XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-2.793739898,0.020104524,3,2.19627E-06,significant,133,8.28969E-06,significant,Kidney_Testes
+XP_003448795.2,H1.10,110,K,K110,34,Methyl,Yes,Ambic and Napho,2.726151482,6.01064E-09,3,2.3013E-06,significant,134,8.62129E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,7,Deamidated,Yes,Ambic and Napho,-0.367653594,0.017347638,3,2.3908E-06,significant,135,8.89024E-06,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,113,T,T113,121,GlyGly,Other,Ambic and Napho,1.378866316,0.026593037,3,2.79843E-06,significant,136,1.03295E-05,significant,Kidney_Testes
+XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.045501006,0.026453533,3,3.21052E-06,significant,137,1.17641E-05,significant,Kidney_Testes
+XP_025766521.1,H4-like,69,R,R69,34,Methyl,Yes,Ambic and Napho,0.123723536,0.150105354,2,3.66445E-06,significant,138,1.33301E-05,significant,Kidney_Testes
+XP_003459589.1,H1-like,13,K,K13,255,Dimethyl,Yes,Ambic and Napho,-0.524731606,0.514767494,2,4.30578E-06,significant,139,1.55504E-05,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,425,Dioxidation,Yes,Napho only,-1.020878533,1.52422E-15,3,4.52323E-06,significant,140,1.6219E-05,significant,Kidney_Testes
+XP_019209845.1,H1-like,18,K,K18,121,GlyGly,Other,Ambic only,0.573134248,0.681002749,2,4.70639E-06,significant,141,1.67561E-05,significant,Kidney_Testes
+XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,0.168212321,0.000372851,3,4.70752E-06,significant,142,1.66421E-05,significant,Kidney_Testes
+XP_003448795.2,H1.10,141,S,S141,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.788626311,0.77190987,2,4.87257E-06,significant,143,1.71051E-05,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,76,R,R76,36,Dimethyl,Yes,Ambic and Napho,-0.90650837,5.17895E-08,3,5.02442E-06,significant,144,1.75157E-05,significant,Kidney_Testes
+XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.67050911,0.573866243,2,5.12608E-06,significant,145,1.77469E-05,significant,Kidney_Testes
+XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,0.216119846,0.000192413,3,5.50277E-06,significant,146,1.89205E-05,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,86,T,T86,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.258390225,0.237422138,2,6.2822E-06,significant,147,2.14535E-05,significant,Kidney_Testes
+XP_025766521.1,H4-like,73,T,T73,21 + 23,Phospho / Dehydrated,Yes,"Ambic, Napho, and Trypsin",0.621372168,0.612064976,2,6.92083E-06,significant,148,2.34747E-05,significant,Kidney_Testes
+XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.241590453,0.35385835,2,7.81641E-06,significant,149,2.63345E-05,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,16,K,K16,121,GlyGly,Other,Ambic only,1.12394637,0.056458158,2,9.96835E-06,significant,150,3.33607E-05,significant,Kidney_Testes
+XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,-3.148786507,0.40610058,2,1.0159E-05,significant,151,3.37736E-05,significant,Kidney_Testes
+XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.669612541,0.637820294,2,1.02834E-05,significant,152,3.39623E-05,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,7,Deamidated,Yes,Ambic and Napho,0.285739959,0.112400097,2,1.08298E-05,significant,153,3.55331E-05,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,1,S,S1,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.498202402,0.124599457,2,1.08846E-05,significant,154,3.54809E-05,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,75,K,K75,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.81803946,0.00088288,3,1.11314E-05,significant,155,3.60514E-05,significant,Kidney_Testes
+XP_025766521.1,H4-like,69,R,R69,7,Deamidated,Yes,Ambic and Napho,-0.486590306,0.037875392,3,1.23159E-05,significant,156,3.96319E-05,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,36,Dimethyl,Yes,Ambic and Napho,-0.410975796,0.025653234,3,1.69117E-05,significant,157,5.40743E-05,significant,Kidney_Testes
+XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-2.232658159,0.485159766,2,1.71575E-05,significant,158,5.45132E-05,significant,Kidney_Testes
+XP_019209845.1,H1-like,1,S,S1,1,Acetyl,Yes,Ambic only,-0.8336347,0.000146101,3,1.81888E-05,significant,159,5.74261E-05,significant,Kidney_Testes
+XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,0.111746043,0.596153331,2,2.14978E-05,significant,160,6.74493E-05,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,-0.678201754,0.033100377,3,2.23262E-05,significant,161,6.96135E-05,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,-0.678201754,0.033100377,3,2.23262E-05,significant,162,6.91838E-05,significant,Kidney_Testes
+XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,1.485780635,0.003441555,3,2.23451E-05,significant,163,6.88174E-05,significant,Kidney_Testes
+XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.074032591,0.016760454,3,2.34954E-05,significant,164,7.19187E-05,significant,Kidney_Testes
+XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,-1.008154827,0.013996059,3,2.36224E-05,significant,165,7.18694E-05,significant,Kidney_Testes
+XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-1.170673174,0.930741874,2,2.48347E-05,significant,166,7.51027E-05,significant,Kidney_Testes
+XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,1.596951264,0.8915449,2,2.49724E-05,significant,167,7.50668E-05,significant,Kidney_Testes
+XP_005463512.2,H3,41,Y,Y41,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.280805859,0.092196895,2,2.58477E-05,significant,168,7.72355E-05,significant,Kidney_Testes
+XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,-1.280805859,0.092196895,2,2.58477E-05,significant,169,7.67785E-05,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,1.338623248,0.880948792,2,2.90123E-05,significant,170,8.56718E-05,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,34,Methyl,Yes,Ambic only,1.061335545,0.073645512,2,3.47166E-05,significant,171,0.000101917,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,73,Y,Y73,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.556664591,0.0006407,3,3.55922E-05,significant,172,0.000103879,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.00695586,3,4.34725E-05,significant,173,0.000126146,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,37,Trimethyl,Yes,Napho only,-0.670904762,2.45307E-07,3,4.50263E-05,significant,174,0.000129903,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,98,K,K98,121,GlyGly,Other,Ambic only,1.641059376,0.347639072,2,4.73607E-05,significant,175,0.000135858,significant,Kidney_Testes
+XP_025766521.1,H4-like,61,K,K61,34,Methyl,Yes,Napho only,-0.443996934,0.049976017,3,4.99153E-05,significant,176,0.000142372,significant,Kidney_Testes
+XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,0.135711982,0.258079052,2,5.42356E-05,significant,177,0.000153821,significant,Kidney_Testes
+XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-1.653127026,0.008074168,3,5.59061E-05,significant,178,0.000157668,significant,Kidney_Testes
+XP_003459589.1,H1-like,44,K,K44,425,Dioxidation,Yes,Napho only,1.406104247,0.004413778,3,5.59821E-05,significant,179,0.000157,significant,Kidney_Testes
+XP_003459589.1,H1-like,47,S,S47,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.406104247,0.004413778,3,5.59821E-05,significant,180,0.000156128,significant,Kidney_Testes
+XP_003459589.1,H1-like,53,K,K53,425,Dioxidation,Yes,Napho only,2.055717278,1.18636E-09,3,5.60282E-05,significant,181,0.000155393,significant,Kidney_Testes
+XP_019218826.1,H1-like,13,K,K13,53,4-hydroxynonenal,Yes,Napho only,-2.124041239,2.70724E-14,3,5.81665E-05,significant,182,0.000160437,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,81,Y,Y81,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.322081332,0.865957748,2,5.88172E-05,significant,183,0.000161346,significant,Kidney_Testes
+XP_019209842.1,H1-like,55,K,K55,255,Dimethyl,Yes,Ambic and Napho,-0.779573541,0.000290508,3,5.88319E-05,significant,184,0.000160509,significant,Kidney_Testes
+XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,-0.71723727,0.518526311,2,5.92116E-05,significant,185,0.000160672,significant,Kidney_Testes
+XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,1.009698814,0.122431515,2,6.81739E-05,significant,186,0.000183996,significant,Kidney_Testes
+XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,0.702457227,0.280053007,2,6.90809E-05,significant,187,0.000185447,significant,Kidney_Testes
+XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,1.57173888,0.765309571,2,7.36306E-05,significant,188,0.000196609,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,69,R,R69,36,Dimethyl,Yes,Ambic and Napho,0.50136323,0.766299885,2,7.54728E-05,significant,189,0.000200462,significant,Kidney_Testes
+XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,-0.823288655,0.014270064,3,7.80851E-05,significant,190,0.000206309,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,-0.798032356,0.006552182,3,8.2615E-05,significant,191,0.000217135,significant,Kidney_Testes
+XP_003459589.1,H1-like,52,K,K52,53,4-hydroxynonenal,Yes,Ambic only,0.689921402,0.016881059,3,9.19177E-05,significant,192,0.000240327,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,84,R,R84,34,Methyl,Yes,Ambic and Napho,-0.735510217,0.001098467,3,9.4987E-05,significant,193,0.000247065,significant,Kidney_Testes
+XP_025766521.1,H4-like,75,T,T75,1,Acetyl,Yes,Ambic and Napho,0.044576939,0.013985585,3,9.57299E-05,significant,194,0.000247713,significant,Kidney_Testes
+XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,0.503942265,0.989552964,2,0.00010577,significant,195,0.000272291,significant,Kidney_Testes
+XP_005463512.2,H3,22,T,T22,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.068959615,0.023611407,3,0.000114332,significant,196,0.000292831,significant,Kidney_Testes
+XP_003438501.2,H1.0-B,81,T,T81,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.86928843,0.18080527,2,0.000120579,significant,197,0.000307263,significant,Kidney_Testes
+XP_005461836.1,H1-like,66,P,P66,425,Dioxidation,Yes,Napho only,-0.718104432,2.37662E-07,3,0.000122895,significant,198,0.000311583,significant,Kidney_Testes
+XP_019209843.1,H1-like,15,T,T15,21 + 23,Phospho / Dehydrated,Yes,Ambic only,1.194805433,0.433848573,2,0.000130078,significant,199,0.000328137,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,34,Methyl,Yes,Ambic and Napho,0.553619003,0.549859191,2,0.000157712,significant,200,0.000395857,significant,Kidney_Testes
+XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,3.608012449,0.47719545,2,0.000158149,significant,201,0.000394979,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,76,R,R76,425,Dioxidation,Yes,Ambic and Napho,-0.544090303,0.232773624,2,0.000170381,significant,202,0.000423421,significant,Kidney_Testes
+XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,1.755163713,0.054709703,2,0.000174595,significant,203,0.000431756,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,70,R,R70,7,Deamidated,Yes,Ambic and Napho,-0.415007936,0.258200059,2,0.000189964,significant,204,0.00046746,significant,Kidney_Testes
+XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,0.682579772,0.023224714,3,0.000193384,significant,205,0.000473556,significant,Kidney_Testes
+XP_019209842.1,H1-like,38,K,K38,1,Acetyl,Yes,Napho only,-1.474556756,0.427786584,2,0.000196971,significant,206,0.000479998,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,-3.934346984,0.053778801,2,0.000199551,significant,207,0.000483936,significant,Kidney_Testes
+XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,0.166935144,0.079901375,2,0.000213358,significant,208,0.000514931,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,76,S,S76,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.438923074,0.001890918,3,0.000258934,significant,209,0.000621938,significant,Kidney_Testes
+XP_019209842.1,H1-like,56,K,K56,34,Methyl,Yes,Ambic only,-1.007653872,0.022138218,3,0.00027898,significant,210,0.000666895,significant,Kidney_Testes
+XP_019209842.1,H1-like,64,D,D64,35,Oxidation,Yes,Ambic only,-1.007653872,0.022138218,3,0.00027898,significant,211,0.000663735,significant,Kidney_Testes
+XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.352231032,0.133979649,2,0.000280448,significant,212,0.000664079,significant,Kidney_Testes
+XP_025766521.1,H4-like,42,R,R42,36,Dimethyl,Yes,Trypsin only,-1.444177404,0.551289933,2,0.000287591,significant,213,0.000677795,significant,Kidney_Testes
+XP_003459589.1,H1-like,52,K,K52,255,Dimethyl,Yes,Ambic only,0.774022075,0.023057605,3,0.000291808,significant,214,0.000684521,significant,Kidney_Testes
+XP_003448795.2,H1.10,119,K,K119,1,Acetyl,Yes,Trypsin only,0,1.59799E-08,3,0.000295031,significant,215,0.000688863,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,81,Y,Y81,425,Dioxidation,Yes,Ambic only,-0.833445248,0.004158043,3,0.000314901,significant,216,0.000731854,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,113,T,T113,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.022509542,0.938146964,2,0.000328434,significant,217,0.000759787,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,70,R,R70,35,Oxidation,Yes,Ambic and Napho,-0.311473754,0.001621573,3,0.000331716,significant,218,0.00076386,significant,Kidney_Testes
+XP_019209843.1,H1-like,16,K,K16,378,Lactyl / Carboxyethyl,Yes,Ambic only,0.83470254,0.039419935,3,0.000357562,significant,219,0.000819616,significant,Kidney_Testes
+XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,-0.292212392,0.029335679,3,0.000359465,significant,220,0.000820235,significant,Kidney_Testes
+XP_005463512.2,H3,122,K,K122,255,Dimethyl,Yes,Trypsin only,0.756125024,0.061266242,2,0.000393174,significant,221,0.000893093,significant,Kidney_Testes
+XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,-1.213908698,4.96009E-05,3,0.000414665,significant,222,0.000937665,significant,Kidney_Testes
+XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,-0.343154315,0.009724645,3,0.000458702,significant,223,0.001032594,significant,Kidney_Testes
+XP_019209843.1,H1-like,13,K,K13,255,Dimethyl,Yes,Ambic and Napho,0.809635062,0.044249602,3,0.000477121,significant,224,0.001069261,significant,Kidney_Testes
+XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,0.803491727,0.017976302,3,0.000479613,significant,225,0.00107007,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.308897966,0.002337395,3,0.000487024,significant,226,0.001081797,significant,Kidney_Testes
+XP_003459589.1,H1-like,21,K,K21,34,Methyl,Yes,Ambic only,-0.713288321,0.045469127,3,0.000492876,significant,227,0.001089972,significant,Kidney_Testes
+XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,-0.683562303,0.024952276,3,0.000500734,significant,228,0.001102492,significant,Kidney_Testes
+XP_003450682.1,H1,267,K,K267,209,Acrolein112,Other,Trypsin only,-1.044999311,0.007735899,3,0.000501547,significant,229,0.001099461,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,17,K,K17,37,Trimethyl,Yes,Napho only,-0.784770354,3.19318E-10,3,0.000552462,significant,230,0.001205809,significant,Kidney_Testes
+XP_003459589.1,H1-like,13,K,K13,34,Methyl,Yes,Napho only,0.148821304,0.875604432,2,0.000599426,significant,231,0.001302648,significant,Kidney_Testes
+XP_003459589.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic and Napho,-0.486244705,0.210699365,2,0.000651479,significant,232,0.001409666,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,-1.338802317,0.611404747,2,0.000681174,significant,233,0.001467595,significant,Kidney_Testes
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,-0.496248241,7.34722E-06,3,0.000688553,significant,234,0.001477152,significant,Kidney_Testes
+XP_003459589.1,H1-like,5,P,P5,35,Oxidation,Yes,Ambic and Napho,-0.219943209,0.009694263,3,0.000691918,significant,235,0.001478055,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,34,Methyl,Yes,Ambic and Napho,-0.512968561,0.104021328,2,0.000749655,significant,236,0.001594605,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,1,Acetyl,Yes,Ambic and Napho,0.054156829,0.257891254,2,0.000798783,significant,237,0.001691936,significant,Kidney_Testes
+XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,-0.402774884,0.165166075,2,0.000823925,significant,238,0.001737859,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,55,K,K55,1,Acetyl,Yes,Ambic and Napho,0.317725593,0.148529698,2,0.000894748,significant,239,0.001879346,significant,Kidney_Testes
+XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,-0.326760814,0.759730919,2,0.000957698,significant,240,0.002003185,significant,Kidney_Testes
+XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,-1.178395908,4.72786E-06,3,0.000959012,significant,241,0.00199761,significant,Kidney_Testes
+XP_019209842.1,H1-like,55,K,K55,3,Biotin,Yes,Napho only,-0.550965004,1.49118E-10,3,0.001002127,significant,242,0.002078793,significant,Kidney_Testes
+XP_025766521.1,H4-like,46,K,K46,425,Dioxidation,Yes,Trypsin only,-1.228878459,0.717416112,2,0.001075015,significant,243,0.002220813,significant,Kidney_Testes
+XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.548064769,0.167548959,2,0.001087062,significant,244,0.002236497,significant,Kidney_Testes
+XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,0.141338591,0.235937477,2,0.001088873,significant,245,0.002231079,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,36,Dimethyl,Yes,Napho only,0.717504953,0.356137674,2,0.001092685,significant,246,0.002229789,significant,Kidney_Testes
+XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,0.664038745,0.632209934,2,0.001145219,significant,247,0.00232753,significant,Kidney_Testes
+XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,0.87482898,2,0.001193253,significant,248,0.002415376,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,425,Dioxidation,Yes,Ambic and Napho,0.253211769,0.012027081,3,0.001200243,significant,249,0.002419766,significant,Kidney_Testes
+XP_003459589.1,H1-like,52,K,K52,35,Oxidation,Yes,Ambic and Napho,-0.292397942,0.837391832,2,0.001224632,significant,250,0.002459061,significant,Kidney_Testes
+XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,0.604068109,0.037270543,3,0.001244026,significant,251,0.002488052,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,86,T,T86,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.180889495,0.149140176,2,0.001249363,significant,252,0.00248881,significant,Kidney_Testes
+XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.643590611,0.48725278,2,0.001315566,significant,253,0.002610332,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,75,K,K75,34,Methyl,Yes,Ambic and Napho,-0.602040353,3.64594E-06,3,0.001413182,significant,254,0.002792982,significant,Kidney_Testes
+XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,-0.789992573,0.27270382,2,0.00149113,significant,255,0.00293548,significant,Kidney_Testes
+XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,0.346633649,0.00149687,3,0.001506822,significant,256,0.002954783,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,74,N,N74,35,Oxidation,Yes,Ambic only,0.433258939,0.428069274,2,0.001534494,significant,257,0.002997338,significant,Kidney_Testes
+XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,-0.232119962,0.029977897,3,0.001545192,significant,258,0.003006537,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,85,S,S85,121,GlyGly,Other,Ambic only,-2.577347699,0.81038253,2,0.001575832,significant,259,0.003054316,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,7,Deamidated,Yes,Ambic and Napho,0.210891169,0.33887288,2,0.001607833,significant,260,0.003104354,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,89,R,R89,36,Dimethyl,Yes,Ambic and Napho,-0.309128379,0.918056327,2,0.001745144,significant,261,0.00335656,significant,Kidney_Testes
+XP_003459589.1,H1-like,60,Y,Y60,35,Oxidation,Yes,Ambic only,-0.359944852,0.302575879,2,0.001757072,significant,262,0.003366604,significant,Kidney_Testes
+XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,4.021956468,0.017298155,3,0.001803542,significant,263,0.003442503,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,35,Oxidation,Yes,Ambic and Napho,0.232811672,0.662862865,2,0.00181223,significant,264,0.003445982,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,89,R,R89,425,Dioxidation,Yes,Ambic and Napho,0.360020728,0.949023799,2,0.001959462,significant,265,0.003711886,significant,Kidney_Testes
+XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,0.139710464,0.043215843,3,0.001987059,significant,266,0.003750014,significant,Kidney_Testes
+XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,-0.40184863,0.443097882,2,0.002034301,significant,267,0.00382479,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,114,K,K114,255,Dimethyl,Yes,Napho only,0.015179776,0.120437594,2,0.00207502,significant,268,0.003886792,significant,Kidney_Testes
+XP_003459589.1,H1-like,13,K,K13,35,Oxidation,Yes,Ambic only,-0.582481066,0.05812212,2,0.002102104,significant,269,0.003922886,significant,Kidney_Testes
+XP_003459589.1,H1-like,21,K,K21,37,Trimethyl,Yes,Ambic only,-0.582481066,0.05812212,2,0.002102104,significant,270,0.003908357,significant,Kidney_Testes
+XP_019209843.1,H1-like,16,K,K16,255,Dimethyl,Yes,Ambic and Napho,-0.515081685,1.16894E-06,3,0.002150331,significant,271,0.00398327,significant,Kidney_Testes
+XP_025766521.1,H4-like,47,R,R47,425,Dioxidation,Yes,Trypsin only,0.094063878,1.60914E-05,3,0.002193406,significant,272,0.004048124,significant,Kidney_Testes
+XP_019218826.1,H1-like,9,P,P9,35,Oxidation,Yes,Napho only,0.783696836,5.68228E-06,3,0.002299511,significant,273,0.004228404,significant,Kidney_Testes
+XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,-0.443999534,1.02638E-07,3,0.002318997,significant,274,0.004248674,significant,Kidney_Testes
+XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,-0.394070894,0.442983557,2,0.002563507,significant,275,0.004679565,significant,Kidney_Testes
+XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,-0.47780707,3.95446E-08,3,0.002609063,significant,276,0.004745469,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,1,Acetyl,Yes,Ambic and Napho,-0.622284322,0.456758211,2,0.002719946,significant,277,0.004929288,significant,Kidney_Testes
+XP_025766521.1,H4-like,56,T,T56,121,GlyGly,Other,Ambic only,-1.1153408,0.00037663,3,0.002732663,significant,278,0.00493452,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,89,R,R89,35,Oxidation,Yes,Ambic and Napho,0.243804129,0.403545471,2,0.002964887,significant,279,0.00533467,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,75,K,K75,255,Dimethyl,Yes,Ambic and Napho,-1.182544582,1.35133E-09,3,0.00297751,significant,280,0.005338251,significant,Kidney_Testes
+XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.518629941,8.78913E-09,3,0.002978197,significant,281,0.00532048,significant,Kidney_Testes
+XP_003459589.1,H1-like,11,P,P11,425,Dioxidation,Yes,Napho only,-0.090990192,1.00634E-10,3,0.003090038,significant,282,0.005500706,significant,Kidney_Testes
+XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,-0.461036515,0.006682008,3,0.00317571,significant,283,0.005633239,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.375237548,0.002493677,3,0.003466964,significant,284,0.006128225,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,-0.375237548,0.002493677,3,0.003466964,significant,285,0.006106723,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,69,R,R69,425,Dioxidation,Yes,Napho only,-0.602279599,0.000141552,3,0.003523808,significant,286,0.006185146,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,73,Y,Y73,425,Dioxidation,Yes,Ambic only,-0.780993498,0.022546531,3,0.003554296,significant,287,0.006216922,significant,Kidney_Testes
+XP_025766521.1,H4-like,46,K,K46,255,Dimethyl,Yes,Trypsin only,0.088256043,5.72652E-05,3,0.003707348,significant,288,0.006462114,significant,Kidney_Testes
+XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.209294509,0.013919114,3,0.003725129,significant,289,0.00647064,significant,Kidney_Testes
+XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.209294509,0.013919114,3,0.003725129,significant,290,0.006448327,significant,Kidney_Testes
+XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.483156521,0.092653944,2,0.003766262,significant,291,0.006497125,significant,Kidney_Testes
+XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,-0.687629538,0.057447054,2,0.003895877,significant,292,0.006697706,significant,Kidney_Testes
+XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.133890503,0.118945319,2,0.003947732,significant,293,0.006763691,significant,Kidney_Testes
+XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,-0.442230111,0.024496669,3,0.003967757,significant,294,0.006774878,significant,Kidney_Testes
+XP_003459589.1,H1-like,53,K,K53,255,Dimethyl,Yes,Ambic only,0.504102822,0.654765304,2,0.003991165,significant,295,0.006791745,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,101,P,P101,35,Oxidation,Yes,Ambic and Napho,0.228190401,0.049460217,3,0.004036646,significant,296,0.006845934,significant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,19,T,T19,121,GlyGly,Other,Ambic only,-1.034919547,3.95735E-07,3,0.004082469,significant,297,0.006900334,significant,Kidney_Testes
+XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,0.743404712,0.3205531,2,0.004104807,significant,298,0.006914808,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,73,Y,Y73,35,Oxidation,Yes,Ambic only,-0.899833778,0.011571176,3,0.004199144,significant,299,0.007050067,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,93,P,P93,35,Oxidation,Yes,Napho only,0.827608248,0.090866799,2,0.004201888,significant,300,0.007031158,significant,Kidney_Testes
+XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,-2.202971835,0.529280347,2,0.004391896,significant,301,0.007324691,significant,Kidney_Testes
+XP_003448795.2,H1.10,116,K,K116,1,Acetyl,Yes,Napho only,-2.013981345,0.669744377,2,0.004618342,significant,302,0.007676846,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,-0.253283903,8.37078E-05,3,0.004683819,significant,303,0.007759991,significant,Kidney_Testes
+XP_003448795.2,H1.10,113,K,K113,425,Dioxidation,Yes,Ambic only,1.324550084,1.2159E-08,3,0.004891523,significant,304,0.008077448,significant,Kidney_Testes
+XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.383863195,3.26004E-08,3,0.004901208,significant,305,0.008066906,significant,Kidney_Testes
+XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.456278924,0.236044282,2,0.004916879,significant,306,0.008066252,significant,Kidney_Testes
+XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,-0.507926763,0.000298223,3,0.005106792,significant,307,0.008350519,significant,Kidney_Testes
+XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,0.796654914,0.850845107,2,0.005111518,significant,308,0.008331111,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,54,S,S54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.394796867,0.175126095,2,0.005179279,significant,309,0.008414234,significant,Kidney_Testes
+XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,-0.564435806,0.002830662,3,0.005345911,significant,310,0.008656927,significant,Kidney_Testes
+XP_025766521.1,H4-like,46,K,K46,1,Acetyl,Yes,Trypsin only,0.083015512,6.45339E-05,3,0.005467027,significant,311,0.00882459,significant,Kidney_Testes
+XP_005461836.1,H1-like,74,T,T74,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.166213037,1.67337E-05,3,0.00548227,significant,312,0.008820832,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,76,R,R76,34,Methyl,Yes,Ambic only,-0.906254438,0.244155815,2,0.005603796,significant,313,0.008987557,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,58,S,S58,121,GlyGly,Other,Ambic and Napho,-0.467979309,0.001060968,3,0.005662933,significant,314,0.009053479,significant,Kidney_Testes
+XP_003459589.1,H1-like,13,K,K13,1,Acetyl,Yes,Ambic and Napho,-0.188941848,0.000254444,3,0.006147194,significant,315,0.009796481,significant,Kidney_Testes
+XP_003459589.1,H1-like,35,K,K35,3,Biotin,Yes,Napho only,-0.409397053,0.03410632,3,0.006381283,significant,316,0.010137354,significant,Kidney_Testes
+XP_003459589.1,H1-like,43,R,R43,36,Dimethyl,Yes,Ambic only,1.098498306,0.222200831,2,0.006597924,significant,317,0.010448447,significant,Kidney_Testes
+XP_025766521.1,H4-like,49,S,S49,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.110274584,0.247962373,2,0.006651656,significant,318,0.010500412,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,34,Methyl,Yes,Ambic and Napho,-0.302483091,0.162038858,2,0.006747704,significant,319,0.010618644,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,69,R,R69,35,Oxidation,Yes,Ambic only,-1.111549848,0.628111354,2,0.007281252,significant,320,0.011422463,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,69,R,R69,34,Methyl,Yes,Ambic and Napho,0.332032365,0.419813085,2,0.00785103,significant,321,0.012277935,significant,Kidney_Testes
+XP_003459589.1,H1-like,53,K,K53,53,4-hydroxynonenal,Yes,Ambic only,-0.898059448,0.024539335,3,0.007896408,significant,322,0.012310549,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,-0.221409771,1.60205E-06,3,0.00858474,significant,323,0.013342228,significant,Kidney_Testes
+XP_019209843.1,H1-like,17,K,K17,37,Trimethyl,Yes,Ambic only,-3.127442233,0.005101016,3,0.009183323,significant,324,0.014228482,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,86,T,T86,1,Acetyl,Yes,Ambic and Napho,-0.473604667,0.17325672,2,0.009746133,significant,325,0.015054026,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,74,N,N74,213,ADP-Ribosyl,Yes,Napho only,-0.664376416,4.6901E-12,3,0.009771344,significant,326,0.01504667,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,82,R,R82,34,Methyl,Yes,Ambic only,-0.883232142,0.561110558,2,0.00993103,significant,327,0.015245802,significant,Kidney_Testes
+XP_003459589.1,H1-like,18,K,K18,37,Trimethyl,Yes,Napho only,0.133003772,0.42009798,2,0.010624669,significant,328,0.016260926,significant,Kidney_Testes
+XP_003459589.1,H1-like,21,K,K21,35,Oxidation,Yes,Ambic and Napho,0.133003772,0.42009798,2,0.010624669,significant,329,0.016211501,significant,Kidney_Testes
+XP_025766521.1,H4-like,47,R,R47,36,Dimethyl,Yes,Trypsin only,-1.276234415,0.936281372,2,0.011464983,significant,330,0.01744067,significant,Kidney_Testes
+XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,0.761408754,0.950193029,2,0.012436383,significant,331,0.018861222,significant,Kidney_Testes
+XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,-0.794526234,0.337576119,2,0.013756258,significant,332,0.020800125,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,85,S,S85,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.433335383,0.155362749,2,0.014608809,significant,333,0.02202289,significant,Kidney_Testes
+XP_005463512.2,H3,27,K,K27,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-1.473884215,0.058598871,2,0.015580024,significant,334,0.023416683,significant,Kidney_Testes
+XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,-0.650097434,0.00761098,3,0.016737299,significant,335,0.025080968,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,89,R,R89,34,Methyl,Yes,Ambic and Napho,-0.223262652,0.160432728,2,0.017220013,significant,336,0.025727519,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,54,S,S54,121,GlyGly,Other,Napho only,0.180778323,0.441247655,2,0.0172694,significant,337,0.025724745,significant,Kidney_Testes
+XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,-1.438173988,0.039960859,3,0.018199753,significant,338,0.027030402,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,94,T,T94,1,Acetyl,Yes,Ambic and Napho,-0.371914232,0.118126478,2,0.018314097,significant,339,0.02711999,significant,Kidney_Testes
+XP_003438501.2,H1.0-B,89,S,S89,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.710748634,0.811312156,2,0.018545285,significant,340,0.027381568,significant,Kidney_Testes
+XP_003438501.2,H1.0-B,91,R,R91,34,Methyl,Yes,Trypsin only,-0.710748634,0.811312156,2,0.018545285,significant,341,0.02730127,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,77,R,R77,36,Dimethyl,Yes,Ambic only,-0.874337286,0.223111836,2,0.018832914,significant,342,0.027643633,significant,Kidney_Testes
+XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,-1.386792658,0.063313026,2,0.019597384,significant,343,0.028681886,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,77,S,S77,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.787454058,0.356177619,2,0.020838423,significant,344,0.030409559,significant,Kidney_Testes
+XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,-0.033083538,0.000658019,3,0.021906023,significant,345,0.03187485,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.746976768,0.00715217,3,0.022503563,significant,346,0.032649678,significant,Kidney_Testes
+XP_019218826.1,H1-like,17,K,K17,425,Dioxidation,Yes,Ambic and Napho,0.042915612,0.042589704,3,0.022877858,significant,347,0.033097074,significant,Kidney_Testes
+XP_025766521.1,H4-like,57,R,R57,35,Oxidation,Yes,"Ambic, Napho, and Trypsin",0.744013644,0.200486538,2,0.023752547,significant,348,0.034263732,significant,Kidney_Testes
+XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,-0.21440911,0.001863853,3,0.025191413,significant,349,0.036235213,significant,Kidney_Testes
+XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,-0.538455625,0.458141245,2,0.025482917,significant,350,0.036549784,significant,Kidney_Testes
+XP_005463512.2,H3,27,K,K27,255,Dimethyl,Yes,Trypsin only,0.205578358,0.045201331,3,0.026010954,significant,351,0.037200852,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,3,Biotin,Yes,Napho only,-0.474740335,0.673965828,2,0.026715465,significant,352,0.038099897,significant,Kidney_Testes
+XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,-1.352557647,0.080382576,2,0.027225473,significant,353,0.038717245,significant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,-0.141785684,9.57817E-05,3,0.028156336,significant,354,0.039927911,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,119,Y,Y119,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.035805446,0.804083392,2,0.030207165,significant,355,0.042715484,significant,Kidney_Testes
+XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,-1.30610545,0.067310622,2,0.031503116,significant,356,0.044422934,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,93,P,P93,425,Dioxidation,Yes,Napho only,-1.179801756,0.000135825,3,0.031855581,significant,357,0.044794122,significant,Kidney_Testes
+XP_025766521.1,H4-like,49,S,S49,1,Acetyl,Yes,Trypsin only,0.446378319,0.107805704,2,0.032012182,significant,358,0.04488859,significant,Kidney_Testes
+XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-0.306857942,0.188476854,2,0.032450783,significant,359,0.045376861,significant,Kidney_Testes
+XP_003438147.1,H2B.L4,54,S,S54,1,Acetyl,Yes,Trypsin only,0.441580957,0.152735086,2,0.032463175,significant,360,0.045268095,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,94,T,T94,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.061759172,0.004789243,3,0.034463836,significant,361,0.047924781,significant,Kidney_Testes
+XP_019209842.1,H1-like,38,K,K38,425,Dioxidation,Yes,Ambic and Napho,-0.370555866,0.486482519,2,0.035133611,significant,362,0.048721195,significant,Kidney_Testes
+XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,-0.413403191,0.153692367,2,0.035231494,significant,363,0.048722342,significant,Kidney_Testes
+XP_003459589.1,H1-like,44,K,K44,1,Acetyl,Yes,Ambic and Napho,-0.240546224,0.169951515,2,0.035671369,significant,364,0.049195129,significant,Kidney_Testes
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,-4.586416929,0.000930005,3,0.038802688,significant,365,0.053366985,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,83,K,K83,35,Oxidation,Yes,Ambic and Napho,-0.492171499,0.966144403,2,0.040407624,significant,366,0.055422478,nonsignificant,Kidney_Testes
+XP_019209842.1,H1-like,56,K,K56,255,Dimethyl,Yes,Ambic only,-0.305271869,0.013888603,3,0.041910073,significant,367,0.057326585,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,-0.170623226,3.19126E-05,3,0.042711255,significant,368,0.058263723,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.156100563,0.077910478,2,0.043443308,significant,369,0.059101736,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,44,K,K44,255,Dimethyl,Yes,Ambic only,0.868834074,1.92998E-06,3,0.04445411,significant,370,0.060313414,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,0.31054443,0.266259488,2,0.045059571,significant,371,0.060970094,nonsignificant,Kidney_Testes
+XP_019219600.2,H2B 1/2 isoform X1,101,P,P101,425,Dioxidation,Yes,Ambic and Napho,0.047222061,0.192664016,2,0.045800818,significant,372,0.061806481,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,60,Y,Y60,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.164885673,0.004130216,3,0.048731501,significant,373,0.065585023,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.195052257,0.000116762,3,0.052038998,nonsignificant,374,0.069849137,nonsignificant,Kidney_Testes
+XP_003446112.1,protamine-like protein,1,S,S1,1,Acetyl,Yes,Ambic only,0,0.001182774,3,0.053769538,nonsignificant,375,0.071979488,nonsignificant,Kidney_Testes
+XP_003438147.1,H2B.L4,98,K,K98,1,Acetyl,Yes,Napho only,-1.123225715,0.621452368,2,0.057829916,nonsignificant,376,0.077209091,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,0.049058936,0.599747513,2,0.05823173,nonsignificant,377,0.077539333,nonsignificant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.132793786,0.141798335,2,0.062649475,nonsignificant,378,0.083201155,nonsignificant,Kidney_Testes
+XP_025766521.1,H4-like,47,R,R47,34,Methyl,Yes,Trypsin only,0.06429463,0.010395632,3,0.064539359,nonsignificant,379,0.08548485,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,0.161326513,0.238813184,2,0.065387177,nonsignificant,380,0.086379903,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,0.161326513,0.238813184,2,0.065387177,nonsignificant,381,0.086153184,nonsignificant,Kidney_Testes
+XP_019209842.1,H1-like,55,K,K55,121,GlyGly,Other,Trypsin only,0,5.1458E-12,3,0.066019064,nonsignificant,382,0.086758037,nonsignificant,Kidney_Testes
+XP_019209842.1,H1-like,63,Y,Y63,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.190682716,0.000192221,3,0.071955663,nonsignificant,383,0.094312645,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,0.314450856,0.95765558,2,0.072668784,nonsignificant,384,0.094999296,nonsignificant,Kidney_Testes
+XP_019219600.2,H2B 1/2 isoform X1,94,T,T94,1,Acetyl,Yes,Napho only,-0.814096131,0.784734799,2,0.073162397,nonsignificant,385,0.095396165,nonsignificant,Kidney_Testes
+XP_019219600.2,H2B 1/2 isoform X1,97,R,R97,36,Dimethyl,Yes,Napho only,-0.814096131,0.784734799,2,0.073162397,nonsignificant,386,0.095149024,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,0.358844481,0.263142987,2,0.074752378,nonsignificant,387,0.096965617,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.519347689,0.968784797,2,0.08628016,nonsignificant,388,0.111630516,nonsignificant,Kidney_Testes
+XP_003438147.1,H2B.L4,50,S,S50,1,Acetyl,Yes,Trypsin only,-0.739266431,0.091789357,2,0.087084632,nonsignificant,389,0.11238171,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,43,R,R43,34,Methyl,Yes,Ambic and Napho,0.910873606,2.72466E-05,3,0.090412382,nonsignificant,390,0.116376963,nonsignificant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,11,P,P11,35,Oxidation,Yes,Ambic only,0.169219353,0.130144455,2,0.093870992,nonsignificant,391,0.12051979,nonsignificant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,13,K,K13,255,Dimethyl,Yes,Ambic only,0.169219353,0.130144455,2,0.093870992,nonsignificant,392,0.120212342,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,0.568933432,0.0003452,3,0.102473819,nonsignificant,393,0.130895311,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.327786096,0.630302116,2,0.109046061,nonsignificant,394,0.138936859,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,53,K,K53,1,Acetyl,Yes,Ambic and Napho,0.144493313,0.921392692,2,0.110419514,nonsignificant,395,0.140330622,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,0,2.66302E-14,3,0.112789518,nonsignificant,396,0.142980651,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,1,A,A1,1,Acetyl,Yes,Ambic only,0.358864128,0.159416829,2,0.118109741,nonsignificant,397,0.149347834,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,-0.201278161,0.065149432,2,0.121972287,nonsignificant,398,0.153844442,nonsignificant,Kidney_Testes
+XP_019209843.1,H1-like,16,K,K16,37,Trimethyl,Yes,Ambic only,0.893360482,0.057644381,2,0.124701929,nonsignificant,399,0.156893154,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,255,Dimethyl,Yes,Ambic and Napho,-0.265785205,0.260754219,2,0.129664675,nonsignificant,400,0.162729167,nonsignificant,Kidney_Testes
+XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,0.117176607,0.931268844,2,0.13105677,nonsignificant,401,0.164066082,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.533023345,0.405143287,2,0.131237569,nonsignificant,402,0.16388373,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,-0.394915311,0.045413823,3,0.141285754,nonsignificant,403,0.175993669,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,-0.408217583,0.032993412,3,0.142310396,nonsignificant,404,0.176831235,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,-0.414633615,0.035726739,3,0.147687809,nonsignificant,405,0.18305995,nonsignificant,Kidney_Testes
+XP_003438147.1,H2B.L4,50,S,S50,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.475824439,0.913883594,2,0.150065446,nonsignificant,406,0.185548901,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,53,K,K53,35,Oxidation,Yes,Ambic only,0.777495251,0.761671136,2,0.153663216,nonsignificant,407,0.189530551,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,44,K,K44,34,Methyl,Yes,Ambic and Napho,0.670474646,0.607069763,2,0.154256937,nonsignificant,408,0.189796526,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,0.335709489,0.249740292,2,0.155051699,nonsignificant,409,0.190307954,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.062326728,0.039497643,3,0.15792945,nonsignificant,410,0.193367278,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,35,K,K35,34,Methyl,Yes,Ambic only,0.685804784,0.554643493,2,0.161042832,nonsignificant,411,0.196699517,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,38,T,T38,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.685804784,0.554643493,2,0.161042832,nonsignificant,412,0.196222091,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,-0.033280341,1.42611E-15,3,0.161601107,nonsignificant,413,0.196425559,nonsignificant,Kidney_Testes
+XP_003448795.2,H1.10,113,K,K113,1,Acetyl,Yes,Ambic and Napho,-0.052137404,0.884429609,2,0.167281352,nonsignificant,414,0.202838741,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,-0.307066213,0.291200799,2,0.17851835,nonsignificant,415,0.215942679,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,52,K,K52,1,Acetyl,Yes,Ambic and Napho,-0.132173079,0.438710934,2,0.178709681,nonsignificant,416,0.215654471,nonsignificant,Kidney_Testes
+XP_003438147.1,H2B.L4,76,R,R76,7,Deamidated,Yes,Ambic and Napho,0.124883148,0.616986368,2,0.178930806,nonsignificant,417,0.215403512,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.100727837,0.023430224,3,0.181691372,nonsignificant,418,0.218203514,nonsignificant,Kidney_Testes
+XP_019209842.1,H1-like,66,D,D66,2,Amidated,Yes,Napho only,0.162820658,0.008080375,3,0.182966922,nonsignificant,419,0.219210966,nonsignificant,Kidney_Testes
+XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,-0.505036546,0.969484491,2,0.186716708,nonsignificant,420,0.223170923,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,0.001686907,3,0.192749112,nonsignificant,421,0.229833858,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,21,K,K21,255,Dimethyl,Yes,Napho only,0.052185133,0.842781148,2,0.201438113,nonsignificant,422,0.239625433,nonsignificant,Kidney_Testes
+XP_019219600.2,H2B 1/2 isoform X1,101,P,P101,35,Oxidation,Yes,Ambic only,-0.014294542,6.63468E-10,3,0.215428247,nonsignificant,423,0.255661891,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.265079926,0.621828519,2,0.221152129,nonsignificant,424,0.261835775,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,-0.35545305,0.014926369,3,0.22335711,nonsignificant,425,0.263824163,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.042236396,0.669706201,2,0.22540459,nonsignificant,426,0.265617615,nonsignificant,Kidney_Testes
+XP_025766521.1,H4-like,61,K,K61,121,GlyGly,Other,"Ambic, Napho, and Trypsin",-0.376678926,0.650191815,2,0.226210008,nonsignificant,427,0.265942445,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,0.633876443,0.368990779,2,0.231696247,nonsignificant,428,0.271755878,nonsignificant,Kidney_Testes
+XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.511212054,0.232798319,2,0.249517431,nonsignificant,429,0.291976108,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,54,Y,Y54,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.365617298,0.386081382,2,0.249905983,nonsignificant,430,0.291750705,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,35,K,K35,255,Dimethyl,Yes,Ambic only,0.164613254,0.684190813,2,0.266449146,nonsignificant,431,0.31034216,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,-0.247270057,0.001225819,3,0.269679503,nonsignificant,432,0.313377571,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,0.067643693,0.749246753,2,0.276491728,nonsignificant,433,0.320551611,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,-0.362700594,0.779042827,2,0.277961651,nonsignificant,434,0.321513246,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,-0.044240128,0.72653943,2,0.287503587,nonsignificant,435,0.331785749,nonsignificant,Kidney_Testes
+XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.090469474,0.050623429,2,0.298307326,nonsignificant,436,0.34346394,nonsignificant,Kidney_Testes
+XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.06146911,0.285399252,2,0.307906822,nonsignificant,437,0.353705319,nonsignificant,Kidney_Testes
+XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.06146911,0.285399252,2,0.307906822,nonsignificant,438,0.352897773,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,68,R,R68,7,Deamidated,Yes,Napho only,-0.014485126,4.79577E-05,3,0.309077465,nonsignificant,439,0.353432546,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,0.095914389,0.402084004,2,0.315255055,nonsignificant,440,0.359677358,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,36,K,K36,255,Dimethyl,Yes,Trypsin only,0.525605016,0.951666364,2,0.345602838,nonsignificant,441,0.393407312,nonsignificant,Kidney_Testes
+XP_019210164.1,H1 isoform X1,5,P,P5,425,Dioxidation,Yes,Napho only,-0.013858547,0.023430576,3,0.368611694,nonsignificant,442,0.41864948,nonsignificant,Kidney_Testes
+XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,0.015626784,0.112368529,2,0.379388998,nonsignificant,443,0.429917104,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,-0.039944125,0.896712747,2,0.392299837,nonsignificant,444,0.443546212,nonsignificant,Kidney_Testes
+XP_019209845.1,H1-like,19,K,K19,121,GlyGly,Other,Ambic only,-1.484119753,0.950859463,2,0.399690332,nonsignificant,445,0.450886621,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,53,K,K53,378,Lactyl / Carboxyethyl,Yes,Ambic only,0.226953811,0.801950394,2,0.413863144,nonsignificant,446,0.465828023,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,0.210385065,0.438962724,2,0.420314547,nonsignificant,447,0.472031102,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,56,K,K56,378,Lactyl / Carboxyethyl,Yes,Trypsin only,-0.42519884,0.183040001,2,0.423288452,nonsignificant,448,0.474309828,nonsignificant,Kidney_Testes
+XP_019209843.1,H1-like,13,K,K13,34,Methyl,Yes,Napho only,0.007547232,0.001908689,3,0.426022633,nonsignificant,449,0.476310382,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,-0.518583747,0.016266544,3,0.429912653,nonsignificant,450,0.479591449,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,94,T,T94,121,GlyGly,Other,Ambic and Napho,0.45748001,0.00233027,3,0.436109127,nonsignificant,451,0.485425237,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,106,K,K106,35,Oxidation,Yes,Ambic only,0.305489504,0.120513164,2,0.442600113,nonsignificant,452,0.491560303,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,101,P,P101,425,Dioxidation,Yes,Ambic and Napho,0.119745403,0.277779765,2,0.44655128,nonsignificant,453,0.494853737,nonsignificant,Kidney_Testes
+XP_003438147.1,H2B.L4,89,R,R89,7,Deamidated,Yes,Ambic and Napho,0.080235194,0.195303424,2,0.450542401,nonsignificant,454,0.49817684,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,-0.02891171,6.10617E-05,3,0.452595901,nonsignificant,455,0.499347565,nonsignificant,Kidney_Testes
+XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,0.064664971,0.146496622,2,0.454412458,nonsignificant,456,0.500252311,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.253782135,0.682063694,2,0.480817825,nonsignificant,457,0.528163125,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,44,K,K44,209,Acrolein112,Other,Trypsin only,-0.265294355,0.015179815,3,0.480901266,nonsignificant,458,0.527101388,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,-0.059625674,0.232743042,2,0.481257123,nonsignificant,459,0.526342213,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,53,K,K53,121,GlyGly,Other,Ambic and Napho,-0.043059248,0.390307846,2,0.497711172,nonsignificant,460,0.543154366,nonsignificant,Kidney_Testes
+XP_019218826.1,H1-like,13,K,K13,35,Oxidation,Yes,Ambic only,-0.322064383,0.003969494,3,0.511572233,nonsignificant,461,0.557069981,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,0.230314172,0.937200666,2,0.519641732,nonsignificant,462,0.564632358,nonsignificant,Kidney_Testes
+XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,0.055024509,0.010256675,3,0.539375897,nonsignificant,463,0.584809288,nonsignificant,Kidney_Testes
+XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.024178608,0.016035838,3,0.549181667,nonsignificant,464,0.594157752,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,0.167330647,0.770518373,2,0.560291074,nonsignificant,465,0.604873375,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,-0.081090201,0.32401436,2,0.606791,nonsignificant,466,0.653667558,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,-0.07019865,0.564693127,2,0.608849311,nonsignificant,467,0.654480416,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,110,S,S110,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.017394273,0.818328855,2,0.621595286,nonsignificant,468,0.666753918,nonsignificant,Kidney_Testes
+XP_003448795.2,H1.10,78,T,T78,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.005718517,0.00194838,3,0.63860929,nonsignificant,469,0.683543419,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,118,K,K118,1,Acetyl,Yes,Napho only,0.009090015,0.148908907,2,0.640847405,nonsignificant,470,0.684479569,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,61,D,D61,35,Oxidation,Yes,Ambic only,0.090679381,0.001985364,3,0.646501417,nonsignificant,471,0.689052466,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,-0.113667857,0.002450601,3,0.64801607,nonsignificant,472,0.689203533,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,58,T,T58,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.134579348,0.745695678,2,0.656968515,nonsignificant,473,0.697247768,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,55,K,K55,425,Dioxidation,Yes,Napho only,0.167556318,0.305129163,2,0.683844278,nonsignificant,474,0.724240142,nonsignificant,Kidney_Testes
+XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.037643161,0.787921676,2,0.694515218,nonsignificant,475,0.733992925,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,-0.005026643,1.24039E-06,3,0.697460301,nonsignificant,476,0.735556873,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,-0.005026643,1.24039E-06,3,0.697460301,nonsignificant,477,0.734014825,nonsignificant,Kidney_Testes
+XP_019209845.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic only,0.092224634,0.930921063,2,0.704088516,nonsignificant,478,0.739440241,nonsignificant,Kidney_Testes
+XP_025766521.1,H4-like,73,T,T73,1,Acetyl,Yes,Ambic and Napho,0.00638374,0.559232078,2,0.763938381,nonsignificant,479,0.800620182,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,52,K,K52,121,GlyGly,Other,Ambic and Napho,-0.001805422,3.47369E-07,3,0.765080182,nonsignificant,480,0.800146357,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.262160394,0.000218213,3,0.787884862,nonsignificant,481,0.822283161,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,-0.548528953,0.568387515,2,0.805748649,nonsignificant,482,0.839182203,nonsignificant,Kidney_Testes
+XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,0.010287869,0.641622496,2,0.812744326,nonsignificant,483,0.844715635,nonsignificant,Kidney_Testes
+XP_019209842.1,H1-like,55,K,K55,35,Oxidation,Yes,Ambic only,0.051260873,0.136024776,2,0.814491436,nonsignificant,484,0.84478244,nonsignificant,Kidney_Testes
+XP_019218826.1,H1-like,16,K,K16,425,Dioxidation,Yes,Ambic and Napho,0.255841587,2.14766E-05,3,0.817643932,nonsignificant,485,0.846303616,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,82,N,N82,35,Oxidation,Yes,Ambic only,-0.011655414,0.796619677,2,0.821403567,nonsignificant,486,0.84844566,nonsignificant,Kidney_Testes
+XP_003448795.2,H1.10,145,R,R145,7,Deamidated,Yes,Trypsin only,-0.443947751,0.003747554,3,0.830087214,nonsignificant,487,0.855654582,nonsignificant,Kidney_Testes
+XP_019209843.1,H1-like,1,S,S1,21 + 23,Phospho / Dehydrated,Yes,Napho only,-2.189403393,0.046465047,3,0.841748901,nonsignificant,488,0.865897436,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,0.004982529,2.28708E-06,3,0.856821318,nonsignificant,489,0.879599799,nonsignificant,Kidney_Testes
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,-1.149875875,0.42201511,2,0.859919265,nonsignificant,490,0.880978512,nonsignificant,Kidney_Testes
+XP_025766521.1,H4-like,22,K,K22,34,Methyl,Yes,Trypsin only,0.028031651,0.221042486,2,0.876150152,nonsignificant,491,0.895778771,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,97,R,R97,425,Dioxidation,Yes,Ambic and Napho,0.080336652,0.132879396,2,0.878003708,nonsignificant,492,0.895849312,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,79,K,K79,255,Dimethyl,Yes,Napho and Trypsin,0.053577283,0.037489544,3,0.880202806,nonsignificant,493,0.896271418,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,122,K,K122,378,Lactyl / Carboxyethyl,Yes,Trypsin only,0.159749805,0.163823362,2,0.895018331,nonsignificant,494,0.909512555,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,52,K,K52,378,Lactyl / Carboxyethyl,Yes,Ambic only,0.157804242,0.419569522,2,0.919574408,nonsignificant,495,0.93257849,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",0.002151163,0.799419976,2,0.941624992,nonsignificant,496,0.953015617,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-0.000962929,0.654217149,2,0.958481338,nonsignificant,497,0.968124007,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.082258669,0.822447604,2,0.961267476,nonsignificant,498,0.9689885,nonsignificant,Kidney_Testes
+XP_003438147.1,H2B.L4,68,S,S68,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.00384102,0.515813532,2,0.966774714,nonsignificant,499,0.972586987,nonsignificant,Kidney_Testes
+XP_003451196.1,H2B 1/2,81,Y,Y81,35,Oxidation,Yes,Ambic only,0.030350201,0.006095695,3,0.975138055,nonsignificant,500,0.979038607,nonsignificant,Kidney_Testes
+XP_005463512.2,H3,37,K,K37,255,Dimethyl,Yes,Trypsin only,-0.248066295,0.358328473,2,0.976792056,nonsignificant,501,0.978741741,nonsignificant,Kidney_Testes
+XP_003459589.1,H1-like,1,A,A1,122,Formyl,Yes,Ambic only,-0.043941069,0.718730033,2,0.981433833,nonsignificant,502,0.981433833,nonsignificant,Kidney_Testes
 XP_003448939.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
 XP_003448939.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
 XP_003448939.1,H2A,127,K,K127,255,Dimethyl,Yes,Napho only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
@@ -518,6 +518,6 @@ XP_005463512.2,H3,83,R,R83,425,Dioxidation,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0
 XP_005464230.1,H2A.Z isoform X1,161,K,K161,255,Dimethyl,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
 XP_019209843.1,H1-like,17,K,K17,255,Dimethyl,Yes,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
 XP_019209845.1,H1-like,17,K,K17,121,GlyGly,Other,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
-XP_019210164.1,H1 isoform X1,18,K,K18,121,GlyGly,Other,Ambic only,#NUM!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
+XP_019210164.1,H1 isoform X1,18,K,K18,121,GlyGly,Other,Ambic only,7.116637431,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
 XP_019210164.1,H1 isoform X1,23,K,K23,121,GlyGly,Other,Ambic only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,
 XP_025766521.1,H4-like,53,Y,Y53,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,,,,

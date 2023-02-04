@@ -1,421 +1,421 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name
-XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,1.007812397,0.575020921,2,2.11919E-08,significant,24,4.43263e-7,significant,Gills_Kidney,XP_003459572.1 H2A K123 Acetyl
-XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,-1.249374937,0.055500457,2,4.04106E-08,significant,31,6.54391e-7,significant,Gills_Kidney,XP_003448939.1 H2A T76 Phospho / Dehydrated
-XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,0.957318244,0.367707378,2,5.89089E-08,significant,32,9.24134e-7,significant,Gills_Kidney,XP_003459572.1 H2A K123 Amidated
-XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.725300495,0.804754314,2,8.19092E-06,significant,64,6.42475e-5,significant,Gills_Kidney,XP_003448939.1 H2A T101 Phospho / Dehydrated
-XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,3.792059466,0.625960076,2,6.02758E-05,significant,80,3.78231e-4,significant,Gills_Kidney,XP_003448939.1 H2A K74 Acetyl
-XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,2.597458448,0.002680411,3,8.80003E-05,significant,83,5.32243e-4,significant,Gills_Kidney,XP_003448939.1 H2A K95 Dioxidation
-XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,3.001421768,0.138142885,2,0.000148886,significant,92,8.12401e-4,significant,Gills_Kidney,XP_003451211.1 H2A K118 ADP-Ribosyl
-XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,0.283325149,0.002254562,3,0.000394634,significant,101,0.001961447,significant,Gills_Kidney,XP_003448939.1 H2A T59 GlyGly
-XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.937222601,0.782512169,2,0.000438763,significant,102,0.002159401,significant,Gills_Kidney,XP_003448939.1 H2A S18 Phospho / Dehydrated
-XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,0.052957093,2,0.000457372,significant,103,0.002229134,significant,Gills_Kidney,XP_003458968.1 H2A.Z isoform X2 K4 Methyl
-XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,4.812471305,0.538887314,2,0.000709736,significant,110,0.003238979,significant,Gills_Kidney,XP_003448939.1 H2A R77 Deamidated
-XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-1.405733936,0.643520627,2,0.000805937,significant,115,0.00351809,significant,Gills_Kidney,XP_003448939.1 H2A K119 Lactyl / Carboxyethyl
-XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,0.982228777,0.059791352,2,0.00137464,significant,126,0.005476741,significant,Gills_Kidney,XP_003448939.1 H2A K95 Dimethyl
-XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,1.195971159,0.845891025,2,0.001553935,significant,133,0.00586523,significant,Gills_Kidney,XP_003448939.1 H2A S18 GlyGly
-XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,-1.123683754,0.126374451,2,0.001557485,significant,134,0.005834757,significant,Gills_Kidney,XP_003448939.1 H2A P117 Dioxidation
-XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,1.567583487,0.445944446,2,0.001740218,significant,135,0.006471035,significant,Gills_Kidney,XP_003451211.1 H2A K95 Biotin
-XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,-0.554606655,0.109033779,2,0.002523116,significant,141,0.00898301,significant,Gills_Kidney,XP_003448939.1 H2A P109 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,0.80355602,0.029259112,3,0.002916659,significant,145,0.010097674,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 V163 Amidated
-XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.047521028,0.671877696,2,0.003253744,significant,146,0.011187531,significant,Gills_Kidney,"XP_025766508.1 H2A, sperm-like T102 Phospho / Dehydrated"
-XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,1.046042551,0.00776293,3,0.003452775,significant,147,0.011791109,significant,Gills_Kidney,XP_003448939.1 H2A K127 GlyGly
-XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,1.531660077,0.50080375,2,0.004499044,significant,153,0.014761568,significant,Gills_Kidney,XP_003451211.1 H2A T101 GlyGly
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,1.264698679,0.911776636,2,0.004601379,significant,154,0.0149993,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K151 Dioxidation
-XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,-0.013393289,0.012167625,3,0.004790849,significant,155,0.01551617,significant,Gills_Kidney,XP_003459572.1 H2A K94 Oxidation
-XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,0.668769237,5.66537E-09,3,0.005514185,significant,163,0.016982338,significant,Gills_Kidney,XP_003451211.1 H2A K119 Dimethyl
-XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,-1.101038322,0.481379781,2,0.006905683,significant,166,0.020883451,significant,Gills_Kidney,XP_003448939.1 H2A R42 Dimethyl
-XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.825407191,0.004073655,3,0.009662187,significant,175,0.027716672,significant,Gills_Kidney,XP_003459572.1 H2A K123 GlyGly
-XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,-1.611721883,0.197757739,2,0.009857382,significant,176,0.028115943,significant,Gills_Kidney,XP_003459572.1 H2A P108 Dioxidation
-XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.765106973,0.040054066,3,0.011971559,significant,179,0.033573869,significant,Gills_Kidney,"XP_025766508.1 H2A, sperm-like K119 4-hydroxynonenal"
-XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.765106973,0.040054066,3,0.011971559,significant,180,0.033387347,significant,Gills_Kidney,"XP_025766508.1 H2A, sperm-like K120 Lactyl / Carboxyethyl"
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,1.483428781,0.311692975,2,0.013646194,significant,188,0.036438243,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K151 Dimethyl
-XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,0.734494726,0.000583246,3,0.01514778,significant,193,0.039399926,significant,Gills_Kidney,XP_003448939.1 H2A T120 GlyGly
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,1.440618758,0.535335273,2,0.018421398,significant,196,0.047181335,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K157 Methyl
-XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.723046438,0.062191182,2,0.018489013,significant,197,0.047114134,significant,Gills_Kidney,XP_003448939.1 H2A Y50 Phospho / Dehydrated
-XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,1.174612835,0.676029344,2,0.020838398,significant,201,0.052044158,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K95 Acetyl
-XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,1.515745889,0.386427108,2,0.022314514,significant,202,0.055454882,nonsignificant,Gills_Kidney,XP_003448939.1 H2A S18 Acetyl
-XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,2.286421518,7.94994E-07,3,0.025612093,significant,206,0.062413936,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K127 Acetyl
-XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.493886862,0.041923199,3,0.02611845,significant,208,0.063035874,nonsignificant,Gills_Kidney,XP_003448939.1 H2A E91 ADP-Ribosyl
-XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.212908291,2.63854E-13,3,0.027123308,significant,210,0.064837622,nonsignificant,Gills_Kidney,XP_003448939.1 H2A T59 Phospho / Dehydrated
-XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,0.24349973,2.52249E-15,3,0.027418349,significant,211,0.065232281,nonsignificant,Gills_Kidney,XP_003451211.1 H2A N94 Oxidation
-XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.190125915,2,0.032381822,significant,216,0.075257754,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K73 Methyl
-XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,-0.879002958,0.129845325,2,0.034195921,significant,219,0.078385171,nonsignificant,Gills_Kidney,XP_003448939.1 H2A Y50 Dioxidation
-XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.250698045,5.1266E-06,3,0.036101464,significant,220,0.082376977,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K118 Methyl
-XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.206142305,8.11401E-09,3,0.037615629,significant,221,0.085443647,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K125 Dioxidation
-XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.206142305,8.11401E-09,3,0.037615629,significant,222,0.085058766,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K127 Dioxidation
-XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.196113444,2.7965E-13,3,0.041460889,significant,229,0.090888062,nonsignificant,Gills_Kidney,XP_003448939.1 H2A Y57 Phospho / Dehydrated
-XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,-0.892801177,0.833795888,2,0.041926502,significant,230,0.091509147,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Acetyl
-XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,-1.986546116,0.034813913,3,0.044325844,significant,232,0.095911956,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K94 Acetyl
-XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,-0.608632404,0.428386679,2,0.049291662,significant,237,0.104406811,nonsignificant,Gills_Kidney,XP_003448939.1 H2A P109 Oxidation
-XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.731531165,0.03443625,3,0.051242636,nonsignificant,238,0.108083206,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Dioxidation
-XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,1.63989e-4,0.057541927,2,0.053279282,nonsignificant,240,0.111442499,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K36 Acrolein112
-XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.116113462,0.00047918,3,0.057746905,nonsignificant,244,0.118807157,nonsignificant,Gills_Kidney,XP_003451211.1 H2A T101 Phospho / Dehydrated
-XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.437275802,0.215539635,2,0.060241676,nonsignificant,246,0.122932201,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Methyl
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,0.541995585,0.983749325,2,0.061234275,nonsignificant,248,0.123950024,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R58 Methyl
-XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,-0.127767355,7.43983E-08,3,0.069688334,nonsignificant,250,0.139934175,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K119 Methyl
-XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.458440422,0.022849137,3,0.071200902,nonsignificant,251,0.142401804,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K115 Lactyl / Carboxyethyl
-XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.333462894,1.24207E-09,3,0.08190749,nonsignificant,255,0.161245333,nonsignificant,Gills_Kidney,XP_003448939.1 H2A T120 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,-1.942610224,0.029847441,3,0.083102015,nonsignificant,256,0.162957858,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K157 Lactyl / Carboxyethyl
-XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.138367965,2.53846E-20,3,0.084681643,nonsignificant,257,0.165409279,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 GlyGly
-XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,-2.647149263,0.969802322,2,0.086547223,nonsignificant,259,0.1677479,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R42 Deamidated
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,0.329691772,0.768707368,2,0.089125659,nonsignificant,261,0.171421765,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 S56 Acetyl
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,0.329691772,0.768707368,2,0.089125659,nonsignificant,262,0.170767483,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R58 Dimethyl
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.387283702,0.499382722,2,0.093536299,nonsignificant,264,0.177860689,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K151 Methyl
-XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.768960246,0.727509285,2,0.106709434,nonsignificant,272,0.196941676,nonsignificant,Gills_Kidney,XP_013130603.1 core histone macro-H2A.1 isoform X5 T98 Phospho / Dehydrated
-XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.35011883,0.035700236,3,0.106916861,nonsignificant,273,0.1966017,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Lactyl / Carboxyethyl
-XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,0.159384777,0.916345681,2,0.112660557,nonsignificant,276,0.204911594,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Methyl
-XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,-5.103397523,0.008699462,3,0.114292949,nonsignificant,278,0.206385109,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K110 Biotin
-XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,0.413981482,0.11798391,2,0.116164452,nonsignificant,279,0.209012741,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K119 Dimethyl
-XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.161609011,0.001438237,3,0.12658801,nonsignificant,281,0.226146552,nonsignificant,Gills_Kidney,XP_003448939.1 H2A S126 Phospho / Dehydrated
-XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,-1.002142127,0.691254614,2,0.132939468,nonsignificant,284,0.234984552,nonsignificant,Gills_Kidney,XP_003448939.1 H2A Y50 Oxidation
-XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-0.60888372,0.035933023,3,0.134665433,nonsignificant,286,0.236370795,nonsignificant,Gills_Kidney,XP_003448939.1 H2A P48 Oxidation
-XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,1.155703501,0.647917554,2,0.139381333,nonsignificant,288,0.242949407,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K119 GlyGly
-XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,0.082770949,5.54637E-08,3,0.174415334,nonsignificant,296,0.295798978,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K118 Oxidation
-XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.473207625,0.005273697,3,0.178178667,nonsignificant,297,0.301163942,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K123 Lactyl / Carboxyethyl
-XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.167828538,0.153858966,2,0.181580888,nonsignificant,298,0.305884584,nonsignificant,Gills_Kidney,XP_003459572.1 H2A T119 Phospho / Dehydrated
-XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-0.033826341,0.020721932,3,0.189661735,nonsignificant,306,0.311144415,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R88 Methyl
-XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,0.133919545,0.001018996,3,0.198084764,nonsignificant,310,0.320769521,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Acetyl
-XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.215792108,0.670795568,2,0.204803038,nonsignificant,312,0.329522836,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 P147 Oxidation
-XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,-1.079753114,0.00405411,3,0.226556334,nonsignificant,318,0.357645533,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K137 Lactyl / Carboxyethyl
-XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,0.421364594,0.984372558,2,0.231036017,nonsignificant,321,0.361308662,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 P147 Dioxidation
-XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,0.118940986,0.000142799,3,0.255260666,nonsignificant,326,0.393070105,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Oxidation
-XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.223524638,1.49803E-06,3,0.277623696,nonsignificant,329,0.423608192,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K119 Acetyl
-XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.050931205,0.871011092,2,0.286279497,nonsignificant,333,0.431568492,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K127 Amidated
-XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,-0.439456184,0.708105452,2,0.297655772,nonsignificant,341,0.438191195,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K119 Acetyl
-XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,-0.06625462,1.29886E-07,3,0.33114466,nonsignificant,351,0.473602903,nonsignificant,Gills_Kidney,XP_003451211.1 H2A P109 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,0.052889846,6.49696E-27,3,0.339396534,nonsignificant,353,0.482654561,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 P119 Oxidation
-XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,0.052889846,6.49696E-27,3,0.339396534,nonsignificant,354,0.48129113,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R120 Oxidation
-XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.130491065,1.15269E-06,3,0.344924488,nonsignificant,357,0.485019869,nonsignificant,Gills_Kidney,XP_003451211.1 H2A T120 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,-0.050937517,1.43348E-19,3,0.348696118,nonsignificant,359,0.487591786,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R120 Dioxidation
-XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,0.001721938,3,0.384537656,nonsignificant,366,0.527425965,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R35 Dimethyl
-XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,2.510253811,0.000568293,3,0.387451779,nonsignificant,367,0.529974914,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K36 Dimethyl
-XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,-0.168917494,0.663498627,2,0.403384066,nonsignificant,370,0.547294057,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K95 GlyGly
-XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-3.54190457,3.71539E-07,3,0.410370666,nonsignificant,371,0.555272438,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Lactyl / Carboxyethyl
-XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.158359682,0.748745669,2,0.463416676,nonsignificant,380,0.612197819,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 T162 Phospho / Dehydrated
-XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,0.084542198,0.33206133,2,0.497603477,nonsignificant,384,0.650512879,nonsignificant,Gills_Kidney,XP_003448939.1 H2A S19 GlyGly
-XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.166784364,0.681010497,2,0.537848682,nonsignificant,390,0.692307791,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 S152 Phospho / Dehydrated
-XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.195112094,0.015444311,3,0.538588532,nonsignificant,391,0.691487067,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Dimethyl
-XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.066484263,0.537042646,2,0.54230986,nonsignificant,392,0.694488648,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K122 Dimethyl
-XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,-1.49790785,0.177692087,2,0.543229889,nonsignificant,393,0.693896703,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K117 4-hydroxynonenal
-XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,-0.377724209,0.940064761,2,0.561978982,nonsignificant,397,0.710613222,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K117 Methyl
-XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,0.068977291,0.239029295,2,0.56630165,nonsignificant,399,0.712489795,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R20 Methyl
-XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,-0.093956882,0.051211942,2,0.573885656,nonsignificant,401,0.718430422,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R81 Deamidated
-XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,0.564171543,0.00200184,3,0.576119238,nonsignificant,402,0.719432481,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K122 GlyGly
-XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.030467921,0.571408871,2,0.57779872,nonsignificant,403,0.719739349,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K118 Dimethyl
-XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.461425747,0.112600331,2,0.580070894,nonsignificant,404,0.72078116,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K122 Dimethyl
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,-0.415417835,0.190625209,2,0.585777712,nonsignificant,405,0.72607509,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 S56 GlyGly
-XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.020508136,0.000739179,3,0.611642049,nonsignificant,407,0.754408621,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 T98 Phospho / Dehydrated
-XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,0.712929756,0.039873015,3,0.612901602,nonsignificant,409,0.752265536,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K118 Acetyl
-XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,-0.073747812,0.015680263,3,0.614050516,nonsignificant,410,0.751837461,nonsignificant,Gills_Kidney,XP_003451211.1 H2A P117 Dioxidation
-XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,-0.116071479,0.94770343,2,0.615261122,nonsignificant,411,0.751486821,nonsignificant,Gills_Kidney,XP_003448939.1 H2A P48 Dioxidation
-XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,-0.011278258,0.000338707,3,0.6207666,nonsignificant,413,0.754539548,nonsignificant,Gills_Kidney,XP_003451211.1 H2A P109 Oxidation
-XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,-0.483723129,0.01204285,3,0.632006922,nonsignificant,416,0.7626622,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K156 Methyl
-XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,-1.301591127,1.67805E-14,3,0.644935516,nonsignificant,417,0.776397192,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K95 Oxidation
-XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,0.069987197,0.238154866,2,0.671052585,nonsignificant,421,0.800162465,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K119 Lactyl / Carboxyethyl
-XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,0.069987197,0.238154866,2,0.671052585,nonsignificant,422,0.798266345,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K122 Acetyl
-XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,-0.05074145,4.92351E-09,3,0.691691932,nonsignificant,426,0.815092371,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K127 Amidated
-XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,-0.070580116,0.640513764,2,0.726075148,nonsignificant,432,0.843726214,nonsignificant,Gills_Kidney,"XP_025766508.1 H2A, sperm-like K120 4-hydroxynonenal"
-XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,-0.286887081,0.468464426,2,0.743900276,nonsignificant,433,0.862443276,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R20 Deamidated
-XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,0.0527161,1.57942E-08,3,0.747187156,nonsignificant,435,0.862271154,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K119 Methyl
-XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.374537983,0.126722417,2,0.75825941,nonsignificant,440,0.865105055,nonsignificant,Gills_Kidney,XP_003459572.1 H2A T100 Phospho / Dehydrated
-XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,-0.26062774,0.627065672,2,0.794176632,nonsignificant,449,0.887921312,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K118 GlyGly
-XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,0.4748055,0.578062094,2,0.803020561,nonsignificant,452,0.89185027,nonsignificant,Gills_Kidney,XP_003448939.1 H2A T59 Acetyl
-XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,-3.20343e-16,0.000124457,3,0.810506018,nonsignificant,456,0.89226759,nonsignificant,Gills_Kidney,XP_003448939.1 H2A P80 Oxidation
-XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,-0.055786312,0.786278118,2,0.830001513,nonsignificant,459,0.907757646,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K121 4-hydroxynonenal
-XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,-0.068396802,0.002011364,3,0.847785566,nonsignificant,463,0.919197309,nonsignificant,Gills_Kidney,XP_003451211.1 H2A P117 Oxidation
-XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,0.37136154,0.041557987,3,0.863548235,nonsignificant,469,0.924309625,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K156 Dimethyl
-XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,0.286656582,0.256906558,2,0.898510402,nonsignificant,476,0.947588701,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K161 Methyl
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.297019805,0.108474021,2,0.908179262,nonsignificant,479,0.951787035,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 S56 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,-1.297019805,0.108474021,2,0.908179262,nonsignificant,480,0.949804145,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R58 Dioxidation
-XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,-0.085061578,0.63599711,2,0.933144752,nonsignificant,487,0.961886377,nonsignificant,Gills_Kidney,XP_003459572.1 H2A T119 GlyGly
-XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.108465446,0.334433422,2,0.943505571,nonsignificant,490,0.96661183,nonsignificant,Gills_Kidney,XP_003448939.1 H2A S19 Phospho / Dehydrated
-XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.268987881,0.210756096,2,0.963894566,nonsignificant,495,0.977525399,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K122 Methyl
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,0.092909019,0.808514674,2,0.983111975,nonsignificant,499,0.989022467,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K157 Dimethyl
-XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.027938714,6.55993E-09,3,0.987259491,nonsignificant,500,0.991208529,nonsignificant,Gills_Kidney,XP_003448939.1 H2A T124 Phospho / Dehydrated
-XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.393104161,0.000585289,3,0.998166272,nonsignificant,501,1.00015862,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Oxidation
-XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.223292328,0.00162343,3,0.999389733,nonsignificant,502,0.999389733,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Dimethyl
+XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,1.51745551,0.005931795,3,4.83101E-14,significant,9,2.6946300000000002e-12,significant,Gills_Kidney,XP_003459572.1 H2A K123 Acetyl
+XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,1.477200225,0.003697113,3,2.16713E-13,significant,12,9.06585e-12,significant,Gills_Kidney,XP_003459572.1 H2A K123 Amidated
+XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,2.411477439,0.318438441,2,1.37894E-10,significant,43,1.60983e-9,significant,Gills_Kidney,XP_003448939.1 H2A K74 Acetyl
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.647852704,0.369632405,2,7.57687E-10,significant,53,7.17658e-9,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K151 Methyl
+XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,2.187886375,0.841803018,2,1.03245E-09,significant,57,9.09277e-9,significant,Gills_Kidney,XP_003448939.1 H2A K95 Dioxidation
+XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,1.17889E-08,3,3.90666E-09,significant,66,2.97143e-8,significant,Gills_Kidney,XP_003458968.1 H2A.Z isoform X2 K4 Methyl
+XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.735120882,0.968304557,2,4.3318E-09,significant,67,3.24562e-8,significant,Gills_Kidney,XP_003448939.1 H2A T101 Phospho / Dehydrated
+XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,-0.131701163,0.074275086,2,9.29005E-08,significant,95,4.90906e-7,significant,Gills_Kidney,XP_003451211.1 H2A P109 Dioxidation
+XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,-1.224557119,0.10042701,2,1.00512E-07,significant,96,5.25592e-7,significant,Gills_Kidney,XP_003448939.1 H2A T76 Phospho / Dehydrated
+XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,0.094843857,0.000501432,3,1.29732E-07,significant,99,6.57833e-7,significant,Gills_Kidney,XP_003448939.1 H2A K36 Acrolein112
+XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,2.205087902,0.034037763,3,1.94434E-07,significant,103,9.47629e-7,significant,Gills_Kidney,"XP_025766508.1 H2A, sperm-like T102 Phospho / Dehydrated"
+XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,2.085267852,0.001824289,3,2.22458E-07,significant,104,1.07379e-6,significant,Gills_Kidney,XP_003448939.1 H2A K119 Dimethyl
+XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.091805428,0.087337111,2,9.80845E-07,significant,118,4.17275e-6,significant,Gills_Kidney,XP_003451211.1 H2A T101 Phospho / Dehydrated
+XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,0.499047821,0.001188064,3,9.94847E-07,significant,120,4.16178e-6,significant,Gills_Kidney,XP_003451211.1 H2A N94 Oxidation
+XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,1.355692904,0.986505728,2,3.29769E-06,significant,138,1.19959e-5,significant,Gills_Kidney,XP_003451211.1 H2A K95 Biotin
+XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,1.261302359,0.855723225,2,4.97495E-06,significant,140,1.78387e-5,significant,Gills_Kidney,XP_003451211.1 H2A T101 GlyGly
+XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,2.203138559,0.000186083,3,6.00354E-06,significant,143,2.10754e-5,significant,Gills_Kidney,XP_003448939.1 H2A T59 Acetyl
+XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1.179495632,0.909930266,2,8.29772E-06,significant,147,2.83364e-5,significant,Gills_Kidney,XP_003448939.1 H2A S18 Phospho / Dehydrated
+XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,-0.153517665,0.001305552,3,8.67706E-06,significant,148,2.94316e-5,significant,Gills_Kidney,XP_003448939.1 H2A K127 Amidated
+XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,-1.363793481,1.07526E-06,3,3.24131E-05,significant,160,1.01696e-4,significant,Gills_Kidney,XP_003448939.1 H2A K36 Dimethyl
+XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.716681365,3.5514E-07,3,3.71687E-05,significant,162,1.15177e-4,significant,Gills_Kidney,"XP_025766508.1 H2A, sperm-like K119 4-hydroxynonenal"
+XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.716681365,3.5514E-07,3,3.71687E-05,significant,163,1.1447e-4,significant,Gills_Kidney,"XP_025766508.1 H2A, sperm-like K120 Lactyl / Carboxyethyl"
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,1.6916991,0.037403863,3,4.10324E-05,significant,165,1.24838e-4,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R58 Methyl
+XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,-0.648159133,0.022577022,3,4.38602E-05,significant,167,1.31843e-4,significant,Gills_Kidney,XP_003448939.1 H2A P117 Dioxidation
+XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,-0.47844904,0.01166548,3,5.74365E-05,significant,172,1.67634e-4,significant,Gills_Kidney,XP_003448939.1 H2A P48 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,1.271660004,0.017735841,3,6.92852E-05,significant,174,1.99892e-4,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 S56 Acetyl
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,1.271660004,0.017735841,3,6.92852E-05,significant,175,1.9875e-4,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R58 Dimethyl
+XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,2.361583658,0.000337628,3,8.7323E-05,significant,178,2.46271e-4,significant,Gills_Kidney,XP_003448939.1 H2A K127 Acetyl
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,5.109741032,0.346202349,2,0.000119022,significant,181,3.30105e-4,significant,Gills_Kidney,XP_003448939.1 H2A R77 Deamidated
+XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,0.881755271,0.010502352,3,0.00015238,significant,182,4.203e-4,significant,Gills_Kidney,XP_003448939.1 H2A K119 Methyl
+XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,0.760775808,0.237241533,2,0.000158546,significant,184,4.32556e-4,significant,Gills_Kidney,XP_003448939.1 H2A K95 Acetyl
+XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.472449401,0.037725919,3,0.000288644,significant,190,7.62628e-4,significant,Gills_Kidney,XP_003451211.1 H2A K95 Dioxidation
+XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.143379884,0.321710729,2,0.000381926,significant,192,9.98576e-4,significant,Gills_Kidney,XP_003451211.1 H2A T120 Phospho / Dehydrated
+XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,-0.644539572,0.00127093,3,0.000609641,significant,200,0.001530199,significant,Gills_Kidney,XP_003448939.1 H2A P109 Oxidation
+XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,1.272443076,0.968180479,2,0.000610971,significant,201,0.001525907,significant,Gills_Kidney,XP_003448939.1 H2A S18 GlyGly
+XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,0.454516687,0.014055736,3,0.000701314,significant,204,0.001725781,significant,Gills_Kidney,XP_003451211.1 H2A K119 Dimethyl
+XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-0.623692049,0.175490354,2,0.000758164,significant,207,0.00183864,significant,Gills_Kidney,XP_003448939.1 H2A P48 Oxidation
+XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,0.252703777,0.004379783,3,0.001055138,significant,219,0.002418627,significant,Gills_Kidney,XP_003448939.1 H2A T59 GlyGly
+XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,-1.54451959,0.181586767,2,0.001187527,significant,222,0.00268531,significant,Gills_Kidney,XP_003459572.1 H2A K94 Acetyl
+XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,-0.133252802,0.000222039,3,0.001739836,significant,229,0.003813963,significant,Gills_Kidney,"XP_025766508.1 H2A, sperm-like K120 4-hydroxynonenal"
+XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,-0.465387607,0.012869433,3,0.001881189,significant,232,0.004070503,significant,Gills_Kidney,XP_003448939.1 H2A P109 Dioxidation
+XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,-1.095565947,0.099023298,2,0.002022561,significant,235,0.004320535,significant,Gills_Kidney,XP_003459572.1 H2A K117 4-hydroxynonenal
+XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.12174673,0.000408807,3,0.003270677,significant,246,0.006674308,significant,Gills_Kidney,XP_003448939.1 H2A T59 Phospho / Dehydrated
+XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,1.693143008,0.393651895,2,0.003522099,significant,247,0.007158274,significant,Gills_Kidney,XP_003448939.1 H2A S18 Acetyl
+XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.439394992,0.676098727,2,0.0038069,significant,248,0.007705902,significant,Gills_Kidney,XP_003448939.1 H2A K118 Oxidation
+XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.368541146,0.643574171,2,0.004612627,significant,252,0.009188646,significant,Gills_Kidney,XP_003448939.1 H2A E91 ADP-Ribosyl
+XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,-0.954632401,0.527532061,2,0.00470453,significant,255,0.009261466,significant,Gills_Kidney,XP_003459572.1 H2A P108 Dioxidation
+XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,1.02974087,0.300586623,2,0.006151014,significant,265,0.01165211,significant,Gills_Kidney,XP_003459572.1 H2A K118 Acetyl
+XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,1.206769106,0.000123965,3,0.009091085,significant,268,0.017028823,significant,Gills_Kidney,XP_003451211.1 H2A K122 GlyGly
+XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.440798823,0.055999333,2,0.013561557,significant,280,0.024313935,significant,Gills_Kidney,XP_003448939.1 H2A S19 Phospho / Dehydrated
+XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.091201918,0.351393718,2,0.014504792,significant,282,0.025820587,significant,Gills_Kidney,XP_003448939.1 H2A T120 Phospho / Dehydrated
+XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,-0.45400714,0.085110005,2,0.015688947,significant,284,0.027731871,significant,Gills_Kidney,XP_003448939.1 H2A R20 Deamidated
+XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,0.166930944,0.078280015,2,0.016551162,significant,286,0.02905134,significant,Gills_Kidney,XP_003451211.1 H2A K95 Oxidation
+XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,1.867596242,0.001404288,3,0.021588959,significant,292,0.037115265,significant,Gills_Kidney,XP_003451211.1 H2A K118 ADP-Ribosyl
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,0.811522532,0.011405707,3,0.022458494,significant,294,0.038347496,significant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 S56 GlyGly
+XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,0.589244233,0.003016807,3,0.029607048,significant,300,0.04954246,significant,Gills_Kidney,XP_003448939.1 H2A K119 GlyGly
+XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,3.44307E-05,3,0.033263771,significant,304,0.054928991,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R35 Dimethyl
+XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,0.570840728,0.000437864,3,0.033766075,significant,306,0.055394018,nonsignificant,Gills_Kidney,XP_003448939.1 H2A T120 GlyGly
+XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,1.121571098,0.003056954,3,0.034347205,significant,310,0.055620312,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K127 GlyGly
+XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,-0.200094011,0.005631908,3,0.036365819,significant,315,0.057954416,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K119 Acetyl
+XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.19424311,4.07125E-08,3,0.043645205,significant,322,0.068043145,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K118 Methyl
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,0.178550039,0.294147572,2,0.049748842,significant,326,0.076607113,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K157 Methyl
+XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,-0.291256195,0.202036134,2,0.051373543,nonsignificant,328,0.078626582,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K95 GlyGly
+XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.073168685,0.003869374,3,0.059273841,nonsignificant,330,0.090168085,nonsignificant,Gills_Kidney,XP_003448939.1 H2A Y57 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.332307058,0.632699055,2,0.064973954,nonsignificant,333,0.097948723,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 S56 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,0.332307058,0.632699055,2,0.064973954,nonsignificant,334,0.097655464,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R58 Dioxidation
+XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.449890952,0.07461613,2,0.07313526,nonsignificant,338,0.108621007,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K119 Lactyl / Carboxyethyl
+XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,-0.13138871,0.114244317,2,0.073594421,nonsignificant,339,0.108980529,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Acetyl
+XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,-0.650282191,0.081811269,2,0.075125062,nonsignificant,340,0.110919945,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R42 Dimethyl
+XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,0.089137175,0.325040797,2,0.089712607,nonsignificant,348,0.129413014,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Methyl
+XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.15998362,0.277613055,2,0.091827633,nonsignificant,349,0.132084446,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 T162 Phospho / Dehydrated
+XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.065373848,2.06328E-06,3,0.094473742,nonsignificant,351,0.135116291,nonsignificant,Gills_Kidney,XP_003448939.1 H2A T124 Phospho / Dehydrated
+XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,0.039492045,5.05718E-14,3,0.1075676,nonsignificant,356,0.151682402,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R81 Deamidated
+XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.299604653,0.302520734,2,0.111189674,nonsignificant,357,0.156350745,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Methyl
+XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,-0.480035736,0.544232199,2,0.123733996,nonsignificant,362,0.171586923,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K121 4-hydroxynonenal
+XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.036440635,0.011396896,3,0.130345779,nonsignificant,364,0.179762585,nonsignificant,Gills_Kidney,XP_003448939.1 H2A Y50 Phospho / Dehydrated
+XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,0.263738931,0.006552147,3,0.134796004,nonsignificant,365,0.185390668,nonsignificant,Gills_Kidney,XP_003448939.1 H2A S19 GlyGly
+XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,-0.455988526,0.423630802,2,0.138339794,nonsignificant,367,0.189227729,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K118 GlyGly
+XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.165561206,0.342936021,2,0.147662281,nonsignificant,369,0.20088473,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 S152 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.248138894,2,0.149304868,nonsignificant,370,0.202570388,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K73 Methyl
+XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.456420504,0.000507386,3,0.15157378,nonsignificant,372,0.204543111,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K115 Lactyl / Carboxyethyl
+XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,-4.44554e-4,0.483406175,2,0.156308238,nonsignificant,373,0.210366583,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 T98 Phospho / Dehydrated
+XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.125785589,2.31408E-08,3,0.15810321,nonsignificant,375,0.211647498,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Dimethyl
+XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.09552141,0.00125476,3,0.163377626,nonsignificant,376,0.218126511,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K122 Dimethyl
+XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-0.083864729,0.0124332,3,0.168894053,nonsignificant,379,0.223706635,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R88 Methyl
+XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,0.247884669,0.006132801,3,0.176631291,nonsignificant,381,0.232726793,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R20 Methyl
+XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,-0.49096971,6.15979E-06,3,0.185068974,nonsignificant,383,0.242570822,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K95 Oxidation
+XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,-1.209827306,0.039150574,3,0.242523709,nonsignificant,395,0.308220004,nonsignificant,Gills_Kidney,XP_003448939.1 H2A R42 Deamidated
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,0.221456449,0.633379552,2,0.244613539,nonsignificant,396,0.3100909,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 P147 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,1.191935536,0.012084826,3,0.248126456,nonsignificant,397,0.313751841,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K161 Methyl
+XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,0.070107419,6.71077E-05,3,0.249136053,nonsignificant,398,0.314236931,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K94 Oxidation
+XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.171464001,0.063889825,2,0.250993436,nonsignificant,399,0.315786228,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K95 Dimethyl
+XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,0.08305633,0.001922335,3,0.251226785,nonsignificant,400,0.315289615,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K118 Oxidation
+XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.077378329,0.008581739,3,0.259505726,nonsignificant,403,0.323255272,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K125 Dioxidation
+XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.077378329,0.008581739,3,0.259505726,nonsignificant,404,0.322455135,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K127 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,-0.132306934,0.085786531,2,0.317613039,nonsignificant,407,0.391748761,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K156 Methyl
+XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.168784496,0.142239651,2,0.31981767,nonsignificant,408,0.393501153,nonsignificant,Gills_Kidney,XP_003459572.1 H2A T100 Phospho / Dehydrated
+XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.046893399,0.045160226,3,0.33963107,nonsignificant,412,0.413822323,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K118 Dimethyl
+XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.091024907,0.002576587,3,0.354769384,nonsignificant,415,0.429142725,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K122 Methyl
+XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,-0.045348186,2.00567E-08,3,0.357624177,nonsignificant,416,0.431556098,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K119 Methyl
+XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,0.033766408,0.000327595,3,0.37484793,nonsignificant,422,0.445909149,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K123 Lactyl / Carboxyethyl
+XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,0.047948468,0.000530932,3,0.378747007,nonsignificant,423,0.449482263,nonsignificant,Gills_Kidney,XP_003459572.1 H2A T119 GlyGly
+XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.025443981,0.024650587,3,0.401528468,nonsignificant,428,0.470951615,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K127 Amidated
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,0.062189281,0.09445746,2,0.40882811,nonsignificant,429,0.478395597,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K151 Dioxidation
+XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.042654055,0.011968471,3,0.479433715,nonsignificant,442,0.544515215,nonsignificant,Gills_Kidney,XP_003448939.1 H2A S126 Phospho / Dehydrated
+XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,0.024114123,0.001763075,3,0.494129132,nonsignificant,443,0.559938655,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K117 Methyl
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.045095957,0.994071384,2,0.500257435,nonsignificant,444,0.565606379,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 P147 Oxidation
+XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.169967824,0.627459913,2,0.567077495,nonsignificant,449,0.634015373,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K137 Lactyl / Carboxyethyl
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.161923673,0.574605567,2,0.610982602,nonsignificant,454,0.675579881,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K157 Lactyl / Carboxyethyl
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,-0.05789538,0.80255061,2,0.611703343,nonsignificant,455,0.674890282,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K157 Dimethyl
+XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,-0.012143083,2.60896E-06,3,0.614449005,nonsignificant,456,0.676432896,nonsignificant,Gills_Kidney,XP_003451211.1 H2A P109 Oxidation
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,0.800290201,0.308038236,2,0.622936829,nonsignificant,458,0.682782288,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K151 Dimethyl
+XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.207355913,0.011908634,3,0.648856816,nonsignificant,460,0.708100264,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K119 Acetyl
+XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.030028866,0.004986813,3,0.667131745,nonsignificant,461,0.726464504,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K122 Dimethyl
+XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,-3.20343e-16,1.77301E-06,3,0.671420155,nonsignificant,462,0.72955177,nonsignificant,Gills_Kidney,XP_003448939.1 H2A P80 Oxidation
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,0.917717166,0.295930778,2,0.690471373,nonsignificant,464,0.747018598,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K156 Dimethyl
+XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,-0.151298276,0.088707304,2,0.699261732,nonsignificant,466,0.753281952,nonsignificant,Gills_Kidney,XP_003448939.1 H2A Y50 Oxidation
+XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.032199831,0.001556288,3,0.719537198,nonsignificant,469,0.770165615,nonsignificant,Gills_Kidney,XP_003459572.1 H2A K123 GlyGly
+XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.61665396,0.007743343,3,0.73542509,nonsignificant,470,0.785496586,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Lactyl / Carboxyethyl
+XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,-0.01560767,0.004638549,3,0.767701806,nonsignificant,476,0.809635098,nonsignificant,Gills_Kidney,XP_003448939.1 H2A Y50 Dioxidation
+XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,0.108783104,0.00077187,3,0.774675888,nonsignificant,477,0.815277349,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K119 Lactyl / Carboxyethyl
+XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,0.108783104,0.00077187,3,0.774675888,nonsignificant,478,0.813571748,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K122 Acetyl
+XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.022408199,0.160956274,2,0.793463752,nonsignificant,479,0.831563264,nonsignificant,Gills_Kidney,XP_003459572.1 H2A T119 Phospho / Dehydrated
+XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.123337066,0.394147506,2,0.80525795,nonsignificant,480,0.842165606,nonsignificant,Gills_Kidney,XP_013130603.1 core histone macro-H2A.1 isoform X5 T98 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,-0.026597243,0.124147995,2,0.854571763,nonsignificant,481,0.891881549,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 V163 Amidated
+XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.02086884,0.570184465,2,0.870630375,nonsignificant,484,0.903009191,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Dimethyl
+XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,0.001217136,3.82439E-08,3,0.883236822,nonsignificant,485,0.914195639,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 P119 Oxidation
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,0.001217136,3.82439E-08,3,0.883236822,nonsignificant,486,0.912314578,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R120 Oxidation
+XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,0.062841065,0.000249616,3,0.897109115,nonsignificant,487,0.924740813,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 Lactyl / Carboxyethyl
+XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,1.259309909,0.31997254,2,0.899604621,nonsignificant,488,0.925412951,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 K110 Biotin
+XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,0.010229149,0.127866974,2,0.932569453,nonsignificant,493,0.949594047,nonsignificant,Gills_Kidney,XP_003451211.1 H2A P117 Dioxidation
+XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,-0.003140628,0.000316525,3,0.941676748,nonsignificant,494,0.956926574,nonsignificant,Gills_Kidney,XP_003448939.1 H2A K118 Acetyl
+XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,0.007446806,0.238006661,2,0.966603593,nonsignificant,497,0.976327975,nonsignificant,Gills_Kidney,XP_003451211.1 H2A P117 Oxidation
+XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.084096057,6.63407E-07,3,0.980429423,nonsignificant,499,0.986323788,nonsignificant,Gills_Kidney,XP_003451211.1 H2A K95 GlyGly
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,-0.001203286,6.59328E-09,3,0.995725043,nonsignificant,502,0.995725043,nonsignificant,Gills_Kidney,XP_005464230.1 H2A.Z isoform X1 R120 Dioxidation
 XP_003448939.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K118 GlyGly
 XP_003448939.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K122 GlyGly
 XP_003448939.1,H2A,127,K,K127,255,Dimethyl,Yes,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K127 Dimethyl
 XP_003451211.1,H2A,123,P,P123,35,Oxidation,Yes,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003451211.1 H2A P123 Oxidation
 XP_003459572.1,H2A,117,K,K117,1,Acetyl,Yes,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003459572.1 H2A K117 Acetyl
 XP_005464230.1,H2A.Z isoform X1,161,K,K161,255,Dimethyl,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005464230.1 H2A.Z isoform X1 K161 Dimethyl
-XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.297302219,0.080629574,2,2.57507E-08,significant,22,5.87584e-7,significant,Gills_Testes,XP_003451211.1 H2A K127 Amidated
-XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,2.172328749,0.591347366,2,1.83339E-07,significant,28,3.28701e-6,significant,Gills_Testes,XP_003448939.1 H2A K119 Dimethyl
-XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,2.177625583,0.028759921,3,5.47179E-07,significant,38,7.22853e-6,significant,Gills_Testes,"XP_025766508.1 H2A, sperm-like T102 Phospho / Dehydrated"
-XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.017827125,0.693242362,2,1.32559E-06,significant,44,1.51238e-5,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 T98 Phospho / Dehydrated
-XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,-0.56371271,0.801142897,2,1.49751E-06,significant,46,1.63424e-5,significant,Gills_Testes,XP_003451211.1 H2A K95 Oxidation
-XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-1.018540638,0.567847089,2,2.98351E-06,significant,51,2.93671e-5,significant,Gills_Testes,XP_003448939.1 H2A P48 Oxidation
-XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.564771848,0.005097611,3,1.43575E-05,significant,75,9.60998e-5,significant,Gills_Testes,XP_003459572.1 H2A K123 Lactyl / Carboxyethyl
-XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,3.297415982,0.399406121,2,3.02687E-05,significant,83,1.83071e-4,significant,Gills_Testes,XP_003459572.1 H2A K118 Acetyl
-XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,-2.039666553,0.717851891,2,3.58668E-05,significant,86,2.09362e-4,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K110 Biotin
-XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-1.241595636,7.45426E-12,3,4.19668E-05,significant,89,2.36712e-4,significant,Gills_Testes,XP_003451211.1 H2A K95 Lactyl / Carboxyethyl
-XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.893797852,0.156411471,2,4.85888E-05,significant,92,2.65126e-4,significant,Gills_Testes,XP_003459572.1 H2A K123 GlyGly
-XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-2.254438097,0.116237404,2,7.77649E-05,significant,99,3.94323e-4,significant,Gills_Testes,XP_003448939.1 H2A R88 Methyl
-XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.975333867,1.50974E-12,3,0.00011111,significant,101,5.52249e-4,significant,Gills_Testes,"XP_025766508.1 H2A, sperm-like K119 4-hydroxynonenal"
-XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.975333867,1.50974E-12,3,0.00011111,significant,102,5.46835e-4,significant,Gills_Testes,"XP_025766508.1 H2A, sperm-like K120 Lactyl / Carboxyethyl"
-XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.78049494,0.032331298,3,0.000177542,significant,109,8.17671e-4,significant,Gills_Testes,XP_003448939.1 H2A E91 ADP-Ribosyl
-XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,-0.805024252,0.001828894,3,0.000582928,significant,134,0.002183803,significant,Gills_Testes,XP_003448939.1 H2A K95 GlyGly
-XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,-0.682410279,0.057658912,2,0.000604719,significant,136,0.002232125,significant,Gills_Testes,XP_003448939.1 H2A K118 Methyl
-XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-1.255954055,1.7889E-13,3,0.00065201,significant,139,0.002354741,significant,Gills_Testes,XP_003451211.1 H2A K95 Dioxidation
-XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.311051516,0.244254418,2,0.000680424,significant,141,0.002422501,significant,Gills_Testes,XP_003448939.1 H2A T101 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.495181222,0.036225504,3,0.000795218,significant,144,0.002772219,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 P147 Oxidation
-XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.58675163,2,0.000803636,significant,145,0.002782244,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K73 Methyl
-XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,0.480438826,0.07485473,2,0.000822715,significant,147,0.002809545,significant,Gills_Testes,XP_003459572.1 H2A K123 Amidated
-XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,0.488925898,0.06273068,2,0.000885174,significant,150,0.002962384,significant,Gills_Testes,XP_003459572.1 H2A K123 Acetyl
-XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,0.695275515,0.127575646,2,0.001134433,significant,154,0.003697956,significant,Gills_Testes,XP_003448939.1 H2A K119 Methyl
-XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,0.739113046,0.066315143,2,0.001974779,significant,168,0.005900828,significant,Gills_Testes,XP_003448939.1 H2A R77 Deamidated
-XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,1.109179876,0.000210271,3,0.002024155,significant,169,0.006012578,significant,Gills_Testes,XP_003448939.1 H2A K127 GlyGly
-XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,1.555041575,0.007385532,3,0.002783143,significant,176,0.007938283,significant,Gills_Testes,XP_003448939.1 H2A K95 Acetyl
-XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,-0.682926221,0.047372089,3,0.002915522,significant,180,0.008131067,significant,Gills_Testes,XP_003448939.1 H2A T120 GlyGly
-XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.494944332,4.28882E-12,3,0.00345532,significant,183,0.009478529,significant,Gills_Testes,XP_003451211.1 H2A K125 Dioxidation
-XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.494944332,4.28882E-12,3,0.00345532,significant,184,0.009427016,significant,Gills_Testes,XP_003451211.1 H2A K127 Dioxidation
-XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,-0.68610501,0.01728211,3,0.003751324,significant,187,0.010070398,significant,Gills_Testes,XP_003451211.1 H2A T101 GlyGly
-XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,-0.696025646,0.017192189,3,0.0042689,significant,189,0.01133856,significant,Gills_Testes,XP_003451211.1 H2A K95 Biotin
-XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,1.447523833,0.094704802,2,0.004442701,significant,190,0.011738084,significant,Gills_Testes,XP_003448939.1 H2A K95 Dioxidation
-XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.584615852,0.000228157,3,0.005528817,significant,199,0.013947066,significant,Gills_Testes,XP_003448939.1 H2A Y50 Phospho / Dehydrated
-XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-2.264887582,0.205413101,2,0.005546445,significant,201,0.013852316,significant,Gills_Testes,XP_003448939.1 H2A K119 Lactyl / Carboxyethyl
-XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,1.308213447,8.45091E-06,3,0.007789841,significant,205,0.019075611,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 P147 Dioxidation
-XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,1.563224054,0.676899525,2,0.008322187,significant,206,0.020280281,significant,Gills_Testes,XP_003448939.1 H2A S18 Acetyl
-XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-0.821033886,0.421161101,2,0.00867022,significant,210,0.020725954,significant,Gills_Testes,XP_003451211.1 H2A K118 ADP-Ribosyl
-XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.104621082,0.000210148,3,0.010700845,significant,215,0.024985228,significant,Gills_Testes,XP_003451211.1 H2A P109 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.332259317,1.14931E-10,3,0.011530607,significant,219,0.02643089,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 S152 Phospho / Dehydrated
-XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,-0.116776047,3.06673E-06,3,0.01189122,significant,222,0.026889156,significant,Gills_Testes,"XP_025766508.1 H2A, sperm-like K120 4-hydroxynonenal"
-XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.292637853,8.19661E-07,3,0.012456776,significant,223,0.028041712,significant,Gills_Testes,XP_003451211.1 H2A T120 Phospho / Dehydrated
-XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,-0.185317515,0.00596431,3,0.012992517,significant,224,0.029117159,significant,Gills_Testes,XP_003451211.1 H2A K95 Methyl
-XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.655866072,4.00111E-08,3,0.012992776,significant,225,0.028988326,significant,Gills_Testes,XP_003451211.1 H2A K118 Methyl
-XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.788442681,0.092928106,2,0.013278111,significant,226,0.029493857,significant,Gills_Testes,XP_003448939.1 H2A T76 Phospho / Dehydrated
-XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,0.447278578,0.676091132,2,0.013557913,significant,229,0.02972084,significant,Gills_Testes,XP_003448939.1 H2A K36 Acrolein112
-XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,-0.867598161,0.274346769,2,0.014297134,significant,233,0.030803268,significant,Gills_Testes,XP_003451211.1 H2A K95 Acetyl
-XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.304392212,8.66812E-11,3,0.015098631,significant,235,0.032253246,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 T162 Phospho / Dehydrated
-XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.520731861,0.111093912,2,0.015721543,significant,239,0.033021819,significant,Gills_Testes,XP_003448939.1 H2A K118 Dimethyl
-XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-4.718132515,2.98147E-05,3,0.017350074,significant,243,0.035842539,significant,Gills_Testes,XP_003448939.1 H2A K118 Lactyl / Carboxyethyl
-XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.469799829,0.696861789,2,0.027048303,significant,253,0.053668965,nonsignificant,Gills_Testes,XP_003459572.1 H2A T119 Phospho / Dehydrated
-XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,-0.53728774,9.74065E-08,3,0.030064404,significant,255,0.05918561,nonsignificant,Gills_Testes,XP_003451211.1 H2A N94 Oxidation
-XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,-0.309775717,0.234684884,2,0.035046194,significant,262,0.067149578,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K156 Methyl
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,0.384127128,0.132447366,2,0.036504763,significant,265,0.06915242,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Dioxidation
-XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.132275544,0.057516082,2,0.040518769,significant,268,0.075897097,nonsignificant,Gills_Testes,XP_003451211.1 H2A K118 Dimethyl
-XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.615432779,2.14895E-07,3,0.053277939,nonsignificant,272,0.098329137,nonsignificant,Gills_Testes,XP_003451211.1 H2A K95 GlyGly
-XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,0.680701623,0.587082304,2,0.054185898,nonsignificant,273,0.099638537,nonsignificant,Gills_Testes,XP_003459572.1 H2A K94 Acetyl
-XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.196576472,1.49945E-12,3,0.06094022,nonsignificant,279,0.10964871,nonsignificant,Gills_Testes,XP_003448939.1 H2A T59 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.473796549,0.625720578,2,0.060942101,nonsignificant,280,0.109260481,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Methyl
-XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,0.31981201,4.11284E-08,3,0.069882958,nonsignificant,285,0.123092088,nonsignificant,Gills_Testes,XP_003448939.1 H2A K118 Acetyl
-XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,1.628816733,2.17516E-06,3,0.074183412,nonsignificant,292,0.127534495,nonsignificant,Gills_Testes,XP_003448939.1 H2A K74 Acetyl
-XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.269543994,0.030296235,3,0.084132484,nonsignificant,297,0.142203727,nonsignificant,Gills_Testes,XP_003451211.1 H2A K95 Dimethyl
-XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.145408158,3.79204E-09,3,0.088398453,nonsignificant,299,0.148414794,nonsignificant,Gills_Testes,XP_003448939.1 H2A Y57 Phospho / Dehydrated
-XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,0.010222216,3,0.091060128,nonsignificant,300,0.152373947,nonsignificant,Gills_Testes,XP_003458968.1 H2A.Z isoform X2 K4 Methyl
-XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.023926072,0.049564815,3,0.10041501,nonsignificant,303,0.166364141,nonsignificant,Gills_Testes,XP_003448939.1 H2A S18 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,0.393662091,0.674464049,2,0.111534571,nonsignificant,307,0.182379005,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K115 Lactyl / Carboxyethyl
-XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,-0.387434236,0.087100313,2,0.113173438,nonsignificant,309,0.183861055,nonsignificant,Gills_Testes,XP_003448939.1 H2A P109 Oxidation
-XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,0.224909322,0.083338763,2,0.124609647,nonsignificant,314,0.199216696,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 V163 Amidated
-XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,0.216442253,1.81085E-07,3,0.130704097,nonsignificant,317,0.206982513,nonsignificant,Gills_Testes,XP_003448939.1 H2A K95 Oxidation
-XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,0.755620835,0.543069161,2,0.137945841,nonsignificant,319,0.217080915,nonsignificant,Gills_Testes,XP_003459572.1 H2A K121 4-hydroxynonenal
-XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,0.284288437,0.191039282,2,0.141070514,nonsignificant,324,0.218572216,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K137 Lactyl / Carboxyethyl
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,-0.34104861,0.450207213,2,0.153016273,nonsignificant,329,0.233477717,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Dimethyl
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,0.529021368,0.682261613,2,0.15936931,nonsignificant,331,0.241702096,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 S56 GlyGly
-XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.126081216,0.01178216,3,0.163924407,nonsignificant,332,0.247861604,nonsignificant,Gills_Testes,XP_003448939.1 H2A S126 Phospho / Dehydrated
-XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,0.112352143,7.66188E-18,3,0.166067695,nonsignificant,333,0.250348297,nonsignificant,Gills_Testes,XP_003448939.1 H2A R81 Deamidated
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,0.055715285,0.248707763,2,0.167437891,nonsignificant,334,0.251658147,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Methyl
-XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.061964025,1.17095E-10,3,0.17641719,nonsignificant,339,0.261243154,nonsignificant,Gills_Testes,XP_003451211.1 H2A K119 Lactyl / Carboxyethyl
-XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,-0.061964025,1.17095E-10,3,0.17641719,nonsignificant,340,0.260474792,nonsignificant,Gills_Testes,XP_003451211.1 H2A K122 Acetyl
-XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,0.973577003,0.734995028,2,0.197127192,nonsignificant,352,0.281130256,nonsignificant,Gills_Testes,XP_003448939.1 H2A K36 Dimethyl
-XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,-0.616795763,2.2038E-13,3,0.205073954,nonsignificant,353,0.291634915,nonsignificant,Gills_Testes,XP_003448939.1 H2A T59 GlyGly
-XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,-0.020026676,0.035694176,3,0.212400991,nonsignificant,354,0.301201406,nonsignificant,Gills_Testes,XP_003448939.1 H2A T59 Acetyl
-XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.073843179,9.23395E-05,3,0.213780717,nonsignificant,355,0.302303999,nonsignificant,Gills_Testes,XP_003448939.1 H2A K119 Acetyl
-XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,0.487933779,2,0.220699122,nonsignificant,357,0.310338822,nonsignificant,Gills_Testes,XP_003448939.1 H2A R35 Dimethyl
-XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,0.699491613,0.362875595,2,0.222630078,nonsignificant,359,0.311310026,nonsignificant,Gills_Testes,XP_003448939.1 H2A K119 GlyGly
-XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,0.208707959,0.057739698,2,0.240527583,nonsignificant,362,0.333549301,nonsignificant,Gills_Testes,XP_003448939.1 H2A R20 Methyl
-XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.719288981,0.02350292,3,0.248831534,nonsignificant,363,0.344114133,nonsignificant,Gills_Testes,XP_003448939.1 H2A K118 Oxidation
-XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,0.021114574,0.148094265,2,0.25744972,nonsignificant,365,0.354081533,nonsignificant,Gills_Testes,XP_003459572.1 H2A P108 Dioxidation
-XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,0.245198509,0.008557386,3,0.274069086,nonsignificant,368,0.373865982,nonsignificant,Gills_Testes,XP_003448939.1 H2A P48 Dioxidation
-XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,0.302959144,9.94131E-12,3,0.286909602,nonsignificant,372,0.38717371,nonsignificant,Gills_Testes,XP_003451211.1 H2A K119 Methyl
-XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,0.76483076,4.18202E-07,3,0.29689251,nonsignificant,376,0.396383086,nonsignificant,Gills_Testes,XP_003451211.1 H2A K122 GlyGly
-XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,-3.20343e-16,1.72607E-21,3,0.3008852,nonsignificant,379,0.398533959,nonsignificant,Gills_Testes,XP_003448939.1 H2A P80 Oxidation
-XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,0.065832364,0.755122322,2,0.314441921,nonsignificant,386,0.40893742,nonsignificant,Gills_Testes,XP_003451211.1 H2A P117 Oxidation
-XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,0.067285832,0.181928339,2,0.317804878,nonsignificant,387,0.41224302,nonsignificant,Gills_Testes,XP_003448939.1 H2A K95 Dimethyl
-XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,0.423778892,0.670571507,2,0.317944078,nonsignificant,388,0.411360637,nonsignificant,Gills_Testes,XP_003459572.1 H2A K118 GlyGly
-XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,0.184981808,0.272190764,2,0.325441955,nonsignificant,390,0.418902209,nonsignificant,Gills_Testes,XP_003448939.1 H2A S19 GlyGly
-XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,-0.346314648,0.4126273,2,0.348256597,nonsignificant,394,0.443717796,nonsignificant,Gills_Testes,XP_003459572.1 H2A K117 Methyl
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,0.275476799,0.892088216,2,0.360375964,nonsignificant,397,0.455689506,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Dimethyl
-XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.054370864,0.005239929,3,0.368810837,nonsignificant,398,0.465183518,nonsignificant,Gills_Testes,XP_003448939.1 H2A T124 Phospho / Dehydrated
-XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.03576619,0.199682779,2,0.378588371,nonsignificant,400,0.475128405,nonsignificant,Gills_Testes,XP_003459572.1 H2A T100 Phospho / Dehydrated
-XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,-0.411350495,0.527697069,2,0.380174748,nonsignificant,401,0.475929485,nonsignificant,Gills_Testes,XP_003459572.1 H2A T119 GlyGly
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,0.70871561,0.091096554,2,0.382623283,nonsignificant,402,0.477803204,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Methyl
-XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,-0.137414042,0.01613787,3,0.415519126,nonsignificant,407,0.51250762,nonsignificant,Gills_Testes,XP_003459572.1 H2A K117 4-hydroxynonenal
-XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.005371161,4.1461E-14,3,0.431093452,nonsignificant,410,0.527826617,nonsignificant,Gills_Testes,XP_003448939.1 H2A T120 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,0.605835422,0.169917103,2,0.460113603,nonsignificant,416,0.555233242,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 S56 Acetyl
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,0.605835422,0.169917103,2,0.460113603,nonsignificant,417,0.553901748,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Dimethyl
-XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,3.262810442,0.543393247,2,0.460342365,nonsignificant,419,0.551531903,nonsignificant,Gills_Testes,XP_003448939.1 H2A R42 Deamidated
-XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.03560623,1.93721E-05,3,0.47033512,nonsignificant,420,0.562162453,nonsignificant,Gills_Testes,XP_003451211.1 H2A T101 Phospho / Dehydrated
-XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.329397899,0.941194085,2,0.477427526,nonsignificant,421,0.569284129,nonsignificant,Gills_Testes,XP_003451211.1 H2A K122 Dimethyl
-XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,1.662316155,2.15658E-07,3,0.492204305,nonsignificant,424,0.582751323,nonsignificant,Gills_Testes,XP_003448939.1 H2A K127 Acetyl
-XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,-0.032860486,0.426156564,2,0.511795944,nonsignificant,429,0.598884764,nonsignificant,Gills_Testes,XP_003451211.1 H2A P117 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,-0.001251064,0.00362715,3,0.520012817,nonsignificant,430,0.60708473,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R120 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,-0.800685121,0.824057492,2,0.520067778,nonsignificant,431,0.605740196,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K156 Dimethyl
-XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,-0.385211701,0.118037171,2,0.555471166,nonsignificant,438,0.636635903,nonsignificant,Gills_Testes,XP_003448939.1 H2A R20 Deamidated
-XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,0.054937519,0.139816719,2,0.599022306,nonsignificant,440,0.683429995,nonsignificant,Gills_Testes,XP_003448939.1 H2A R42 Dimethyl
-XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,0.189910177,0.859243968,2,0.601161873,nonsignificant,443,0.681226322,nonsignificant,Gills_Testes,XP_003448939.1 H2A P117 Dioxidation
-XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,-0.305924513,7.79199E-06,3,0.614776041,nonsignificant,447,0.690419626,nonsignificant,Gills_Testes,XP_003451211.1 H2A K118 Oxidation
-XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.102219087,0.742633066,2,0.616713848,nonsignificant,449,0.689510805,nonsignificant,Gills_Testes,XP_003451211.1 H2A K119 Acetyl
-XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.599250282,0.748543406,2,0.651820102,nonsignificant,457,0.7160037,nonsignificant,Gills_Testes,XP_003448939.1 H2A S19 Phospho / Dehydrated
-XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,1.923602391,0.388393376,2,0.65800999,nonsignificant,459,0.719653627,nonsignificant,Gills_Testes,XP_003448939.1 H2A Y50 Oxidation
-XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,-0.130548314,0.617321069,2,0.660837741,nonsignificant,460,0.7211751,nonsignificant,Gills_Testes,XP_003448939.1 H2A Y50 Dioxidation
-XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.030020064,0.450834083,2,0.672876142,nonsignificant,462,0.731133817,nonsignificant,Gills_Testes,XP_003448939.1 H2A K122 Dimethyl
-XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,-0.026840033,0.006338443,3,0.731247266,nonsignificant,469,0.782699633,nonsignificant,Gills_Testes,XP_003451211.1 H2A K119 Dimethyl
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.373088856,0.712364961,2,0.760974621,nonsignificant,473,0.80763057,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 S56 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,-0.373088856,0.712364961,2,0.760974621,nonsignificant,474,0.805926708,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Dioxidation
-XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,0.0671232,0.00045973,3,0.771936697,nonsignificant,478,0.810695025,nonsignificant,Gills_Testes,XP_003451211.1 H2A P109 Oxidation
-XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.414460942,0.085334518,2,0.828843814,nonsignificant,484,0.859668584,nonsignificant,Gills_Testes,XP_003451211.1 H2A K122 Methyl
-XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,-0.598544811,0.176270994,2,0.85424126,nonsignificant,489,0.87695115,nonsignificant,Gills_Testes,XP_003459572.1 H2A K94 Oxidation
-XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,-0.415382336,0.585831642,2,0.87886574,nonsignificant,491,0.898555196,nonsignificant,Gills_Testes,XP_013130603.1 core histone macro-H2A.1 isoform X5 T98 Phospho / Dehydrated
-XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,-0.0449955,1.77035E-13,3,0.908325209,nonsignificant,493,0.924907211,nonsignificant,Gills_Testes,XP_003448939.1 H2A K127 Amidated
-XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,0.039076159,0.277274651,2,0.927332199,nonsignificant,494,0.942349725,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K161 Methyl
-XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,-0.021322155,0.992308895,2,0.931113348,nonsignificant,495,0.944280608,nonsignificant,Gills_Testes,XP_003448939.1 H2A P109 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,0.001254196,0.004731747,3,0.966798301,nonsignificant,498,0.97456375,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 P119 Oxidation
-XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,0.001254196,0.004731747,3,0.966798301,nonsignificant,499,0.972610716,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R120 Oxidation
-XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,-0.19260392,0.949026214,2,0.975750237,nonsignificant,500,0.979653238,nonsignificant,Gills_Testes,XP_003448939.1 H2A S18 GlyGly
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,0.14344572,0.082129878,2,0.984822729,nonsignificant,501,0.986788443,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Lactyl / Carboxyethyl
+XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.310045844,0.278585129,2,9.83488E-19,significant,10,4.93711e-17,significant,Gills_Testes,XP_003448939.1 H2A Y50 Phospho / Dehydrated
+XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,-0.821603355,0.720741049,2,1.0733E-15,significant,21,2.56569e-14,significant,Gills_Testes,XP_003448939.1 H2A P48 Dioxidation
+XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.308399436,0.649410914,2,2.00134E-14,significant,25,4.01868e-13,significant,Gills_Testes,XP_003451211.1 H2A K127 Amidated
+XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,3.9627297,0.80093604,2,9.65118E-14,significant,32,1.51403e-12,significant,Gills_Testes,XP_003459572.1 H2A K118 Acetyl
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.748580541,0.002051636,3,1.50546E-12,significant,42,1.79938e-11,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Methyl
+XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.357325986,0.099194442,2,3.75104E-12,significant,47,4.00643e-11,significant,Gills_Testes,XP_003451211.1 H2A T120 Phospho / Dehydrated
+XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,-0.482415698,0.322185026,2,4.99025E-11,significant,62,4.04049e-10,significant,Gills_Testes,XP_003451211.1 H2A K95 Oxidation
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.438322918,3.70981E-05,3,1.16865E-10,significant,69,8.50237e-10,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 P147 Oxidation
+XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.155250435,0.040779195,3,8.54826E-10,significant,82,5.2332e-9,significant,Gills_Testes,XP_003448939.1 H2A T59 Phospho / Dehydrated
+XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,2.133684196,0.87789608,2,9.81167E-10,significant,84,5.86364e-9,significant,Gills_Testes,XP_003448939.1 H2A Y50 Oxidation
+XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-1.620564126,0.067245979,2,1.2889E-09,significant,86,7.52356e-9,significant,Gills_Testes,XP_003448939.1 H2A K119 Lactyl / Carboxyethyl
+XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.694806562,0.000570724,3,1.49339E-09,significant,87,8.617e-9,significant,Gills_Testes,XP_003451211.1 H2A K95 Lactyl / Carboxyethyl
+XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.02024092,0.391516119,2,1.57278E-09,significant,90,8.77264e-9,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 T98 Phospho / Dehydrated
+XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,0.319589295,0.007398158,3,2.01238E-09,significant,92,1.09806e-8,significant,Gills_Testes,XP_003448939.1 H2A K118 Acetyl
+XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-2.269780986,0.77169268,2,2.15984E-09,significant,93,1.16585e-8,significant,Gills_Testes,XP_003448939.1 H2A K118 Lactyl / Carboxyethyl
+XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,1.557430722,0.177587311,2,3.86794E-09,significant,95,2.0439e-8,significant,Gills_Testes,XP_003448939.1 H2A K95 Acetyl
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,1.377258894,1.57127E-05,3,5.15449E-09,significant,99,2.61369e-8,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Lactyl / Carboxyethyl
+XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,2.399718708,0.003305707,3,6.82682E-09,significant,100,3.42707e-8,significant,Gills_Testes,XP_003448939.1 H2A K119 Dimethyl
+XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.824680433,0.000767848,3,1.69066E-08,significant,108,7.85844e-8,significant,Gills_Testes,XP_003451211.1 H2A K95 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.701657194,1.08087E-08,3,1.82514E-08,significant,111,8.25425e-8,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 S152 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,1.151888962,0.001391106,3,1.90349E-08,significant,112,8.5317e-8,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 P147 Dioxidation
+XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-0.930549991,0.932703333,2,2.25647E-08,significant,114,9.93639e-8,significant,Gills_Testes,XP_003448939.1 H2A P48 Oxidation
+XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.051624392,0.224464277,2,7.33162E-08,significant,121,3.04171e-7,significant,Gills_Testes,XP_003459572.1 H2A T119 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,-2.675037075,0.210680375,2,1.5138E-07,significant,133,5.71375e-7,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K110 Biotin
+XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1.470040956,0.581475066,2,2.33833E-07,significant,134,8.76002e-7,significant,Gills_Testes,XP_003448939.1 H2A T101 Phospho / Dehydrated
+XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.98745976,0.294895803,2,2.84832E-07,significant,135,1.05915e-6,significant,Gills_Testes,XP_003448939.1 H2A K118 Oxidation
+XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,2.167444741,0.022121094,3,5.36525E-07,significant,144,1.87038e-6,significant,Gills_Testes,"XP_025766508.1 H2A, sperm-like T102 Phospho / Dehydrated"
+XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.295504524,0.00282192,3,8.07717E-07,significant,145,2.79637e-6,significant,Gills_Testes,XP_003451211.1 H2A K122 Dimethyl
+XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,1.403322612,0.000639954,3,9.78275E-07,significant,148,3.3182e-6,significant,Gills_Testes,XP_003448939.1 H2A K74 Acetyl
+XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,1.668538686,0.814616631,2,1.30395E-06,significant,152,4.30646e-6,significant,Gills_Testes,XP_003448939.1 H2A K95 Dioxidation
+XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.82482007,0.426818771,2,1.89025E-06,significant,153,6.202e-6,significant,Gills_Testes,XP_003448939.1 H2A E91 ADP-Ribosyl
+XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,1.781257287,0.016302283,3,2.62282E-06,significant,156,8.44011e-6,significant,Gills_Testes,XP_003459572.1 H2A K118 GlyGly
+XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.416063027,0.000762622,3,2.73198E-06,significant,157,8.73538e-6,significant,Gills_Testes,XP_003459572.1 H2A K123 GlyGly
+XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,-0.419885411,0.001711065,3,4.19101E-06,significant,160,1.31493e-5,significant,Gills_Testes,XP_003459572.1 H2A K117 Methyl
+XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,2.812129162,0.468862798,2,4.54777E-06,significant,161,1.418e-5,significant,Gills_Testes,XP_003448939.1 H2A R42 Deamidated
+XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.484863533,0.00099424,3,4.96358E-06,significant,163,1.52866e-5,significant,Gills_Testes,XP_003459572.1 H2A K123 Lactyl / Carboxyethyl
+XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,-0.429858602,0.002188624,3,5.97154E-06,significant,166,1.80585e-5,significant,Gills_Testes,XP_003459572.1 H2A T119 GlyGly
+XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,1.719946129,0.041055605,3,6.29991E-06,significant,167,1.89374e-5,significant,Gills_Testes,XP_003459572.1 H2A K121 4-hydroxynonenal
+XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,-0.418382554,0.189578567,2,1.06231E-05,significant,172,3.10046e-5,significant,Gills_Testes,XP_003448939.1 H2A Y50 Dioxidation
+XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.778150475,2.22239E-08,3,1.26435E-05,significant,174,3.64772e-5,significant,Gills_Testes,"XP_025766508.1 H2A, sperm-like K119 4-hydroxynonenal"
+XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.778150475,2.22239E-08,3,1.26435E-05,significant,175,3.62688e-5,significant,Gills_Testes,"XP_025766508.1 H2A, sperm-like K120 Lactyl / Carboxyethyl"
+XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.469896189,6.67663E-06,3,1.48989E-05,significant,176,4.24956e-5,significant,Gills_Testes,XP_003448939.1 H2A K122 Dimethyl
+XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-2.316522888,0.081951238,2,1.97451E-05,significant,182,5.44617e-5,significant,Gills_Testes,XP_003448939.1 H2A R88 Methyl
+XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,-0.207781727,0.283916,2,3.123E-05,significant,186,8.42875e-5,significant,Gills_Testes,XP_003451211.1 H2A K95 Methyl
+XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.279148314,0.461636287,2,3.79437E-05,significant,188,1.01318e-4,significant,Gills_Testes,XP_003451211.1 H2A K95 GlyGly
+XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,0.595706541,0.00040385,3,8.04246E-05,significant,195,2.07042e-4,significant,Gills_Testes,XP_003459572.1 H2A K123 Acetyl
+XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,-0.432213973,6.82065E-06,3,8.86985E-05,significant,197,2.26024e-4,significant,Gills_Testes,XP_003451211.1 H2A K119 Acetyl
+XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,0.835498444,0.134413949,2,0.000108113,significant,202,2.68676e-4,significant,Gills_Testes,XP_003448939.1 H2A R42 Dimethyl
+XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,0.882202744,0.000370922,3,0.000114443,significant,205,2.80245e-4,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K115 Lactyl / Carboxyethyl
+XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,0.591736345,0.000720803,3,0.000133533,significant,212,3.16197e-4,significant,Gills_Testes,XP_003459572.1 H2A K123 Amidated
+XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,-0.31748043,0.013396383,3,0.000273209,significant,223,6.15025e-4,significant,Gills_Testes,XP_003448939.1 H2A T59 GlyGly
+XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.34471211,7.57784E-09,3,0.000300437,significant,227,6.64403e-4,significant,Gills_Testes,XP_003451211.1 H2A K118 Methyl
+XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,-0.180107772,0.324659763,2,0.000330167,significant,230,7.20626e-4,significant,Gills_Testes,XP_003451211.1 H2A N94 Oxidation
+XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.084656663,2,0.000424567,significant,232,9.18675e-4,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K73 Methyl
+XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,-0.390929096,0.301204768,2,0.000454077,significant,233,9.78312e-4,significant,Gills_Testes,XP_003459572.1 H2A K94 Oxidation
+XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,1.517313536,5.4872E-06,3,0.000454271,significant,234,9.74548e-4,significant,Gills_Testes,XP_003451211.1 H2A K122 GlyGly
+XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.150388536,0.059995553,2,0.000511336,significant,236,0.001087673,significant,Gills_Testes,XP_003448939.1 H2A T120 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,-0.311179284,2.80576E-05,3,0.000520793,significant,237,0.001103113,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Dimethyl
+XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,8.05776E-09,3,0.000552894,significant,238,0.001166188,significant,Gills_Testes,XP_003458968.1 H2A.Z isoform X2 K4 Methyl
+XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,1.92345718,0.366495656,2,0.000850696,significant,248,0.001721974,significant,Gills_Testes,XP_003448939.1 H2A S18 Acetyl
+XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,-0.168382926,0.005506003,3,0.000970254,significant,249,0.001956094,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 V163 Amidated
+XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.150817778,0.000247137,3,0.001029289,significant,250,0.002066812,significant,Gills_Testes,XP_003448939.1 H2A S126 Phospho / Dehydrated
+XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,0.939206473,0.204682609,2,0.001199907,significant,253,0.002380844,significant,Gills_Testes,XP_003459572.1 H2A K94 Acetyl
+XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.058914545,0.930015474,2,0.001247115,significant,257,0.002436,significant,Gills_Testes,XP_003451211.1 H2A P109 Dioxidation
+XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,1.48041558,0.000147248,3,0.001470574,significant,269,0.002744342,significant,Gills_Testes,XP_003448939.1 H2A K127 GlyGly
+XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,-0.523684002,0.105794826,2,0.001673095,significant,272,0.003087845,significant,Gills_Testes,XP_003448939.1 H2A K118 Methyl
+XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,-0.305891975,0.815864818,2,0.001834046,significant,278,0.003311838,significant,Gills_Testes,XP_003448939.1 H2A K118 Dimethyl
+XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.286672839,3.72767E-06,3,0.002665729,significant,291,0.004598612,significant,Gills_Testes,XP_003451211.1 H2A K125 Dioxidation
+XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.286672839,3.72767E-06,3,0.002665729,significant,292,0.004582863,significant,Gills_Testes,XP_003451211.1 H2A K127 Dioxidation
+XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,-0.438454923,0.01145903,3,0.002926501,significant,295,0.004980013,significant,Gills_Testes,XP_003451211.1 H2A K95 Acetyl
+XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,1.919353547,1.98532E-07,3,0.004111158,significant,301,0.006856483,significant,Gills_Testes,XP_003448939.1 H2A K127 Acetyl
+XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,-0.117626017,1.70299E-06,3,0.004496278,significant,303,0.00744928,significant,Gills_Testes,"XP_025766508.1 H2A, sperm-like K120 4-hydroxynonenal"
+XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,-0.624664465,0.090966606,2,0.005959004,significant,311,0.009618714,significant,Gills_Testes,XP_003448939.1 H2A K119 GlyGly
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,-0.159220491,0.000231424,3,0.005962763,significant,312,0.009593932,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Dioxidation
+XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,-0.60755518,0.068971854,2,0.007257999,significant,314,0.011603553,significant,Gills_Testes,XP_003448939.1 H2A T120 GlyGly
+XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,0.061760319,0.943127499,2,0.007466525,significant,317,0.01182396,significant,Gills_Testes,XP_003448939.1 H2A K36 Acrolein112
+XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.690512434,0.442549486,2,0.007776878,significant,319,0.012238221,significant,Gills_Testes,XP_003448939.1 H2A K119 Acetyl
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,-0.161218644,0.006013721,3,0.010218866,significant,322,0.015931275,significant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K156 Methyl
+XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,0.301100815,2,0.010600292,significant,326,0.016323148,significant,Gills_Testes,XP_003448939.1 H2A R35 Dimethyl
+XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-0.926143656,0.411241835,2,0.010840623,significant,327,0.01664218,significant,Gills_Testes,XP_003451211.1 H2A K118 ADP-Ribosyl
+XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.25925397,0.501354298,2,0.013231091,significant,329,0.020188472,significant,Gills_Testes,XP_003459572.1 H2A T100 Phospho / Dehydrated
+XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.499250098,0.02515909,3,0.013834841,significant,330,0.021045727,significant,Gills_Testes,XP_003448939.1 H2A K95 Dimethyl
+XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,0.642318863,0.638674033,2,0.017990752,significant,331,0.027285069,significant,Gills_Testes,XP_003459572.1 H2A P108 Dioxidation
+XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,1.063621274,0.789102669,2,0.023340142,significant,338,0.034664945,significant,Gills_Testes,XP_003459572.1 H2A K117 4-hydroxynonenal
+XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,-0.456493875,0.201342924,2,0.029779545,significant,340,0.043968622,significant,Gills_Testes,XP_003451211.1 H2A T101 GlyGly
+XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,-1.534416707,0.445445734,2,0.033162182,significant,341,0.0488194,significant,Gills_Testes,XP_003448939.1 H2A K36 Dimethyl
+XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,0.317319466,0.430663168,2,0.035251205,significant,344,0.051442165,nonsignificant,Gills_Testes,XP_003448939.1 H2A K119 Methyl
+XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,0.053345452,0.00664254,3,0.048390072,significant,351,0.069207453,nonsignificant,Gills_Testes,XP_003448939.1 H2A K127 Amidated
+XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.060721818,0.236983752,2,0.049044689,significant,352,0.069944415,nonsignificant,Gills_Testes,XP_003448939.1 H2A Y57 Phospho / Dehydrated
+XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,-0.13135278,0.694026669,2,0.052346672,nonsignificant,354,0.074231721,nonsignificant,Gills_Testes,XP_003451211.1 H2A K118 Oxidation
+XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,-0.383296605,0.129165556,2,0.052654124,nonsignificant,355,0.074457381,nonsignificant,Gills_Testes,XP_003451211.1 H2A K95 Biotin
+XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.089129795,0.019982802,3,0.056210635,nonsignificant,357,0.079041285,nonsignificant,Gills_Testes,XP_003451211.1 H2A K118 Dimethyl
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,0.893666744,9.63394E-06,3,0.061907737,nonsignificant,359,0.086567364,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Methyl
+XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,-0.262720583,0.083863985,2,0.06375741,nonsignificant,360,0.088906166,nonsignificant,Gills_Testes,XP_003451211.1 H2A K119 Dimethyl
+XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.552030497,0.03485288,3,0.068791819,nonsignificant,361,0.095660646,nonsignificant,Gills_Testes,XP_003448939.1 H2A T76 Phospho / Dehydrated
+XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.153351634,4.14498E-06,3,0.070619389,nonsignificant,362,0.097930754,nonsignificant,Gills_Testes,XP_003451211.1 H2A K122 Methyl
+XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,0.099602961,4.61966E-05,3,0.072580255,nonsignificant,365,0.099822707,nonsignificant,Gills_Testes,XP_003451211.1 H2A P109 Oxidation
+XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,0.764516314,0.000269299,3,0.09644593,nonsignificant,375,0.129108951,nonsignificant,Gills_Testes,XP_003448939.1 H2A S18 GlyGly
+XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,-0.280968326,0.446935857,2,0.105348108,nonsignificant,382,0.138441755,nonsignificant,Gills_Testes,XP_003448939.1 H2A K95 GlyGly
+XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.149964197,6.47694E-12,3,0.109949311,nonsignificant,384,0.143735818,nonsignificant,Gills_Testes,XP_003451211.1 H2A K95 Dimethyl
+XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.049881313,6.59723E-07,3,0.112556689,nonsignificant,386,0.146382016,nonsignificant,Gills_Testes,XP_003448939.1 H2A T124 Phospho / Dehydrated
+XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,0.006211704,0.009853034,3,0.12215326,nonsignificant,390,0.157233171,nonsignificant,Gills_Testes,XP_003448939.1 H2A R81 Deamidated
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,0.610244371,5.38919E-05,3,0.147984496,nonsignificant,394,0.188548774,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 S56 GlyGly
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,0.59345825,3.30689E-05,3,0.150915524,nonsignificant,396,0.191312104,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 S56 Acetyl
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,0.59345825,3.30689E-05,3,0.150915524,nonsignificant,397,0.190830209,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Dimethyl
+XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,0.236240853,1.3855E-10,3,0.154121632,nonsignificant,398,0.194394621,nonsignificant,Gills_Testes,XP_003451211.1 H2A K119 Methyl
+XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,-0.146866781,0.000707572,3,0.162272101,nonsignificant,400,0.203651487,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K161 Methyl
+XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.148914346,7.50387E-05,3,0.19274209,nonsignificant,407,0.23773103,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 T162 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.423749959,0.36675531,2,0.193937741,nonsignificant,408,0.238619476,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K137 Lactyl / Carboxyethyl
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,0.523324102,0.000819986,3,0.213892546,nonsignificant,414,0.259357628,nonsignificant,Gills_Testes,XP_003448939.1 H2A R77 Deamidated
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,0.10835139,0.103914024,2,0.227129894,nonsignificant,416,0.274084632,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Methyl
+XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.387874988,0.660682411,2,0.279217582,nonsignificant,425,0.329805237,nonsignificant,Gills_Testes,XP_013130603.1 core histone macro-H2A.1 isoform X5 T98 Phospho / Dehydrated
+XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,-0.146186225,0.055587506,2,0.297583481,nonsignificant,427,0.349852243,nonsignificant,Gills_Testes,XP_003448939.1 H2A R20 Methyl
+XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,-0.138109699,0.058417856,2,0.327343779,nonsignificant,431,0.38126816,nonsignificant,Gills_Testes,XP_003448939.1 H2A S19 GlyGly
+XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,-3.20343e-16,2.609E-23,3,0.327922272,nonsignificant,432,0.381057825,nonsignificant,Gills_Testes,XP_003448939.1 H2A P80 Oxidation
+XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,0.270109617,2.80452E-05,3,0.415512103,nonsignificant,436,0.478410724,nonsignificant,Gills_Testes,XP_003451211.1 H2A K119 Lactyl / Carboxyethyl
+XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,0.270109617,2.80452E-05,3,0.415512103,nonsignificant,437,0.477315963,nonsignificant,Gills_Testes,XP_003451211.1 H2A K122 Acetyl
+XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,0.077963722,0.567497711,2,0.429500038,nonsignificant,441,0.488909341,nonsignificant,Gills_Testes,XP_003448939.1 H2A K95 Oxidation
+XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,-0.034010979,0.070885591,2,0.430361976,nonsignificant,442,0.488782154,nonsignificant,Gills_Testes,XP_003451211.1 H2A P117 Dioxidation
+XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,-0.945647949,0.004414406,3,0.469547096,nonsignificant,446,0.528503682,nonsignificant,Gills_Testes,XP_003448939.1 H2A T59 Acetyl
+XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,-0.032497319,0.205247087,2,0.478897417,nonsignificant,447,0.537822155,nonsignificant,Gills_Testes,XP_003451211.1 H2A P117 Oxidation
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.04293049,0.000538263,3,0.490625938,nonsignificant,449,0.548539467,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 S56 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,-0.04293049,0.000538263,3,0.490625938,nonsignificant,450,0.547320491,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,-0.003809507,0.995668547,2,0.496184379,nonsignificant,451,0.55229392,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 P119 Oxidation
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,-0.003809507,0.995668547,2,0.496184379,nonsignificant,452,0.551072031,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R120 Oxidation
+XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.204224934,0.051743296,2,0.496379869,nonsignificant,453,0.550072172,nonsignificant,Gills_Testes,XP_003448939.1 H2A P109 Dioxidation
+XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.007753134,0.765667406,2,0.562060304,nonsignificant,457,0.617405411,nonsignificant,Gills_Testes,XP_003451211.1 H2A T101 Phospho / Dehydrated
+XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,0.210031605,0.236011932,2,0.580831387,nonsignificant,461,0.632488842,nonsignificant,Gills_Testes,XP_003448939.1 H2A R20 Deamidated
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,0.003779244,0.578267362,2,0.591875957,nonsignificant,464,0.640348557,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 R120 Dioxidation
+XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.202791788,0.247554097,2,0.661928734,nonsignificant,470,0.706996222,nonsignificant,Gills_Testes,XP_003448939.1 H2A S19 Phospho / Dehydrated
+XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,0.057917655,0.035202626,3,0.729302168,nonsignificant,476,0.769138,nonsignificant,Gills_Testes,XP_003448939.1 H2A P109 Oxidation
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,0.251761248,0.0818445,2,0.738687554,nonsignificant,478,0.775776468,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Dimethyl
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,-0.232158708,0.789037076,2,0.773818848,nonsignificant,484,0.802597235,nonsignificant,Gills_Testes,XP_005464230.1 H2A.Z isoform X1 K156 Dimethyl
+XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,0.034420639,0.910883634,2,0.83841788,nonsignificant,490,0.858950563,nonsignificant,Gills_Testes,XP_003448939.1 H2A P117 Dioxidation
+XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.133994626,0.028920505,3,0.881263852,nonsignificant,493,0.897351833,nonsignificant,Gills_Testes,XP_003448939.1 H2A S18 Phospho / Dehydrated
 XP_003448939.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K118 GlyGly
 XP_003448939.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K122 GlyGly
 XP_003448939.1,H2A,127,K,K127,255,Dimethyl,Yes,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K127 Dimethyl
 XP_003451211.1,H2A,123,P,P123,35,Oxidation,Yes,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003451211.1 H2A P123 Oxidation
 XP_003459572.1,H2A,117,K,K117,1,Acetyl,Yes,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003459572.1 H2A K117 Acetyl
 XP_005464230.1,H2A.Z isoform X1,161,K,K161,255,Dimethyl,Yes,Ambic only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_005464230.1 H2A.Z isoform X1 K161 Dimethyl
-XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,2.037817618,0.867926111,2,1.40474E-13,significant,3,2.35061e-11,significant,Kidney_Testes,XP_003448939.1 H2A T76 Phospho / Dehydrated
-XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-3.822455654,0.533535263,2,4.44132E-09,significant,16,1.39346e-7,significant,Kidney_Testes,XP_003451211.1 H2A K118 ADP-Ribosyl
-XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,-2.263609134,0.003373989,3,1.67104E-06,significant,29,2.89263e-5,significant,Kidney_Testes,XP_003451211.1 H2A K95 Biotin
-XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,-2.217765086,0.00426958,3,3.30906E-06,significant,37,4.48958e-5,significant,Kidney_Testes,XP_003451211.1 H2A T101 GlyGly
-XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.246371014,0.066523527,2,4.17108E-06,significant,40,5.2347e-5,significant,Kidney_Testes,XP_003451211.1 H2A K127 Amidated
-XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,2.584486226,0.250936277,2,6.71946E-06,significant,42,8.03136e-5,significant,Kidney_Testes,XP_003459572.1 H2A K118 Acetyl
-XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.078632028,2,1.06E-05,significant,46,1.15678e-4,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K73 Methyl
-XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,-1.11968608,0.003990133,3,2.14698E-05,significant,57,1.89085e-4,significant,Kidney_Testes,XP_003448939.1 H2A K118 Methyl
-XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,0.250243044,0.025985962,3,2.59917E-05,significant,60,2.17464e-4,significant,Kidney_Testes,XP_003451211.1 H2A K119 Methyl
-XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-2.220611756,0.496391789,2,0.000128645,significant,74,8.72697e-4,significant,Kidney_Testes,XP_003448939.1 H2A R88 Methyl
-XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-1.30766229,8.20237E-07,3,0.000151685,significant,77,9.88904e-4,significant,Kidney_Testes,XP_003448939.1 H2A Y50 Phospho / Dehydrated
-XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,-0.344702293,0.005648301,3,0.000170764,significant,78,0.00109902,significant,Kidney_Testes,XP_003451211.1 H2A K95 Methyl
-XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.961148673,0.035683584,3,0.000170968,significant,79,0.001086402,significant,Kidney_Testes,XP_003448939.1 H2A S18 Phospho / Dehydrated
-XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,-0.518886498,0.022298261,3,0.000200808,significant,82,0.001229338,significant,Kidney_Testes,XP_003459572.1 H2A K123 Acetyl
-XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,-0.624105363,0.501232601,2,0.000207159,significant,84,0.001238019,significant,Kidney_Testes,XP_003448939.1 H2A K127 Acetyl
-XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.891476805,2.81036E-08,3,0.000236735,significant,86,0.001381874,significant,Kidney_Testes,XP_003451211.1 H2A K95 Lactyl / Carboxyethyl
-XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.162146788,0.684634895,2,0.000283957,significant,90,0.00158385,significant,Kidney_Testes,XP_003451211.1 H2A T120 Phospho / Dehydrated
-XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,-1.417420947,3.38935E-06,3,0.000299268,significant,91,0.001650904,significant,Kidney_Testes,XP_003448939.1 H2A T120 GlyGly
-XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,-0.682653696,0.000328994,3,0.000349175,significant,94,0.001864741,significant,Kidney_Testes,XP_003451211.1 H2A K95 Oxidation
-XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,1.313593931,0.202820611,2,0.000374898,significant,95,0.001981041,significant,Kidney_Testes,XP_003448939.1 H2A P117 Dioxidation
-XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,-2.163242733,3.83481E-05,3,0.000504546,significant,100,0.002532822,significant,Kidney_Testes,XP_003448939.1 H2A K74 Acetyl
-XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,-0.476879418,0.012617755,3,0.000521159,significant,101,0.002590316,significant,Kidney_Testes,XP_003459572.1 H2A K123 Amidated
-XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.288802027,0.022917143,3,0.000935623,significant,109,0.004309017,significant,Kidney_Testes,XP_003451211.1 H2A K125 Dioxidation
-XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.288802027,0.022917143,3,0.000935623,significant,110,0.004269844,significant,Kidney_Testes,XP_003451211.1 H2A K127 Dioxidation
-XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,2.667247739,0.155152918,2,0.001929003,significant,123,0.00787284,significant,Kidney_Testes,XP_003459572.1 H2A K94 Acetyl
-XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,1.758347267,0.055532575,2,0.00209656,significant,125,0.008419784,significant,Kidney_Testes,XP_003448939.1 H2A K119 Dimethyl
-XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,0.852102512,0.011015554,3,0.002343587,significant,128,0.009191256,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K115 Lactyl / Carboxyethyl
-XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,-1.388575079,0.807720996,2,0.003017978,significant,132,0.011477463,significant,Kidney_Testes,XP_003448939.1 H2A S18 GlyGly
-XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.409484763,0.803358165,2,0.003514411,significant,137,0.012877623,significant,Kidney_Testes,XP_003448939.1 H2A T59 Phospho / Dehydrated
-XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,1.632836457,0.854936846,2,0.003568336,significant,138,0.012980468,significant,Kidney_Testes,XP_003459572.1 H2A P108 Dioxidation
-XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,-0.78078747,0.00154408,3,0.003772233,significant,139,0.013623461,significant,Kidney_Testes,XP_003451211.1 H2A N94 Oxidation
-XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.533284499,0.132753851,2,0.004997262,significant,147,0.01706548,significant,Kidney_Testes,XP_003448939.1 H2A P109 Dioxidation
-XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-1.149934615,4.70431E-05,3,0.00609025,significant,150,0.020382038,significant,Kidney_Testes,XP_003448939.1 H2A K95 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.002681011,0.00710517,3,0.007183357,significant,153,0.023568925,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 T98 Phospho / Dehydrated
-XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.341521602,0.080833218,2,0.008315651,significant,159,0.026254445,significant,Kidney_Testes,XP_003448939.1 H2A Y57 Phospho / Dehydrated
-XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,-0.69560927,0.00189712,3,0.011939643,significant,173,0.034645669,significant,Kidney_Testes,XP_003451211.1 H2A K119 Dimethyl
-XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,1.155975841,0.041110621,3,0.016624679,significant,184,0.045356462,significant,Kidney_Testes,XP_003448939.1 H2A R42 Dimethyl
-XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.170875702,0.105058778,2,0.016839769,significant,185,0.04569494,significant,Kidney_Testes,XP_003451211.1 H2A P109 Dioxidation
-XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,0.016623819,3,0.017555188,significant,186,0.047380131,significant,Kidney_Testes,XP_003448939.1 H2A R35 Dimethyl
-XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,5.909959705,0.531145397,2,0.020087401,significant,189,0.053353837,nonsignificant,Kidney_Testes,XP_003448939.1 H2A R42 Deamidated
-XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,-0.900120912,2.42253E-06,3,0.022405926,significant,197,0.057095305,nonsignificant,Kidney_Testes,XP_003448939.1 H2A T59 GlyGly
-XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-0.409656919,0.016064796,3,0.024189576,significant,199,0.061020941,nonsignificant,Kidney_Testes,XP_003448939.1 H2A P48 Oxidation
-XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.52442289,7.9443E-10,3,0.028836742,significant,203,0.071310565,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K95 Dioxidation
-XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.477064813,7.32635E-07,3,0.031610147,significant,205,0.077406311,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K95 GlyGly
-XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,-0.636106758,0.000707931,3,0.031688413,significant,207,0.076848228,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K95 GlyGly
-XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.405168027,4.83795E-16,3,0.036049628,significant,210,0.086175777,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K118 Methyl
-XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.325619767,0.000233679,3,0.037963893,significant,216,0.088230899,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K118 Dimethyl
-XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.279389114,0.096226503,2,0.042497378,significant,224,0.09523966,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 P147 Oxidation
-XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,1.36404155,0.152116445,2,0.044147207,significant,227,0.097629507,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K137 Lactyl / Carboxyethyl
-XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.210226895,5.0804E-09,3,0.047027417,significant,229,0.10309067,nonsignificant,Kidney_Testes,"XP_025766508.1 H2A, sperm-like K119 4-hydroxynonenal"
-XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.210226895,5.0804E-09,3,0.047027417,significant,230,0.102642449,nonsignificant,Kidney_Testes,"XP_025766508.1 H2A, sperm-like K120 Lactyl / Carboxyethyl"
-XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,2.925744518,0.641344993,2,0.048816727,significant,233,0.105175953,nonsignificant,Kidney_Testes,XP_003448939.1 H2A Y50 Oxidation
-XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.914942945,0.633459234,2,0.051630382,nonsignificant,236,0.109823948,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K95 Dimethyl
-XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.151719692,0.376257907,2,0.059605932,nonsignificant,242,0.123645362,nonsignificant,Kidney_Testes,XP_003451211.1 H2A T101 Phospho / Dehydrated
-XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,-4.073358259,0.045054932,3,0.066108552,nonsignificant,246,0.134904443,nonsignificant,Kidney_Testes,XP_003448939.1 H2A R77 Deamidated
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,2.086055944,0.000499755,3,0.068203622,nonsignificant,247,0.138616268,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Lactyl / Carboxyethyl
-XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,-0.585151523,0.000517133,3,0.068508097,nonsignificant,248,0.138673647,nonsignificant,Kidney_Testes,XP_003459572.1 H2A K94 Oxidation
-XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,0,1.74306E-14,3,0.08188443,nonsignificant,260,0.158099938,nonsignificant,Kidney_Testes,XP_003448939.1 H2A P80 Oxidation
-XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,-0.046195932,9.25887E-07,3,0.082241527,nonsignificant,261,0.158181022,nonsignificant,Kidney_Testes,"XP_025766508.1 H2A, sperm-like K120 4-hydroxynonenal"
-XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.130104555,0.013061302,3,0.088065015,nonsignificant,265,0.166825047,nonsignificant,Kidney_Testes,"XP_025766508.1 H2A, sperm-like T102 Phospho / Dehydrated"
-XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,0.748454644,0.341605149,2,0.08961698,nonsignificant,266,0.169126782,nonsignificant,Kidney_Testes,XP_003448939.1 H2A Y50 Dioxidation
-XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.32618482,0.25106042,2,0.090279802,nonsignificant,267,0.169739552,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K118 Oxidation
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,-1.207951982,0.404604764,2,0.099170289,nonsignificant,272,0.183027519,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Dimethyl
-XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.082309579,0.000674628,3,0.101712199,nonsignificant,274,0.186348627,nonsignificant,Kidney_Testes,XP_003448939.1 H2A T124 Phospho / Dehydrated
-XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.414248979,0.368237937,2,0.108666053,nonsignificant,280,0.19482271,nonsignificant,Kidney_Testes,XP_003448939.1 H2A T101 Phospho / Dehydrated
-XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.338834055,0.039171189,3,0.113106055,nonsignificant,281,0.202061351,nonsignificant,Kidney_Testes,XP_003448939.1 H2A T120 Phospho / Dehydrated
-XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.541675271,0.974085504,2,0.132553938,nonsignificant,288,0.231048877,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K119 Acetyl
-XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.14603253,4.21036E-10,3,0.138735782,nonsignificant,290,0.240156422,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 T162 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,-0.578646698,0.702939926,2,0.147699417,nonsignificant,291,0.254794183,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 V163 Amidated
-XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.165474953,3.91652E-11,3,0.149508457,nonsignificant,293,0.256154421,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 S152 Phospho / Dehydrated
-XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,0.206309025,7.74771E-21,3,0.154030797,nonsignificant,294,0.263004966,nonsignificant,Kidney_Testes,XP_003448939.1 H2A R81 Deamidated
-XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,-0.388695462,0.31296541,2,0.159029675,nonsignificant,296,0.269705732,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K118 Oxidation
-XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,0.031409561,0.395800215,2,0.168105379,nonsignificant,300,0.281296334,nonsignificant,Kidney_Testes,XP_003459572.1 H2A K117 Methyl
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,-0.433957629,0.343545247,2,0.174033299,nonsignificant,304,0.287383935,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Dimethyl
-XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.101807624,0.020011,3,0.193972694,nonsignificant,309,0.315127159,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K118 Dimethyl
-XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,0.078401458,0.926612451,2,0.196762304,nonsignificant,311,0.317603462,nonsignificant,Kidney_Testes,XP_003451211.1 H2A P109 Oxidation
-XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.395882162,0.517774946,2,0.197949843,nonsignificant,313,0.317478662,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K122 Dimethyl
-XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,-0.494832176,0.013101517,3,0.198562107,nonsignificant,314,0.317446425,nonsignificant,Kidney_Testes,XP_003448939.1 H2A T59 Acetyl
-XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.35357791,0.844015145,2,0.200428981,nonsignificant,315,0.319413805,nonsignificant,Kidney_Testes,XP_013130603.1 core histone macro-H2A.1 isoform X5 T98 Phospho / Dehydrated
-XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,0.811407146,0.405802672,2,0.203000184,nonsignificant,316,0.322487634,nonsignificant,Kidney_Testes,XP_003459572.1 H2A K121 4-hydroxynonenal
-XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,0.684406632,0.390782002,2,0.218983925,nonsignificant,322,0.3413973,nonsignificant,Kidney_Testes,XP_003459572.1 H2A K118 GlyGly
-XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.091564224,1.41877E-06,3,0.222680532,nonsignificant,325,0.343955775,nonsignificant,Kidney_Testes,XP_003459572.1 H2A K123 Lactyl / Carboxyethyl
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,0.166720025,0.105456777,2,0.228933746,nonsignificant,328,0.350380306,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Methyl
-XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,1.360493808,0.22863822,2,0.23601754,nonsignificant,330,0.359032743,nonsignificant,Kidney_Testes,XP_003459572.1 H2A K117 4-hydroxynonenal
-XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.338771793,0.009051884,3,0.262663041,nonsignificant,335,0.393602527,nonsignificant,Kidney_Testes,XP_003459572.1 H2A T100 Phospho / Dehydrated
-XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,1.518033379,0.002923395,3,0.26886282,nonsignificant,336,0.401693856,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K95 Oxidation
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,0.27614365,0.112406859,2,0.268870883,nonsignificant,337,0.400513896,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 S56 Acetyl
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,0.27614365,0.112406859,2,0.268870883,nonsignificant,338,0.399328944,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Dimethyl
-XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,0.497207341,2,0.272763732,nonsignificant,340,0.402727628,nonsignificant,Kidney_Testes,XP_003458968.1 H2A.Z isoform X2 K4 Methyl
-XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.491445811,0.439373365,2,0.281597169,nonsignificant,341,0.414550672,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K122 Dimethyl
-XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,0.447114589,0.02912141,3,0.28607038,nonsignificant,342,0.419904476,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K36 Acrolein112
-XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-1.176227944,0.355204857,2,0.290334406,nonsignificant,343,0.424920909,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K118 Lactyl / Carboxyethyl
-XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,0.185892465,0.015158871,3,0.292728637,nonsignificant,345,0.425941379,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K118 Acetyl
-XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,0.886848853,1.1115E-05,3,0.295255112,nonsignificant,346,0.428375913,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 P147 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,3.06373097,0.016606987,3,0.339089382,nonsignificant,356,0.478154129,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K110 Biotin
-XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,-0.05163565,1.09913E-25,3,0.34003626,nonsignificant,357,0.478146225,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 P119 Oxidation
-XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,-0.05163565,1.09913E-25,3,0.34003626,nonsignificant,358,0.476810621,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R120 Oxidation
-XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.131951222,1.57427E-08,3,0.351325161,nonsignificant,362,0.48719677,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K119 Lactyl / Carboxyethyl
-XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,-0.131951222,1.57427E-08,3,0.351325161,nonsignificant,363,0.48585463,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K122 Acetyl
-XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,0.173947411,0.001022452,3,0.358218791,nonsignificant,364,0.494027014,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K156 Methyl
-XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.046251666,4.73588E-06,3,0.365309711,nonsignificant,365,0.502425959,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K95 Dimethyl
-XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,0.049686452,2.14154E-20,3,0.375297982,nonsignificant,367,0.513350373,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R120 Dioxidation
-XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,-1.536676809,0.002398614,3,0.415511061,nonsignificant,372,0.56071654,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K36 Dimethyl
-XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,0.134229166,0.012179991,3,0.417164819,nonsignificant,373,0.561438979,nonsignificant,Kidney_Testes,XP_003451211.1 H2A P117 Oxidation
-XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,-0.326288917,0.29772408,2,0.421395618,nonsignificant,377,0.561115651,nonsignificant,Kidney_Testes,XP_003459572.1 H2A T119 GlyGly
-XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,-1.384903473,0.623344714,2,0.439556203,nonsignificant,386,0.571650813,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Methyl
-XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,0.200659217,0.010438478,3,0.441533778,nonsignificant,387,0.572738905,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K122 GlyGly
-XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.068390661,0.18336582,2,0.518437107,nonsignificant,400,0.65063857,nonsignificant,Kidney_Testes,XP_003459572.1 H2A K123 GlyGly
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,0.944439203,0.115421774,2,0.53101077,nonsignificant,402,0.663103001,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 S56 GlyGly
-XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,-1.172046662,0.05494107,2,0.539701791,nonsignificant,404,0.670619552,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K156 Dimethyl
-XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,0.047478165,0.682119826,2,0.552027279,nonsignificant,406,0.682555896,nonsignificant,Kidney_Testes,XP_003448939.1 H2A S18 Acetyl
-XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,0.139730668,0.473675976,2,0.565506704,nonsignificant,407,0.697504583,nonsignificant,Kidney_Testes,XP_003448939.1 H2A R20 Methyl
-XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.301971291,0.096978491,2,0.596944755,nonsignificant,416,0.720351604,nonsignificant,Kidney_Testes,XP_003459572.1 H2A T119 Phospho / Dehydrated
-XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,0.221198168,0.345304755,2,0.60510027,nonsignificant,417,0.728442052,nonsignificant,Kidney_Testes,XP_003448939.1 H2A P109 Oxidation
-XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,0.82304287,0.000265281,3,0.665186898,nonsignificant,430,0.77656703,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K119 Methyl
-XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,0.361269988,0.008882668,3,0.67012532,nonsignificant,433,0.776912034,nonsignificant,Kidney_Testes,XP_003448939.1 H2A P48 Dioxidation
-XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.490784836,0.226865907,2,0.681217522,nonsignificant,437,0.782542783,nonsignificant,Kidney_Testes,XP_003448939.1 H2A S19 Phospho / Dehydrated
-XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,-0.14968146,0.37952497,2,0.687740264,nonsignificant,438,0.788231992,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K119 Acetyl
-XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,0.025203016,0.387584979,2,0.712704296,nonsignificant,444,0.805805308,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K95 Acetyl
-XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.923930949,0.068774806,2,0.732083019,nonsignificant,447,0.822160348,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 S56 Phospho / Dehydrated
-XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,0.923930949,0.068774806,2,0.732083019,nonsignificant,448,0.820325169,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Dioxidation
-XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.145473061,0.601645702,2,0.758478839,nonsignificant,457,0.833164939,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K122 Methyl
-XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,0.00574595,0.038818455,3,0.760586341,nonsignificant,460,0.830031181,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K127 Amidated
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.086512848,0.872618124,2,0.762196356,nonsignificant,461,0.829983884,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Methyl
-XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,0.10043961,0.883204357,2,0.772009779,nonsignificant,462,0.838850452,nonsignificant,Kidney_Testes,XP_003448939.1 H2A S19 GlyGly
-XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,-0.880571551,0.185742168,2,0.773250652,nonsignificant,463,0.838384076,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Dioxidation
-XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,-0.456211889,0.647658276,2,0.775527952,nonsignificant,466,0.835439983,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K119 GlyGly
-XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,-0.098324619,0.415015961,2,0.787397824,nonsignificant,468,0.844601939,nonsignificant,Kidney_Testes,XP_003448939.1 H2A R20 Deamidated
-XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.286608078,0.00020022,3,0.8309964,nonsignificant,475,0.878231984,nonsignificant,Kidney_Testes,XP_003448939.1 H2A E91 ADP-Ribosyl
-XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.035527795,0.549187531,2,0.84245375,nonsignificant,481,0.879234475,nonsignificant,Kidney_Testes,XP_003448939.1 H2A S126 Phospho / Dehydrated
-XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,0.063137325,0.186993197,2,0.936379902,nonsignificant,489,0.961273437,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K127 GlyGly
-XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,0.040887326,0.004071915,3,0.946871813,nonsignificant,490,0.970060511,nonsignificant,Kidney_Testes,XP_003451211.1 H2A P117 Dioxidation
-XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,-0.247580423,0.036330293,3,0.949977763,nonsignificant,491,0.971260361,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K161 Methyl
-XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-0.859153646,0.104129658,2,0.985816001,nonsignificant,498,0.993734202,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K119 Lactyl / Carboxyethyl
-XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,0.38042874,0.003166951,3,0.985874401,nonsignificant,499,0.991801501,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K95 Acetyl
+XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.757647627,0.946857761,2,2.83461E-16,significant,5,2.84595e-14,significant,Kidney_Testes,XP_003451211.1 H2A K95 Lactyl / Carboxyethyl
+XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.34648648,0.188504984,2,1.66196E-14,significant,12,6.95253e-13,significant,Kidney_Testes,XP_003448939.1 H2A Y50 Phospho / Dehydrated
+XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,-0.921748969,0.303219644,2,9.73338E-14,significant,16,3.05385e-12,significant,Kidney_Testes,XP_003459572.1 H2A K123 Acetyl
+XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,-0.88546388,0.490791582,2,4.54676E-13,significant,21,1.08689e-11,significant,Kidney_Testes,XP_003459572.1 H2A K123 Amidated
+XP_003448939.1,H2A,76,T,T76,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.776587616,0.582156625,2,3.05833E-12,significant,27,5.68623e-11,significant,Kidney_Testes,XP_003448939.1 H2A T76 Phospho / Dehydrated
+XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,2.93298883,0.226317727,2,7.10936E-11,significant,37,9.64567e-10,significant,Kidney_Testes,XP_003459572.1 H2A K118 Acetyl
+XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,-0.649346642,0.012702328,3,3.45721E-10,significant,44,3.94436e-9,significant,Kidney_Testes,XP_003451211.1 H2A K95 Oxidation
+XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.190615708,0.088759758,2,4.22833E-10,significant,47,4.51622e-9,significant,Kidney_Testes,XP_003451211.1 H2A P109 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.020685474,0.867292302,2,1.21363E-09,significant,51,1.1946e-8,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 T98 Phospho / Dehydrated
+XP_003451211.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,0.265475658,0.739105622,2,1.69374E-09,significant,53,1.6042599999999998e-08,significant,Kidney_Testes,XP_003451211.1 H2A K122 Dimethyl
+XP_003448939.1,H2A,124,T,T124,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.115255161,0.540621132,2,2.78774E-09,significant,56,2.49901e-8,significant,Kidney_Testes,XP_003448939.1 H2A T124 Phospho / Dehydrated
+XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,0.281589039,0.097528584,2,2.90439E-09,significant,57,2.5579e-8,significant,Kidney_Testes,XP_003451211.1 H2A K119 Methyl
+XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,-1.738989509,0.146138721,2,3.95604E-09,significant,59,3.36598e-8,significant,Kidney_Testes,XP_003451211.1 H2A K95 Biotin
+XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,-0.679155593,0.000208467,3,5.42782E-09,significant,63,4.32502e-8,significant,Kidney_Testes,XP_003451211.1 H2A N94 Oxidation
+XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,-1.717796234,0.162486452,2,5.47267E-09,significant,64,4.29263e-8,significant,Kidney_Testes,XP_003451211.1 H2A T101 GlyGly
+XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.282955456,0.104046591,2,7.85945E-09,significant,67,5.88872e-8,significant,Kidney_Testes,XP_003451211.1 H2A K127 Amidated
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,-0.393226961,4.97238E-05,3,3.03143E-08,significant,74,2.05646e-7,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 P147 Oxidation
+XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,2.237245813,0.122261128,2,6.41179E-08,significant,78,4.12656e-7,significant,Kidney_Testes,XP_003459572.1 H2A K118 GlyGly
+XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.213946102,0.486878126,2,9.7905E-08,significant,85,5.78215e-7,significant,Kidney_Testes,XP_003451211.1 H2A T120 Phospho / Dehydrated
+XP_003459572.1,H2A,121,K,K121,53,4-hydroxynonenal,Yes,Napho only,2.199981865,0.167737002,2,1.51859E-07,significant,88,8.66287e-7,significant,Kidney_Testes,XP_003459572.1 H2A K121 4-hydroxynonenal
+XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,0.322729923,0.391328947,2,1.59613E-07,significant,89,9.0029e-7,significant,Kidney_Testes,XP_003448939.1 H2A K118 Acetyl
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Lactyl / Carboxyethyl,Yes,Ambic only,1.539182567,3.58277E-06,3,1.98731E-07,significant,92,1.08438e-6,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Lactyl / Carboxyethyl
+XP_003448939.1,H2A,59,T,T59,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.276997165,1.89578E-06,3,2.78152E-07,significant,100,1.39632e-6,significant,Kidney_Testes,XP_003448939.1 H2A T59 Phospho / Dehydrated
+XP_003448939.1,H2A,122,K,K122,255,Dimethyl,Yes,Napho only,-0.374374779,0.085788503,2,3.63317E-07,significant,107,1.70453e-6,significant,Kidney_Testes,XP_003448939.1 H2A K122 Dimethyl
+XP_003448939.1,H2A,126,S,S126,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.193471833,0.155507006,2,3.66474E-07,significant,108,1.70343e-6,significant,Kidney_Testes,XP_003448939.1 H2A S126 Phospho / Dehydrated
+XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,-0.570184207,0.754947568,2,4.06548E-07,significant,109,1.87236e-6,significant,Kidney_Testes,XP_003448939.1 H2A T59 GlyGly
+XP_003459572.1,H2A,117,K,K117,53,4-hydroxynonenal,Yes,Napho only,2.159187221,0.185007805,2,4.9716E-07,significant,112,2.22834e-6,significant,Kidney_Testes,XP_003459572.1 H2A K117 4-hydroxynonenal
+XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0.150469,0.409410378,2,7.29284E-07,significant,114,3.21141e-6,significant,Kidney_Testes,XP_003451211.1 H2A K118 Methyl
+XP_005464230.1,H2A.Z isoform X1,152,S,S152,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.536095989,4.44317E-07,3,7.58246E-07,significant,115,3.30991e-6,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 S152 Phospho / Dehydrated
+XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,0.206863117,0.662707794,2,9.1887E-07,significant,120,3.84394e-6,significant,Kidney_Testes,XP_003448939.1 H2A K127 Amidated
+XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.099558562,0.067838979,2,1.53389E-06,significant,125,6.16012e-6,significant,Kidney_Testes,XP_003451211.1 H2A T101 Phospho / Dehydrated
+XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,2.483726062,0.975445915,2,1.64306E-06,significant,127,6.49461e-6,significant,Kidney_Testes,XP_003459572.1 H2A K94 Acetyl
+XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,2.284982471,0.159168497,2,1.67903E-06,significant,128,6.58494e-6,significant,Kidney_Testes,XP_003448939.1 H2A Y50 Oxidation
+XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,-0.296918902,0.056941004,2,2.04827E-06,significant,130,7.90946e-6,significant,Kidney_Testes,XP_003451211.1 H2A K95 Methyl
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,0.930432513,0.006145342,3,2.14817E-06,significant,132,8.16957e-6,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 P147 Dioxidation
+XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,-2.793739898,0.020104524,3,2.19627E-06,significant,133,8.28969e-6,significant,Kidney_Testes,XP_003451211.1 H2A K118 ADP-Ribosyl
+XP_003448939.1,H2A,18,S,S18,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-1.045501006,0.026453533,3,3.21052E-06,significant,137,1.17641e-5,significant,Kidney_Testes,XP_003448939.1 H2A S18 Phospho / Dehydrated
+XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.241590453,0.35385835,2,7.81641E-06,significant,149,2.63345e-5,significant,Kidney_Testes,XP_003448939.1 H2A T120 Phospho / Dehydrated
+XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,-3.148786507,0.40610058,2,1.0159E-05,significant,151,3.37736e-5,significant,Kidney_Testes,XP_003448939.1 H2A T59 Acetyl
+XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,0.669612541,0.637820294,2,1.02834E-05,significant,152,3.39623e-5,significant,Kidney_Testes,XP_003448939.1 H2A P109 Dioxidation
+XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,-2.232658159,0.485159766,2,1.71575E-05,significant,158,5.45132e-5,significant,Kidney_Testes,XP_003448939.1 H2A R88 Methyl
+XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,0.111746043,0.596153331,2,2.14978E-05,significant,160,6.74493e-5,significant,Kidney_Testes,XP_003451211.1 H2A P109 Oxidation
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,-0.678201754,0.033100377,3,2.23262E-05,significant,161,6.96135e-5,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 S56 Acetyl
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,-0.678201754,0.033100377,3,2.23262E-05,significant,162,6.91838e-5,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Dimethyl
+XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,1.485780635,0.003441555,3,2.23451E-05,significant,163,6.88174e-5,significant,Kidney_Testes,XP_003448939.1 H2A R42 Dimethyl
+XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,1.074032591,0.016760454,3,2.34954E-05,significant,164,7.19187e-5,significant,Kidney_Testes,XP_003459572.1 H2A T119 Phospho / Dehydrated
+XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,-1.008154827,0.013996059,3,2.36224E-05,significant,165,7.18694e-5,significant,Kidney_Testes,XP_003448939.1 H2A K74 Acetyl
+XP_003448939.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-1.170673174,0.930741874,2,2.48347E-05,significant,166,7.51027e-5,significant,Kidney_Testes,XP_003448939.1 H2A K119 Lactyl / Carboxyethyl
+XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,1.596951264,0.8915449,2,2.49724E-05,significant,167,7.50668e-5,significant,Kidney_Testes,XP_003459572.1 H2A P108 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Lactyl / Carboxyethyl,Yes,Napho only,1.338623248,0.880948792,2,2.90123E-05,significant,170,8.56718e-5,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K115 Lactyl / Carboxyethyl
+XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0,0.00695586,3,4.34725E-05,significant,173,1.26146e-4,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K73 Methyl
+XP_003448939.1,H2A,118,K,K118,378,Lactyl / Carboxyethyl,Yes,Ambic and Napho,-1.653127026,0.008074168,3,5.59061E-05,significant,178,1.57668e-4,significant,Kidney_Testes,XP_003448939.1 H2A K118 Lactyl / Carboxyethyl
+XP_003451211.1,H2A,119,K,K119,255,Dimethyl,Yes,Ambic and Napho,-0.71723727,0.518526311,2,5.92116E-05,significant,185,1.60672e-4,significant,Kidney_Testes,XP_003451211.1 H2A K119 Dimethyl
+XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,0.702457227,0.280053007,2,6.90809E-05,significant,187,1.85447e-4,significant,Kidney_Testes,XP_003448939.1 H2A P109 Oxidation
+XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,-0.823288655,0.014270064,3,7.80851E-05,significant,190,2.06309e-4,significant,Kidney_Testes,XP_003448939.1 H2A K118 Methyl
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,-0.798032356,0.006552182,3,8.2615E-05,significant,191,2.17135e-4,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Methyl
+XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,0.682579772,0.023224714,3,0.000193384,significant,205,4.73556e-4,significant,Kidney_Testes,XP_003448939.1 H2A P117 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,-3.934346984,0.053778801,2,0.000199551,significant,207,4.83936e-4,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K110 Biotin
+XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.352231032,0.133979649,2,0.000280448,significant,212,6.64079e-4,significant,Kidney_Testes,XP_003451211.1 H2A K95 Dioxidation
+XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,-1.213908698,4.96009E-05,3,0.000414665,significant,222,9.37665e-4,significant,Kidney_Testes,XP_003448939.1 H2A K119 GlyGly
+XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,-0.343154315,0.009724645,3,0.000458702,significant,223,0.001032594,significant,Kidney_Testes,XP_003448939.1 H2A P48 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,162,T,T162,21 + 23,Phospho / Dehydrated,Yes,Napho only,0.308897966,0.002337395,3,0.000487024,significant,226,0.001081797,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 T162 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,-1.338802317,0.611404747,2,0.000681174,significant,233,0.001467595,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K161 Methyl
+XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,-0.402774884,0.165166075,2,0.000823925,significant,238,0.001737859,significant,Kidney_Testes,XP_003448939.1 H2A Y50 Dioxidation
+XP_003448939.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,-0.326760814,0.759730919,2,0.000957698,significant,240,0.002003185,significant,Kidney_Testes,XP_003448939.1 H2A K118 Dimethyl
+XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,-1.178395908,4.72786E-06,3,0.000959012,significant,241,0.00199761,significant,Kidney_Testes,XP_003448939.1 H2A T120 GlyGly
+XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0.548064769,0.167548959,2,0.001087062,significant,244,0.002236497,significant,Kidney_Testes,XP_003448939.1 H2A K118 Oxidation
+XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,0.664038745,0.632209934,2,0.001145219,significant,247,0.00232753,significant,Kidney_Testes,XP_003448939.1 H2A R20 Deamidated
+XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,0,0.87482898,2,0.001193253,significant,248,0.002415376,significant,Kidney_Testes,XP_003458968.1 H2A.Z isoform X2 K4 Methyl
+XP_003448939.1,H2A,19,S,S19,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,0.643590611,0.48725278,2,0.001315566,significant,253,0.002610332,significant,Kidney_Testes,XP_003448939.1 H2A S19 Phospho / Dehydrated
+XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,-0.232119962,0.029977897,3,0.001545192,significant,258,0.003006537,significant,Kidney_Testes,XP_003451211.1 H2A K119 Acetyl
+XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,4.021956468,0.017298155,3,0.001803542,significant,263,0.003442503,significant,Kidney_Testes,XP_003448939.1 H2A R42 Deamidated
+XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,-0.40184863,0.443097882,2,0.002034301,significant,267,0.00382479,significant,Kidney_Testes,XP_003448939.1 H2A S19 GlyGly
+XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,-0.443999534,1.02638E-07,3,0.002318997,significant,274,0.004248674,significant,Kidney_Testes,XP_003459572.1 H2A K117 Methyl
+XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,-0.394070894,0.442983557,2,0.002563507,significant,275,0.004679565,significant,Kidney_Testes,XP_003448939.1 H2A R20 Methyl
+XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,-0.47780707,3.95446E-08,3,0.002609063,significant,276,0.004745469,significant,Kidney_Testes,XP_003459572.1 H2A T119 GlyGly
+XP_003459572.1,H2A,123,K,K123,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.518629941,8.78913E-09,3,0.002978197,significant,281,0.00532048,significant,Kidney_Testes,XP_003459572.1 H2A K123 Lactyl / Carboxyethyl
+XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,-0.461036515,0.006682008,3,0.00317571,significant,283,0.005633239,significant,Kidney_Testes,XP_003459572.1 H2A K94 Oxidation
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,-0.375237548,0.002493677,3,0.003466964,significant,284,0.006128225,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 S56 Phospho / Dehydrated
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,-0.375237548,0.002493677,3,0.003466964,significant,285,0.006106723,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R58 Dioxidation
+XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,-0.209294509,0.013919114,3,0.003725129,significant,289,0.00647064,significant,Kidney_Testes,XP_003451211.1 H2A K125 Dioxidation
+XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,-0.209294509,0.013919114,3,0.003725129,significant,290,0.006448327,significant,Kidney_Testes,XP_003451211.1 H2A K127 Dioxidation
+XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0.483156521,0.092653944,2,0.003766262,significant,291,0.006497125,significant,Kidney_Testes,XP_003448939.1 H2A K119 Acetyl
+XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,0.133890503,0.118945319,2,0.003947732,significant,293,0.006763691,significant,Kidney_Testes,XP_003448939.1 H2A Y57 Phospho / Dehydrated
+XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,-0.442230111,0.024496669,3,0.003967757,significant,294,0.006774878,significant,Kidney_Testes,XP_003448939.1 H2A K127 Acetyl
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Dimethyl,Yes,Ambic only,-0.253283903,8.37078E-05,3,0.004683819,significant,303,0.007759991,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Dimethyl
+XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,-0.383863195,3.26004E-08,3,0.004901208,significant,305,0.008066906,significant,Kidney_Testes,XP_003459572.1 H2A K123 GlyGly
+XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0.456278924,0.236044282,2,0.004916879,significant,306,0.008066252,significant,Kidney_Testes,XP_003448939.1 H2A E91 ADP-Ribosyl
+XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,-0.507926763,0.000298223,3,0.005106792,significant,307,0.008350519,significant,Kidney_Testes,XP_003448939.1 H2A S18 GlyGly
+XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,0.796654914,0.850845107,2,0.005111518,significant,308,0.008331111,significant,Kidney_Testes,XP_003448939.1 H2A K95 Acetyl
+XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,-0.564435806,0.002830662,3,0.005345911,significant,310,0.008656927,significant,Kidney_Testes,XP_003448939.1 H2A K119 Methyl
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,-0.221409771,1.60205E-06,3,0.00858474,significant,323,0.013342228,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Dioxidation
+XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,-0.033083538,0.000658019,3,0.021906023,significant,345,0.03187485,significant,Kidney_Testes,XP_003448939.1 H2A K36 Acrolein112
+XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,-0.21440911000000001,0.001863853,3,0.025191413,significant,349,0.036235213,significant,Kidney_Testes,XP_003451211.1 H2A K118 Oxidation
+XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,-0.141785684,9.57817E-05,3,0.028156336,significant,354,0.039927911,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 V163 Amidated
+XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,-0.306857942,0.188476854,2,0.032450783,significant,359,0.045376861,significant,Kidney_Testes,XP_003448939.1 H2A P48 Oxidation
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,-4.586416929,0.000930005,3,0.038802688,significant,365,0.053366985,nonsignificant,Kidney_Testes,XP_003448939.1 H2A R77 Deamidated
+XP_003448939.1,H2A,36,K,K36,255,Dimethyl,Yes,Trypsin only,-0.170623226,3.19126E-05,3,0.042711255,significant,368,0.058263723,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K36 Dimethyl
+XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,0.31054443,0.266259488,2,0.045059571,significant,371,0.060970094,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K122 GlyGly
+XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,-0.195052257,0.000116762,3,0.052038998,nonsignificant,374,0.069849137,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K95 GlyGly
+XP_003451211.1,H2A,119,K,K119,378,Lactyl / Carboxyethyl,Yes,Napho only,0.161326513,0.238813184,2,0.065387177,nonsignificant,380,0.086379903,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K119 Lactyl / Carboxyethyl
+XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,0.161326513,0.238813184,2,0.065387177,nonsignificant,381,0.086153184,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K122 Acetyl
+XP_003448939.1,H2A,119,K,K119,255,Dimethyl,Yes,Napho only,0.314450856,0.95765558,2,0.072668784,nonsignificant,384,0.094999296,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K119 Dimethyl
+XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,0.358844481,0.263142987,2,0.074752378,nonsignificant,387,0.096965617,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K127 GlyGly
+XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,-0.519347689,0.968784797,2,0.08628016,nonsignificant,388,0.111630516,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K95 Dioxidation
+XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,0.568933432,0.0003452,3,0.102473819,nonsignificant,393,0.130895311,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K95 Oxidation
+XP_003448939.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.327786096,0.630302116,2,0.109046061,nonsignificant,394,0.138936859,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K95 Dimethyl
+XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,0,2.66302E-14,3,0.112789518,nonsignificant,396,0.142980651,nonsignificant,Kidney_Testes,XP_003448939.1 H2A P80 Oxidation
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,-0.201278161,0.065149432,2,0.121972287,nonsignificant,398,0.153844442,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 S56 GlyGly
+XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0.062326728,0.039497643,3,0.15792945,nonsignificant,410,0.193367278,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K122 Methyl
+XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,-0.033280341,1.42611E-15,3,0.161601107,nonsignificant,413,0.196425559,nonsignificant,Kidney_Testes,XP_003448939.1 H2A R81 Deamidated
+XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,-0.307066213,0.291200799,2,0.17851835,nonsignificant,415,0.215942679,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K95 Acetyl
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,0.100727837,0.023430224,3,0.181691372,nonsignificant,418,0.218203514,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Methyl
+XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,0,0.001686907,3,0.192749112,nonsignificant,421,0.229833858,nonsignificant,Kidney_Testes,XP_003448939.1 H2A R35 Dimethyl
+XP_003448939.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.265079926,0.621828519,2,0.221152129,nonsignificant,424,0.261835775,nonsignificant,Kidney_Testes,XP_003448939.1 H2A T101 Phospho / Dehydrated
+XP_003451211.1,H2A,118,K,K118,255,Dimethyl,Yes,Ambic and Napho,0.042236396,0.669706201,2,0.22540459,nonsignificant,426,0.265617615,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K118 Dimethyl
+XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Ambic only,0.511212054,0.232798319,2,0.249517431,nonsignificant,429,0.291976108,nonsignificant,Kidney_Testes,XP_013130603.1 core histone macro-H2A.1 isoform X5 T98 Phospho / Dehydrated
+XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,-0.044240128,0.72653943,2,0.287503587,nonsignificant,435,0.331785749,nonsignificant,Kidney_Testes,XP_003451211.1 H2A P117 Dioxidation
+XP_003459572.1,H2A,100,T,T100,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,-0.090469474,0.050623429,2,0.298307326,nonsignificant,436,0.34346394,nonsignificant,Kidney_Testes,XP_003459572.1 H2A T100 Phospho / Dehydrated
+XP_025766508.1,"H2A, sperm-like",119,K,K119,53,4-hydroxynonenal,Yes,Napho only,-0.06146911,0.285399252,2,0.307906822,nonsignificant,437,0.353705319,nonsignificant,Kidney_Testes,"XP_025766508.1 H2A, sperm-like K119 4-hydroxynonenal"
+XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.06146911,0.285399252,2,0.307906822,nonsignificant,438,0.352897773,nonsignificant,Kidney_Testes,"XP_025766508.1 H2A, sperm-like K120 Lactyl / Carboxyethyl"
+XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,0.015626784,0.112368529,2,0.379388998,nonsignificant,443,0.429917104,nonsignificant,Kidney_Testes,"XP_025766508.1 H2A, sperm-like K120 4-hydroxynonenal"
+XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,-0.039944125,0.896712747,2,0.392299837,nonsignificant,444,0.443546212,nonsignificant,Kidney_Testes,XP_003451211.1 H2A P117 Oxidation
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,-0.02891171,6.10617E-05,3,0.452595901,nonsignificant,455,0.499347565,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K156 Methyl
+XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Lactyl / Carboxyethyl,Yes,Ambic only,-0.253782135,0.682063694,2,0.480817825,nonsignificant,457,0.528163125,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K137 Lactyl / Carboxyethyl
+XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,0.230314172,0.937200666,2,0.519641732,nonsignificant,462,0.564632358,nonsignificant,Kidney_Testes,XP_003448939.1 H2A S18 Acetyl
+XP_003451211.1,H2A,95,K,K95,255,Dimethyl,Yes,Napho only,-0.024178608,0.016035838,3,0.549181667,nonsignificant,464,0.594157752,nonsignificant,Kidney_Testes,XP_003451211.1 H2A K95 Dimethyl
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,-0.07019865,0.564693127,2,0.608849311,nonsignificant,467,0.654480416,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K157 Methyl
+XP_025766508.1,"H2A, sperm-like",102,T,T102,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.037643161,0.787921676,2,0.694515218,nonsignificant,475,0.733992925,nonsignificant,Kidney_Testes,"XP_025766508.1 H2A, sperm-like T102 Phospho / Dehydrated"
+XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,-0.005026643,1.24039E-06,3,0.697460301,nonsignificant,476,0.73555687300000006,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 P119 Oxidation
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,-0.005026643,1.24039E-06,3,0.697460301,nonsignificant,477,0.734014825,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R120 Oxidation
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Dimethyl,Yes,Ambic only,-0.548528953,0.568387515,2,0.805748649,nonsignificant,482,0.839182203,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K151 Dimethyl
+XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,0.010287869,0.641622496,2,0.812744326,nonsignificant,483,0.844715635,nonsignificant,Kidney_Testes,XP_003448939.1 H2A K95 GlyGly
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,0.004982529,2.28708E-06,3,0.856821318,nonsignificant,489,0.879599799,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 R120 Dioxidation
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Dimethyl,Yes,Ambic only,-1.149875875,0.42201511,2,0.859919265,nonsignificant,490,0.880978512,nonsignificant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K156 Dimethyl
 XP_003448939.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K118 GlyGly
 XP_003448939.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K122 GlyGly
 XP_003448939.1,H2A,127,K,K127,255,Dimethyl,Yes,Napho only,NA,#DIV/0!,#DIV/0!,#DIV/0!,#DIV/0!,NA,NA,NA,NA,XP_003448939.1 H2A K127 Dimethyl
