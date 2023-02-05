@@ -3393,15 +3393,13 @@ print(Top_hPTMs_Plot_H2A)
 
 ```{r}
 Top_hPTMs_H2B <- Tissue_Statistics_SEM_3 %>% 
-  filter(hPTM_Name == "XP_003438147.1 H2B.L4 K7 Oxidation" |
-           hPTM_Name == "XP_003451196.1 H2B 1/2 K106 Acetyl" |
+  filter(hPTM_Name == "XP_003451196.1 H2B 1/2 K106 Acetyl" |
            hPTM_Name == "XP_003451196.1 H2B 1/2 S76 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 T86 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 T86 GlyGly" |
            hPTM_Name == "XP_003438147.1 H2B.L4 K98 GlyGly")
 
-rep_str = c("XP_003438147.1 H2B.L4 K7 Oxidation" = "H2B.L4 K7 Oxidation", 
-            "XP_003451196.1 H2B 1/2 K106 Acetyl" = "H2B 1/2 K106 Acetyl",
+rep_str = c("XP_003451196.1 H2B 1/2 K106 Acetyl" = "H2B 1/2 K106 Acetyl",
             "XP_003451196.1 H2B 1/2 S76 GlyGly" = "H2B 1/2 S76 Ubiquityl",
             "XP_003438147.1 H2B.L4 T86 GlyGly" = "H2B.L4 T86 Ubiquityl",
             "XP_003438147.1 H2B.L4 K98 GlyGly" = "H2B.L4 K98 Ubiquityl"
@@ -3509,7 +3507,9 @@ length(unique(Data_H1$hPTM_Name))
 ```
 
 ```{r}
-length(unique(Data$`PTM Description`))
+length(unique(Data_H1$`PTM Description`))
+
+X <- as.data.frame(unique(Data_H1$`PTM Description`))
 ```
 
 

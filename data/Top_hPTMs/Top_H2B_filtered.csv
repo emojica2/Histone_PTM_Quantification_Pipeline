@@ -1,7 +1,7 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
-XP_003438147.1,H2B.L4,7,K,K7,35,Oxidation,Yes,Napho only,0,0,0.00017353,3,1.16E-16,significant,17,3.44E-15,significant,Gills_Testes,XP_003438147.1 H2B.L4 K7 Oxidation,a
-XP_003451196.1,H2B 1/2,106,K,K106,1,Acetyl,Yes,Ambic and Napho,1.655745867,1.655745867,0.138611067,2,2.00E-16,significant,6,1.67E-14,significant,Gills_Kidney,XP_003451196.1 H2B 1/2 K106 Acetyl,b
-XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,3.877664608,3.877664608,0.35888592,2,3.50E-15,significant,7,2.51E-13,significant,Gills_Kidney,XP_003451196.1 H2B 1/2 S76 GlyGly,c
+XP_003451196.1,H2B 1/2,106,K,K106,1,Acetyl,Yes,Ambic and Napho,1.655745867,1.655745867,0.138611067,2,1.99729E-16,significant,6,1.67107E-14,significant,Gills_Kidney,XP_003451196.1 H2B 1/2 K106 Acetyl,a
+XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,3.877664608,3.877664608,0.35888592,2,3.49855E-15,significant,7,2.50896E-13,significant,Gills_Kidney,XP_003451196.1 H2B 1/2 S76 GlyGly,b
+XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,3.464261418,3.464261418,0.021696052,3,4.96326E-14,significant,27,9.22799E-13,significant,Gills_Testes,XP_003451196.1 H2B 1/2 S76 GlyGly,c
 XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,5.257496608,5.257496608,0.3015955,2,1.96E-14,significant,8,1.23E-12,significant,Gills_Kidney,XP_003438147.1 H2B.L4 T86 GlyGly,d
 XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,4.752460063,4.752460063,0.338301175,2,3.82E-12,significant,48,4.00E-11,significant,Gills_Testes,XP_003438147.1 H2B.L4 T86 GlyGly,e
 XP_003438147.1,H2B.L4,98,K,K98,121,GlyGly,Other,Ambic only,4.74656885,4.74656885,0.001129202,3,3.28E-10,significant,73,2.26E-09,significant,Gills_Testes,XP_003438147.1 H2B.L4 K98 GlyGly,f
