@@ -1,0 +1,3004 @@
+---
+title: "PTM Score Analysis"
+author: "Lizzy Mojica"
+date: '2023-06-12'
+output: html_document
+---
+
+# Loading Libraries
+
+```{r}
+library(tidyverse)
+```
+
+
+# Importing PTM Score Data
+
+```{r}
+PTM1 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_251/peptide.csv")
+PTM2 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_253/peptide.csv")
+PTM3 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_255/peptide.csv")
+PTM4 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_257/peptide.csv")
+PTM5 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_259/peptide.csv")
+PTM6 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_261/peptide.csv")
+PTM7 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_263/peptide.csv")
+PTM8 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_265/peptide.csv")
+PTM9 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-22-Oremo-Kidney_V8-AmBic_PEAKS PTM_267/peptide.csv")
+PTM10 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_269/peptide.csv")
+PTM11 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_271/peptide.csv")
+PTM12 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_273/peptide.csv")
+PTM13 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_275/peptide.csv")
+PTM14 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_277/peptide.csv")
+PTM15 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_279/peptide.csv")
+PTM16 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_281/peptide.csv")
+PTM17 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_283/peptide.csv")
+PTM18 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0021-23-Oremo-Testes_V8-AmBic_PEAKS PTM_285/peptide.csv")
+PTM19 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_499/peptide.csv")
+PTM20 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_501/peptide.csv")
+PTM21 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_503/peptide.csv")
+PTM22 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_505/peptide.csv")
+PTM23 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_507/peptide.csv")
+PTM24 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_509/peptide.csv")
+PTM25 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_511/peptide.csv")
+PTM26 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_513/peptide.csv")
+PTM27 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores21-24/PEAKS_PTMscores/PEAKS10Pro_EAM0023-24-Oremo-Gill_V8-AmBic_PEAKS PTM_515/peptide.csv")
+
+PTM28 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_105/peptide.csv")
+PTM29 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_107/peptide.csv")
+PTM30 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_125/peptide.csv")
+PTM31 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_144/peptide.csv")
+PTM32 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_36/peptide.csv")
+PTM33 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_40/peptide.csv")
+PTM34 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_59/peptide.csv")
+PTM35 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_61/peptide.csv")
+PTM36 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_83/peptide.csv")
+PTM37 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_85/peptide.csv")
+PTM38 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_87/peptide.csv")
+PTM39 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-26-Oremo-Kidney_V8-NaPho_PEAKS PTM_89/peptide.csv")
+PTM40 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_42/peptide.csv")
+PTM41 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_44/peptide.csv")
+PTM42 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_46/peptide.csv")
+PTM43 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_52/peptide.csv")
+PTM44 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_70/peptide.csv")
+PTM45 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_72/peptide.csv")
+PTM46 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_8/peptide.csv")
+PTM47 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_86/peptide.csv")
+PTM48 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Gill_V8-NaPho_PEAKS PTM_94/peptide.csv")
+PTM49 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_101/peptide.csv")
+PTM50 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_14/peptide.csv")
+PTM51 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_16/peptide.csv")
+PTM52 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_53/peptide.csv")
+PTM53 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_55/peptide.csv")
+PTM54 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_57/peptide.csv")
+PTM55 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_61/peptide.csv")
+PTM56 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_69/peptide.csv")
+PTM57 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores25-28/PEAKS_PTMscores25-28/PEAKS10Pro_EAM0025-27-Oremo-Testes_V8-NaPho_PEAKS PTM_88/peptide.csv")
+
+PTM58 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_33/peptide.csv")
+PTM59 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_35/peptide.csv")
+PTM60 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_37/peptide.csv")
+PTM61 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_39/peptide.csv")
+PTM62 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_41/peptide.csv")
+PTM63 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_57/peptide.csv")
+PTM64 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_59/peptide.csv")
+PTM65 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_91/peptide.csv")
+PTM66 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Gill_Prop-Tryp_PEAKS PTM_93/peptide.csv")
+PTM67 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_107/peptide.csv")
+PTM68 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_109/peptide.csv")
+PTM69 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_111/peptide.csv")
+PTM70 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_50/peptide.csv")
+PTM71 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_52/peptide.csv")
+PTM72 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_54/peptide.csv")
+PTM73 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_56/peptide.csv")
+PTM74 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_71/peptide.csv")
+PTM75 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Kidney_Prop-Tryp_PEAKS PTM_73/peptide.csv")
+PTM76 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_101/peptide.csv")
+PTM77 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_69/peptide.csv")
+PTM78 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_71/peptide.csv")
+PTM79 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_73/peptide.csv")
+PTM80 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_75/peptide.csv")
+PTM81 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_77/peptide.csv")
+PTM82 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_79/peptide.csv")
+PTM83 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_81/peptide.csv")
+PTM84 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores29-32/PEAKS_PTMscores29-32/PEAKS10Pro_EAM0029-32-Oremo-Testes_Prop-Tryp_PEAKS PTM_89/peptide.csv")
+
+PTM85 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_18/peptide.csv")
+PTM86 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_20/peptide.csv")
+PTM87 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_34/peptide.csv")
+PTM88 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_36/peptide.csv")
+PTM89 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_50/peptide.csv")
+PTM90 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_52/peptide.csv")
+PTM91 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_72/peptide.csv")
+PTM92 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_74/peptide.csv")
+PTM93 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-AmBic_PEAKS PTM_76/peptide.csv")
+PTM94 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_100/peptide.csv")
+PTM95 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_102/peptide.csv")
+PTM96 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_104/peptide.csv")
+PTM97 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_106/peptide.csv")
+PTM98 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_11/peptide.csv")
+PTM99 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_92/peptide.csv")
+PTM100 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_94/peptide.csv")
+PTM101 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_96/peptide.csv")
+PTM102 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0034-Oremo-Gill_V8AmBic_PEAKS PTM_98/peptide.csv")
+PTM103 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_57/peptide.csv")
+PTM104 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_59/peptide.csv")
+PTM105 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_61/peptide.csv")
+PTM106 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_63/peptide.csv")
+PTM107 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_65/peptide.csv")
+PTM108 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_67/peptide.csv")
+PTM109 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_70/peptide.csv")
+PTM110 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_74/peptide.csv")
+PTM111 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0035-Oremo-Kidney_V8AmBic_PEAKS PTM_82/peptide.csv")
+PTM112 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_56/peptide.csv")
+PTM113 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_58/peptide.csv")
+PTM114 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_60/peptide.csv")
+PTM115 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_62/peptide.csv")
+PTM116 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_64/peptide.csv")
+PTM117 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_66/peptide.csv")
+PTM118 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_68/peptide.csv")
+PTM119 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_70/peptide.csv")
+PTM120 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores34-36/PEAKS_PTMscores34-36/PEAKS10Pro_EAM0036-Oremo-Testes_V8AmBic_PEAKS PTM_72/peptide.csv")
+
+PTM121 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_26/peptide.csv")
+PTM122 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_28/peptide.csv")
+PTM123 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_30/peptide.csv")
+PTM124 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_32/peptide.csv")
+PTM125 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_58/peptide.csv")
+PTM126 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_60/peptide.csv")
+PTM127 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_62/peptide.csv")
+PTM128 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_64/peptide.csv")
+PTM129 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0034-36-Oremo-Gill_V8-NaPho_PEAKS PTM_80/peptide.csv")
+PTM130 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_74/peptide.csv")
+PTM131 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_76/peptide.csv")
+PTM132 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_78/peptide.csv")
+PTM133 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_80/peptide.csv")
+PTM134 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_82/peptide.csv")
+PTM135 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_84/peptide.csv")
+PTM136 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_86/peptide.csv")
+PTM137 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_88/peptide.csv")
+PTM138 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0037-Oremo-Gill_V8NaPho_PEAKS PTM_90/peptide.csv")
+PTM139 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_71/peptide.csv")
+PTM140 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_73/peptide.csv")
+PTM141 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_75/peptide.csv")
+PTM142 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_77/peptide.csv")
+PTM143 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_79/peptide.csv")
+PTM144 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_81/peptide.csv")
+PTM145 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_83/peptide.csv")
+PTM146 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_85/peptide.csv")
+PTM147 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0038-Oremo-Kidney_V8NaPho_PEAKS PTM_87/peptide.csv")
+PTM148 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_57/peptide.csv")
+PTM149 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_59/peptide.csv")
+PTM150 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_61/peptide.csv")
+PTM151 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_63/peptide.csv")
+PTM152 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_65/peptide.csv")
+PTM153 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_67/peptide.csv")
+PTM154 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_69/peptide.csv")
+PTM155 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_71/peptide.csv")
+PTM156 <- read_csv("../data/PTM_Scores/PEAKS_PTMScores37-39/PEAKS_PTMScores37-39/PEAKS10Pro_EAM0039-Oremo-Testes_V8NaPho_PEAKS PTM_73/peptide.csv")
+
+PTM157 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_102/peptide.csv")
+PTM158 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_105/peptide.csv")
+PTM159 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_108/peptide.csv")
+PTM160 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_84/peptide.csv")
+PTM161 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_87/peptide.csv")
+PTM162 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_90/peptide.csv")
+PTM163 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_93/peptide.csv")
+PTM164 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_96/peptide.csv")
+PTM165 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0040-Oremo-Gill_PropTryp_PEAKS PTM_99/peptide.csv")
+PTM166 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_102/peptide.csv")
+PTM167 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_105/peptide.csv")
+PTM168 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_108/peptide.csv")
+PTM169 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_84/peptide.csv")
+PTM170 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_87/peptide.csv")
+PTM171 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_90/peptide.csv")
+PTM172 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_92/peptide.csv")
+PTM173 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_96/peptide.csv")
+PTM174 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Kidney_PropTryp_PEAKS PTM_99/peptide.csv")
+PTM175 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_101/peptide.csv")
+PTM176 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_104/peptide.csv")
+PTM177 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_107/peptide.csv")
+PTM178 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_83/peptide.csv")
+PTM179 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_86/peptide.csv")
+PTM180 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_89/peptide.csv")
+PTM181 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_92/peptide.csv")
+PTM182 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_95/peptide.csv")
+PTM183 <- read_csv("../data/PTM_Scores/PEAKS_PTMscores40-41/PEAKS_PTMscores40-41/PEAKS10Pro_EAM0041-Oremo-Testes_PropTryp_PEAKS PTM_98/peptide.csv")
+```
+
+
+
+# Reordering peptides lists
+
+
+## Correcting the order of all Trypsin files
+
+Creating vectors that contain the desired order for each DIA assay library:
+
+```{r}
+Target_Trypsin <- c(
+"G(+56.03)K(+56.03)TGGK(+56.03)AR",
+"G(+43.01)K(+56.03)TGGK(+56.03)AR",
+"S(+56.03)S(+114.04)RAGLQFPVGR",
+"S(+114.04)S(+56.03)RAGLQFPVGR",
+"S(-18.01)S(+114.04)RAGLQFPVGR",
+"S(+226.08)SR(+.98)AGLQFPVGR",
+"S(+42.01)S(+56.03)RAGLQFPVGR",
+"S(+57.02)S(+56.03)RAGLQFPVGR",
+"SS(+114.04)R(+14.02)AGLQFPVGR",
+"S(+56.03)S(+114.04)R(+.98)AGLQFPVGR",
+"S(+226.08)S(-18.01)RAGLQ(+.98)FPVGR",
+"S(+57.02)S(+114.04)R(+42.01)AGLQFPVGR",
+"AGLQFPVGR",
+"A(+56.03)GLQFPVGR",
+"A(+43.01)GLQFPVGR",
+"A(+57.02)GLQFPVGR",
+"AGLQ(+.98)FPVGR",
+"AGLQFPVGR(-.98)",
+"A(+56.03)GLQ(+.98)FPVGR",
+"A(+56.03)GLQFPVGR(-.98)",
+"A(+43.01)GLQ(+.98)FPVGR",
+"A(+57.02)GLQ(+.98)FPVGR",
+"L(+56.03)LR(+28.03)K(+28.03)GNYAER",
+"K(+56.03)GNYAER",
+"K(+112.05)GNYAER",
+"IIP(+15.99)RHLQLAVR",
+"IIP(+15.99)R(+.98)HLQLAVR",
+"HLQLAVR",
+"H(+56.03)LQLAVR",
+"H(+43.01)LQLAVR",
+"HLQLAVR(+14.02)",
+"I(+56.03)AAEASR",
+"L(+56.03)AHYNK(+56.03)R",
+"E(+56.03)IQTAVR",
+"LLLPGELAK(+56.03)HAVSEGTK(+56.03)AVTK(+56.03)YTSSK",
+"S(+114.04)QRAGLQFPVGR",
+"S(+56.03)QR(+42.01)AGLQFPVGR",
+"S(+114.04)QR(+14.02)AGLQFPVGR",
+"S(+114.04)QR(+42.01)AGLQFPVGR",
+"S(-18.01)QR(+31.99)AGLQFPVGR",
+"S(+42.01)QR(+28.03)AGLQFPVGR",
+"I(+43.01)HRHLK(+14.02)S(+56.03)R",
+"ITPR(+31.99)HLQLAIR",
+"ITP(+15.99)R(+15.99)HLQLAIR",
+"HLQLAIR",
+"H(+56.03)LQLAIR",
+"SGVSAAALK(+114.04)KALAAGGYDVDK(+56.03)NKAR",
+"SGVSAAALK(+56.03)K(+56.03)ALAAGGYDVDK(+56.03)NKAR",
+"SGVSAAALK(+56.03)K(+56.03)ALAAGGYDVDKNK(+56.03)AR",
+"AMSIMNSFVNDLFER",
+"AM(+15.99)SIMNSFVNDLFER",
+"AMS(+56.03)IMNSFVNDLFER",
+"AMSIM(+15.99)NSFVNDLFER",
+"AMSIMN(+.98)SFVNDLFER",
+"AMSIMNS(+56.03)FVNDLFER",
+"AMSIMNSFVN(+.98)DLFER",
+"A(+56.03)M(+15.99)SIMNSFVNDLFER",
+"A(+56.03)MSIMN(+.98)SFVNDLFER",
+"A(+57.02)MSIMN(+.98)SFVNDLFER",
+"AM(+15.99)S(+56.03)IMNSFVNDLFER",
+"AM(+15.99)SIM(+15.99)NSFVNDLFER",
+"AM(+15.99)SIMN(+.98)SFVNDLFER",
+"AMSIM(+15.99)N(+.98)SFVNDLFER",
+"AMSIM(+15.99)NSFVN(+.98)DLFER",
+"A(+56.03)M(+15.99)SIM(+15.99)NSFVNDLFER",
+"AM(+15.99)S(+56.03)IMNS(-18.01)FVNDLFER",
+"AM(+15.99)S(+56.03)IMNS(+42.01)FVNDLFER",
+"AM(+15.99)S(-18.01)IMNS(-18.01)FVNDLFER",
+"AMS(+56.03)IM(+15.99)NS(-18.01)FVNDLFER",
+"AMS(-18.01)IM(+15.99)NS(-18.01)FVNDLFER",
+"AMS(+42.01)IM(+15.99)NS(+56.03)FVNDLFER",
+"AGVIFPVGR",
+"A(+57.02)GVIFPVGR",
+"V(+56.03)KVDSQASVTDK(+56.03)QEER",
+"VT(+42.01)VFPRDIQLAR",
+"VTVFPR(+28.03)DIQLAR",
+"VTVFPR(+14.02)DIQLAR",
+"VT(+114.04)VFPR(+14.02)DIQLAR",
+"VT(-18.01)VFPR(+28.03)DIQLAR",
+"VT(+79.97)VFPR(+28.03)DIQLAR",
+"VT(+79.97)VFPR(+42.01)DIQLAR",
+"VT(+42.01)VFP(+31.99)RDIQLAR",
+"VT(+42.01)VFPR(+28.03)DIQLAR",
+"VT(+42.01)VFPR(+42.01)DIQLAR",
+"VT(+56.03)VFPR(+28.03)DIQLAR",
+"VTVFP(+31.99)R(+42.01)DIQLAR",
+"VTVFP(+15.99)R(+28.03)DIQLAR",
+"VTVFP(+15.99)R(+14.02)DIQLAR",
+"VT(-18.01)VFP(+31.99)R(+28.03)DIQLAR",
+"VT(-18.01)VFP(+31.99)R(+14.02)DIQLAR",
+"VT(+56.03)VFP(+31.99)R(+28.03)DIQLAR",
+"VT(+56.03)VFP(+31.99)R(+14.02)DIQLAR",
+"VT(+56.03)VFP(+31.99)R(+31.99)DIQLAR",
+"VT(+56.03)VFP(+31.99)R(+15.99)DIQLAR",
+"VT(+56.03)VFP(+15.99)R(+28.03)DIQLAR",
+"VT(+56.03)VFP(+15.99)R(+14.02)DIQLAR",
+"VT(+56.03)VFP(+15.99)R(+31.99)DIQLAR",
+"KVVLDNIQGITKPAIR",
+"K(+56.03)VVLDNIQGITK(+56.03)PAIR",
+"KVVLDN(+.98)IQGITK(+56.03)PAIR",
+"K(+14.02)VVLD(-18.01)NIQGITK(+56.03)PAIR",
+"R(+28.03)GGVKRISGLIYEETR",
+"R(+71.01)GGVK(+71.01)RISGLIYEETR",
+"GGVK(+31.99)RISGLIYEETR",
+"G(+43.01)GVK(+42.01)RISGLIYEETR",
+"G(+57.02)GVK(+28.03)RISGLIYEETR",
+"GGVK(+71.01)R(+14.02)ISGLIYEETR",
+"G(+56.03)GVK(+31.99)R(+28.03)ISGLIYEETR",
+"GGVK(+71.01)R(+31.99)IS(-18.01)GLIYEETR",
+"ISGLIYEETR",
+"I(+56.03)SGLIYEETR",
+"I(+43.01)SGLIYEETR",
+"I(+57.02)SGLIYEETR",
+"IS(+56.03)GLIYEETR",
+"IS(+42.01)GLIYEETR",
+"ISGLIYEETR(-.98)",
+"I(+57.02)S(-18.01)GLIYEETR",
+"ISGLIY(-18.01)EETR(+15.99)",
+"ISGLIYEET(-18.01)R(+14.02)",
+"ISGLIYEET(-18.01)R(+15.99)",
+"G(+56.03)VLKVFLENVIR",
+"GVLK(+56.03)VFLENVIR",
+"GVLK(+114.04)VFLENVIR",
+"G(+56.03)VLK(+56.03)VFLENVIR",
+"G(+43.01)VLK(+56.03)VFLENVIR",
+"G(+43.01)VLK(+43.01)VFLENVIR",
+"G(+57.02)VLK(+56.03)VFLENVIR",
+"DAVTYTEHAK(+56.03)R",
+"DAVTYTEHAK(+43.01)R",
+"D(+56.03)AVTYTEHAK(+56.03)R",
+"D(+43.01)AVTYTEHAK(+56.03)R",
+"D(+43.01)AVTYTEHAK(+43.01)R",
+"D(+57.02)AVTYTEHAK(+56.03)R",
+"D(-18.01)AVTYTEHAK(+56.03)R",
+"DAVT(-18.01)YTEHAK(+56.03)R",
+"DAVTYTE(+57.02)HAK(+56.03)R",
+"D(+56.03)AVTYTE(+57.02)HAK(+56.03)R",
+"D(+43.01)AVT(-18.01)YTEHAK(+56.03)R",
+"D(+43.01)AVTYTE(+57.02)HAK(+56.03)R",
+"K(+42.01)GLS(+56.03)LAAIK(+56.03)KDLVAR",
+"GYDVEHNSAHVR",
+"G(+56.03)YDVEHNSAHVR",
+"G(+43.01)YDVEHNSAHVR",
+"G(+57.02)YDVEHNSAHVR",
+"GYD(+57.02)VEHNSAHVR",
+"GYDVE(+57.02)HNSAHVR",
+"GYDVEHN(+.98)SAHVR",
+"GYDVEHNS(+56.03)AHVR",
+"GYDVEHNSAHVR(+.98)",
+"G(+56.03)YDVEHN(+.98)SAHVR",
+"G(+56.03)YDVEHNS(+56.03)AHVR",
+"G(+56.03)YDVEHNS(+79.97)AHVR",
+"G(+56.03)YDVEHNSAHVR(+.98)",
+"G(+43.01)YDVEHNS(+56.03)AHVR",
+"G(+57.02)YDVEHNS(+56.03)AHVR",
+"Q(-17.03)SIQK(+56.03)YVR",
+"LVAAGTLR",
+"L(+56.03)VAAGTLR",
+"L(+43.01)VAAGTLR",
+"H(+56.03)TKGIGASGSFR",
+"HTK(+56.03)GIGASGSFR",
+"H(+56.03)TK(+56.03)GIGASGSFR",
+"H(+56.03)TK(+43.01)GIGASGSFR",
+"H(+43.01)TK(+56.03)GIGASGSFR",
+"H(+57.02)TK(+56.03)GIGASGSFR",
+"H(+57.02)TK(+43.01)GIGASGSFR",
+"H(+56.03)TK(+56.03)GIGAS(+56.03)GSFR",
+"H(+56.03)TK(+56.03)GIGASGS(+56.03)FR",
+"H(+57.02)T(-18.01)K(+56.03)GIGASGSFR",
+"HTK(+56.03)GIGASGS(-18.01)FR(+14.02)",
+"K(+56.03)STGGK(+56.03)APR",
+"K(+56.03)STGGK(+42.01)APR",
+"K(+112.05)STGGK(+56.03)APR",
+"K(+112.05)STGGK(+42.01)APR",
+"K(+57.02)STGGK(+56.03)APR",
+"K(+57.02)STGGK(+42.01)APR",
+"K(+99)STGGK(+56.03)APR",
+"K(+56.03)QLATK(+56.03)AAR",
+"K(+56.03)QLATK(+42.01)AAR",
+"K(+114.04)QLATK(+56.03)AAR",
+"K(+114.04)QLATK(+42.01)AAR",
+"K(+112.05)QLATK(+56.03)AAR",
+"K(+112.05)QLATK(+42.01)AAR",
+"K(+112.05)QLATK(+43.01)AAR",
+"K(+57.02)QLATK(+56.03)AAR",
+"K(+99)QLATK(+56.03)AAR",
+"K(+99)QLATK(+42.01)AAR",
+"K(+99)QLATK(+43.01)AAR",
+"K(+56.03)Q(+.98)LATK(+56.03)AAR",
+"K(+43.01)QLAT(+79.97)K(+56.03)AAR",
+"KSAPAT(+114.04)GGVKKPHR",
+"K(+56.03)SAPATGGVK(+56.03)KPHR",
+"K(+56.03)SAPATGGVKK(+56.03)PHR",
+"K(+56.03)SAPATGGVKK(+28.03)PHR",
+"K(+56.03)SAPATGGVKKPHR(+28.03)",
+"K(+28.03)SAPAT(+114.04)GGVKKPHR",
+"K(+28.03)SAPATGGVK(+114.04)KPHR",
+"K(+28.03)SAPATGGVKK(+114.04)PHR",
+"K(+14.02)SAPAT(+114.04)GGVKKPHR",
+"K(+71.01)SAPATGGVK(+56.03)KPHR",
+"2_K(+71.01)SAPATGGVK(+56.03)KPHR",
+"K(+57.02)SAPATGGVK(+56.03)KPHR",
+"K(+57.02)SAPATGGVKK(+28.03)PHR",
+"K(+70.04)SAPATGGVK(+56.03)KPHR",
+"K(+70.04)SAPATGGVK(+114.04)KPHR",
+"K(+70.04)SAPATGGVK(+28.03)KPHR",
+"KS(+56.03)APATGGVK(+56.03)KPHR",
+"KS(+56.03)APATGGVK(+28.03)KPHR",
+"KS(+114.04)APATGGVKK(+56.03)PHR",
+"KSAPATGGVK(+56.03)K(+56.03)PHR",
+"KSAPATGGVK(+28.03)K(+56.03)PHR",
+"K(+56.03)SAPAT(+114.04)GGVK(+14.02)KPHR",
+"K(+56.03)SAPATGGVK(+56.03)K(+56.03)PHR",
+"K(+112.05)S(+56.03)APATGGVKK(+56.03)PHR",
+"K(+112.05)SAPATGGVK(+56.03)K(+56.03)PHR",
+"K(+28.03)S(+56.03)APATGGVK(+56.03)KPHR",
+"K(+28.03)S(+56.03)APATGGVK(+114.04)KPHR",
+"K(+28.03)S(+56.03)APATGGVK(+28.03)KPHR",
+"K(+28.03)S(+79.97)APATGGVK(+56.03)KPHR",
+"K(+28.03)SAPAT(+114.04)GGVK(+42.01)KPHR",
+"K(+28.03)SAPAT(-18.01)GGVK(+114.04)KPHR",
+"K(+28.03)SAPAT(+79.97)GGVK(+56.03)KPHR",
+"K(+72.02)S(-18.01)APATGGVK(+56.03)KPHR",
+"K(+42.01)S(+56.03)APATGGVK(+114.04)KPHR",
+"K(+14.02)S(+56.03)APATGGVK(+56.03)KPHR",
+"K(+15.99)SAP(+31.99)ATGGVK(+56.03)KPHR",
+"K(+31.99)S(-18.01)APAT(+114.04)GGVKKPHR",
+"K(+31.99)S(-18.01)APATGGVK(+114.04)KPHR",
+"K(+31.99)SAP(+31.99)ATGGVK(+56.03)KPHR",
+"KS(+56.03)APATGGVK(+56.03)K(+56.03)PHR",
+"KS(+114.04)APAT(-18.01)GGVK(+56.03)KPHR",
+"YRPGTVALR",
+"Y(+56.03)RPGTVALR",
+"Y(+43.01)RPGTVALR",
+"Y(+57.02)RPGTVALR",
+"Y(+43.01)R(+15.99)PGTVALR",
+"Y(-18.01)R(+42.01)P(+31.99)GTVALR",
+"Y(+43.01)RPGTVALREIR",
+"R(+56.03)YQKSTELLIR",
+"R(+57.02)YQKSTELLIR",
+"RYQK(+56.03)STELLIR",
+"RYQK(+43.01)STELLIR",
+"RYQKS(+56.03)TELLIR",
+"R(+56.03)YQK(+56.03)STELLIR",
+"R(+56.03)YQKS(+56.03)TELLIR",
+"R(+43.01)YQK(+56.03)STELLIR",
+"R(+56.03)YQ(+.98)K(+42.01)STELLIR",
+"R(+56.03)YQK(+72.02)S(-18.01)TELLIR",
+"Y(+56.03)QKSTELLIR",
+"Y(+57.02)QKSTELLIR",
+"YQK(+56.03)STELLIR",
+"YQKS(+56.03)TELLIR",
+"Y(+56.03)QK(+56.03)STELLIR",
+"Y(+43.01)QK(+56.03)STELLIR",
+"Y(+57.02)QK(+56.03)STELLIR",
+"Y(-18.01)QK(+56.03)STELLIR",
+"YQ(+.98)K(+56.03)STELLIR",
+"YQK(+14.02)S(+79.97)TELLIR",
+"YQK(+14.02)ST(+79.97)ELLIR",
+"Y(+56.03)QK(+14.02)S(+79.97)TELLIR",
+"Y(+56.03)QK(+14.02)ST(+79.97)ELLIR",
+"Y(+43.01)QK(+42.01)S(+79.97)TELLIR",
+"E(+43.01)IAQDFKTDLR",
+"EIAQD(+57.02)FKTDLR",
+"EIAQDFK(+56.03)TDLR",
+"EIAQDFK(+28.03)TDLR",
+"EIAQDFK(+14.02)TDLR",
+"EIAQDFKT(+56.03)DLR",
+"EIAQDFKTD(+57.02)LR",
+"E(+56.03)IAQDFK(+56.03)TDLR",
+"E(+56.03)IAQDFK(+28.03)TDLR",
+"E(+56.03)IAQDFK(+14.02)TDLR",
+"E(+56.03)IAQDFKTD(+57.02)LR",
+"E(+43.01)IAQDFK(+56.03)TDLR",
+"E(+43.01)IAQDFK(+28.03)TDLR",
+"E(+43.01)IAQDFK(+14.02)TDLR",
+"E(+43.01)IAQDFKTD(+57.02)LR",
+"E(+57.02)IAQDFK(+56.03)TDLR",
+"E(+57.02)IAQDFK(+28.03)TDLR",
+"E(+57.02)IAQDFK(+14.02)TDLR",
+"EIAQ(+.98)DFK(+56.03)TDLR",
+"EIAQD(-18.01)FK(+56.03)TDLR",
+"EIAQDFK(+56.03)TDLR(+14.02)",
+"EIAQDFK(+28.03)T(+42.01)DLR",
+"EIAQDFK(+42.01)TDLR(+28.03)",
+"EIAQDFK(+14.02)T(+79.97)DLR",
+"EIAQDFK(+14.02)T(+42.01)DLR",
+"EIAQDFK(+14.02)T(+56.03)DLR",
+"EIAQDFK(+71.01)TDLR(-.98)",
+"EIAQDFK(+15.99)T(+42.01)DLR",
+"EIAQDFK(+42.01)TDLR(+15.99)",
+"E(+56.03)IAQ(+.98)DFK(+56.03)TDLR",
+"E(+56.03)IAQD(+57.02)FK(+14.02)TDLR",
+"E(+56.03)IAQDFK(+56.03)TDLR(+14.02)",
+"E(+56.03)IAQDFK(+42.01)TDLR(+28.03)",
+"E(+56.03)IAQDFK(+14.02)TD(+57.02)LR",
+"E(+56.03)IAQDFK(+71.01)TDLR(-.98)",
+"E(+56.03)IAQDFKTD(+57.02)LR(-.98)",
+"E(+43.01)IAQ(+.98)DFK(+56.03)TDLR",
+"VT(+114.04)IMPKDIQLAR",
+"VTIMPK(+56.03)DIQLAR",
+"VTIMPK(+72.02)DIQLAR",
+"VTIMPK(+43.01)DIQLAR",
+"VTIMPKD(+57.02)IQLAR",
+"V(+56.03)TIMPK(+56.03)DIQLAR",
+"V(+56.03)TIMPK(+72.02)DIQLAR",
+"V(+56.03)TIMPKD(+57.02)IQLAR",
+"V(+43.01)TIMPK(+56.03)DIQLAR",
+"V(+43.01)TIMPK(+42.01)DIQLAR",
+"V(+43.01)TIMPK(+43.01)DIQLAR",
+"V(+43.01)TIMPKD(+57.02)IQLAR",
+"V(+226.08)TIMPK(+56.03)DIQLAR",
+"V(+57.02)TIMPK(+56.03)DIQLAR",
+"VT(-18.01)IMPK(+56.03)DIQLAR",
+"VTIM(+15.99)PK(+56.03)DIQLAR",
+"VTIM(+15.99)PKD(+57.02)IQLAR",
+"VTIMP(+31.99)K(+56.03)DIQLAR",
+"VTIMPK(+56.03)DIQ(+.98)LAR",
+"VTIMPK(+56.03)DIQLAR(+.98)",
+"V(+56.03)TIM(+15.99)PK(+56.03)DIQLAR",
+"V(+56.03)TIMPK(+56.03)DIQ(+.98)LAR",
+"V(+43.01)TIM(+15.99)PK(+56.03)DIQLAR",
+"V(+43.01)TIMP(+31.99)K(+28.03)DIQLAR",
+"V(+57.02)TIM(+15.99)PK(+56.03)DIQLAR",
+"V(+57.02)TIMP(+31.99)K(+42.01)DIQLAR",
+"V(+57.02)TIMP(+31.99)K(+31.99)DIQLAR",
+"VT(+79.97)IMP(+31.99)K(+71.01)DIQLAR",
+"VTIM(+15.99)PK(+56.03)DIQ(+.98)LAR",
+"VTIMP(+31.99)K(+43.01)D(-18.01)IQLAR",
+"K(+112.05)GVS(+56.03)LAALKKALAAGGYDVEK(+56.03)NNAR",
+"K(+112.05)GVSLAALKK(+56.03)ALAAGGYDVEK(+56.03)NNAR",
+"KGVSLAALK(+56.03)K(+56.03)ALAAGGYDVEK(+56.03)NNAR",
+"K(+56.03)AAAK(+56.03)SHK(+56.03)QR",
+"K(+112.05)AAAK(+56.03)SHK(+56.03)QR",
+"K(+112.05)AAAKS(+56.03)HK(+56.03)QR",
+"K(+112.05)KTGPTVSDLILK(+56.03)ALSTSTQR",
+"KK(+56.03)TGPTVSDLILK(+56.03)ALSTSTQR",
+"K(+56.03)K(+56.03)TGPTVSDLILK(+56.03)ALSTSTQR",
+"K(+112.05)K(+56.03)TGPTVSDLILK(+56.03)ALSTSTQR",
+"K(+112.05)K(+56.03)TGPTVSDLILKALS(+56.03)TSTQR",
+"K(+112.05)KTGPTVS(+56.03)DLILK(+56.03)ALSTSTQR",
+"I(+56.03)LIAVKR",
+"ILIAVK(+56.03)R",
+"I(+56.03)LIAVK(+56.03)R",
+"I(+43.01)LIAVK(+56.03)R"
+)
+```
+
+
+### Sorting Trypsin Files: 
+
+```{r}
+Sorted_PTM58 <- PTM58[match(Target_Trypsin, PTM58$Peptide),] %>% 
+  rename("AScore_Sample58" = "AScore") %>% 
+  select(Peptide, AScore_Sample58)
+Sorted_PTM59 <- PTM59[match(Target_Trypsin, PTM59$Peptide),] %>% 
+  rename("AScore_Sample59" = "AScore") %>% 
+  select(Peptide, AScore_Sample59)
+Sorted_PTM60 <- PTM60[match(Target_Trypsin, PTM60$Peptide),] %>% 
+  rename("AScore_Sample60" = "AScore") %>% 
+  select(Peptide, AScore_Sample60)
+Sorted_PTM61 <- PTM61[match(Target_Trypsin, PTM61$Peptide),] %>% 
+  rename("AScore_Sample61" = "AScore") %>% 
+  select(Peptide, AScore_Sample61)
+Sorted_PTM62 <- PTM62[match(Target_Trypsin, PTM62$Peptide),] %>% 
+  rename("AScore_Sample62" = "AScore") %>% 
+  select(Peptide, AScore_Sample62)
+Sorted_PTM63 <- PTM63[match(Target_Trypsin, PTM63$Peptide),] %>% 
+  rename("AScore_Sample63" = "AScore") %>% 
+  select(Peptide, AScore_Sample63)
+Sorted_PTM64 <- PTM64[match(Target_Trypsin, PTM64$Peptide),] %>% 
+  rename("AScore_Sample64" = "AScore") %>% 
+  select(Peptide, AScore_Sample64)
+Sorted_PTM65 <- PTM65[match(Target_Trypsin, PTM65$Peptide),] %>% 
+  rename("AScore_Sample65" = "AScore") %>% 
+  select(Peptide, AScore_Sample65)
+Sorted_PTM66 <- PTM66[match(Target_Trypsin, PTM66$Peptide),] %>% 
+  rename("AScore_Sample66" = "AScore") %>% 
+  select(Peptide, AScore_Sample66)
+Sorted_PTM67 <- PTM67[match(Target_Trypsin, PTM67$Peptide),] %>% 
+  rename("AScore_Sample67" = "AScore") %>% 
+  select(Peptide, AScore_Sample67)
+Sorted_PTM68 <- PTM68[match(Target_Trypsin, PTM68$Peptide),] %>% 
+  rename("AScore_Sample68" = "AScore") %>% 
+  select(Peptide, AScore_Sample68)
+Sorted_PTM69 <- PTM69[match(Target_Trypsin, PTM69$Peptide),] %>% 
+  rename("AScore_Sample69" = "AScore") %>% 
+  select(Peptide, AScore_Sample69)
+Sorted_PTM70 <- PTM70[match(Target_Trypsin, PTM70$Peptide),] %>% 
+  rename("AScore_Sample70" = "AScore") %>% 
+  select(Peptide, AScore_Sample70)
+Sorted_PTM71 <- PTM71[match(Target_Trypsin, PTM71$Peptide),] %>% 
+  rename("AScore_Sample71" = "AScore") %>% 
+  select(Peptide, AScore_Sample71)
+Sorted_PTM72 <- PTM72[match(Target_Trypsin, PTM72$Peptide),] %>% 
+  rename("AScore_Sample72" = "AScore") %>% 
+  select(Peptide, AScore_Sample72)
+Sorted_PTM73 <- PTM73[match(Target_Trypsin, PTM73$Peptide),] %>% 
+  rename("AScore_Sample73" = "AScore") %>% 
+  select(Peptide, AScore_Sample73)
+Sorted_PTM74 <- PTM74[match(Target_Trypsin, PTM74$Peptide),] %>% 
+  rename("AScore_Sample74" = "AScore") %>% 
+  select(Peptide, AScore_Sample74)
+Sorted_PTM75 <- PTM75[match(Target_Trypsin, PTM75$Peptide),] %>% 
+  rename("AScore_Sample75" = "AScore") %>% 
+  select(Peptide, AScore_Sample75)
+Sorted_PTM76 <- PTM76[match(Target_Trypsin, PTM76$Peptide),] %>% 
+  rename("AScore_Sample76" = "AScore") %>% 
+  select(Peptide, AScore_Sample76)
+Sorted_PTM77 <- PTM77[match(Target_Trypsin, PTM77$Peptide),] %>% 
+  rename("AScore_Sample77" = "AScore") %>% 
+  select(Peptide, AScore_Sample77)
+Sorted_PTM78 <- PTM78[match(Target_Trypsin, PTM78$Peptide),] %>% 
+  rename("AScore_Sample78" = "AScore") %>% 
+  select(Peptide, AScore_Sample78)
+Sorted_PTM79 <- PTM79[match(Target_Trypsin, PTM79$Peptide),] %>% 
+  rename("AScore_Sample79" = "AScore") %>% 
+  select(Peptide, AScore_Sample79)
+Sorted_PTM80 <- PTM80[match(Target_Trypsin, PTM80$Peptide),] %>% 
+  rename("AScore_Sample80" = "AScore") %>% 
+  select(Peptide, AScore_Sample80)
+Sorted_PTM81 <- PTM81[match(Target_Trypsin, PTM81$Peptide),] %>% 
+  rename("AScore_Sample81" = "AScore") %>% 
+  select(Peptide, AScore_Sample81)
+Sorted_PTM82 <- PTM82[match(Target_Trypsin, PTM82$Peptide),] %>% 
+  rename("AScore_Sample82" = "AScore") %>% 
+  select(Peptide, AScore_Sample82)
+Sorted_PTM83 <- PTM83[match(Target_Trypsin, PTM83$Peptide),] %>% 
+  rename("AScore_Sample83" = "AScore") %>% 
+  select(Peptide, AScore_Sample83)
+Sorted_PTM84 <- PTM84[match(Target_Trypsin, PTM84$Peptide),] %>% 
+  rename("AScore_Sample84" = "AScore") %>% 
+  select(Peptide, AScore_Sample84)
+
+Sorted_PTM157 <- PTM157[match(Target_Trypsin, PTM157$Peptide),] %>% 
+  rename("AScore_Sample157" = "AScore") %>% 
+  select(Peptide, AScore_Sample157)
+Sorted_PTM158 <- PTM158[match(Target_Trypsin, PTM158$Peptide),] %>% 
+  rename("AScore_Sample158" = "AScore") %>% 
+  select(Peptide, AScore_Sample158)
+Sorted_PTM159 <- PTM159[match(Target_Trypsin, PTM159$Peptide),] %>% 
+  rename("AScore_Sample159" = "AScore") %>% 
+  select(Peptide, AScore_Sample159)
+Sorted_PTM160 <- PTM160[match(Target_Trypsin, PTM160$Peptide),] %>% 
+  rename("AScore_Sample160" = "AScore") %>% 
+  select(Peptide, AScore_Sample160)
+Sorted_PTM161 <- PTM161[match(Target_Trypsin, PTM161$Peptide),] %>% 
+  rename("AScore_Sample161" = "AScore") %>% 
+  select(Peptide, AScore_Sample161)
+Sorted_PTM162 <- PTM162[match(Target_Trypsin, PTM162$Peptide),] %>% 
+  rename("AScore_Sample162" = "AScore") %>% 
+  select(Peptide, AScore_Sample162)
+Sorted_PTM163 <- PTM163[match(Target_Trypsin, PTM163$Peptide),] %>% 
+  rename("AScore_Sample163" = "AScore") %>% 
+  select(Peptide, AScore_Sample163)
+Sorted_PTM164 <- PTM164[match(Target_Trypsin, PTM164$Peptide),] %>% 
+  rename("AScore_Sample164" = "AScore") %>% 
+  select(Peptide, AScore_Sample164)
+Sorted_PTM165 <- PTM165[match(Target_Trypsin, PTM165$Peptide),] %>% 
+  rename("AScore_Sample165" = "AScore") %>% 
+  select(Peptide, AScore_Sample165)
+Sorted_PTM166 <- PTM166[match(Target_Trypsin, PTM166$Peptide),] %>% 
+  rename("AScore_Sample166" = "AScore") %>% 
+  select(Peptide, AScore_Sample166)
+Sorted_PTM167 <- PTM167[match(Target_Trypsin, PTM167$Peptide),] %>% 
+  rename("AScore_Sample167" = "AScore") %>% 
+  select(Peptide, AScore_Sample167)
+Sorted_PTM168 <- PTM168[match(Target_Trypsin, PTM168$Peptide),] %>% 
+  rename("AScore_Sample168" = "AScore") %>% 
+  select(Peptide, AScore_Sample168)
+Sorted_PTM169 <- PTM169[match(Target_Trypsin, PTM169$Peptide),] %>% 
+  rename("AScore_Sample169" = "AScore") %>% 
+  select(Peptide, AScore_Sample169)
+Sorted_PTM170 <- PTM170[match(Target_Trypsin, PTM170$Peptide),] %>% 
+  rename("AScore_Sample170" = "AScore") %>% 
+  select(Peptide, AScore_Sample170)
+Sorted_PTM171 <- PTM171[match(Target_Trypsin, PTM171$Peptide),] %>% 
+  rename("AScore_Sample171" = "AScore") %>% 
+  select(Peptide, AScore_Sample171)
+Sorted_PTM172 <- PTM172[match(Target_Trypsin, PTM172$Peptide),] %>% 
+  rename("AScore_Sample172" = "AScore") %>% 
+  select(Peptide, AScore_Sample172)
+Sorted_PTM173 <- PTM173[match(Target_Trypsin, PTM173$Peptide),] %>% 
+  rename("AScore_Sample173" = "AScore") %>% 
+  select(Peptide, AScore_Sample173)
+Sorted_PTM174 <- PTM174[match(Target_Trypsin, PTM174$Peptide),] %>% 
+  rename("AScore_Sample174" = "AScore") %>% 
+  select(Peptide, AScore_Sample174)
+Sorted_PTM175 <- PTM175[match(Target_Trypsin, PTM175$Peptide),] %>% 
+  rename("AScore_Sample175" = "AScore") %>% 
+  select(Peptide, AScore_Sample175)
+Sorted_PTM176 <- PTM176[match(Target_Trypsin, PTM176$Peptide),] %>% 
+  rename("AScore_Sample176" = "AScore") %>% 
+  select(Peptide, AScore_Sample176)
+Sorted_PTM177 <- PTM177[match(Target_Trypsin, PTM177$Peptide),] %>% 
+  rename("AScore_Sample177" = "AScore") %>% 
+  select(Peptide, AScore_Sample177)
+Sorted_PTM178 <- PTM178[match(Target_Trypsin, PTM178$Peptide),] %>% 
+  rename("AScore_Sample178" = "AScore") %>% 
+  select(Peptide, AScore_Sample178)
+Sorted_PTM179 <- PTM179[match(Target_Trypsin, PTM179$Peptide),] %>% 
+  rename("AScore_Sample179" = "AScore") %>% 
+  select(Peptide, AScore_Sample179)
+Sorted_PTM180 <- PTM180[match(Target_Trypsin, PTM180$Peptide),] %>% 
+  rename("AScore_Sample180" = "AScore") %>% 
+  select(Peptide, AScore_Sample180)
+Sorted_PTM181 <- PTM181[match(Target_Trypsin, PTM181$Peptide),] %>% 
+  rename("AScore_Sample181" = "AScore") %>% 
+  select(Peptide, AScore_Sample181)
+Sorted_PTM182 <- PTM182[match(Target_Trypsin, PTM182$Peptide),] %>% 
+  rename("AScore_Sample182" = "AScore") %>% 
+  select(Peptide, AScore_Sample182)
+Sorted_PTM183 <- PTM183[match(Target_Trypsin, PTM183$Peptide),] %>% 
+  rename("AScore_Sample183" = "AScore") %>% 
+  select(Peptide, AScore_Sample183)
+```
+
+
+
+## Correcting the order of all Ambic files
+
+Creating vectors that contain the desired order for each list of peptides, based on order from histone PTM quantification excel workbook for Mozambique tilapia tissues
+
+```{r}
+Target_Ambic <- c(
+"ASRLAQ(+.98)YNK(+57.02)RSTITSRE",
+"ASRLAQY(-18.01)N(+.98)KR(+28.03)STITSRE",
+"ASRLAQYNKRSTITSR(+14.02)E(-.98)",
+"AS(-18.01)R(+28.03)LAQYN(+.98)KRSTITSRE",
+"ASRLAQY(+31.99)N(+.98)KRSTITSRE",
+"ASRLAQYNK(+31.99)R(+.98)STITSRE",
+"ASRLAQYN(+.98)KRSTITSRE",
+"ASR(+14.02)LAQY(-18.01)N(+15.99)KRSTITSRE",
+"A(+57.02)S(-18.01)RLAQ(+.98)YNKRSTITSRE",
+"ASRLAQYNK(+31.99)R(+28.03)STITSRE",
+"A(+43.01)S(-18.01)R(+28.03)LAQYNKRSTITSRE",
+"ASRLAQY(-18.01)NK(+72.02)R(+14.02)STITSRE",
+"AS(+79.97)RLAQY(-18.01)NKR(+.98)STITSRE",
+"ASRLAQY(-18.01)NK(+72.02)RSTITSRE",
+"AS(-18.01)R(+28.03)LAQ(+.98)YNKRSTITSRE",
+"ASRLAQY(+15.99)NK(+43.01)R(+.98)STITSRE",
+"ASRLAQYN(+.98)K(+14.02)R(+31.99)STITSRE",
+"AS(-18.01)R(+28.03)LAQYNKRSTITSRE",
+"ASRLAQY(-18.01)NK(+14.02)R(+15.99)STITSRE",
+"ASRLAQYNKRSTITSRE",
+"A(+43.01)SR(+15.99)LAQ(+.98)YNKRSTITSRE",
+"ASRLAQ(+.98)YNKRSTITSRE",
+"ASRLAQY(+15.99)NKRSTITSRE",
+"ASRLAQY(-18.01)N(+15.99)K(+14.02)RSTITSRE",
+"ASRLAQ(+.98)YNK(+31.99)RSTITSRE",
+"ASRLAQ(+.98)Y(-18.01)NK(+28.03)RSTITSRE",
+"ASRLAQY(+31.99)NKRS(-18.01)TITSRE",
+"ASRLAQY(+31.99)NK(+31.99)RSTITSRE",
+"ASRLAQY(-18.01)N(+.98)K(+28.03)RSTITSRE",
+"ASRLAQ(+.98)YNKR(+31.99)STITSRE",
+"ASRLAQYNKR(+15.99)STITSRE",
+"ASRLAQY(-18.01)NK(+28.03)R(+.98)STITSRE",
+"V(+43.01)QT(+79.97)AVR(+.98)LLLPGELAKHAVSE",
+"V(+43.01)Q(+.98)TAVR(+.98)LLLPGELAKHAVSE",
+"V(+57.02)QTAVRLLLPGELAKH(+57.02)AVSE",
+"V(+57.02)QTAVRLLLPGELAK(+57.02)HAVSE",
+"V(+57.02)QTAVRLLLPGELAKHAVSE",
+"VQ(+.98)T(+42.01)AVR(+28.03)LLLPGE",
+"V(+28.03)Q(+.98)TAVR(+31.99)LLLPGELAKHAVSE",
+"V(+57.02)QTAVRLLLPGE",
+"V(+43.01)QTAVR(+15.99)LLLPGELAKHAVSE",
+"V(+28.03)QT(+114.04)AVR(+.98)LLLPGELAKHAVSE",
+"VQT(-18.01)AVR(+42.01)LLLPGE",
+"V(+28.03)Q(+.98)TAVR(+15.99)LLLPGELAKHAVSE",
+"VQTAVR(+14.02)LLLPGELAKHAVSE",
+"VQT(-18.01)AVR(+31.99)LLLPGELAK(+57.02)HAVSE",
+"VQ(+.98)T(-18.01)AVR(+31.99)LLLPGELAKHAVSE",
+"V(+43.01)QT(-18.01)AVRLLLPGELAKHAVSE",
+"V(+28.03)QTAVRLLLPGELAKHAVSE",
+"V(+18.04)QT(-18.01)AVR(+15.99)LLLPGELAKHAVSE",
+"V(+28.03)Q(+.98)TAVRLLLPGELAKHAVSE",
+"VQTAVRLLLPGELAKHAVSE",
+"VQTAVR(+14.02)LLLPGELAKH(+57.02)AVSE",
+"VQT(-18.01)AVR(+31.99)LLLPGELAKHAVSE",
+"VQT(-18.01)AVR(+15.99)LLLPGELAKHAVSE",
+"VQTAVR(+14.02)LLLPGE",
+"V(+43.01)QTAVR(+28.03)LLLPGELAKHAVSE",
+"VQ(+.98)TAVR(+14.02)LLLPGELAKHAVSE",
+"VQ(+.98)T(+114.04)AVR(+28.03)LLLPGELAKHAVSE",
+"V(+28.03)Q(+.98)T(+114.04)AVRLLLPGELAKHAVSE",
+"VQTAVR(+15.99)LLLPGELAKHAVSE",
+"V(+57.02)QTAVRLLLPGELAK(+114.04)HAVSE",
+"S(+42.01)SAAIALPPPAPAKSPKKRAKSPRKKTGPTVSD",
+"VAPAAAPAPATE",
+"V(+57.02)APAAAPAPATE",
+"VAPAAAPAP(+15.99)ATE",
+"VAPAAAPAPAT(-18.01)E(+21.98)",
+"VAPAAAPAPATE(+21.98)",
+"LIVKAVKE",
+"LIVKAVK(+42.01)ESKE(-.98)",
+"L(+43.01)IVKAVK(+57.02)E",
+"LIVK(+14.02)AVK(+31.99)E",
+"LIVKAVK(+43.01)E",
+"LIVKAVKE(+57.02)",
+"L(+43.01)IVKAVKE",
+"LIVK(+57.02)AVKE",
+"LIVKAVK(+57.02)E",
+"L(+57.02)IVKAVKE",
+"LIVK(+43.01)AVKE",
+"LIVKAVKESK(+42.01)E(-.98)",
+"L(+43.01)IVK(+57.02)AVKE",
+"LVARGYD",
+"LVARGYDVE",
+"RVGAGAPVYLAAVLE(+53.92)",
+"RVGAGAPVY(+31.99)LAAVLE",
+"R(+43.01)VGAGAPVYLAAVLE(+37.95)",
+"RVGAGAP(+31.99)VYLAAVLE",
+"R(+57.02)VGAGAPVYLAAVLE(+37.95)",
+"RVGAGAPVYLAAVLE(+61.92)",
+"R(+43.01)VGAGAPVYLAAVLE",
+"R(+.98)VGAGAPVYLAAVLE(+57.02)",
+"RVGAGAPVY(+15.99)LAAVLE(+53.92)",
+"RVGAGAPVY(+31.99)LAAVLE(+37.95)",
+"RVGAGAPVYLAAVLE(+37.95)",
+"RVGAGAPVYLAAVLE(-.98)",
+"R(+57.02)VGAGAPVYLAAVLE(+53.92)",
+"RVGAGAPVYLAAVLE(+21.98)Y(-18.01)LT(+42.01)AE",
+"RVGAGAPVYLAAVLE(+21.98)Y(-18.01)LT(+79.97)AEILE",
+"R(+57.02)VGAGAPVYLAAVLE",
+"RVGAGAPVYLAAVLE",
+"YLTAEILE(+21.98)",
+"YLTAEILE",
+"YLTAE(+21.98)ILE",
+"LAGNAARDNKKTRIIPRHLQLAVRNDEE",
+"L(+43.01)AGNAARD",
+"LAGN(+.98)AARDNKKTRIIPRHLQLAVRNDEE",
+"NKKTRIIPRHLQLAVRNDEE",
+"N(+.98)KKTRIIPRHLQLAVRNDEE",
+"ELNKLLGGVTIAQGGVLPNIQAVLLPKKTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKT(-18.01)E(+21.98)KPTKSK",
+"LN(+.98)K(+15.99)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+42.01)K(+14.02)TE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+57.02)TEKPT(-18.01)KSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+57.02)KTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+71.01)K(+72.02)TE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+57.02)KTEKPTKS(-18.01)K",
+"LNKLLGGVTIAQ(+.98)GGVLPN(+.98)IQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+43.01)PTKS(-18.01)K",
+"LNKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPN(+.98)IQ(+.98)AVLLPKKTEKPTKSK",
+"LNK(+57.02)LLGGVTIAQGGVLPNIQAVLLPKKTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+21.98)KPTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+42.01)K(+28.03)TE",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPKKT(+79.97)E",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKSK(-.98)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+28.03)KTEKPTKSK(-.98)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTK(+43.01)SK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)KSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+72.02)K(+71.01)TE",
+"SYAIYVYKVLKQVHPD",
+"SYAIYVYKVLKQVHPDTGISSKAMSIMNSFVND",
+"SYAIYVYKVLKQVHPDTGISSKAMS(+114.04)IMNSFVND",
+"SYAIYVYKVLKQVHPDTGISSKAMSIMNSFVND(+57.02)IFE",
+"S(+43.01)YAIYVYKVLKQVHPD",
+"SYAIYVYKVLKQVHPDTGISSK(+42.01)AMSIMNSF(+31.99)VNDIFE",
+"IFERIAAE",
+"I(+57.02)FERIAAE",
+"I(+43.01)FERIAAE",
+"IFER(+15.99)IAAE",
+"R(+.98)IAAEASR(+15.99)LAHYNKRSTITSRE",
+"R(+.98)IAAEASRLAHYNKRSTITSRE",
+"ASRLAHYN(+.98)K(+42.01)R(+.98)STITSRE",
+"ASRLAHYNK(+57.02)RSTITSRE",
+"ASRLAHYNK(+42.01)R(+14.02)STITSRE",
+"ASRLAHYNK(+43.01)R(+15.99)STITSRE",
+"ASRLAHY(-18.01)NK(+72.02)RSTITSRE",
+"A(+57.02)SRLAHYNKRSTITSRE",
+"A(+57.02)SRLAHYN(+.98)KRSTITSRE",
+"ASRLAHYNK(+31.99)R(+28.03)STITSRE",
+"ASRLAHYNKRS(+44.01)TITSRE",
+"ASRLAHY(-18.01)N(+15.99)K(+42.01)RSTITSRE",
+"ASRLAHYN(+.98)K(+57.02)RSTITSRE",
+"ASRLAHYNK(+28.03)R(+31.99)STITSRE",
+"ASRLAHY(-18.01)NK(+57.02)RSTITSRE",
+"ASRLAHYN(+.98)K(+42.01)RSTITSRE",
+"ASRLAHY(+15.99)NK(+42.01)RSTITSRE",
+"ASRLAHYNK(+42.01)R(+15.99)STITSRE",
+"ASR(+.98)LAHYN(+.98)KRSTITSRE",
+"ASRLAHYNKRSTITSRE(+57.02)",
+"ASRLAHYNK(+43.01)R(+.98)STITSRE",
+"ASRLAHY(+31.99)NKR(+14.02)STITSRE",
+"AS(+114.04)RLAHYNKRSTITSRE",
+"ASRLAH(+57.02)Y(-18.01)N(+15.99)KRSTITSRE",
+"ASRLAHYNK(+42.01)R(+.98)STITSRE",
+"A(+43.01)SRLAH(+57.02)YNKRSTITSRE",
+"ASRLAHY(+31.99)NK(+14.02)RSTITSRE",
+"A(+43.01)SR(+.98)LAHYNKRSTITSRE",
+"A(+57.02)SRLAHYNKRS(-18.01)TITSRE",
+"A(+43.01)SRLAHYN(+.98)KRSTITSRE",
+"ASRLAH(+57.02)YNKR(+.98)STITSRE",
+"A(+43.01)SRLAHYNKRSTITSRE",
+"ASRLAHYNK(+28.03)R(+14.02)STITSRE",
+"ASRLAHYNK(+43.01)RSTITSRE",
+"ASRLAHYNK(+57.02)RST(-18.01)ITSRE",
+"ASRLAHY(-18.01)NKRSTITSRE",
+"ASRLAH(+57.02)YNK(+57.02)RSTITSRE",
+"ASRLAHYNKRST(-18.01)ITSRE",
+"ASRLAHYNKRS(+114.04)TITSRE",
+"ASRLAHYNKR(+.98)STITSRE",
+"ASRLAHYN(+15.99)K(+42.01)RSTITSRE",
+"ASRLAH(+57.02)YN(+.98)KRSTITSRE",
+"ASRLAHYNK(+15.99)R(+28.03)STITSRE",
+"A(+57.02)SRLAHYNK(+57.02)RSTITSRE",
+"ASRLAHY(-18.01)NK(+14.02)R(+31.99)STITSRE",
+"ASRLAHYNKR(+31.99)STITSRE",
+"ASRLAHY(-18.01)N(+.98)KRSTITSRE",
+"ASRLAHY(+31.99)NKRSTITSRE",
+"ASRLAHYN(+15.99)KRSTITSRE",
+"ASRLAHY(+15.99)N(+.98)KRSTITSRE",
+"ASRLAHYNKR(+15.99)STITSRE",
+"ASRLAHY(-18.01)NK(+31.99)R(+14.02)STITSRE",
+"ASRLAHYNK(+31.99)RSTITSRE",
+"ASRLAHYNKR(+14.02)S(-18.01)TITSRE",
+"ASRLAHYN(+15.99)K(+14.02)R(+.98)STITSRE",
+"ASRLAHYNKR(+.98)ST(-18.01)ITSRE",
+"ASRLAHYNKRS(-18.01)TITSRE",
+"ASRLAHYN(+.98)KRSTITSRE",
+"ASRLAHYNK(+28.03)RSTITSRE",
+"ASRLAHYNK(+14.02)R(+.98)STITSRE",
+"A(+43.01)SR(+.98)LAH(+57.02)YNKRSTITSRE",
+"ASRLAHY(-18.01)NKR(+.98)STITSRE",
+"A(+57.02)SR(+.98)LAHYNKRSTITSRE",
+"ASRLAHYNK(+72.02)R(+28.03)STITSRE",
+"AS(-18.01)RLAHYNKRSTITSRE",
+"ASRLAHYNK(+114.04)RSTITSRE",
+"ASR(+28.03)LAHYNKRSTITSRE",
+"ASRLAHY(+15.99)NKRSTITSRE",
+"ASR(+.98)LAHYNKRSTITSRE",
+"ASRLAHYNKRSTITSRE",
+"ASRLAHYNKRSTIT(-18.01)SRE",
+"ASRLAHYNKRSTITSRE(-.98)",
+"ASRLAH(+57.02)YNKRSTITSRE",
+"AS(-18.01)R(+15.99)LAHYN(+.98)KRSTITSRE",
+"I(+43.01)QTAVRLLLPGELAKHAVSE",
+"I(+57.02)Q(+.98)TAVRLLLPGE",
+"I(+57.02)Q(+.98)TAVR(+15.99)LLLPGELAKHAVSE",
+"IQTAVRLLLPGE(+21.98)",
+"I(+57.02)QT(-18.01)AVRLLLPGELAKHAVSE",
+"I(+57.02)QTAVRLLLPGE",
+"IQTAVRLLLPGELAKHAVSE(+53.92)",
+"I(+57.02)QTAVR(+.98)LLLPGELAKHAVSE",
+"I(+43.01)Q(+.98)TAVR(+.98)LLLPGELAKHAVSE",
+"I(+57.02)Q(+.98)TAVRLLLPGELAKHAVSE",
+"I(+57.02)QTAVRLLLPGELAKHAVSE",
+"IQTAVRLLLPGELAK(+72.02)HAVSE",
+"I(+43.01)QTAVRLLLPGELAK(+114.04)HAVSE",
+"I(+43.01)QTAVRLLLPGELAKH(+57.02)AVSE",
+"IQTAVRLLLPGELAKHAVS(+79.97)E(-.98)",
+"I(+57.02)QTAVRLLLPGELAKH(+57.02)AVSE",
+"I(+57.02)QTAVRLLLPGELAKHAVSE(+57.02)",
+"I(+57.02)QTAVR(+.98)LLLPGE",
+"I(+57.02)QTAVRLLLPGELAK(+57.02)HAVSE",
+"IQTAVRLLLPGE(+53.92)LAKHAVSE",
+"I(+43.01)Q(+.98)T(+79.97)AVRLLLPGELAKHAVSE",
+"I(+28.03)QTAVR(+31.99)LLLPGE",
+"IQ(+.98)T(-18.01)AVR(+.98)LLLP(+15.99)GELAKHAVSE",
+"IQTAVRLLLPGELAK(+43.01)HAVSE",
+"I(+43.01)QTAVRLLLPGELAK(+57.02)HAVSE",
+"I(+43.01)QTAVRLLLPGE",
+"IQTAVRLLLPGELAK(+114.04)HAVSE",
+"IQ(+.98)T(+42.01)AVR(+14.02)LLLPGE",
+"IQT(+42.01)AVRLLLPGE",
+"I(+57.02)QTAVRLLLPGE(+57.02)LAKHAVSE",
+"IQTAVR(+31.99)LLLPGE",
+"IQ(+.98)T(+42.01)AVRLLLPGE",
+"I(+57.02)QTAVRLLLPGE(+61.92)LAKHAVSE",
+"IQ(+.98)T(+114.04)AVR(+14.02)LLLPGE(+57.02)LAKHAVSE",
+"IQ(+.98)TAVR(+14.02)LLLP(+15.99)GELAKHAVSE",
+"I(+43.01)QTAVR(+14.02)LLLPGELAKHAVSE",
+"I(+57.02)QTAVRLLLPGELAK(+114.04)HAVSE",
+"IQT(+42.01)AVR(+.98)LLLPGE",
+"IQTAVRLLLP(+15.99)GELAK(+31.99)HAVSE",
+"IQTAVRLLLP(+31.99)GELAK(+42.01)HAVSE",
+"I(+57.02)Q(+.98)T(+114.04)AVRLLLPGELAKHAVSE",
+"IQ(+.98)TAVRLLLPGELAKHAVSE",
+"IQTAVR(+.98)LLLPGELAKHAVSE",
+"IQ(+.98)T(-18.01)AVRLLLPGE(-.98)",
+"IQ(+.98)TAVRLLLPGELAKH(+57.02)AVSE",
+"IQT(-18.01)AVRLLLPGELAKHAVSE",
+"IQ(+.98)T(-18.01)AVRLLLPGELAKHAVSE",
+"IQTAVR(+.98)LLLPGE",
+"IQTAVRLLLPGE(-.98)",
+"IQTAVRLLLPGELAK(+31.99)HAVS(-18.01)E",
+"IQ(+.98)TAVRLLLPGE",
+"I(+57.02)QT(+114.04)AVR(+.98)LLLPGELAKHAVSE",
+"I(+57.02)QT(+114.04)AVRLLLPGELAKHAVSE",
+"IQTAVRLLLPGELAKHAVSE(+21.98)",
+"IQTAVRLLLPGELAKHAVSE(-.98)",
+"IQTAVRLLLPGE",
+"IQTAVR(+.98)LLLPGE(+21.98)LAKHAVSE",
+"IQTAVRLLLP(+31.99)GELAKHAVS(-18.01)E",
+"I(+28.03)QTAVRLLLPGELAKHAVSE",
+"IQTAVRLLLPGELAK(+28.03)HAVSE",
+"IQTAVRLLLPGE(+21.98)LAKHAVSE",
+"IQTAVRLLLP(+15.99)GELAKHAVSE",
+"IQ(+.98)T(-18.01)AVRLLLP(+15.99)GELAKHAVSE",
+"IQTAVRLLLPGELAKHAVSE",
+"IQTAVRLLLPGELAKHAVS(-18.01)E",
+"IQTAVR(+.98)LLLPGELAKHAVSE(-.98)",
+"IQTAVR(+15.99)LLLPGELAKHAVSE",
+"IQTAVRLLLPGELAKHAVSE(+44.01)",
+"IQTAVRLLLPGELAK(+57.02)HAVSE",
+"IQTAVRLLLPGELAKHAVSE(+37.95)",
+"IQTAVRLLLPGELAKH(+57.02)AVS(-18.01)E",
+"IQTAVRLLLPGELAKH(+57.02)AVSE",
+"IQTAVRLLLPGELAKHAVSE(+52.9)",
+"IQTAVRLLLP(+31.99)GELAK(+28.03)HAVSE(-.98)",
+"IQTAVRLLLPGELAK(+14.02)HAVS(+44.01)E",
+"IQTAVRLLLPGE(+57.02)LAKHAVSE",
+"IQTAVRLLLPGELAK(+57.02)HAVS(-18.01)E",
+"IQTAVR(+.98)LLLPGELAK(+57.02)HAVSE",
+"IQTAVRLLLP(+31.99)GELAK(+57.02)HAVSE",
+"IQTAVRLLLPGELAKH(+61.92)AVSE",
+"IQTAVRLLLPGE(+21.98)LAKH(+57.02)AVSE",
+"IQTAVRLLLP(+15.99)GELAK(+28.03)HAVSE",
+"IQTAVRLLLP(+15.99)GELAK(+72.02)HAVSE",
+"IQTAVRLLLP(+15.99)GELAK(+71.01)HAVSE",
+"IQTAVRLLLPGELAKHAVS(-18.01)E(+57.02)",
+"IQTAVRLLLP(+31.99)GELAKHAVSE",
+"IQTAVRLLLP(+31.99)GELAK(+28.03)HAVSE",
+"IQ(+.98)T(+114.04)AVR(+14.02)LLLPGELAKHAVSE",
+"IQTAVRLLLPGELAK(+114.04)H(+57.02)AVSE",
+"IQTAVRLLLP(+15.99)GELAK(+42.01)HAVSE",
+"IQTAVRLLLPGELAKHAVSE(+57.02)",
+"L(+43.01)AKHAVSE",
+"LAK(+42.01)HAVS(-18.01)E",
+"LAK(+15.99)HAVS(+79.97)EGT(-18.01)KAVTKYTSSK",
+"LAK(+43.01)HAVSE",
+"GTKAVTK(+43.01)YTSSK",
+"G(+43.01)TK(+15.99)AVTKYTSSK",
+"G(+43.01)TKAVTKYTSSK",
+"GTK(+43.01)AVTKYTSSK",
+"GTKAVTK(+57.02)YTSSK",
+"GTKAVT(+114.04)K(+57.02)Y(+79.97)TSSK",
+"GTK(+57.02)AVTKYTSSK",
+"G(+43.01)TK(+43.01)AVTKYTSSK",
+"G(+28.03)TK(+15.99)AVTKYTSSK",
+"GTK(+42.01)AVTKYTSSK",
+"GTKAVT(-18.01)K(+72.02)Y(-18.01)TSSK",
+"GTKAVTKYTSSK(+53.92)",
+"GT(+114.04)K(+43.01)AVTKYTSSK",
+"GTKAVTK(+14.02)Y(+31.99)TSSK",
+"GTKAVTKYTSSK",
+"G(+57.02)TKAVTKYTSSK",
+"GTK(+43.01)AVTK(+43.01)YTSSK",
+"LN(+.98)KLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNK(+43.01)LLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+57.02)KTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+15.99)K(+43.01)TEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK(+57.02)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVK(+57.02)AK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+57.02)TEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+57.02)PVKAK",
+"LNK(+114.04)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LN(+.98)K(+15.99)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQ(+.98)AVLLPKK(+28.03)TEKPVKAK",
+"LNK(+14.02)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPN(+.98)IQ(+.98)AVLLPKKTEKPVKAK",
+"L(+43.01)NK(+43.01)LLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVK(+57.02)AK",
+"LNKLLGGVTIAQ(+.98)GGVLPN(+.98)IQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLP(+15.99)N(+.98)IQ(+.98)AVLLPKKTEKPVKAK",
+"L(+57.02)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVT(-18.01)IAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LN(+15.99)K(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"L(+43.01)NK(+15.99)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVT(-18.01)IAQGGVLP(+31.99)NIQAVLLPKKTEKPVKAK",
+"LN(+.98)KLLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPN(+.98)IQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLP(+15.99)K(+43.01)KTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLP(+31.99)K(+28.03)KTEKPVKAK",
+"LNK(+57.02)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNQLLRGVTISN(+.98)GGVLPRIHPE",
+"SIGIYLQ(+.98)E",
+"MAGGK(+14.02)AGKD(-18.01)",
+"LNKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKAK(+114.04)",
+"LN(+.98)K(+15.99)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKAK",
+"A(+43.01)EVAPAPAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"A(+42.01)EVAPAPAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"A(+42.01)EVAPAPAAAPAKPAKKKASK(+57.02)PKKTGPSVSDQILKVVTASKE",
+"AEVAPAPAAAPAKPAKKKASKPKKTGPSVSDQ(+.98)ILKVVTASKE",
+"AEVAPAPAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"A(+43.01)EVAPAPAAAPAKPAKKKASK(+57.02)PKKTGPSVSDQILKVVTASKE",
+"A(+28.03)EVAP(+15.99)APAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"AEVAPAPAAAPAKPAKKKASKPK(+57.02)KTGPSVSDQILKVVTASKE",
+"V(+43.01)APAPAAAPAKPAKK(+57.02)KASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAP(+15.99)AK(+42.01)PAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAKPAKKK(+42.01)ASK(+15.99)PKKTGPSVSDQILKVVTASKE",
+"V(+42.01)AP(+15.99)APAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAKPAKK(+57.02)KASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAKPAKKK(+57.02)ASKPKKTGPSVSDQILKVVTASKE",
+"V(+43.01)APAPAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"V(+43.01)APAPAAAP(+15.99)AKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAK(+15.99)PAKKKASK(+42.01)PKKTGPSVSDQILKVVTASKE",
+"V(+57.02)APAPAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAKPAKKKAS(+44.01)K(+14.02)PKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAKPAKKKASKPKKTGPSVSDQ(+.98)ILKVVTASKE",
+"VAPAPAAAP(+15.99)AK(+28.03)PAKKKASKPKKTGPSVSDQILKVVTASKE",
+"Q(+226.08)ILK(+28.03)VVTASKE",
+"Q(+.98)ILKVVTASKE",
+"QILK(+14.02)VVT(-18.01)ASKE",
+"Q(+57.02)ILKVVTASKE",
+"QILKVVTASKE",
+"Q(-17.03)ILKVVTASKE",
+"R(+71.01)KGVSLAALK(+72.02)KALAAGGYD",
+"RKGVSLAALK(+15.99)K(+42.01)ALAAGGYDVE",
+"RKGVSLAALKKALAAGGY(-18.01)DVE",
+"RK(+42.01)GVSLAALK(+72.02)KALAAGGYDVE",
+"RKGVSLAALKKALAAGGYDVE(+53.92)",
+"RKGVSLAALKKALAAGGYDVE(+52.9)",
+"RKGVSLAALKKALAAGGYDVE(+37.95)",
+"RKGVSLAALK(+42.01)K(+42.01)ALAAGGYDVE",
+"RKGVSLAALKK(+15.99)ALAAGGY(+79.97)DVE",
+"RKGVSLAALK(+71.01)K(+72.02)ALAAGGYD",
+"RK(+114.04)GVSLAALKKALAAGGYDVE",
+"RKGVSLAALK(+72.02)K(+71.01)ALAAGGYD",
+"R(+57.02)KGVSLAALKK(+57.02)ALAAGGYDVE",
+"RKGVSLAALKK(+43.01)ALAAGGYD(+57.02)VE",
+"RKGVSLAALK(+72.02)K(+43.01)ALAAGGYDVE",
+"R(+28.03)KGVS(+86.00)LAALKKALAAGGYDVE",
+"RK(+43.01)GVSLAALK(+57.02)KALAAGGYDVE",
+"RKGVS(+114.04)LAALKKALAAGGYDVE",
+"RKGVSLAALKK(+114.04)ALAAGGYD(+57.02)VE",
+"RKGVSLAALK(+43.01)K(+72.02)ALAAGGYDVE",
+"R(+57.02)K(+14.02)GVSLAALK(+72.02)KALAAGGYD",
+"RKGVSLAALK(+72.02)K(+72.02)ALAAGGYD",
+"RKGVSLAALKKALAAGGY(+15.99)DVE",
+"RKGVSLAALK(+72.02)K(+156.12)ALAAGGYD",
+"RKGVSLAALK(+156.12)K(+72.02)ALAAGGYD",
+"RKGVSLAALKKALAAGGYD(+53.92)VE",
+"R(+.98)K(+42.01)GVSLAALKKALAAGGYDVE",
+"RKGVSLAALK(+114.04)KALAAGGYDVE",
+"RKGVSLAALKKALAAGGYDVE(+57.02)",
+"RKGVSLAALK(+57.02)KALAAGGYDVE",
+"RKGVSLAALK(+43.01)K(+42.01)ALAAGGYDVE",
+"RKGVSLAALKK(+57.02)ALAAGGYDVE",
+"RK(+57.02)GVSLAALKKALAAGGYDVE",
+"RK(+14.02)GVSLAALKK(+43.01)ALAAGGYDVE",
+"R(+14.02)KGVSLAALKK(+43.01)ALAAGGYDVE",
+"R(+.98)KGVSLAALK(+42.01)KALAAGGYDVE",
+"RKGVSLAALK(+57.02)K(+28.03)ALAAGGYDVE",
+"R(+43.01)KGVSLAALKKALAAGGYDVE",
+"RK(+43.01)GVSLAALKKALAAGGYDVE",
+"RKGVSLAALKKALAAGGY(+79.97)D(+15.99)VE",
+"RKGVSLAALKKALAAGGYD(+56.03)",
+"RKGVSLAALKKALAAGGYD(+57.02)VE",
+"R(+43.01)K(+28.03)GVSLAALK(+43.01)KALAAGGYDVE",
+"RK(+14.02)GVSLAALK(+43.01)KALAAGGYDVE",
+"R(+14.02)KGVSLAALK(+43.01)KALAAGGYDVE",
+"RKGVSLAALKK(+114.04)ALAAGGYDVE",
+"R(+57.02)KGVSLAALKKALAAGGYDVE",
+"RKGVSLAALK(+28.03)K(+57.02)ALAAGGYDVE",
+"R(+.98)KGVSLAALKK(+57.02)ALAAGGYDVE",
+"RKGVSLAALKKALAAGGYDVE",
+"RKGVSLAALKKALAAGGYD(+37.95)VE",
+"RKGVSLAALKKALAAGGYD(-18.01)VE",
+"KN(+.98)NARVKIAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"KNNARVKIAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"KNNARVKIAIKSLVSK(+57.02)GTLVQTKGTGASGSFKLGKKAAE",
+"KNNARVKIAIKSLVSKGTLVQTK(+57.02)GTGASGSFKLGKKAAE",
+"KNN(+.98)ARVKIAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"GPSLPKLIVASVTE",
+"G(+57.02)PSLPKLIVASVTE",
+"SKERKGTSLAAIKKYLTAKNVD",
+"SKERKGTSLAAIKKYLTAKNVDVPKANKRINTAVAKLVE",
+"SKERKGTSLAAIKKYLTAKNVDVPKANKRIN(+.98)TAVAKLVE",
+"RKGTSLAAIKK(+57.02)YLTAKNVDVPKANKRINTAVAKLVE",
+"RKGTSLAAIKKYLTAKNVDVPKAN(+.98)KRIN(+.98)TAVAKLVE",
+"RKGTSLAAIKKYLTAKNVDVPKANKRINTAVAKLVE",
+"RKGTSLAAIKKYLTAK(+57.02)NVDVPKANKRINTAVAKLVE",
+"RKGTSLAAIKKYLTAKNVDVPKAN(+.98)KRINTAVAKLVE",
+"V(+226.08)PK(+28.03)AN(+.98)KRINTAVAKLVE",
+"I(+43.01)RRYQKSTE",
+"LLIRKLPFQR(+.98)LVRE(-.98)",
+"LLIR(+.98)K(+71.01)LPFQRLVRE",
+"LLIRK(+71.01)LPFQRLVRE",
+"LLIRK(+43.01)LPFQRLVRE",
+"L(+43.01)LIR(+.98)KLPFQRLVRE",
+"L(+57.02)LIRKLPFQRLVRE",
+"L(+57.02)LIRKLPFQ(+.98)RLVRE",
+"L(+57.02)LIRK(+57.02)LPFQRLVRE",
+"LLIRK(+114.04)LPFQRLVRE",
+"L(+28.03)LIR(+15.99)KLPFQRLVRE",
+"LLIRK(+57.02)LPFQRLVRE",
+"L(+43.01)LIRKLPFQ(+.98)RLVRE",
+"L(+43.01)LIRK(+57.02)LPFQRLVRE",
+"LLIR(+15.99)K(+42.01)LPFQRLVRE",
+"LLIRKLPFQRLVRE",
+"L(+57.02)LIRKLPFQR(+.98)LVRE",
+"LLIR(+15.99)KLPFQRLVRE",
+"LLIR(+31.99)KLPFQRLVRE",
+"LLIR(+.98)KLPFQRLVRE",
+"LLIRK(+15.99)LPFQRLVRE",
+"LLIR(+.98)K(+14.02)LPFQRLVRE",
+"LLIRK(+31.99)LPFQRLVRE",
+"LLIR(+.98)K(+28.03)LPFQRLVRE",
+"L(+57.02)LIR(+.98)KLPFQRLVRE",
+"LLIRKLPFQR(+.98)LVRE",
+"LLIRKLPFQRLVR(+.98)E",
+"LLIRKLPFQ(+.98)RLVRE",
+"LLIRKLP(+31.99)FQRLVRE",
+"LLIRKLPFQR(+15.99)LVRE",
+"L(+43.01)LIRKLPFQRLVRE",
+"L(+28.03)LIRK(+15.99)LPFQRLVRE",
+"IAQDFK(+31.99)TDLRFQS(-18.01)SAVMALQE",
+"IAQDFKT(-18.01)DLR(+31.99)FQSSAVMALQE",
+"IAQDFKTDLRFQSSAVMALQE(+57.02)ASE",
+"IAQD(-18.01)FK(+31.99)TDLRFQSSAVMALQE",
+"IAQDFK(+31.99)TDLRFQSS(-18.01)AVMALQE",
+"I(+57.02)AQDFK(+14.02)TD",
+"IAQDFKTDLRF(+31.99)QSS(-18.01)AVMALQE",
+"IAQDFKTD",
+"IAQDFKTDLR(+31.99)FQS(-18.01)SAVMALQE",
+"IAQDFKTD(-18.01)LRFQSSAVMALQE",
+"IAQDFKTD(+15.99)LRFQSSAVMALQEASE",
+"IAQDFKTDLRFQSSAVMALQEASE(-.98)",
+"I(+57.02)AQDFKTDLRFQSSAVMALQE(+57.02)",
+"I(+57.02)AQDFKTD",
+"IAQDFKTDLRF(+31.99)QSS(-18.01)AVMALQEASE",
+"IAQDFK(+14.02)TD",
+"IAQDFK(+43.01)TDLR(+14.02)FQSSAVMALQE",
+"IAQDFKTDLRFQSSAVM(+15.99)ALQE",
+"IAQDFKTDLRFQ(+.98)SSAVMALQ(+.98)E",
+"IAQDFK(+18.04)TD(-18.01)LRFQSSAVMALQE",
+"IAQDFKTDLRFQSSAVMALQ(+.98)E",
+"IAQDFK(+14.02)TDLRFQ(+.98)SSAVMALQE",
+"IAQDFKTDLR(+31.99)FQSS(-18.01)AVMALQE",
+"IAQDFKTDLRFQSSAVMALQE",
+"IAQDFKTDLRFQSSAVM(+15.99)ALQ(+.98)E",
+"IAQDFKTDLR(+14.02)FQSSAVMALQ(+.98)EASE",
+"IAQDFKTDLRFQS(-18.01)SAVM(+15.99)ALQE",
+"IAQDFKTDLRFQSSAVMALQ(+.98)EASE",
+"IAQDFKTDLRFQSSAVM(+15.99)ALQE(-.98)",
+"I(+43.01)AQDFKTD",
+"IAQDFK(+14.02)TD(+57.02)LRFQSSAVMALQE",
+"IAQDFK(+14.02)TDLR(+.98)FQ(+.98)SSAVMALQE",
+"IAQDFKTD(-18.01)LR(+31.99)FQSSAVMALQE",
+"IAQDFKTDLR(+15.99)FQSSAVMALQE",
+"IAQDFKTDLRFQSSAVMALQE(+57.02)",
+"IAQDFKTDLR(+14.02)FQSSAVMALQE",
+"IAQDFKTDLR(+.98)FQSSAVMALQE(+57.02)",
+"IAQDFKT(-18.01)DLRF(+31.99)QSSAVMALQE",
+"LRFQSSAVM(+15.99)ALQE",
+"ASEAYLVGLFE",
+"ASEAYLVGLFE(+21.98)",
+"ASEAYLVGLFE(-.98)",
+"AYLVGLFE",
+"A(+57.02)YLVGLFE",
+"AYLVGLFE(+21.98)",
+"DTNLC(+57.02)AIHAKRVTIMPKD",
+"DTN(+.98)LC(+57.02)AIHAKRVTIMPKD",
+"LKVKRITPRHLQLAIRGDEE",
+"LDSLIKATIAGGGVIPHIHK(+43.01)SLIGKK(+43.01)GQQKTV",
+"LDSLIKATIAGGGVIPHIHKS(+86.00)LIGKKGQQKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGK(+14.02)KGQ(+.98)QKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKK(+14.02)GQ(+.98)QKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGK(+14.02)K(+72.02)GQQKTV",
+"LDSLIKATIAGGGVIPHIHK(+31.99)SLIGKKGQQKTV(-.98)",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQQK(+57.02)TV",
+"LDSLIKATIAGGGVIPHIHKSLIGK(+43.01)KGQQK(+43.01)TV",
+"LDSLIKATIAGGGVIPHIHK(+57.02)SLIGKKGQQK(+57.02)TV",
+"LDSLIKATIAGGGVIPHIHK(+14.02)SLIGKKGQQ(+.98)KTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQQ(+.98)K(+28.03)TV",
+"LDSLIKATIAGGGVIPHIHKSLIGK(+28.03)KGQ(+.98)QKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQ(+.98)QK(+28.03)TV",
+"LDSLIKATIAGGGVIPHIHKSLIGK(+43.01)K(+43.01)GQQKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQQKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGK(+28.03)KGQQ(+.98)KTV",
+"LDSLIKATIAGGGVIPHIHK(+28.03)SLIGKKGQQ(+.98)KTV",
+"LDSLIKATIAGGGVIP(+15.99)HIHK(+14.02)SLIGKKGQQKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKK(+28.03)GQQ(+.98)KTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQ(+.98)QK(+14.02)TV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQQKTV(-.98)",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQ(+.98)QKTV",
+"S(+43.01)LIK(+72.02)ATIAGGGVIPHIHKSLIGKKGQQKTV",
+"ELN(+.98)Q(+.98)LLKGVT(+79.97)IAAGGVLPN(+.98)IHPE",
+"LNQLLKGVTIAAGGVLPNIHPELLAKKRGAKGKLE",
+"EAPAPAP(+31.99)VP(+31.99)AKAAKKKKTTASKPKKVGPSVGE",
+"L(+57.02)IVKAVAASKE(+57.02)",
+"LIVKAVAASK(+114.04)E",
+"LIVKAVAAS(+114.04)KE",
+"L(+57.02)IVKAVAASK(+43.01)E",
+"L(+43.01)IVKAVAASKE(+21.98)",
+"L(+43.01)IVK(+114.04)AVAASKE",
+"LIVKAVAASK(+156.12)E",
+"LIVK(+43.01)AVAASKE(+57.02)",
+"LIVK(+57.02)AVAASK(+43.01)E",
+"L(+43.01)IVK(+43.01)AVAASKE",
+"LIVK(+43.01)AVAASK(+57.02)E",
+"L(+57.02)IVKAVAASK(+57.02)E",
+"LIVKAVAASK(+43.01)E",
+"L(+57.02)IVKAVAASK(+114.04)E",
+"LIVKAVAASKE(+57.02)",
+"L(+57.02)IVK(+114.04)AVAASKE",
+"LIVK(+114.04)AVAASK(+57.02)E",
+"LIVKAVAAS(+44.01)KE",
+"LIVK(+57.02)AVAASK(+57.02)E",
+"LIVK(+57.02)AVAASKE",
+"LIVKAVAASKE(-.98)",
+"L(+43.01)IVKAVAASKE",
+"LIVK(+31.99)AVAASKE",
+"LIVK(+43.01)AVAASKE",
+"L(+43.01)IVK(+57.02)AVAASKE",
+"LIVKAVAASKE",
+"LIVKAVAASKE(+21.98)",
+"LIVKAVAASK(+57.02)E",
+"L(+43.01)IVKAVAASK(+57.02)E",
+"L(+57.02)IVKAVAASKE",
+"RSGVSAAALK(+15.99)K(+28.03)ALAAGGYD",
+"RSGVSAAALK(+15.99)KALAAGGYD(+57.02)",
+"RSGVSAAALKK(+42.01)ALAAGGYD(-.98)",
+"RSGVSAAALKKALAAGGYD(+57.02)VD(+57.02)",
+"RSGVSAAALKKALAAGGYDVD",
+"RSGVSAAALK(+28.03)KALAAGGYD",
+"RSGVSAAALK(+28.03)KALAAGGYD(-18.01)VD",
+"RSGVSAAALKK(+14.02)ALAAGGYD(+15.99)VD",
+"RSGVSAAALK(+156.12)K(+71.01)ALAAGGYDVD",
+"SEEAPAPAPAPAKATK(+28.03)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+28.03)ATKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKATKK(+28.03)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKATKKK(+28.03)TTASKPKKVGPSVGE",
+"SEEAPAPAPAP(+15.99)AKATKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKATK(+57.02)K(+42.01)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+28.03)ATK(+72.02)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+57.02)ATK(+42.01)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAT(+79.97)K(+71.01)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKATK(+156.12)KKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKTTVS(+86.00)KPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKKTTASKPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAK(+57.02)KKKTTASKPKKVGPSVGE",
+"S(+44.01)EEAPAPAPAPAKAAKKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKK(+57.02)KTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKK(+57.02)TTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKK(+43.01)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKK(+57.02)KKTTASK(+57.02)PKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAKKKK(+57.02)TTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAK(+43.01)AAKKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKK(+57.02)KKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAK(+57.02)KKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+43.01)AAKKK(+18.04)KTTASKPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAKKK(+57.02)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKK(+114.04)TTASKPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAK(+57.02)AAKKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKK(+43.01)K(+18.04)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKK(+114.04)KTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKKTTASK(+57.02)PKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKK(+43.01)TTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKK(+43.01)KKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKKTTASK(+43.01)PKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKK(+57.02)TTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+57.02)AAKKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKK(+57.02)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKK(+57.02)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKKTTASKPKK(+57.02)VGPSVGE",
+"SEEAPAPAPAPAKAAK(+43.01)K(+18.04)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAK(+57.02)KKKTTASKPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAKKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKKTTASK(+57.02)PKKVGPSVGE",
+"SEEAPAPAPAPAKAAKK(+114.04)KKTTASKPKKVGPSVGE",
+"EAPAPAPAP(+31.99)AK(+57.02)AAKKKKTTASKPKKVGPSVGE",
+"EAPAPAPAPAKAAK(+57.02)K(+31.99)KKTTASKPKKVGPSVGE",
+"E(+61.92)APAPAPAPAK(+43.01)AAKKKKTTASKPKKVGPSVGE",
+"MS(-18.01)EEAPAPAPAPAK(+114.04)AAKKKTTASKPKKVGPSVGE",
+"MSEEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKK(+43.01)KTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKT(+114.04)TASKPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAKKKTTASK(+57.02)PKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKTTASK(+57.02)PKKVGPSVGE",
+"SEEAPAPAPAPAK(+57.02)AAKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"S(+122)EEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKTTASK(+114.04)PKKVGPSVGE",
+"S(+123)EEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAK(+114.04)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKK(+57.02)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAK(+57.02)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKK(+57.02)TTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKKKTTASKPK(+57.02)KVGPSVGE",
+"SEEAPAPAPAPAK(+114.04)AAKKK(+18.04)TTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKK(+57.02)TTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKK(+57.02)KTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKTTASKPK(+114.04)KVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKTTASK(+57.02)PKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKK(+114.04)TTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKK(+114.04)KTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAK(+43.01)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAP(+15.99)AK(+28.03)AAKKKTTASKPKKVGPSVGE",
+"S(+79.97)EEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAKK(+114.04)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+114.04)AAK(+18.04)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAK(+114.04)K(+18.04)KTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAKAAK(+114.04)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+14.02)AAK(+114.04)KKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+18.04)AAK(+114.04)KKTTASKPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKK(+43.01)KTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAK(+57.02)AAKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAK(+43.01)AAKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKK(+43.01)TTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAK(+57.02)KKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKTTASKPKK(+57.02)VGPSVGE",
+"SEEAPAPAPAPAK(+43.01)AAKKKTTASKPKKVGPSVGE",
+"SEEAPAPAPAPAK(+71.01)AAK(+114.04)KKTTASKPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAKK(+57.02)KTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKTTAS(+114.04)KPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAK(+57.02)KKTTASKPKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAK(+57.02)AAKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAKAAKKKTTASK(+114.04)PKKVGPSVGE",
+"S(+43.01)EEAPAPAPAPAKAAKKK(+57.02)TTASKPKKVGPSVGE",
+"S(+44.01)EEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"S(+42.01)EEAPAPAPAPAK(+114.04)AAKKKTTASKPKKVGPSVGE",
+"E(+226.08)APAPAPAPAK(+72.02)AAKKKTTASKPKKVGPSVGE",
+"E(+283.1)AP(+15.99)APAPAPAKAAKKKTTASKPKKVGPSVGE",
+"APAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"ETPAPAPAPAK(+43.01)AAK(+31.99)KKKTTASKPKKVGPSVGE",
+"ETPAPAPAPAK(+15.99)AAK(+43.01)KKKTTASKPKKVGPSVGE",
+"ETPAPAPAP(+15.99)AK(+43.01)AAKKKKTTASKPKKVGPSVGE",
+"E(+42.01)TPAPAPAPAKAAKK(+31.99)KKTTASKPKKVGPSVGE",
+"ETPAPAPAPAKAAKK(+31.99)K(+43.01)KTTASKPKKVGPSVGE",
+"ETPAPAPAP(+15.99)AKAAK(+43.01)KKKTTASKPKKVGPSVGE",
+"ETPAPAPAPAKAAK(+31.99)K(+43.01)KKTTASKPKKVGPSVGE",
+"ETPAPAPAP(+31.99)AK(+43.01)AAKKKKTTASKPKKVGPSVGE",
+"IQTAVRLLLP(+31.99)AAE(+21.98)",
+"IQTAVRLLLP(+15.99)AAE(+21.98)",
+"IQTAVRLLLP(+31.99)AAE",
+"IQTAVRLLLPAAE(+21.98)",
+"LNKLLGRVTIAQGGVLPNIQAVLLPK(+71.01)K(+156.12)TEKAK",
+"ET(-18.01)RGVLKVFLE",
+"ETRGVLK(+57.02)VFLE",
+"ETRGVLK(+114.04)VFLE",
+"ET(+42.01)R(+.98)GVLKVFLE",
+"E(+43.01)TRGVLKVFLE",
+"ETRGVLKVFLE",
+"E(+57.02)T(-18.01)RGVLKVFLE",
+"ET(-18.01)RGVLK(+57.02)VFLE",
+"ET(-18.01)R(+14.02)GVLK(+15.99)VFLE",
+"TRGVLK(+43.01)VFLE",
+"T(+42.01)R(+.98)GVLKVFLE",
+"TRGVLKVFLE(+37.95)",
+"TRGVLKVFLE(-.98)",
+"TR(+31.99)GVLK(+42.01)VFLE(+61.92)NVIRDAVTYTE",
+"TRGVLK(+57.02)VFLE",
+"T(+42.01)R(+15.99)GVLKVFLE",
+"T(+43.01)RGVLKVFLE",
+"TRGVLK(+114.04)VFLE",
+"TRGVLKVFLE(+57.02)",
+"TRGVLK(+15.99)VFLE",
+"TRGVLKVFLE",
+"TRGVLKVF(+31.99)LE",
+"T(+57.02)RGVLKVFLE",
+"T(+28.03)RGVLK(+71.01)VFLE(+37.95)NVIRDAVTYTE",
+"T(+114.04)RGVLKVFLE",
+"TR(+.98)GVLK(+42.01)VFLE",
+"TRGVLKVFLE(+44.01)",
+"N(+43.01)VIRDAVTYTE",
+"NVIR(+.98)DAVTYTE",
+"N(+.98)VIRDAVT(+42.01)YTE",
+"N(+58.01)VIRDAVTYTE",
+"N(+.98)VIRDAVTYTE",
+"N(+.98)VIR(+14.02)DAVT(+42.01)YTE",
+"NVIRD(-18.01)AVTYTE",
+"NVIRDAVTYTE(-.98)",
+"NVIRDAVTY(-18.01)T(+42.01)E(+21.98)",
+"N(+43.01)VIRDAVTYTE(+21.98)",
+"NVIRDAVTYT(-18.01)E(+21.98)",
+"NVIRDAVTYTEHAK(+31.99)RKTVTAMD(-.98)",
+"NVIRDAVTYTEHAK(+31.99)RKTVTAMD",
+"NVIRDAVTYTEHAK(+43.01)RKTVTAMD",
+"NVIRDAVTYTEHAKRK(+43.01)TVTAMD",
+"NVIR(+15.99)DAVTY(-18.01)TE",
+"NVIRDAVTYTE(+21.98)",
+"N(+43.01)VIRDAVTYTE(-.98)",
+"N(+57.02)VIRDAVTYTE",
+"NVIRD(+57.02)AVTYTE",
+"NVIR(+.98)DAVT(+42.01)YTE",
+"NVIRDAVT(-18.01)Y(-18.01)T(+42.01)E",
+"NVIRDAVTYTE",
+"N(+43.01)VIRDAVT(-18.01)Y(+31.99)TE",
+"N(+43.01)VIRDAVTY(+15.99)TE",
+"NVIRDAVTYTE(+44.01)",
+"NVIRDAVTY(+31.99)T(-18.01)E",
+"NVIRDAVTY(+15.99)TE",
+"N(+57.02)VIRDAVTY(+15.99)TE",
+"NVIRDAVTYTE(+37.95)",
+"NVIRDAVT(-18.01)YTE",
+"HAKRKTVTAMDVVYSFGG",
+"HAKRKTVTAMD(-18.01)"
+)
+```
+
+
+### Sorting Ambic Files: 
+
+```{r}
+Sorted_PTM1 <- PTM1[match(Target_Ambic, PTM1$Peptide),] %>% 
+  rename("AScore_Sample1" = "AScore") %>% 
+  select(Peptide, AScore_Sample1)
+Sorted_PTM2 <- PTM2[match(Target_Ambic, PTM2$Peptide),] %>% 
+  rename("AScore_Sample2" = "AScore") %>% 
+  select(Peptide, AScore_Sample2)
+Sorted_PTM3 <- PTM3[match(Target_Ambic, PTM3$Peptide),] %>% 
+  rename("AScore_Sample3" = "AScore") %>% 
+  select(Peptide, AScore_Sample3)
+Sorted_PTM4 <- PTM4[match(Target_Ambic, PTM4$Peptide),] %>% 
+  rename("AScore_Sample4" = "AScore") %>% 
+  select(Peptide, AScore_Sample4)
+Sorted_PTM5 <- PTM5[match(Target_Ambic, PTM5$Peptide),] %>% 
+  rename("AScore_Sample5" = "AScore") %>% 
+  select(Peptide, AScore_Sample5)
+Sorted_PTM6 <- PTM6[match(Target_Ambic, PTM6$Peptide),] %>% 
+  rename("AScore_Sample6" = "AScore") %>% 
+  select(Peptide, AScore_Sample6)
+Sorted_PTM7 <- PTM7[match(Target_Ambic, PTM7$Peptide),] %>% 
+  rename("AScore_Sample7" = "AScore") %>% 
+  select(Peptide, AScore_Sample7)
+Sorted_PTM8 <- PTM8[match(Target_Ambic, PTM8$Peptide),] %>% 
+  rename("AScore_Sample8" = "AScore") %>% 
+  select(Peptide, AScore_Sample8)
+Sorted_PTM9 <- PTM9[match(Target_Ambic, PTM9$Peptide),] %>% 
+  rename("AScore_Sample9" = "AScore") %>% 
+  select(Peptide, AScore_Sample9)
+Sorted_PTM10 <- PTM10[match(Target_Ambic, PTM10$Peptide),] %>% 
+  rename("AScore_Sample10" = "AScore") %>% 
+  select(Peptide, AScore_Sample10)
+Sorted_PTM11 <- PTM11[match(Target_Ambic, PTM11$Peptide),] %>% 
+  rename("AScore_Sample11" = "AScore") %>% 
+  select(Peptide, AScore_Sample11)
+Sorted_PTM12 <- PTM12[match(Target_Ambic, PTM12$Peptide),] %>% 
+  rename("AScore_Sample12" = "AScore") %>% 
+  select(Peptide, AScore_Sample12)
+Sorted_PTM13 <- PTM13[match(Target_Ambic, PTM13$Peptide),] %>% 
+  rename("AScore_Sample13" = "AScore") %>% 
+  select(Peptide, AScore_Sample13)
+Sorted_PTM14 <- PTM14[match(Target_Ambic, PTM14$Peptide),] %>% 
+  rename("AScore_Sample14" = "AScore") %>% 
+  select(Peptide, AScore_Sample14)
+Sorted_PTM15 <- PTM15[match(Target_Ambic, PTM15$Peptide),] %>% 
+  rename("AScore_Sample15" = "AScore") %>% 
+  select(Peptide, AScore_Sample15)
+Sorted_PTM16 <- PTM16[match(Target_Ambic, PTM16$Peptide),] %>% 
+  rename("AScore_Sample16" = "AScore") %>% 
+  select(Peptide, AScore_Sample16)
+Sorted_PTM17 <- PTM17[match(Target_Ambic, PTM17$Peptide),] %>% 
+  rename("AScore_Sample17" = "AScore") %>% 
+  select(Peptide, AScore_Sample17)
+Sorted_PTM18 <- PTM18[match(Target_Ambic, PTM18$Peptide),] %>% 
+  rename("AScore_Sample18" = "AScore") %>% 
+  select(Peptide, AScore_Sample18)
+Sorted_PTM19 <- PTM19[match(Target_Ambic, PTM19$Peptide),] %>% 
+  rename("AScore_Sample19" = "AScore") %>% 
+  select(Peptide, AScore_Sample19)
+Sorted_PTM20 <- PTM20[match(Target_Ambic, PTM20$Peptide),] %>% 
+  rename("AScore_Sample20" = "AScore") %>% 
+  select(Peptide, AScore_Sample20)
+Sorted_PTM21 <- PTM21[match(Target_Ambic, PTM21$Peptide),] %>% 
+  rename("AScore_Sample21" = "AScore") %>% 
+  select(Peptide, AScore_Sample21)
+Sorted_PTM22 <- PTM22[match(Target_Ambic, PTM22$Peptide),] %>% 
+  rename("AScore_Sample22" = "AScore") %>% 
+  select(Peptide, AScore_Sample22)
+Sorted_PTM23 <- PTM23[match(Target_Ambic, PTM23$Peptide),] %>% 
+  rename("AScore_Sample23" = "AScore") %>% 
+  select(Peptide, AScore_Sample23)
+Sorted_PTM24 <- PTM24[match(Target_Ambic, PTM24$Peptide),] %>% 
+  rename("AScore_Sample24" = "AScore") %>% 
+  select(Peptide, AScore_Sample24)
+Sorted_PTM25 <- PTM25[match(Target_Ambic, PTM25$Peptide),] %>% 
+  rename("AScore_Sample25" = "AScore") %>% 
+  select(Peptide, AScore_Sample25)
+Sorted_PTM26 <- PTM26[match(Target_Ambic, PTM26$Peptide),] %>% 
+  rename("AScore_Sample26" = "AScore") %>% 
+  select(Peptide, AScore_Sample26)
+Sorted_PTM27 <- PTM27[match(Target_Ambic, PTM27$Peptide),] %>% 
+  rename("AScore_Sample27" = "AScore") %>% 
+  select(Peptide, AScore_Sample27)
+
+Sorted_PTM85 <- PTM85[match(Target_Ambic, PTM85$Peptide),] %>% 
+  rename("AScore_Sample85" = "AScore") %>% 
+  select(Peptide, AScore_Sample85)
+Sorted_PTM86 <- PTM86[match(Target_Ambic, PTM86$Peptide),] %>% 
+  rename("AScore_Sample86" = "AScore") %>% 
+  select(Peptide, AScore_Sample86)
+Sorted_PTM87 <- PTM87[match(Target_Ambic, PTM87$Peptide),] %>% 
+  rename("AScore_Sample87" = "AScore") %>% 
+  select(Peptide, AScore_Sample87)
+Sorted_PTM88 <- PTM88[match(Target_Ambic, PTM88$Peptide),] %>% 
+  rename("AScore_Sample88" = "AScore") %>% 
+  select(Peptide, AScore_Sample88)
+Sorted_PTM89 <- PTM89[match(Target_Ambic, PTM89$Peptide),] %>% 
+  rename("AScore_Sample89" = "AScore") %>% 
+  select(Peptide, AScore_Sample89)
+Sorted_PTM90 <- PTM90[match(Target_Ambic, PTM90$Peptide),] %>% 
+  rename("AScore_Sample90" = "AScore") %>% 
+  select(Peptide, AScore_Sample90)
+Sorted_PTM91 <- PTM91[match(Target_Ambic, PTM91$Peptide),] %>% 
+  rename("AScore_Sample91" = "AScore") %>% 
+  select(Peptide, AScore_Sample91)
+Sorted_PTM92 <- PTM92[match(Target_Ambic, PTM92$Peptide),] %>% 
+  rename("AScore_Sample92" = "AScore") %>% 
+  select(Peptide, AScore_Sample92)
+Sorted_PTM93 <- PTM93[match(Target_Ambic, PTM93$Peptide),] %>% 
+  rename("AScore_Sample93" = "AScore") %>% 
+  select(Peptide, AScore_Sample93)
+Sorted_PTM94 <- PTM94[match(Target_Ambic, PTM94$Peptide),] %>% 
+  rename("AScore_Sample94" = "AScore") %>% 
+  select(Peptide, AScore_Sample94)
+Sorted_PTM95 <- PTM95[match(Target_Ambic, PTM95$Peptide),] %>% 
+  rename("AScore_Sample95" = "AScore") %>% 
+  select(Peptide, AScore_Sample95)
+Sorted_PTM96 <- PTM96[match(Target_Ambic, PTM96$Peptide),] %>% 
+  rename("AScore_Sample96" = "AScore") %>% 
+  select(Peptide, AScore_Sample96)
+Sorted_PTM97 <- PTM97[match(Target_Ambic, PTM97$Peptide),] %>% 
+  rename("AScore_Sample97" = "AScore") %>% 
+  select(Peptide, AScore_Sample97)
+Sorted_PTM98 <- PTM98[match(Target_Ambic, PTM98$Peptide),] %>% 
+  rename("AScore_Sample98" = "AScore") %>% 
+  select(Peptide, AScore_Sample98)
+Sorted_PTM99 <- PTM99[match(Target_Ambic, PTM99$Peptide),] %>% 
+  rename("AScore_Sample99" = "AScore") %>% 
+  select(Peptide, AScore_Sample99)
+Sorted_PTM100 <- PTM100[match(Target_Ambic, PTM100$Peptide),] %>% 
+  rename("AScore_Sample100" = "AScore") %>% 
+  select(Peptide, AScore_Sample100)
+Sorted_PTM101 <- PTM101[match(Target_Ambic, PTM101$Peptide),] %>% 
+  rename("AScore_Sample101" = "AScore") %>% 
+  select(Peptide, AScore_Sample101)
+Sorted_PTM102 <- PTM102[match(Target_Ambic, PTM102$Peptide),] %>% 
+  rename("AScore_Sample102" = "AScore") %>% 
+  select(Peptide, AScore_Sample102)
+Sorted_PTM103 <- PTM103[match(Target_Ambic, PTM103$Peptide),] %>% 
+  rename("AScore_Sample103" = "AScore") %>% 
+  select(Peptide, AScore_Sample103)
+Sorted_PTM104 <- PTM104[match(Target_Ambic, PTM104$Peptide),] %>% 
+  rename("AScore_Sample104" = "AScore") %>% 
+  select(Peptide, AScore_Sample104)
+Sorted_PTM105 <- PTM105[match(Target_Ambic, PTM105$Peptide),] %>% 
+  rename("AScore_Sample105" = "AScore") %>% 
+  select(Peptide, AScore_Sample105)
+Sorted_PTM106 <- PTM106[match(Target_Ambic, PTM106$Peptide),] %>% 
+  rename("AScore_Sample106" = "AScore") %>% 
+  select(Peptide, AScore_Sample106)
+Sorted_PTM107 <- PTM107[match(Target_Ambic, PTM107$Peptide),] %>% 
+  rename("AScore_Sample107" = "AScore") %>% 
+  select(Peptide, AScore_Sample107)
+Sorted_PTM108 <- PTM108[match(Target_Ambic, PTM108$Peptide),] %>% 
+  rename("AScore_Sample108" = "AScore") %>% 
+  select(Peptide, AScore_Sample108)
+Sorted_PTM109 <- PTM109[match(Target_Ambic, PTM109$Peptide),] %>% 
+  rename("AScore_Sample109" = "AScore") %>% 
+  select(Peptide, AScore_Sample109)
+Sorted_PTM110 <- PTM110[match(Target_Ambic, PTM110$Peptide),] %>% 
+  rename("AScore_Sample110" = "AScore") %>% 
+  select(Peptide, AScore_Sample110)
+Sorted_PTM111 <- PTM111[match(Target_Ambic, PTM111$Peptide),] %>% 
+  rename("AScore_Sample111" = "AScore") %>% 
+  select(Peptide, AScore_Sample111)
+Sorted_PTM112 <- PTM112[match(Target_Ambic, PTM112$Peptide),] %>% 
+  rename("AScore_Sample112" = "AScore") %>% 
+  select(Peptide, AScore_Sample112)
+Sorted_PTM113 <- PTM113[match(Target_Ambic, PTM113$Peptide),] %>% 
+  rename("AScore_Sample113" = "AScore") %>% 
+  select(Peptide, AScore_Sample113)
+Sorted_PTM114 <- PTM114[match(Target_Ambic, PTM114$Peptide),] %>% 
+  rename("AScore_Sample114" = "AScore") %>% 
+  select(Peptide, AScore_Sample114)
+Sorted_PTM115 <- PTM115[match(Target_Ambic, PTM115$Peptide),] %>% 
+  rename("AScore_Sample115" = "AScore") %>% 
+  select(Peptide, AScore_Sample115)
+Sorted_PTM116 <- PTM116[match(Target_Ambic, PTM116$Peptide),] %>% 
+  rename("AScore_Sample116" = "AScore") %>% 
+  select(Peptide, AScore_Sample116)
+Sorted_PTM117 <- PTM117[match(Target_Ambic, PTM117$Peptide),] %>% 
+  rename("AScore_Sample117" = "AScore") %>% 
+  select(Peptide, AScore_Sample117)
+Sorted_PTM118 <- PTM118[match(Target_Ambic, PTM118$Peptide),] %>% 
+  rename("AScore_Sample118" = "AScore") %>% 
+  select(Peptide, AScore_Sample118)
+Sorted_PTM119 <- PTM119[match(Target_Ambic, PTM119$Peptide),] %>% 
+  rename("AScore_Sample119" = "AScore") %>% 
+  select(Peptide, AScore_Sample119)
+Sorted_PTM120 <- PTM120[match(Target_Ambic, PTM120$Peptide),] %>% 
+  rename("AScore_Sample120" = "AScore") %>% 
+  select(Peptide, AScore_Sample120)
+```
+
+
+
+## Correcting the order of all Napho files
+
+Creating vectors that contain the desired order for each DIA assay library, based on Kidney/Exp1 order:
+
+```{r}
+Target_Napho <- c(
+"RVGAGAPVYLAAVLEYLT(+114.04)AE(+57.02)",
+"R(+28.03)VGAGAP(+15.99)VYLAAVLE",
+"RVGAGAPVYLAAVLEYLTAE(+37.95)",
+"RVGAGAPVYLAAVLE(+21.98)",
+"R(+57.02)VGAGAPVYLAAVLE",
+"RVGAGAPVYLAAVLE(+57.02)Y(+79.97)LT(+114.04)AEILE",
+"RVGAGAP(+15.99)VYLAAVLE(+21.98)",
+"RVGAGAPVYLAAVLEY(-18.01)LT(+114.04)AE",
+"RVGAGAPVYLAAVLE(+37.95)YLTAE",
+"RVGAGAPVYLAAVLE(+37.95)",
+"RVGAGAPVYLAAVLE(+21.98)YLTAEILE",
+"RVGAGAPVYLAAVLE(+57.02)Y(-18.01)LTAE",
+"RVGAGAPVYLAAVLE(+21.98)Y(-18.01)LTAE(+21.98)ILE",
+"RVGAGAPVYLAAVLEYLTAE",
+"R(+28.03)VGAGAPVYLAAVLE",
+"RVGAGAPVYLAAVLE(+21.98)Y(+79.97)LTAE(+21.98)ILE",
+"R(+43.01)VGAGAPVYLAAVLE(+21.98)",
+"R(+43.01)VGAGAP(+31.99)VY(-18.01)LAAVLE",
+"RVGAGAP(+15.99)VYLAAVLE",
+"RVGAGAPVYLAAVLE(+21.98)Y(-18.01)LT(+42.01)AE",
+"R(+42.01)VGAGAP(+15.99)VYLAAVLE",
+"RVGAGAPVYLAAVLE(+53.92)",
+"RVGAGAPVYLAAVLEY(-18.01)LT(+79.97)AE(+21.98)ILE",
+"RVGAGAPVYLAAVLE(-.98)",
+"RVGAGAPVYLAAVLEY(+79.97)LT(+79.97)AE",
+"RVGAGAPVYLAAVLE",
+"RVGAGAPVYLAAVLEY(-18.01)LT(+79.97)AEILE(+21.98)",
+"R(+57.02)VGAGAPVYLAAVLE(+53.92)",
+"R(+28.03)VGAGAP(+15.99)VYLAAVLE(+21.98)",
+"R(+43.01)VGAGAPVYLAAVLE(-.98)",
+"R(+43.01)VGAGAPVYLAAVLE",
+"RVGAGAPVY(-18.01)LAAVLE(+21.98)",
+"RVGAGAP(+31.99)VYLAAVLE",
+"R(+43.01)VGAGAPVYLAAVLE(+57.02)",
+"R(+43.01)VGAGAPVYLAAVLE(+37.95)",
+"RVGAGAPVYLAAVLE(+61.92)",
+"R(+57.02)VGAGAPVYLAAVLE(+37.95)",
+"R(+43.01)VGAGAPVYLAAVLE(+53.92)",
+"RVGAGAPVYLAAVLEY(+79.97)LTAE",
+"RVGAGAPVYLAAVLEYLTAEILE",
+"RVGAGAPVYLAAVLE(+53.92)Y(-18.01)LTAEILE",
+"R(+58.01)VGAGAPVYLAAVLE",
+"YLTAE(+37.95)ILE",
+"Y(+43.01)LTAEILE",
+"L(+43.01)AGNAARD",
+"N(+43.01)KKTRIIPRHLQLAVRNDEE",
+"N(+.98)KKTRIIPRHLQLAVRNDEE",
+"NKK(+43.01)T(-18.01)RIIPRHLQLAVRNDEE",
+"N(+.98)K(+42.01)KTRIIPRHLQLAVRNDEE",
+"N(+43.01)KKT(-18.01)RIIPRHLQLAVRNDEE",
+"NKK(+43.01)TRIIPRHLQLAVRNDEE",
+"NK(+42.01)KTR(+.98)IIPRHLQLAVRNDEE",
+"NKKTRIIPRHLQLAVRNDEE",
+"E(+541.06)ELNKLLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTE",
+"L(+28.03)N(+.98)K(+28.03)LLGGVTIAQGGVLPNIQAVLLPKKTE",
+"LNKLLGGVTIAQ(+.98)GGVLPN(+.98)IQ(+.98)AVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+28.03)KTEKPTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPN(+.98)IQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+43.01)KTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+71.01)K(+72.02)TE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+28.03)PTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+43.01)TE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KPTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+53.92)",
+"LNK(+114.04)LLGGVTIAQGGVLPNIQAVLLPKKTEKPTKS(-18.01)K",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPTKS(-18.01)K",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)KSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+15.99)K(+43.01)TE",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+37.95)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+71.01)K(+71.01)TE",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPK(+28.03)KTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+14.02)KT(+114.04)E",
+"LNKLLGGVTIAQGGVLP(+15.99)NIQAVLLPKKTEKPT(-18.01)KSK",
+"LN(+.98)KLLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKS(-18.01)K(+28.03)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+28.03)K(+114.04)TE",
+"LNKLLGGVTIAQGGVLPNIQ(+.98)AVLLPKKTEKPTKSK",
+"LNK(+42.01)LLGGVTIAQGGVLPNIQAVLLPKKTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+28.03)TEKPTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+28.03)PT(-18.01)KSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)KSK(+28.03)",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+14.02)K(+42.01)TE",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPKKTEKPT(-18.01)KSK",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTE",
+"LNKLLGGVTIAQ(+.98)GGVLPN(+.98)IQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPN(+.98)IQ(+.98)AVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKT(-18.01)EKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KPT(-18.01)KSK",
+"L(+57.02)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKSK(+42.01)",
+"LN(+.98)KLLGGVTIAQGGVLPNIQAVLLPKKTE",
+"LNK(+31.99)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTE",
+"LNK(+28.03)LLGGVTIAQGGVLPNIQAVLLPKKTEKPTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+14.02)KTEKPTKS(-18.01)K",
+"LNKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKK(+43.01)TEKPTKSK",
+"LNK(+28.03)LLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)KSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+28.03)PTKSK",
+"LNKLLGGVTIAQGGVLPN(+.98)IQ(+.98)AVLLPKKTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKSK(+43.01)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+28.03)TE(+53.92)",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKS(-18.01)K",
+"L(+57.02)NKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKPTKSK",
+"L(+57.02)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+43.01)PTKSK",
+"LNKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLP(+31.99)KKTE(-.98)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+37.95)KPT(-18.01)KSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)KSK(+43.01)",
+"LNKLLGGVTIAQ(+.98)GGVLPN(+.98)IQAVLLPKKTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)K(+43.01)SK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)KSK(+114.04)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)KSK",
+"L(+57.02)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKS(-18.01)K",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKS(-18.01)K",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPT(-18.01)KSK",
+"LNKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEK(+43.01)PTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+72.02)K(+71.01)TE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKT(-18.01)E(+57.02)KPTKSK",
+"LNKLLGGVTIAQGGVLPN(+.98)IQAVLLPKKTEK(+43.01)PTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+72.02)TE(+53.92)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+37.95)KPTKS(+44.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+14.02)K(+114.04)TE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKT(+114.04)EKPTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+114.04)KTEKPTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPTKS(-18.01)K(+114.04)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+114.04)PTKS(-18.01)K",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+42.01)KTE",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KPTKSK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+14.02)KT(+114.04)EKAK",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+14.02)KTEKAK(+43.01)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KAK",
+"LN(+.98)K(+42.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKAK",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPKKTEKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+43.01)AK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+43.01)KTEKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+43.01)TEKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKAK(+43.01)",
+"LNKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKAK(+43.01)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+21.98)KAK(-.98)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKT(-18.01)E(+57.02)KAK",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKAK",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPKKT(-18.01)EKAK",
+"LNKLLGGVT(-18.01)IAQGGVLP(+31.99)NIQAVLLPKKTEKAK",
+"LN(+.98)KLLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKAK",
+"LNKLLGGVTIAQGGVLPN(+.98)IQAVLLPKKTEKAK",
+"LNKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKAK",
+"LN(+.98)KLLGGVTIAQGGVLPNIQAVLLPKKTEKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+156.12)AK(+43.01)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+156.12)K(+42.01)TEKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+42.01)KTEK(+156.12)AK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+42.01)TEK(+156.12)AK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+114.04)T(+79.97)EKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KAK(+72.02)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKAK(+114.04)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKAK(+42.01)",
+"L(+57.02)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKAK",
+"ELNK(+226.08)LLGGVT(+114.04)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVT(-18.01)IAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVK(+43.01)AK(+43.01)",
+"LN(+.98)K(+14.02)LLGGVT(+79.97)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"L(+43.01)NKLLGGVTIAQGGVLPN(+.98)IQ(+.98)AVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KPVK(+43.01)AK",
+"L(+57.02)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+37.95)KPVKAK(-.98)",
+"L(+43.01)NKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQ(+.98)AVLLPKKTEK(+14.02)PVKAK",
+"L(+43.01)NKLLGGVTIAQ(+.98)GGVLPN(+.98)IQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+72.02)TEK(+42.01)PVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+14.02)PVKAK(+43.01)",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+14.02)PVK(+43.01)AK",
+"LNKLLGGVTIAQGGVLP(+15.99)NIQAVLLPKKTEKPVKAK(+43.01)",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPKKTEK(+14.02)PVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+15.99)K(+42.01)TEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+43.01)KTEKP(+15.99)VKAK",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+53.92)KPVKAK(-.98)",
+"L(+28.03)NK(+72.02)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"L(+57.02)NKLLGGVTIAQGGVLP(+15.99)N(+.98)IQAVLLPKKTEKPVKAK",
+"LNK(+71.01)LLGGVTIAQGGVLP(+31.99)NIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+541.06)K(+28.03)TEKPVKAK",
+"L(+226.08)NK(+226.08)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+15.99)K(+43.01)TEKPVKAK",
+"LN(+.98)KLLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+114.04)PVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+71.01)K(+43.01)TEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+43.01)KTEKPVKAK(+43.01)",
+"LNK(+15.99)LLGGVT(+79.97)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KPVKAK",
+"LNK(+43.01)LLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LN(+.98)KLLGGVT(-18.01)IAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+43.01)PVKAK(+43.01)",
+"LNKLLGGVT(+79.97)IAQGGVLPNIQAVLLPKKT(+79.97)EKPVKAK",
+"LNK(+42.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKT(-18.01)EKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+57.02)KPVKAK(+43.01)",
+"L(+57.02)N(+.98)K(+42.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVT(+79.97)IAQGGVLP(+31.99)N(+.98)IQAVLLPKKTEKPVKAK",
+"L(+57.02)NKLLGGVTIAQGGVLPN(+.98)IQ(+.98)AVLLPKKTEKPVKAK",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPK(+43.01)K(+43.01)TEKPVKAK",
+"LNKLLGGVTIAQGGVLP(+31.99)NIQAVLLPKKT(-18.01)EKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLP(+31.99)K(+28.03)KTEKPVKAK",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTEK(+43.01)PVKAK",
+"LNKLLGGVTIAQ(+.98)GGVLPN(+.98)IQAVLLPKKTEKPVKAK",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPK(+43.01)KTEKPVKAK",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPK(+43.01)KTEKPVKAK",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+43.01)PVKAK",
+"LNK(+14.02)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQ(+.98)AVLLPK(+28.03)KTEKPVKAK",
+"LN(+.98)K(+28.03)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNK(+28.03)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+21.98)KPVKAK(-.98)",
+"LNKLLGGVTIAQGGVLPN(+.98)IQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKK(+14.02)TEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEK(+28.03)PVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKT(-18.01)E(+21.98)KPVKAK",
+"LNKLLGGVTIAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLP(+15.99)N(+.98)IQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQ(+.98)AVLLPK(+14.02)KTEKPVKAK",
+"L(+28.03)N(+.98)KLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVT(-18.01)IAQGGVLP(+31.99)NIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"L(+57.02)NKLLGGVTIAQGGVLPN(+.98)IQAVLLPKKTEKPVKAK",
+"LNK(+72.02)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"L(+28.03)NK(+28.03)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"L(+43.01)N(+.98)KLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLP(+15.99)NIQAVLLPKKTEKPVKAK",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK(+43.01)",
+"LN(+.98)K(+15.99)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVT(+79.97)IAQ(+.98)GGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQ(+.98)GGVLPN(+.98)IQ(+.98)AVLLPKKTEKPVKAK",
+"L(+43.01)NKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVK(+43.01)AK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTE(+21.98)KPVKAK",
+"LNKLLGGVTIAQGGVLPN(+.98)IQ(+.98)AVLLPKKTEKPVKAK",
+"L(+43.01)NKLLGGVTIAQGGVLP(+15.99)N(+.98)IQAVLLPKKTEKPVKAK",
+"LNK(+43.01)LLGGVTIAQ(+.98)GGVLPN(+.98)IQAVLLPKKTEKPVKAK",
+"LN(+.98)KLLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LN(+.98)K(+14.02)LLGGVTIAQGGVLP(+31.99)NIQAVLLPKKTEKPVKAK",
+"LNK(+71.01)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LN(+.98)K(+15.99)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNK(+14.02)LLGGVTIAQGGVLP(+31.99)NIQAVLLPKKTEKPVKAK",
+"LN(+.98)K(+31.99)LLGGVT(-18.01)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"L(+43.01)NK(+15.99)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNK(+43.01)LLGGVTIAQGGVLPNIQAVLLPKKTE(+21.98)KPVKAK",
+"LN(+.98)K(+42.01)LLGGVTIAQGGVLPNIQAVLLPKKTEKPVKAK",
+"LNKLLGGVTIAQGGVLPNIQAVLLPKKTEKPVK(+31.99)AK(+31.99)",
+"LN(+.98)KLLGGVT(+79.97)IAQGGVLPNIQAVLLPKKTEKPVKAK",
+"SYAIYVYKVLKQVHPDTGISS(+114.04)KAMSIMNSFVNDIFE",
+"SYAIYVYKVLKQVHPDTGISSKAM(+15.99)SIMNSFVND",
+"SYAIYVYKVLKQVHPD",
+"SYAIYVYKVLKQVHPD(+57.02)",
+"S(+57.02)YAIYVYKVLKQVHPD",
+"SYAIYVYKVLKQVHPDTGISSKAMS(+114.04)IMNSFVNDIFE",
+"SYAIYVYKVLKQVHPDTGISSK(+42.01)AMSIMNSFVNDIFE(-.98)",
+"SYAIYVYKVLKQVHPD(+57.02)TGISSK(+43.01)AMSIMNSFVNDIFE",
+"SYAIYVYKVLKQVHPDTGISSK(+42.01)AMSIMNSFVND(+57.02)IFE",
+"SYAIYVYKVLKQVHPDTGISSK(+43.01)AMSIM(+15.99)NSFVNDIFE",
+"SYAIYVYKVLKQVHPDTGISSK(+31.99)AMSIMNSFVND(-.98)",
+"SYAIYVYKVLKQVHPD(+57.02)TGISSKAMSIMNSFVND",
+"SYAIYVYKVLKQVHPDTGISSKAMSIM(+15.99)NSFVND",
+"SYAIYVYKVLKQVHPDTGISSKAMSIMNSFVND",
+"SYAIYVYKVLKQVHPDTGISSKAMSIMNSFVND(+57.02)IFE",
+"TGISSKAMSIMNSFVND",
+"TGISSKAMSIMN(+.98)SFVND",
+"IFERIAAE",
+"I(+43.01)FERIAAE",
+"R(+15.99)IAAEASRLAHYNKRSTITSRE",
+"R(+.98)IAAEAS(-18.01)R(+14.02)LAHYNKRSTITSRE",
+"ASRLAHYN(+.98)KRS(+79.97)TITSRE",
+"ASRLAHYNK(+43.01)R(+14.02)STITSRE",
+"ASRLAHYN(+.98)K(+42.01)R(+.98)STITSRE",
+"ASRLAHYN(+.98)K(+28.03)R(+15.99)STITSRE",
+"ASRLAHYNKR(+31.99)STITSRE",
+"ASRLAHYNK(+31.99)R(+14.02)STITSRE",
+"ASRLAHYNK(+28.03)R(+15.99)STITSRE",
+"ASRLAHYNK(+43.01)R(+.98)STITSRE",
+"ASRLAHY(+79.97)NKR(+.98)STITSRE",
+"ASRLAHYN(+.98)K(+43.01)RSTITSRE",
+"ASRLAHYNK(+42.01)R(+.98)STITSRE",
+"ASRLAHYN(+.98)K(+28.03)R(+31.99)STITSRE",
+"AS(+114.04)RLAHYNKRSTITSRE",
+"ASRLAHYNK(+42.01)R(+14.02)STITSRE",
+"ASRLAHYNKRSTIT(-18.01)SRE",
+"ASRLAHY(-18.01)NK(+31.99)R(+14.02)STITSRE",
+"ASRLAHYNKR(+.98)STITSRE",
+"ASRLAHYNKRSTITSRE",
+"ASRLAHYN(+.98)KRSTITSRE",
+"ASRLAHYNK(+15.99)RSTITSRE",
+"ASRLAHYNK(+28.03)R(+28.03)STITSRE",
+"ASRLAHYNK(+42.01)RS(-18.01)TITSRE",
+"A(+57.02)SRLAHYNKRSTITSRE",
+"ASRLAHYNK(+28.03)RSTITSRE",
+"A(+43.01)SRLAHY(-18.01)N(+.98)KRSTITSRE",
+"A(+43.01)SRLAHYNKRSTITSRE",
+"ASR(+15.99)LAHYNKRSTITSRE",
+"A(+57.02)SRLAHYN(+.98)KRSTITSRE",
+"ASRLAHY(-18.01)NK(+42.01)R(+28.03)STITSRE",
+"A(+43.01)SRLAHYNKR(+.98)STITSRE",
+"AS(+44.01)R(+.98)LAHYNKRSTITSRE",
+"A(+43.01)S(-18.01)R(+.98)LAHYNKRSTITSRE",
+"A(+57.02)SR(+.98)LAHYNKRSTITSRE",
+"ASRLAHYNK(+42.01)RSTIT(-18.01)SRE",
+"ASRLAHYN(+.98)K(+15.99)R(+28.03)STITSRE",
+"ASRLAHYNK(+31.99)RSTITSRE",
+"AS(-18.01)R(+15.99)LAHYNKRSTITSRE",
+"AS(-18.01)R(+31.99)LAHY(-18.01)NKRSTITSRE",
+"AS(-18.01)RLAHYNKRSTITSRE",
+"A(+43.01)SRLAHYNKRS(-18.01)TITSRE",
+"ASRLAHYNKR(+15.99)STITSRE",
+"ASRLAHYNKR(+.98)ST(-18.01)ITSRE",
+"ASRLAHYNKR(+.98)S(-18.01)TITSRE",
+"ASRLAHY(-18.01)NK(+14.02)R(+31.99)STITSRE",
+"ASRLAHY(-18.01)NKRSTITSRE",
+"AS(-18.01)R(+.98)LAHYNKRSTITSRE",
+"ASRLAHYNK(+42.01)R(+15.99)STITSRE",
+"A(+43.01)SRLAHYN(+.98)KRSTITSRE",
+"ASR(+.98)LAH(+57.02)YNKRSTITSRE",
+"A(+57.02)SRLAHYNK(+43.01)RSTITSRE",
+"ASRLAHY(-18.01)NKR(+.98)STITSRE",
+"A(+43.01)SRLAHYNKRSTIT(-18.01)SRE",
+"ASRLAH(+57.02)YNKRSTITSRE",
+"ASRLAHYNKRS(-18.01)TITSRE",
+"ASRLAHYNK(+43.01)RSTITSRE",
+"ASRLAH(+57.02)YN(+.98)KRSTITSRE",
+"A(+43.01)SRLAHYNKR(+15.99)STITSRE",
+"A(+43.01)SRLAH(+57.02)YNKRSTITSRE",
+"ASR(+31.99)LAHYNKRSTITSRE",
+"A(+28.03)SRLAHYNKRSTITSRE",
+"A(+57.02)S(-18.01)RLAHYNKRSTITSRE",
+"A(+57.02)SRLAHYNKR(+.98)STITSRE",
+"ASRLAHY(-18.01)NKRS(+44.01)TITSRE",
+"I(+57.02)Q(+.98)TAVRLLLPGE",
+"IQTAVRLLLPGE(+53.92)LAKHAVSE",
+"IQTAVRLLLP(+15.99)GE",
+"I(+43.01)QTAVRLLLPGELAKHAVSE(+53.92)",
+"IQ(+.98)TAVRLLLPGELAKH(+57.02)AVSE",
+"IQT(-18.01)AVR(+15.99)LLLPGE",
+"I(+57.02)QT(-18.01)AVRLLLPGE",
+"IQTAVRLLLP(+31.99)GE",
+"IQTAVRLLLP(+31.99)GELAKHAVSE",
+"IQTAVRLLLPGE(+21.98)",
+"IQTAVRLLLPGE",
+"IQT(-18.01)AVRLLLPGE",
+"IQTAVRLLLPGE(+53.92)",
+"I(+57.02)QTAVRLLLPGELAK(+43.01)HAVSE",
+"I(+57.02)QTAVRLLLPGELAKHAVSE(+57.02)",
+"I(+57.02)QTAVRLLLPGE(+57.02)LAKHAVSE",
+"I(+57.02)QTAVRLLLPGE(+37.95)",
+"IQTAVR(+31.99)LLLPGE",
+"IQT(+79.97)AVRLLLP(+31.99)GELAKHAVSE",
+"I(+57.02)QTAVRLLLPGE(+21.98)",
+"IQTAVRLLLPGELAK(+43.01)HAVSE",
+"IQ(+.98)T(+42.01)AVR(+14.02)LLLPGE",
+"I(+57.02)QTAVRLLLPGE(+21.98)LAKHAVSE",
+"I(+57.02)QTAVRLLLPGE",
+"IQTAVRLLLPGELAKHAVSE(+57.02)",
+"I(+57.02)Q(+.98)TAVRLLLPGELAKHAVSE",
+"I(+43.01)QTAVR(+15.99)LLLPGELAKHAVSE",
+"I(+28.03)Q(+.98)TAVR(+28.03)LLLPGE",
+"IQTAVRLLLP(+15.99)GELAK(+72.02)HAVSE",
+"I(+57.02)QTAVRLLLPGELAKHAVSE",
+"IQTAVRLLLPGELAK(+226.08)HAVSE(+53.92)",
+"IQTAVRLLLPGE(+57.02)LAKHAVSE",
+"IQ(+.98)T(+114.04)AVR(+14.02)LLLPGELAKHAVSE",
+"I(+57.02)QTAVRLLLPGELAKH(+57.02)AVSE",
+"IQTAVR(+.98)LLLP(+15.99)GELAK(+14.02)HAVSE",
+"I(+28.03)Q(+.98)TAVR(+28.03)LLLPGELAKHAVSE",
+"IQTAVRLLLPGELAKH(+57.02)AVSE",
+"I(+43.01)QTAVRLLLPGE(+21.98)LAKHAVSE",
+"IQ(+.98)T(-18.01)AVRLLLPGE(-.98)",
+"I(+43.01)QTAVRLLLPGELAKHAVSE(+21.98)",
+"I(+28.03)Q(+.98)TAVR(+14.02)LLLPGELAKHAVSE",
+"IQTAVRLLLPGELAKHAVSE(+53.92)",
+"IQ(+.98)TAVRLLLPGELAKHAVSE",
+"IQTAVRLLLPGELAK(+42.01)HAVS(-18.01)E",
+"I(+43.01)QTAVRLLLPGE",
+"IQTAVRLLLPGELAK(+31.99)HAVS(-18.01)E",
+"IQT(-18.01)AVR(+15.99)LLLPGELAKHAVSE",
+"IQT(+42.01)AVRLLLPGE",
+"IQTAVRLLLPGELAKHAVSE(+21.98)",
+"IQTAVRLLLPGELAKHAVS(-18.01)E(+21.98)",
+"IQ(+.98)TAVR(+14.02)LLLP(+15.99)GELAKHAVSE",
+"IQ(+.98)TAVR(+.98)LLLPGELAKHAVSE",
+"I(+43.01)QTAVRLLLPGE(-.98)",
+"IQTAVR(+.98)LLLPGE(+21.98)LAKHAVSE",
+"IQTAVRLLLPGELAK(+14.02)HAVSE",
+"IQT(+42.01)AVR(+.98)LLLPGE",
+"IQTAVRLLLPGE(+21.98)LAKHAVSE",
+"I(+28.03)Q(+.98)TAVR(+14.02)LLLPGE",
+"IQ(+.98)T(+42.01)AVRLLLPGE",
+"IQT(-18.01)AVR(+31.99)LLLPGELAKHAVSE",
+"IQTAVR(+15.99)LLLPGELAKHAVSE",
+"IQTAVR(+.98)LLLPGELAKHAVSE",
+"IQT(-18.01)AVR(+.98)LLLP(+15.99)GELAKHAVSE",
+"IQTAVRLLLPGE(+37.95)",
+"IQTAVRLLLPGE(-.98)",
+"IQ(+.98)TAVRLLLPGE",
+"IQT(-18.01)AVRLLLP(+31.99)GELAKHAVSE",
+"I(+43.01)QTAVRLLLPGELAKHAVSE",
+"IQ(+.98)T(+42.01)AVR(+.98)LLLPGE",
+"I(+57.02)QT(-18.01)AVR(+31.99)LLLPGELAKHAVSE",
+"IQTAVRLLLPGELAK(+31.99)H(+57.02)AVS(-18.01)E",
+"IQTAVRLLLPGE(+61.92)LAKHAVSE",
+"IQ(+.98)TAVRLLLPGELAK(+28.03)HAVSE",
+"I(+43.01)QTAVRLLLPGELAKH(+57.02)AVSE",
+"IQTAVRLLLPGELAK(+71.01)HAVSE",
+"IQTAVR(+.98)LLLPGE",
+"I(+28.03)QTAVRLLLPGELAKHAVSE",
+"I(+57.02)Q(+.98)TAVR(+15.99)LLLPGELAKHAVSE",
+"I(+57.02)QTAVRLLLPGELAK(+31.99)HAVS(-18.01)E",
+"I(+43.01)Q(+.98)T(-18.01)AVRLLLPGE",
+"I(+57.02)QTAVRLLLP(+31.99)GELAKHAVSE",
+"IQTAVRLLLPGELAK(+28.03)HAVSE(+21.98)",
+"IQTAVRLLLPGELAKHAVS(-18.01)E",
+"IQTAVRLLLPGELAKHAVSE",
+"IQT(-18.01)AVRLLLPGELAKHAVSE",
+"IQTAVRLLLPGELAK(+28.03)HAVSE",
+"IQT(-18.01)AVR(+14.02)LLLP(+31.99)GELAKHAVSE",
+"I(+43.01)QTAVRLLLPGE(+21.98)",
+"I(+57.02)QT(+79.97)AVRLLLPGE(+21.98)LAKHAVSE",
+"IQ(+.98)T(-18.01)AVRLLLPGELAKHAVSE",
+"IQTAVR(+28.03)LLLPGELAKHAVSE",
+"I(+43.01)QT(-18.01)AVR(+15.99)LLLPGELAKHAVSE",
+"I(+43.01)QTAVRLLLPGELAK(+31.99)HAVS(-18.01)E",
+"I(+43.01)Q(+.98)TAVRLLLPGE",
+"IQTAVRLLLPGE(+37.95)LAKHAVSE",
+"IQTAVRLLLPGELAK(+42.01)HAVSE",
+"IQTAVRLLLPGELAK(+31.99)HAVSE",
+"LAK(+14.02)HAVSE(+57.02)GTKAVTKYTSSK",
+"L(+28.03)AKHAVSE",
+"LAK(+42.01)HAVSEGTK(+43.01)AVTKYTSSK",
+"LAK(+43.01)HAVSE",
+"L(+43.01)AK(+43.01)HAVSE",
+"L(+43.01)AKHAVSE",
+"LAK(+42.01)HAVS(-18.01)E(+57.02)GTKAVTKYTSSK",
+"LAK(+28.03)HAVSE",
+"L(+43.01)AKH(+57.02)AVSE",
+"L(+43.01)AKHAVSE(+21.98)",
+"LAKHAVSEGTK(+28.03)AVTK(+156.12)YTSSK",
+"G(+57.02)T(+79.97)K(+114.04)AVTKYTSSK",
+"G(+43.01)TKAVTK(+43.01)YTSSK",
+"G(+28.03)TK(+28.03)AVTKYTSSK",
+"G(+57.02)TK(+42.01)AVTKYTSSK",
+"GTKAVTKYTS(+44.01)SK",
+"GTK(+28.03)AVTKYTSSK",
+"GTK(+43.01)AVTKYTSSK",
+"G(+43.01)TKAVTKYTSSK",
+"G(+28.03)TK(+15.99)AVTKYTSSK",
+"G(+28.03)T(-18.01)K(+28.03)AVTKYTSSK",
+"G(+43.01)TKAVTK(+15.99)YTSSK",
+"GTK(+43.01)AVTK(+15.99)YTSSK",
+"GTK(+42.01)AVTKYTSSK",
+"G(+57.02)T(-18.01)KAVTKYTSSK",
+"G(+43.01)TK(+43.01)AVTKYTSSK",
+"GTKAVTK(+43.01)YTSSK",
+"GTKAVT(-18.01)K(+72.02)Y(-18.01)TSSK",
+"G(+43.01)TK(+15.99)AVTKYTSSK",
+"GTKAVTK(+42.01)YTSSK",
+"GTKAVTKYTSSK",
+"GT(+114.04)KAVTKYTSSK",
+"GTK(+114.04)AVTKYTSSK",
+"GT(-18.01)K(+114.04)AVTKYTSSK",
+"G(+28.03)TKAVTKYTSSK",
+"GT(-18.01)K(+72.02)AVT(-18.01)KYTSSK",
+"G(+57.02)TKAVTKYTSSK",
+"YLT(-18.01)AEVLELAGNASKD(-.98)",
+"YLTAEVLELAGNASK(+226.08)D(-.98)",
+"LAGNASKDLKVK(+72.02)RITPRH(+57.02)LQLAIRGDE",
+"LKVKRITPRHLQLAIRGDEE",
+"LDSLIKATIAGGGVIPHIHK(+14.02)SLIGKKGQ(+.98)QKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQ(+.98)Q(+.98)KTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQQKT(-18.01)V(+21.98)",
+"LDSLIKATIAGGGVIP(+15.99)HIHKS(-18.01)LIGKKGQQKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQQKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGK(+28.03)KGQ(+.98)QKTV",
+"LDSLIKATIAGGGVIPHIHKSLIGKKGQ(+.98)QK(+28.03)TV",
+"LDSLIKATIAGGGVIP(+31.99)HIHKSLIGKKGQQKTV(+37.95)",
+"LDSLIKATIAGGGVIPHIHKSLIGK(+14.02)KGQ(+.98)QKTV",
+"L(+43.01)IVKAVAASKE",
+"LIVKAVAASKE(+21.98)",
+"L(+57.02)IVK(+43.01)AVAASKE",
+"LIVK(+71.01)AVAASKE",
+"L(+43.01)IVKAVAASKE(+21.98)",
+"L(+57.02)IVKAVAASK(+43.01)E",
+"L(+43.01)IVKAVAASK(+43.01)E",
+"L(+28.03)IVKAVAASKE",
+"LIVKAVAASK(+43.01)E",
+"LIVKAVAASKE(+57.02)",
+"LIVK(+43.01)AVAASK(+43.01)E",
+"L(+43.01)IVK(+28.03)AVAASKE",
+"L(+43.01)IVKAVAASKE(+57.02)",
+"L(+28.03)IVK(+42.01)AVAASKE",
+"L(+43.01)IVK(+43.01)AVAASKE",
+"LIVK(+31.99)AVAASKE",
+"L(+57.02)IVKAVAASKE",
+"LIVKAVAASKE",
+"LIVK(+43.01)AVAASKE",
+"LIVKAVAASK(+156.12)E",
+"RSGVSAAALK(+226.08)KALAAGGYD",
+"RSGVSAAALKK(+71.01)ALAAGGYDVD(-.98)",
+"RSGVSAAALKKALAAGGYD(+53.92)",
+"RSGVSAAALKK(+31.99)ALAAGGY(-18.01)D",
+"RSGVSAAALK(+71.01)KALAAGGYD(-18.01)",
+"RSGVSAAALKK(+43.01)ALAAGGYD",
+"RSGVSAAALK(+28.03)KALAAGGYDVD(-.98)",
+"RSGVSAAALKK(+42.01)ALAAGGYD(-.98)",
+"RSGVSAAALKKALAAGGY(-18.01)D(+21.98)VD",
+"A(+57.02)SKK(+15.99)KGKSSTE",
+"TYAMYIYKVLKQVHPD",
+"AS(-18.01)R(+28.03)LAQYNKRSTITSRE",
+"ASRLAQY(-18.01)N(+.98)K(+28.03)RSTITSRE",
+"ASRLAQ(+.98)YNKRSTITSRE",
+"AS(-18.01)R(+31.99)LAQYNKRSTITSRE",
+"AS(+79.97)R(+14.02)LAQYNKRSTITSRE",
+"AS(-18.01)R(+28.03)LAQYN(+.98)KRSTITSRE",
+"ASRLAQ(+.98)Y(-18.01)NK(+28.03)RSTITSRE",
+"ASRLAQ(+.98)YNKR(+31.99)STITSRE",
+"ASRLAQYNKRSTITSREVQTAVRLLLPGE",
+"ASRLAQYNK(+31.99)R(+.98)STITSRE",
+"A(+43.01)S(-18.01)R(+31.99)LAQYNKRSTITSRE",
+"AS(+44.01)RLAQYNKRSTITSRE",
+"ASRLAQY(-18.01)NK(+72.02)RSTITSRE",
+"A(+43.01)SRLAQYNKR(+28.03)STITSRE",
+"ASRLAQYNKR(+.98)STITSRE",
+"ASRLAQYNKRSTITSRE",
+"ASRLAQYNKR(+15.99)STITSRE",
+"AS(-18.01)R(+28.03)LAQ(+.98)YNKRSTITSRE",
+"AS(-18.01)RLAQY(-18.01)N(+541.06)KRSTITSRE",
+"ASRLAQYNK(+43.01)RSTIT(-18.01)SRE",
+"A(+43.01)SRLAQYNKRS(-18.01)TITSRE",
+"ASRLAQYNK(+14.02)RSTITSRE",
+"V(+57.02)QTAVR(+.98)LLLPGELAK(+42.01)HAVSE",
+"V(+57.02)QTAVRLLLPGELAKH(+57.02)AVSE",
+"V(+28.03)QTAVRLLLPGE",
+"VQTAVR(+14.02)LLLPGELAKH(+57.02)AVSE",
+"VQ(+.98)T(+114.04)AVR(+28.03)LLLPGELAKHAVSE",
+"VQT(-18.01)AVR(+31.99)LLLPGELAKH(+57.02)AVSE",
+"VQTAVR(+14.02)LLLPGE",
+"VQT(-18.01)AVR(+31.99)LLLP(+31.99)GELAKHAVSE",
+"V(+57.02)QTAVRLLLPGE(+21.98)LAKHAVSE",
+"VQTAVR(+14.02)LLLPGE(+57.02)LAKHAVSE",
+"VQT(-18.01)AVR(+31.99)LLLPGELAK(+28.03)HAVSE",
+"VQT(-18.01)AVR(+31.99)LLLPGELAKHAVSE",
+"VQTAVR(+14.02)LLLPGELAKHAVSE",
+"V(+28.03)Q(+.98)TAVR(+15.99)LLLPGELAKHAVSE",
+"VQ(+.98)T(+42.01)AVR(+14.02)LLLPGE",
+"V(+28.03)QTAVRLLLPGELAKHAVSE",
+"VQTAVRLLLPGELAKHAVSE",
+"VQTAVR(+15.99)LLLPGELAKHAVSE",
+"V(+28.03)QTAVR(+14.02)LLLPGELAKHAVSE",
+"V(+28.03)QTAVR(+.98)LLLP(+15.99)GELAKHAVSE",
+"V(+28.03)QT(-18.01)AVRLLLPGELAKHAVSE",
+"V(+57.02)QTAVRLLLPGE",
+"V(+57.02)QTAVRLLLPGELAKHAVSE",
+"V(+28.03)Q(+.98)TAVR(+28.03)LLLPGELAKHAVSE",
+"VQT(-18.01)AVR(+31.99)LLLPGE(+21.98)LAKHAVSE",
+"V(+43.01)QTAVR(+14.02)LLLPGELAKHAVSE",
+"V(+43.01)QTAVR(+15.99)LLLPGELAKHAVSE",
+"V(+43.01)QT(-18.01)AVR(+31.99)LLLPGELAKHAVSE",
+"V(+28.03)QT(-18.01)AVR(+31.99)LLLPGELAKHAVSE",
+"V(+57.02)QTAVRLLLPGE(+21.98)",
+"VQ(+.98)T(+42.01)AVR(+28.03)LLLPGE",
+"VQT(+42.01)AVR(+15.99)LLLPGE",
+"V(+43.01)Q(+.98)TAVR(+.98)LLLPGELAKHAVSE",
+"V(+57.02)QT(-18.01)AVR(+31.99)LLLPGELAKHAVSE",
+"VQ(+.98)T(-18.01)AVR(+28.03)LLLPGE",
+"IQTAVRLLLPAAE(+37.95)",
+"IQTAVRLLLP(+31.99)AAE(+21.98)",
+"IQ(+.98)T(+42.01)AVR(+28.03)LLLPAAE",
+"ETRGVLKVFLE",
+"ET(-18.01)RGVLK(+14.02)VFLE",
+"E(+57.02)TRGVLKVFLE",
+"ET(-18.01)RGVLKVFLE",
+"E(+57.02)T(-18.01)RGVLKVFLE",
+"ETR(+.98)GVLK(+42.01)VFLE",
+"ETRGVLK(+43.01)VFLE",
+"E(+43.01)TRGVLKVFLE",
+"ET(+42.01)R(+.98)GVLKVFLE",
+"T(+57.02)R(+.98)GVLKVFLE(-.98)",
+"TRGVLK(+15.99)VFLE",
+"T(+43.01)RGVLK(+15.99)VFLE",
+"T(+43.01)RGVLK(+43.01)VFLE",
+"TR(+.98)GVLK(+114.04)VFLE(+53.92)NVIRDAVTYTE",
+"TRGVLKVFLE(+57.02)",
+"TRGVLKVFLE(+37.95)",
+"TRGVLK(+71.01)VFLE",
+"TRGVLKVFLE(+21.98)",
+"T(+79.97)R(+14.02)GVLKVFLE(+37.95)NVIRDAVTYTE",
+"T(+57.02)RGVLK(+15.99)VFLE",
+"TRGVLK(+31.99)VFLE",
+"TR(+31.99)GVLKVFLE",
+"T(+57.02)RGVLKVFLE",
+"T(+42.01)R(+.98)GVLK(+14.02)VFLE",
+"TRGVLKVFLE",
+"T(-18.01)R(+31.99)GVLK(+14.02)VFLE",
+"TRGVLK(+28.03)VFLE",
+"TRGVLKVFLE(+53.92)",
+"T(-18.01)R(+14.02)GVLK(+31.99)VFLE",
+"T(+43.01)RGVLKVFLE",
+"TRGVLK(+43.01)VFLE",
+"T(+28.03)RGVLKVFLE",
+"TR(+.98)GVLK(+42.01)VFLE",
+"T(+42.01)R(+15.99)GVLKVFLE",
+"TR(+15.99)GVLK(+42.01)VFLE",
+"T(+43.01)RGVLK(+72.02)VFLE(+53.92)NVIRDAVTYTE",
+"T(+42.01)R(+.98)GVLKVFLE",
+"T(+43.01)RGVLK(+72.02)VFLE(+37.95)NVIRDAVTYTE",
+"T(+57.02)R(+.98)GVLKVFLE",
+"T(+43.01)RGVLKVFLE(+53.92)",
+"NVIR(+15.99)DAVT(-18.01)YTE",
+"NVIRDAVTYTE(+21.98)",
+"NVIR(+15.99)DAVTY(-18.01)TE",
+"NVIRDAVTYTEHAKRK(+42.01)TVTAMD",
+"NVIRDAVTYTEHAK(+28.03)RK(+28.03)TVTAMD",
+"NVIRDAVTYTEHAKR(+31.99)K(+31.99)TVTAMD",
+"NVIRDAVTYTEHAKRK(+42.01)TVTAMD(-.98)",
+"NVIRDAVTYTEHAK(+42.01)RKTVTAMD",
+"NVIRDAVTYTEHAKRKT(-18.01)VT(+79.97)AMD",
+"NVIRDAVTYTEHAKR(+15.99)K(+31.99)TVTAMD",
+"NVIRDAVTYTE(+37.95)",
+"NVIRDAVTYTEHAK(+31.99)R(+15.99)KTVTAMD",
+"N(+.98)VIRDAVT(+42.01)YTE",
+"NVIR(+.98)DAVTYTE",
+"N(+43.01)VIRDAVTYTE",
+"NVIRD(+57.02)AVTYTE",
+"N(+57.02)VIRDAVTYTE",
+"NVIRDAVTYT(-18.01)E(+21.98)",
+"N(+43.01)VIRDAVTYTE(+57.02)",
+"N(+.98)VIRDAVTYTE",
+"N(+43.01)VIRDAVTYTE(+53.92)",
+"N(+43.01)VIRDAVTYTE(+37.95)",
+"N(+43.01)VIR(+.98)DAVTYTE",
+"NVIR(+14.02)DAVTY(-18.01)TE",
+"N(+43.01)VIRDAVTYTE(+21.98)",
+"NVIRD(+57.02)AVTYTE(+21.98)",
+"NVIRDAVTYTE(-.98)",
+"NVIRDAVTYTEHAK(+31.99)RKTVTAMD(-.98)",
+"NVIR(+.98)DAVT(+42.01)YTE",
+"NVIR(+.98)DAVTYTE(-.98)",
+"NVIRDAVTY(-18.01)T(+42.01)E",
+"N(+58.01)VIRDAVTYTE",
+"N(+57.02)VIR(+.98)DAVTYTE",
+"NVIRDAVTYTE(+61.92)",
+"NVIRDAVT(+42.01)Y(-18.01)T(-18.01)E",
+"NVIRDAVTYTE",
+"HAKRKTVTAMDVVYSFGG",
+"LNKLLGRVTIAQGGVLPNIQAVLLPKK(+156.12)TEKAK(+71.01)",
+"LNKLLGRVTIAQGGVLPNIQAVLLPK(+71.01)K(+156.12)TEKAK",
+"LNKLLGRVTIAQGGVLPNIQAVLLPK(+156.12)K(+72.02)TEKAK",
+"LNKLLGRVT(-18.01)IAQ(+.98)GGVLPNIQAVLLPKKTE",
+"VAPAAAPAPATE",
+"V(+43.01)APAAAPAPATE",
+"VAPAAAPAPATE(+21.98)",
+"L(+43.01)IVKAVKE",
+"LIVKAVKE",
+"L(+57.02)IVKAVKE",
+"LIVK(+14.02)AVK(+15.99)E(+57.02)SKE",
+"LIVKAVKESK(+42.01)E(-.98)",
+"LIVKAVK(+42.01)ESKE(-.98)",
+"RKGLS(+86.00)LAAIKKD",
+"LVARGYDVE",
+"L(+57.02)VARGYDVE",
+"L(+43.01)VARGYDVE",
+"ETP(+31.99)APAPAPAKAAKK(+71.01)KKTTASKPKKVGPSVGE",
+"ETPAPAPAPAK(+43.01)AAK(+31.99)KKKTTASKPKKVGPSVGE",
+"ETP(+31.99)APAPAPAK(+72.02)AAKKKKTTASKPKKVGPSVGE",
+"ETPAPAPAP(+15.99)AK(+43.01)AAKKKKTTASKPKKVGPSVGE",
+"ETPAPAPAPAKAAK(+43.01)K(+31.99)KKTTASKPKKVGPSVGE",
+"ETPAPAP(+15.99)APAK(+43.01)AAKKKKTTASKPKKVGPSVGE",
+"ETPAPAPAPAK(+72.02)AAKKKKTTASKPKKVGPSVGE",
+"ETPAPAPAP(+31.99)AK(+156.12)AAKKKKTTASKPKKVGPSVGE",
+"MSEEAPAPAPAPAK(+42.01)AAKKKTTASKPKKVGPSVGE",
+"MSEEAPAPAPAPAKAAKK(+42.01)KTTASKPKKVGPSVGE",
+"MSEEAPAPAPAPAKAAKKKTTASKPKKVGPSVGE",
+"E(+226.08)AP(+31.99)APAPAPAKAAKKKTTASKPKKVGPSVGE",
+"E(+226.08)APAPAPAPAK(+72.02)AAKKKTTASKPKKVGPSVGE",
+"E(+61.92)APAPAPAPAKAAKK(+72.02)KKTTASKPKKVGPSVGE",
+"E(+61.92)APAPAPAPAK(+43.01)AAKKKKTTASKPKKVGPSVGE",
+"EAPAPAPAPAKAAKKKKTTASKPKKVGPSVGE",
+"APAPAPAPAKAAKKKKTTASKPKKVGPSVGE",
+"RS(+79.97)GVSTAALKKALAAGGYD",
+"I(+43.01)RRYQKSTE",
+"I(+28.03)RRYQKSTE",
+"LLIR(+.98)K(+15.99)LPFQRLVRE",
+"LLIR(+31.99)K(+43.01)LPFQRLVRE",
+"LLIRK(+28.03)LPFQRLVRE",
+"LLIRKLP(+15.99)FQRLVRE",
+"LLIR(+15.99)KLPFQRLVRE",
+"LLIRKLP(+31.99)FQRLVRE",
+"LLIR(+31.99)KLPFQRLVRE",
+"L(+28.03)LIR(+15.99)KLPFQRLVRE",
+"LLIR(+.98)K(+14.02)LPFQRLVRE",
+"LLIR(+.98)K(+43.01)LPFQRLVRE",
+"L(+57.02)LIR(+.98)KLPFQRLVRE",
+"L(+57.02)LIRKLPFQRLVRE",
+"LLIRK(+71.01)LPFQRLVRE",
+"LLIR(+.98)K(+71.01)LPFQRLVRE",
+"LLIR(+.98)K(+42.01)LPFQRLVRE",
+"L(+43.01)LIRKLPFQRLVRE",
+"L(+43.01)LIRKLPFQR(+.98)LVRE",
+"L(+43.01)LIRKLPFQ(+.98)RLVRE",
+"L(+28.03)LIRKLPFQRLVRE",
+"LLIRKLPFQ(+.98)RLVRE",
+"LLIRKLPFQR(+.98)LVRE",
+"LLIRKLPFQRLVRE",
+"L(+28.03)LIR(+31.99)K(+14.02)LPFQRLVRE",
+"LLIRK(+43.01)LPFQRLVRE",
+"L(+43.01)LIRKLP(+31.99)FQRLVRE",
+"L(+43.01)LIR(+31.99)KLPFQRLVRE",
+"IAQDFKTD",
+"IAQ(+.98)DFKTD",
+"IAQDFK(+43.01)TDLR(+28.03)FQSSAVMALQE",
+"IAQDFKTDLR(+28.03)FQSSAVM(+15.99)ALQE",
+"I(+43.01)AQD(+21.98)FKTD",
+"IAQDFK(+14.02)TD",
+"IAQDFK(+14.02)TDLRFQSSAVMALQE(+57.02)",
+"IAQDFKTDLR(+14.02)FQSSAVMALQE(+57.02)",
+"I(+57.02)AQDFKTD",
+"IAQDFK(+43.01)TDLR(+14.02)FQSSAVMALQE",
+"IAQDFK(+43.01)TD(+57.02)LRFQSSAVMALQE",
+"IAQDFKTD(+57.02)LRFQSSAVMALQE",
+"I(+43.01)AQDFKTD",
+"IAQDFK(+71.01)TDLRFQSSAVMALQE",
+"I(+43.01)AQDFKTDLRFQSSAVMALQE(+57.02)",
+"IAQDFK(+43.01)TDLRFQSSAVMALQE(+57.02)",
+"IAQDFK(+43.01)TDLRFQSSAVM(+15.99)ALQE",
+"IAQDFK(+156.12)T(+114.04)DLRFQSSAVMALQE",
+"IAQDFKTD(+57.02)LRFQ(+.98)SSAVMALQE",
+"IAQDFKTDLRFQSSAVMALQE(+57.02)",
+"IAQDFK(+72.02)TDLRFQSSAVMALQ(+.98)E",
+"IAQDFK(+28.03)TD",
+"IAQDFK(+28.03)TDLRFQSSAVM(+15.99)ALQE",
+"LRFQSSAVMALQE",
+"LRFQSSAVM(+15.99)ALQE",
+"L(+43.01)RFQSSAVM(+15.99)ALQE",
+"L(+57.02)RFQSSAVM(+15.99)ALQE",
+"LRFQSSAVM(+15.99)ALQ(+.98)E",
+"A(+57.02)YLVGLFE",
+"AYLVGLFE(+53.92)",
+"AYLVGLFE(+61.92)",
+"AYLVGLFE(+21.98)",
+"A(+43.01)YLVGLFE(+21.98)",
+"AYLVGLFE",
+"DTNLC(+57.02)AIHAKRVTIMPKD",
+"MSEEAPAPAPAPAK(+14.02)ATKKKTTASKPKKVGPSVGE",
+"MS(-18.01)EEAPAPAPAPAK(+28.03)ATKKKTTASKPKKVGPSVGE",
+"MS(-18.01)EEAPAPAPAPAKATK(+28.03)KKTTASKPKKVGPSVGE",
+"2_MS(-18.01)EEAPAPAPAPAK(+28.03)ATKKKTTASKPKKVGPSVGE",
+"LNQLLKGVTIAAGGVLPNIHPELLAKKRGAKGKLE",
+"LNQLLKGVTIAAGGVLPNIHPE",
+"GPSLPKLIVASVTE",
+"G(+43.01)PSLPKLIVASVTE",
+"G(+57.02)PS(+44.01)LPK(+28.03)LIVASVTE",
+"G(+57.02)PSLPK(+72.02)LIVASVTE",
+"RKGTSLAAIKKYLTAKNVDVPKAN(+.98)KRINTAVAKLVE",
+"RKGTSLAAIKKYLTAKNVDVPKANKRIN(+.98)TAVAKLVE",
+"RKGTSLAAIKKYLTAKNVDVPKANKRINTAVAKLVE",
+"RKGTSLAAIKKYLTAKNVDVPKAN(+.98)KR(+.98)INTAVAKLVE",
+"RKGTSLAAIKKYLTAKNVDVPKANKR(+.98)IN(+.98)TAVAKLVE",
+"RKGTSLAAIKKYLTAKNVDVPKANK(+14.02)RINT(-18.01)AVAKLVE",
+"VP(+31.99)KANKRINT(+79.97)AVAKLVE",
+"V(+43.01)APAPAAAPAKPAKKKASKPKKTGPSVSDQ(+.98)ILKVVTASKE",
+"VAPAPAAAPAKPAKKKASK(+28.03)PKKTGPSVSDQ(+.98)ILKVVTASKE",
+"VAPAPAAAPAKPAKKK(+42.01)ASK(+15.99)PKKTGPSVSDQILKVVTASKE",
+"V(+28.03)AP(+15.99)APAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"V(+42.01)AP(+15.99)APAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"V(+43.01)APAP(+15.99)AAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"V(+57.02)APAPAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAKPAKKK(+43.01)ASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAP(+15.99)AK(+28.03)PAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAP(+31.99)AK(+14.02)PAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAPAK(+42.01)PAKKKASKPKKTGPSVSDQ(+.98)ILKVVTASKE",
+"VAPAPAAAPAKPAKKKASKPKKTGPSVSD",
+"V(+43.01)APAPAAAPAKPAKKKASK(+43.01)PKKTGPSVSDQILKVVTASKE",
+"V(+43.01)APAPAAAPAKPAKKKASKPKKTGPSVSDQILKVVTASKE",
+"VAPAPAAAP(+31.99)AK(+28.03)PAKKKASKPKKTGPSVSDQILKVVTASKE",
+"QILKVVTASKE",
+"Q(+43.01)ILKVVTASKE",
+"Q(-17.03)ILKVVTASKE",
+"Q(+57.02)ILK(+226.08)VVTASKE",
+"Q(+226.08)ILK(+71.01)VVTASKE",
+"Q(+226.08)ILK(+72.02)VVTASKE",
+"RK(+31.99)GVS(-18.01)LAALK(+43.01)KALAAGGYDVE",
+"RK(+43.01)GVSLAALKKALAAGGYD(+53.92)VE",
+"R(+43.01)KGVSLAALKK(+31.99)ALAAGGYDVE",
+"R(+57.02)K(+43.01)GVSLAALKKALAAGGYDVE",
+"RK(+14.02)GVSLAALK(+43.01)KALAAGGYDVE",
+"RKGVSLAALK(+31.99)KALAAGGYDVE",
+"R(+57.02)KGVSLAALKKALAAGGYDVE",
+"R(+43.01)K(+31.99)GVS(-18.01)LAALKKALAAGGYDVE",
+"R(+14.02)KGVSLAALK(+43.01)KALAAGGYDVE",
+"R(+43.01)KGVSLAALKK(+14.02)ALAAGGYDVE",
+"R(+43.01)KGVSLAALK(+14.02)KALAAGGYDVE",
+"RK(+43.01)GVSLAALK(+31.99)KALAAGGYDVE",
+"R(+43.01)KGVSLAALKKALAAGGYDVE(+53.92)",
+"RK(+43.01)GVSLAALKKALAAGGYD(+37.95)VE",
+"RKGVSLAALKK(+31.99)ALAAGGYDVE",
+"R(+.98)KGVSLAALKKALAAGGYDVE",
+"RKGVSLAALK(+114.04)K(+114.04)ALAAGGYD",
+"RKGVSLAALKKALAAGGYDVE(+21.98)",
+"R(+43.01)KGVSLAALKKALAAGGYDVE",
+"RK(+43.01)GVSLAALKKALAAGGYDVE",
+"R(+.98)K(+42.01)GVSLAALKKALAAGGYDVE",
+"RKGVSLAALK(+43.01)KALAAGGYDVE",
+"R(+.98)KGVSLAALK(+42.01)KALAAGGYDVE",
+"RKGVSLAALKK(+43.01)ALAAGGYDVE",
+"R(+43.01)KGVSLAALKK(+43.01)ALAAGGYDVE",
+"R(+.98)KGVSLAALKK(+42.01)ALAAGGYDVE",
+"RK(+43.01)GVSLAALKKALAAGGYDVE(+53.92)",
+"RKGVSLAALKKALAAGGYD(+57.02)VE",
+"RKGVSLAALKKALAAGGYD(-18.01)VE",
+"R(+28.03)KGVSLAALKKALAAGGYDVE",
+"R(+.98)KGVSLAALK(+43.01)KALAAGGYDVE",
+"RKGVSLAALKKALAAGGYDVE(+37.95)",
+"R(+43.01)KGVSLAALKKALAAGGYDVE(+37.95)",
+"RKGVSLAALK(+15.99)K(+42.01)ALAAGGYDVE",
+"RKGVSLAALKKALAAGGYD(+37.95)VE",
+"RKGVSLAALKKALAAGGYDVE(+57.02)",
+"RKGVSLAALKKALAAGGYD(+21.98)VE",
+"R(+43.01)KGVSLAALKKALAAGGYD(+37.95)VE",
+"RKGVSLAALKK(+71.01)ALAAGGYDVE",
+"R(+43.01)K(+43.01)GVSLAALKKALAAGGYDVE",
+"KN(+.98)NARVKIAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"K(+42.01)NNAR(+.98)VKIAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"KNN(+.98)ARVKIAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"K(+43.01)NNARVKIAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"KNNARVK(+43.01)IAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"KNNAR(+.98)VKIAIKSLVSKGTLVQTKGTGASGSFKLGKKAAE",
+"KNNAR(+.98)VKIAIKS(-18.01)LVSKGTLVQTKGTGASGSFKLGKKAAE"
+)
+```
+
+
+### Sorting Napho Files: 
+
+```{r}
+Sorted_PTM28 <- PTM28[match(Target_Napho, PTM28$Peptide),] %>% 
+  rename("AScore_Sample28" = "AScore") %>% 
+  select(Peptide, AScore_Sample28)
+Sorted_PTM29 <- PTM29[match(Target_Napho, PTM29$Peptide),] %>% 
+  rename("AScore_Sample29" = "AScore") %>% 
+  select(Peptide, AScore_Sample29)
+Sorted_PTM30 <- PTM30[match(Target_Napho, PTM30$Peptide),] %>% 
+  rename("AScore_Sample30" = "AScore") %>% 
+  select(Peptide, AScore_Sample30)
+Sorted_PTM31 <- PTM31[match(Target_Napho, PTM31$Peptide),] %>% 
+  rename("AScore_Sample31" = "AScore") %>% 
+  select(Peptide, AScore_Sample31)
+Sorted_PTM32 <- PTM32[match(Target_Napho, PTM32$Peptide),] %>% 
+  rename("AScore_Sample32" = "AScore") %>% 
+  select(Peptide, AScore_Sample32)
+Sorted_PTM33 <- PTM33[match(Target_Napho, PTM33$Peptide),] %>% 
+  rename("AScore_Sample33" = "AScore") %>% 
+  select(Peptide, AScore_Sample33)
+Sorted_PTM34 <- PTM34[match(Target_Napho, PTM34$Peptide),] %>% 
+  rename("AScore_Sample34" = "AScore") %>% 
+  select(Peptide, AScore_Sample34)
+Sorted_PTM35 <- PTM35[match(Target_Napho, PTM35$Peptide),] %>% 
+  rename("AScore_Sample35" = "AScore") %>% 
+  select(Peptide, AScore_Sample35)
+Sorted_PTM36 <- PTM36[match(Target_Napho, PTM36$Peptide),] %>% 
+  rename("AScore_Sample36" = "AScore") %>% 
+  select(Peptide, AScore_Sample36)
+Sorted_PTM37 <- PTM37[match(Target_Napho, PTM37$Peptide),] %>% 
+  rename("AScore_Sample37" = "AScore") %>% 
+  select(Peptide, AScore_Sample37)
+Sorted_PTM38 <- PTM38[match(Target_Napho, PTM38$Peptide),] %>% 
+  rename("AScore_Sample38" = "AScore") %>% 
+  select(Peptide, AScore_Sample38)
+Sorted_PTM39 <- PTM39[match(Target_Napho, PTM39$Peptide),] %>% 
+  rename("AScore_Sample39" = "AScore") %>% 
+  select(Peptide, AScore_Sample39)
+Sorted_PTM40 <- PTM40[match(Target_Napho, PTM40$Peptide),] %>% 
+  rename("AScore_Sample40" = "AScore") %>% 
+  select(Peptide, AScore_Sample40)
+Sorted_PTM41 <- PTM41[match(Target_Napho, PTM41$Peptide),] %>% 
+  rename("AScore_Sample41" = "AScore") %>% 
+  select(Peptide, AScore_Sample41)
+Sorted_PTM42 <- PTM42[match(Target_Napho, PTM42$Peptide),] %>% 
+  rename("AScore_Sample42" = "AScore") %>% 
+  select(Peptide, AScore_Sample42)
+Sorted_PTM43 <- PTM43[match(Target_Napho, PTM43$Peptide),] %>% 
+  rename("AScore_Sample43" = "AScore") %>% 
+  select(Peptide, AScore_Sample43)
+Sorted_PTM44 <- PTM44[match(Target_Napho, PTM44$Peptide),] %>% 
+  rename("AScore_Sample44" = "AScore") %>% 
+  select(Peptide, AScore_Sample44)
+Sorted_PTM45 <- PTM45[match(Target_Napho, PTM45$Peptide),] %>% 
+  rename("AScore_Sample45" = "AScore") %>% 
+  select(Peptide, AScore_Sample45)
+Sorted_PTM46 <- PTM46[match(Target_Napho, PTM46$Peptide),] %>% 
+  rename("AScore_Sample46" = "AScore") %>% 
+  select(Peptide, AScore_Sample46)
+Sorted_PTM47 <- PTM47[match(Target_Napho, PTM47$Peptide),] %>% 
+  rename("AScore_Sample47" = "AScore") %>% 
+  select(Peptide, AScore_Sample47)
+Sorted_PTM48 <- PTM48[match(Target_Napho, PTM48$Peptide),] %>% 
+  rename("AScore_Sample48" = "AScore") %>% 
+  select(Peptide, AScore_Sample48)
+Sorted_PTM49 <- PTM49[match(Target_Napho, PTM49$Peptide),] %>% 
+  rename("AScore_Sample49" = "AScore") %>% 
+  select(Peptide, AScore_Sample49)
+Sorted_PTM50 <- PTM50[match(Target_Napho, PTM50$Peptide),] %>% 
+  rename("AScore_Sample50" = "AScore") %>% 
+  select(Peptide, AScore_Sample50)
+Sorted_PTM51 <- PTM51[match(Target_Napho, PTM51$Peptide),] %>% 
+  rename("AScore_Sample51" = "AScore") %>% 
+  select(Peptide, AScore_Sample51)
+Sorted_PTM52 <- PTM52[match(Target_Napho, PTM52$Peptide),] %>% 
+  rename("AScore_Sample52" = "AScore") %>% 
+  select(Peptide, AScore_Sample52)
+Sorted_PTM53 <- PTM53[match(Target_Napho, PTM53$Peptide),] %>% 
+  rename("AScore_Sample53" = "AScore") %>% 
+  select(Peptide, AScore_Sample53)
+Sorted_PTM54 <- PTM54[match(Target_Napho, PTM54$Peptide),] %>% 
+  rename("AScore_Sample54" = "AScore") %>% 
+  select(Peptide, AScore_Sample54)
+Sorted_PTM55 <- PTM55[match(Target_Napho, PTM55$Peptide),] %>% 
+  rename("AScore_Sample55" = "AScore") %>% 
+  select(Peptide, AScore_Sample55)
+Sorted_PTM56 <- PTM56[match(Target_Napho, PTM56$Peptide),] %>% 
+  rename("AScore_Sample56" = "AScore") %>% 
+  select(Peptide, AScore_Sample56)
+Sorted_PTM57 <- PTM57[match(Target_Napho, PTM57$Peptide),] %>% 
+  rename("AScore_Sample57" = "AScore") %>% 
+  select(Peptide, AScore_Sample57)
+
+Sorted_PTM121 <- PTM121[match(Target_Napho, PTM121$Peptide),] %>% 
+  rename("AScore_Sample121" = "AScore") %>% 
+  select(Peptide, AScore_Sample121)
+Sorted_PTM122 <- PTM122[match(Target_Napho, PTM122$Peptide),] %>% 
+  rename("AScore_Sample122" = "AScore") %>% 
+  select(Peptide, AScore_Sample122)
+Sorted_PTM123 <- PTM123[match(Target_Napho, PTM123$Peptide),] %>% 
+  rename("AScore_Sample123" = "AScore") %>% 
+  select(Peptide, AScore_Sample123)
+Sorted_PTM124 <- PTM124[match(Target_Napho, PTM124$Peptide),] %>% 
+  rename("AScore_Sample124" = "AScore") %>% 
+  select(Peptide, AScore_Sample124)
+Sorted_PTM125 <- PTM125[match(Target_Napho, PTM125$Peptide),] %>% 
+  rename("AScore_Sample125" = "AScore") %>% 
+  select(Peptide, AScore_Sample125)
+Sorted_PTM126 <- PTM126[match(Target_Napho, PTM126$Peptide),] %>% 
+  rename("AScore_Sample126" = "AScore") %>% 
+  select(Peptide, AScore_Sample126)
+Sorted_PTM127 <- PTM127[match(Target_Napho, PTM127$Peptide),] %>% 
+  rename("AScore_Sample127" = "AScore") %>% 
+  select(Peptide, AScore_Sample127)
+Sorted_PTM128 <- PTM128[match(Target_Napho, PTM128$Peptide),] %>% 
+  rename("AScore_Sample128" = "AScore") %>% 
+  select(Peptide, AScore_Sample128)
+Sorted_PTM129 <- PTM129[match(Target_Napho, PTM129$Peptide),] %>% 
+  rename("AScore_Sample129" = "AScore") %>% 
+  select(Peptide, AScore_Sample129)
+Sorted_PTM130 <- PTM130[match(Target_Napho, PTM130$Peptide),] %>% 
+  rename("AScore_Sample130" = "AScore") %>% 
+  select(Peptide, AScore_Sample130)
+Sorted_PTM131 <- PTM131[match(Target_Napho, PTM131$Peptide),] %>% 
+  rename("AScore_Sample131" = "AScore") %>% 
+  select(Peptide, AScore_Sample131)
+Sorted_PTM132 <- PTM132[match(Target_Napho, PTM132$Peptide),] %>% 
+  rename("AScore_Sample132" = "AScore") %>% 
+  select(Peptide, AScore_Sample132)
+Sorted_PTM133 <- PTM133[match(Target_Napho, PTM133$Peptide),] %>% 
+  rename("AScore_Sample133" = "AScore") %>% 
+  select(Peptide, AScore_Sample133)
+Sorted_PTM134 <- PTM134[match(Target_Napho, PTM134$Peptide),] %>% 
+  rename("AScore_Sample134" = "AScore") %>% 
+  select(Peptide, AScore_Sample134)
+Sorted_PTM135 <- PTM135[match(Target_Napho, PTM135$Peptide),] %>% 
+  rename("AScore_Sample135" = "AScore") %>% 
+  select(Peptide, AScore_Sample135)
+Sorted_PTM136 <- PTM136[match(Target_Napho, PTM136$Peptide),] %>% 
+  rename("AScore_Sample136" = "AScore") %>% 
+  select(Peptide, AScore_Sample136)
+Sorted_PTM137 <- PTM137[match(Target_Napho, PTM137$Peptide),] %>% 
+  rename("AScore_Sample137" = "AScore") %>% 
+  select(Peptide, AScore_Sample137)
+Sorted_PTM138 <- PTM138[match(Target_Napho, PTM138$Peptide),] %>% 
+  rename("AScore_Sample138" = "AScore") %>% 
+  select(Peptide, AScore_Sample138)
+Sorted_PTM139 <- PTM139[match(Target_Napho, PTM139$Peptide),] %>% 
+  rename("AScore_Sample139" = "AScore") %>% 
+  select(Peptide, AScore_Sample139)
+Sorted_PTM140 <- PTM140[match(Target_Napho, PTM140$Peptide),] %>% 
+  rename("AScore_Sample140" = "AScore") %>% 
+  select(Peptide, AScore_Sample140)
+Sorted_PTM141 <- PTM141[match(Target_Napho, PTM141$Peptide),] %>% 
+  rename("AScore_Sample141" = "AScore") %>% 
+  select(Peptide, AScore_Sample141)
+Sorted_PTM142 <- PTM142[match(Target_Napho, PTM142$Peptide),] %>% 
+  rename("AScore_Sample142" = "AScore") %>% 
+  select(Peptide, AScore_Sample142)
+Sorted_PTM143 <- PTM143[match(Target_Napho, PTM143$Peptide),] %>% 
+  rename("AScore_Sample143" = "AScore") %>% 
+  select(Peptide, AScore_Sample143)
+Sorted_PTM144 <- PTM144[match(Target_Napho, PTM144$Peptide),] %>% 
+  rename("AScore_Sample144" = "AScore") %>% 
+  select(Peptide, AScore_Sample144)
+Sorted_PTM145 <- PTM145[match(Target_Napho, PTM145$Peptide),] %>% 
+  rename("AScore_Sample145" = "AScore") %>% 
+  select(Peptide, AScore_Sample145)
+Sorted_PTM146 <- PTM146[match(Target_Napho, PTM146$Peptide),] %>% 
+  rename("AScore_Sample146" = "AScore") %>% 
+  select(Peptide, AScore_Sample146)
+Sorted_PTM147 <- PTM147[match(Target_Napho, PTM147$Peptide),] %>% 
+  rename("AScore_Sample147" = "AScore") %>% 
+  select(Peptide, AScore_Sample147)
+Sorted_PTM148 <- PTM148[match(Target_Napho, PTM148$Peptide),] %>% 
+  rename("AScore_Sample148" = "AScore") %>% 
+  select(Peptide, AScore_Sample148)
+Sorted_PTM149 <- PTM149[match(Target_Napho, PTM149$Peptide),] %>% 
+  rename("AScore_Sample149" = "AScore") %>% 
+  select(Peptide, AScore_Sample149)
+Sorted_PTM150 <- PTM150[match(Target_Napho, PTM150$Peptide),] %>% 
+  rename("AScore_Sample150" = "AScore") %>% 
+  select(Peptide, AScore_Sample150)
+Sorted_PTM151 <- PTM151[match(Target_Napho, PTM151$Peptide),] %>% 
+  rename("AScore_Sample151" = "AScore") %>% 
+  select(Peptide, AScore_Sample151)
+Sorted_PTM152 <- PTM152[match(Target_Napho, PTM152$Peptide),] %>% 
+  rename("AScore_Sample152" = "AScore") %>% 
+  select(Peptide, AScore_Sample152)
+Sorted_PTM153 <- PTM153[match(Target_Napho, PTM153$Peptide),] %>% 
+  rename("AScore_Sample153" = "AScore") %>% 
+  select(Peptide, AScore_Sample153)
+Sorted_PTM154 <- PTM154[match(Target_Napho, PTM154$Peptide),] %>% 
+  rename("AScore_Sample154" = "AScore") %>% 
+  select(Peptide, AScore_Sample154)
+Sorted_PTM155 <- PTM155[match(Target_Napho, PTM155$Peptide),] %>% 
+  rename("AScore_Sample155" = "AScore") %>% 
+  select(Peptide, AScore_Sample155)
+Sorted_PTM156 <- PTM156[match(Target_Napho, PTM156$Peptide),] %>% 
+  rename("AScore_Sample156" = "AScore") %>% 
+  select(Peptide, AScore_Sample156)
+```
+
+
+# Restructuring the Data
+
+## Trypsin
+
+```{r}
+PTM_Trypsin <- cbind(Sorted_PTM58,
+                     Sorted_PTM59,
+                     Sorted_PTM60,
+                     Sorted_PTM61,
+                     Sorted_PTM62,
+                     Sorted_PTM63,
+                     Sorted_PTM64,
+                     Sorted_PTM65,
+                     Sorted_PTM66,
+                     Sorted_PTM67,
+                     Sorted_PTM68,
+                     Sorted_PTM69,
+                     Sorted_PTM70,
+                     Sorted_PTM71,
+                     Sorted_PTM72,
+                     Sorted_PTM73,
+                     Sorted_PTM74,
+                     Sorted_PTM75,
+                     Sorted_PTM76,
+                     Sorted_PTM77,
+                     Sorted_PTM78,
+                     Sorted_PTM79,
+                     Sorted_PTM80,
+                     Sorted_PTM81,
+                     Sorted_PTM82,
+                     Sorted_PTM83,
+                     Sorted_PTM84,
+                     Sorted_PTM157,
+                     Sorted_PTM158,
+                     Sorted_PTM159,
+                     Sorted_PTM160,
+                     Sorted_PTM161,
+                     Sorted_PTM162,
+                     Sorted_PTM163,
+                     Sorted_PTM164,
+                     Sorted_PTM165,
+                     Sorted_PTM166,
+                     Sorted_PTM167,
+                     Sorted_PTM168,
+                     Sorted_PTM169,
+                     Sorted_PTM170,
+                     Sorted_PTM171,
+                     Sorted_PTM172,
+                     Sorted_PTM173,
+                     Sorted_PTM174,
+                     Sorted_PTM175,
+                     Sorted_PTM176,
+                     Sorted_PTM177,
+                     Sorted_PTM178,
+                     Sorted_PTM179,
+                     Sorted_PTM180,
+                     Sorted_PTM181,
+                     Sorted_PTM182,
+                     Sorted_PTM183
+)
+
+PTM_Trypsin_Final <- PTM_Trypsin %>% 
+  select(!Peptide)
+
+write_csv(PTM_Trypsin_Final, file = "../data/PTM_Scores/PTM_Trypsin_Final.csv")
+
+```
+
+
+
+## V8 in ammonium bicarbonate
+
+```{r}
+PTM_Ambic <- cbind(Sorted_PTM1,
+                   Sorted_PTM2,
+                   Sorted_PTM3,
+                   Sorted_PTM4,
+                   Sorted_PTM5,
+                   Sorted_PTM6,
+                   Sorted_PTM7,
+                   Sorted_PTM8,
+                   Sorted_PTM9,
+                   Sorted_PTM10,
+                   Sorted_PTM11,
+                   Sorted_PTM12,
+                   Sorted_PTM13,
+                   Sorted_PTM14,
+                   Sorted_PTM15,
+                   Sorted_PTM16,
+                   Sorted_PTM17,
+                   Sorted_PTM18,
+                   Sorted_PTM19,
+                   Sorted_PTM20,
+                   Sorted_PTM21,
+                   Sorted_PTM22,
+                   Sorted_PTM23,
+                   Sorted_PTM24,
+                   Sorted_PTM25,
+                   Sorted_PTM26,
+                   Sorted_PTM27,
+                   Sorted_PTM85, 
+                   Sorted_PTM86,
+                   Sorted_PTM87,
+                   Sorted_PTM88,
+                   Sorted_PTM89,
+                   Sorted_PTM90,
+                   Sorted_PTM91,
+                   Sorted_PTM92,
+                   Sorted_PTM93, 
+                   Sorted_PTM94,
+                   Sorted_PTM95,
+                   Sorted_PTM96,
+                   Sorted_PTM97,
+                   Sorted_PTM98,
+                   Sorted_PTM99,
+                   Sorted_PTM100,
+                   Sorted_PTM101, 
+                   Sorted_PTM102,
+                   Sorted_PTM103,
+                   Sorted_PTM104,
+                   Sorted_PTM105,
+                   Sorted_PTM106,
+                   Sorted_PTM107,
+                   Sorted_PTM108,
+                   Sorted_PTM109, 
+                   Sorted_PTM110,
+                   Sorted_PTM111,
+                   Sorted_PTM112,
+                   Sorted_PTM113,
+                   Sorted_PTM114,
+                   Sorted_PTM115,
+                   Sorted_PTM116,
+                   Sorted_PTM117, 
+                   Sorted_PTM118,
+                   Sorted_PTM119,
+                   Sorted_PTM120
+                   )
+
+PTM_Ambic_Final <- PTM_Ambic %>% 
+  select(!Peptide)
+
+write_csv(PTM_Ambic_Final, file = "../data/PTM_Scores/PTM_Ambic_Final.csv")
+```
+
+
+## V8 in sodium phosphate
+
+```{r}
+PTM_Napho <- cbind(Sorted_PTM28,
+                   Sorted_PTM29,
+                   Sorted_PTM30,
+                   Sorted_PTM31,
+                   Sorted_PTM32,
+                   Sorted_PTM33,
+                   Sorted_PTM34,
+                   Sorted_PTM35,
+                   Sorted_PTM36,
+                   Sorted_PTM37,
+                   Sorted_PTM38,
+                   Sorted_PTM39,
+                   Sorted_PTM40,
+                   Sorted_PTM41,
+                   Sorted_PTM42,
+                   Sorted_PTM43,
+                   Sorted_PTM44,
+                   Sorted_PTM45,
+                   Sorted_PTM46,
+                   Sorted_PTM47,
+                   Sorted_PTM48,
+                   Sorted_PTM49,
+                   Sorted_PTM50,
+                   Sorted_PTM51,
+                   Sorted_PTM52,
+                   Sorted_PTM53,
+                   Sorted_PTM54,
+                   Sorted_PTM55,
+                   Sorted_PTM56,
+                   Sorted_PTM57,
+                   Sorted_PTM121,
+                   Sorted_PTM122,
+                   Sorted_PTM123,
+                   Sorted_PTM124,
+                   Sorted_PTM125,
+                   Sorted_PTM126,
+                   Sorted_PTM127,
+                   Sorted_PTM128,
+                   Sorted_PTM129,
+                   Sorted_PTM130,
+                   Sorted_PTM131,
+                   Sorted_PTM132,
+                   Sorted_PTM133,
+                   Sorted_PTM134,
+                   Sorted_PTM135,
+                   Sorted_PTM136,
+                   Sorted_PTM137,
+                   Sorted_PTM138,
+                   Sorted_PTM139,
+                   Sorted_PTM140,
+                   Sorted_PTM141,
+                   Sorted_PTM142,
+                   Sorted_PTM143,
+                   Sorted_PTM144,
+                   Sorted_PTM145,
+                   Sorted_PTM146,
+                   Sorted_PTM147,
+                   Sorted_PTM148,
+                   Sorted_PTM149,
+                   Sorted_PTM150,
+                   Sorted_PTM151,
+                   Sorted_PTM152,
+                   Sorted_PTM153,
+                   Sorted_PTM154,
+                   Sorted_PTM155,
+                   Sorted_PTM156
+                   )
+
+
+PTM_Napho_Final <- PTM_Napho %>% 
+  select(!Peptide)
+
+write_csv(PTM_Napho_Final, file = "../data/PTM_Scores/PTM_Napho_Final.csv")
+```
+
+
+
+
+
+
+
+
+
+
+
