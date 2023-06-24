@@ -1,7 +1,7 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
-XP_003448939.1,H2A,50,Y,Y50,21 + 23,Phospho / Dehydrated,Yes,Napho only,-0.310045844,0.310045844,0.278585129,2,9.83E-19,significant,10,4.94E-17,significant,Gills_Testes,XP_003448939.1 H2A Y50 Phospho / Dehydrated,a
-XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,-0.821603355,0.821603355,0.720741049,2,1.07E-15,significant,21,2.57E-14,significant,Gills_Testes,XP_003448939.1 H2A P48 Dioxidation,b
-XP_003451211.1,H2A,95,K,K95,378,Lactyl / Carboxyethyl,Yes,Napho only,-0.757647627,0.757647627,0.946857761,2,2.83E-16,significant,5,2.85E-14,significant,Kidney_Testes,XP_003451211.1 H2A K95 Lactyl / Carboxyethyl,c
-XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,5.109741032,5.109741032,3.46E-01,2,0.000119022,significant,181,0.000330105,significant,Gills_Kidney,XP_003448939.1 H2A R77 Deamidated,d
-XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,4.021956468,4.021956468,0.017298155,3,1.80E-03,significant,263,3.44E-03,significant,Kidney_Testes,XP_003448939.1 H2A R42 Deamidated,e
-XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,3.9627297,3.9627297,0.80093604,2,9.65118E-14,significant,32,1.51403E-12,significant,Gills_Testes,XP_003459572.1 H2A K118 Acetyl,f
+XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,-0.821603355,0.821603355,0.720741049,2,1.07E-15,significant,8,2.62E-14,significant,Gills_Testes,XP_003448939.1 H2A P48 Dioxidation,a
+XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,0.308399436,0.308399436,0.649410914,2,2.00E-14,significant,11,3.55E-13,significant,Gills_Testes,XP_003451211.1 H2A K127 Amidated,b
+XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,1.51745551,1.51745551,0.012672862,3,5.44E-14,significant,4,2.65E-12,significant,Gills_Kidney,XP_003459572.1 H2A K123 Acetyl,c
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,5.109741032,5.109741032,0.245594201,2,0.001380261,significant,93,0.002894097,significant,Gills_Kidney,XP_003448939.1 H2A R77 Deamidated,e
+XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,4.021956468,4.021956468,0.017298155,3,0.001803542,significant,96,0.003663445,significant,Kidney_Testes,XP_003448939.1 H2A R42 Deamidated,f
+XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,-3.934346984,3.934346984,0.032766733,3,0.031755449,significant,140,0.044230803,significant,Kidney_Testes,XP_005464230.1 H2A.Z isoform X1 K110 Biotin,g

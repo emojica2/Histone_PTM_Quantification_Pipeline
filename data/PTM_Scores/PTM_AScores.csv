@@ -1,0 +1,620 @@
+Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Highest PTM Ascore
+XP_003438147.1,H2B.L4,7,K,K7,35,Oxidation,Yes,Napho only,0
+XP_003438147.1,H2B.L4,49,M,M49,35,Oxidation,Not specified,Trypsin only,NA
+XP_003438147.1,H2B.L4,50,S,S50,1,Acetyl,Yes,Trypsin only,NA
+XP_003438147.1,H2B.L4,50,S,S50,23,Dehydrated,Yes,Trypsin only,NA
+XP_003438147.1,H2B.L4,52,M,M52,35,Oxidation,Not specified,Trypsin only,1000
+XP_003438147.1,H2B.L4,54,S,S54,1,Acetyl,Yes,Trypsin only,NA
+XP_003438147.1,H2B.L4,54,S,S54,23,Dehydrated,Yes,Trypsin only,NA
+XP_003438147.1,H2B.L4,68,S,S68,21,Phospho,Yes,Ambic and Napho,3.58
+XP_003438147.1,H2B.L4,68,S,S68,23,Dehydrated,Yes,Ambic and Napho,10.19
+XP_003438147.1,H2B.L4,68,S,S68,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,10.19
+XP_003438147.1,H2B.L4,69,R,R69,34,Methyl,Yes,Ambic and Napho,15.08
+XP_003438147.1,H2B.L4,69,R,R69,35,Oxidation,Yes,Ambic only,11.12
+XP_003438147.1,H2B.L4,69,R,R69,36,Dimethyl,Yes,Ambic and Napho,41.57
+XP_003438147.1,H2B.L4,69,R,R69,425,Dioxidation,Yes,Napho only,19.86
+XP_003438147.1,H2B.L4,73,Y,Y73,23,Dehydrated,Yes,Ambic and Napho,22.37
+XP_003438147.1,H2B.L4,73,Y,Y73,35,Oxidation,Yes,Ambic only,0
+XP_003438147.1,H2B.L4,73,Y,Y73,425,Dioxidation,Yes,Ambic only,11.1
+XP_003438147.1,H2B.L4,74,N,N74,35,Oxidation,Yes,Ambic only,14.07
+XP_003438147.1,H2B.L4,74,N,N74,213,ADP-Ribosyl,Yes,Napho only,3.97
+XP_003438147.1,H2B.L4,75,K,K75,34,Methyl,Yes,Ambic and Napho,27.96
+XP_003438147.1,H2B.L4,75,K,K75,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,17.01
+XP_003438147.1,H2B.L4,75,K,K75,378,Carboxyethyl / Lactyl,Yes,Ambic and Napho,1000
+XP_003438147.1,H2B.L4,75,K,K75,425,Dioxidation,Yes,Ambic and Napho,13.67
+XP_003438147.1,H2B.L4,76,R,R76,7,Deamidated,Yes,Ambic and Napho,31.02
+XP_003438147.1,H2B.L4,76,R,R76,34,Methyl,Yes,Ambic only,28.13
+XP_003438147.1,H2B.L4,76,R,R76,35,Oxidation,Yes,Ambic and Napho,23.1
+XP_003438147.1,H2B.L4,76,R,R76,36,Dimethyl,Yes,Ambic and Napho,41.57
+XP_003438147.1,H2B.L4,76,R,R76,425,Dioxidation,Yes,Ambic and Napho,12.33
+XP_003438147.1,H2B.L4,77,S,S77,23,Dehydrated,Yes,Ambic and Napho,7.65
+XP_003438147.1,H2B.L4,80,T,T80,23,Dehydrated,Yes,Napho only,4.54
+XP_003438147.1,H2B.L4,82,R,R82,34,Methyl,Yes,Ambic only,0
+XP_003438147.1,H2B.L4,84,V,V84,[18.04],[+18.04],Not specified,Ambic only,NA
+XP_003438147.1,H2B.L4,86,T,T86,1,Acetyl,Yes,Ambic and Napho,NA
+XP_003438147.1,H2B.L4,86,T,T86,21,Phospho,Yes,Ambic only,19.41
+XP_003438147.1,H2B.L4,86,T,T86,23,Dehydrated,Yes,Ambic and Napho,284.03
+XP_003438147.1,H2B.L4,86,T,T86,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,284.03
+XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,85.25
+XP_003438147.1,H2B.L4,89,R,R89,7,Deamidated,Yes,Ambic and Napho,1000
+XP_003438147.1,H2B.L4,89,R,R89,34,Methyl,Yes,Ambic and Napho,76.18
+XP_003438147.1,H2B.L4,89,R,R89,35,Oxidation,Yes,Ambic and Napho,48.12
+XP_003438147.1,H2B.L4,89,R,R89,36,Dimethyl,Yes,Ambic and Napho,95.39
+XP_003438147.1,H2B.L4,89,R,R89,425,Dioxidation,Yes,Ambic and Napho,105.6
+XP_003438147.1,H2B.L4,93,P,P93,35,Oxidation,Yes,Napho only,NA
+XP_003438147.1,H2B.L4,93,P,P93,425,Dioxidation,Yes,Napho only,21.19
+XP_003438147.1,H2B.L4,98,K,K98,1,Acetyl,Yes,Napho only,1000
+XP_003438147.1,H2B.L4,98,K,K98,121,GlyGly,Other,Ambic only,28.7
+XP_003438501.2,H1.0-B,81,T,T81,23,Dehydrated,Yes,Trypsin only,56.47
+XP_003438501.2,H1.0-B,89,S,S89,23,Dehydrated,Yes,Trypsin only,0
+XP_003438501.2,H1.0-B,91,R,R91,34,Methyl,Yes,Trypsin only,1000
+XP_003439548.1,H3.3,127,T,T127,1,Acetyl,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,127,T,T127,21,Phospho,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,127,T,T127,23,Dehydrated,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,127,T,T127,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,127,T,T127,121,GlyGly,Other,Trypsin only,NA
+XP_003439548.1,H3.3,130,P,P130,35,Oxidation,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,130,P,P130,425,Dioxidation,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,131,R,R131,34,Methyl,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,131,R,R131,35,Oxidation,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,131,R,R131,36,Dimethyl,Yes,Trypsin only,NA
+XP_003439548.1,H3.3,131,R,R131,425,Dioxidation,Yes,Trypsin only,NA
+XP_003446112.1,protamine-like protein,1,S,S1,1,Acetyl,Yes,Ambic only,1000
+XP_003446112.1,protamine-like protein,25,K,K25,209,Acrolein112,Other,Trypsin only,NA
+XP_003448795.2,H1.10,76,P,P76,35,Oxidation,Yes,Ambic only,12.19
+XP_003448795.2,H1.10,78,T,T78,23,Dehydrated,Yes,Ambic only,NA
+XP_003448795.2,H1.10,110,K,K110,34,Methyl,Yes,Ambic and Napho,53.33
+XP_003448795.2,H1.10,113,K,K113,1,Acetyl,Yes,Ambic and Napho,12.16
+XP_003448795.2,H1.10,113,K,K113,35,Oxidation,Yes,Napho only,12.16
+XP_003448795.2,H1.10,113,K,K113,425,Dioxidation,Yes,Ambic only,30.72
+XP_003448795.2,H1.10,116,K,K116,1,Acetyl,Yes,Napho only,7.77
+XP_003448795.2,H1.10,119,K,K119,1,Acetyl,Yes,Trypsin only,22.54
+XP_003448795.2,H1.10,141,S,S141,21,Phospho,Yes,Trypsin only,121.92
+XP_003448795.2,H1.10,145,R,R145,7,Deamidated,Yes,Trypsin only,1000
+XP_003448939.1,H2A,18,S,S18,1,Acetyl,Yes,Trypsin only,1000
+XP_003448939.1,H2A,18,S,S18,23,Dehydrated,Yes,Trypsin only,0
+XP_003448939.1,H2A,18,S,S18,121,GlyGly,Other,Trypsin only,0
+XP_003448939.1,H2A,19,S,S19,23,Dehydrated,Yes,Trypsin only,1000
+XP_003448939.1,H2A,19,S,S19,121,GlyGly,Other,Trypsin only,0
+XP_003448939.1,H2A,20,R,R20,7,Deamidated,Yes,Trypsin only,50.04
+XP_003448939.1,H2A,20,R,R20,34,Methyl,Yes,Trypsin only,24.63
+XP_003448939.1,H2A,35,R,R35,36,Dimethyl,Yes,Trypsin only,46.13
+XP_003448939.1,H2A,36,K,K36,209,Acrolein112,Other,Trypsin only,NA
+XP_003448939.1,H2A,36,K,K36,255,Acetald+28 / Dimethyl,Yes,Trypsin only,56.47
+XP_003448939.1,H2A,42,R,R42,7,Deamidated,Yes,Ambic only,1000
+XP_003448939.1,H2A,42,R,R42,36,Dimethyl,Yes,Napho only,1000
+XP_003448939.1,H2A,48,P,P48,35,Oxidation,Yes,Napho only,14.04
+XP_003448939.1,H2A,48,P,P48,425,Dioxidation,Yes,Ambic and Napho,1000
+XP_003448939.1,H2A,50,Y,Y50,23,Dehydrated,Yes,Napho only,1000
+XP_003448939.1,H2A,50,Y,Y50,35,Oxidation,Yes,Ambic only,20.41
+XP_003448939.1,H2A,50,Y,Y50,425,Dioxidation,Yes,Ambic only,26.31
+XP_003448939.1,H2A,57,Y,Y57,21,Phospho,Yes,Napho only,50.34
+XP_003448939.1,H2A,57,Y,Y57,23,Dehydrated,Yes,Ambic and Napho,0
+XP_003448939.1,H2A,57,Y,Y57,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,50.34
+XP_003448939.1,H2A,59,T,T59,1,Acetyl,Yes,Ambic and Napho,NA
+XP_003448939.1,H2A,59,T,T59,21,Phospho,Yes,Ambic and Napho,3.68
+XP_003448939.1,H2A,59,T,T59,121,GlyGly,Other,Napho only,1000
+XP_003448939.1,H2A,74,K,K74,1,Acetyl,Yes,Napho only,30.46
+XP_003448939.1,H2A,76,T,T76,23,Dehydrated,Yes,Napho only,79.53
+XP_003448939.1,H2A,77,R,R77,7,Deamidated,Yes,Napho only,16.51
+XP_003448939.1,H2A,80,P,P80,35,Oxidation,Yes,Trypsin only,58.11
+XP_003448939.1,H2A,81,R,R81,7,Deamidated,Yes,Trypsin only,59.53
+XP_003448939.1,H2A,88,R,R88,34,Methyl,Yes,Trypsin only,1000
+XP_003448939.1,H2A,91,E,E91,213,ADP-Ribosyl,Yes,Napho only,0
+XP_003448939.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,121.95
+XP_003448939.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic only,58.78
+XP_003448939.1,H2A,95,K,K95,121,GlyGly,Other,Napho only,21.68
+XP_003448939.1,H2A,95,K,K95,255,Acetald+28 / Dimethyl,Yes,Napho only,213.27
+XP_003448939.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,0
+XP_003448939.1,H2A,101,T,T101,23,Dehydrated,Yes,Ambic and Napho,115.07
+XP_003448939.1,H2A,109,P,P109,35,Oxidation,Yes,Napho only,17.01
+XP_003448939.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,37.73
+XP_003448939.1,H2A,117,P,P117,425,Dioxidation,Yes,Napho only,0
+XP_003448939.1,H2A,118,K,K118,1,Acetyl,Yes,Ambic and Napho,14.02
+XP_003448939.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0
+XP_003448939.1,H2A,118,K,K118,35,Oxidation,Yes,Napho only,0
+XP_003448939.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,0
+XP_003448939.1,H2A,118,K,K118,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,8.69
+XP_003448939.1,H2A,118,K,K118,378,Carboxyethyl / Lactyl,Yes,Ambic and Napho,7.21
+XP_003448939.1,H2A,118,K,K118,[71.01],[+71.01],Not specified,Ambic and Napho,NA
+XP_003448939.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0
+XP_003448939.1,H2A,119,K,K119,34,Methyl,Yes,Ambic only,0
+XP_003448939.1,H2A,119,K,K119,121,GlyGly,Other,Napho only,0
+XP_003448939.1,H2A,119,K,K119,255,Acetald+28 / Dimethyl,Yes,Napho only,0
+XP_003448939.1,H2A,119,K,K119,378,Carboxyethyl / Lactyl,Yes,Ambic and Napho,0
+XP_003448939.1,H2A,119,K,K119,[71.01],[+71.01],Not specified,Ambic and Napho,82.86
+XP_003448939.1,H2A,120,T,T120,21,Phospho,Yes,Ambic only,25.79
+XP_003448939.1,H2A,120,T,T120,23,Dehydrated,Yes,Ambic and Napho,38.35
+XP_003448939.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,38.35
+XP_003448939.1,H2A,120,T,T120,121,GlyGly,Other,Napho only,0
+XP_003448939.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,0
+XP_003448939.1,H2A,122,K,K122,255,Acetald+28 / Dimethyl,Yes,Napho only,0
+XP_003448939.1,H2A,124,T,T124,23,Dehydrated,Yes,Ambic and Napho,4.64
+XP_003448939.1,H2A,126,S,S126,23,Dehydrated,Yes,Ambic and Napho,11.1
+XP_003448939.1,H2A,127,K,K127,1,Acetyl,Yes,Napho only,0
+XP_003448939.1,H2A,127,K,K127,2,Amidated,Yes,Ambic only,1000
+XP_003448939.1,H2A,127,K,K127,121,GlyGly,Other,Napho only,2.84
+XP_003448939.1,H2A,127,K,K127,255,Acetald+28 / Dimethyl,Yes,Napho only,0
+XP_003450682.1,H1,267,K,K267,209,Acrolein112,Other,Trypsin only,NA
+XP_003451196.1,H2B 1/2,54,S,S54,121,GlyGly,Other,Napho only,0
+XP_003451196.1,H2B 1/2,55,K,K55,1,Acetyl,Yes,Ambic and Napho,49.96
+XP_003451196.1,H2B 1/2,55,K,K55,425,Dioxidation,Yes,Napho only,0
+XP_003451196.1,H2B 1/2,57,M,M57,35,Oxidation,Not specified,Napho only,19.05
+XP_003451196.1,H2B 1/2,58,S,S58,121,GlyGly,Other,Ambic and Napho,6.65
+XP_003451196.1,H2B 1/2,60,M,M60,35,Oxidation,Not specified,Napho only,22.45
+XP_003451196.1,H2B 1/2,70,R,R70,7,Deamidated,Yes,Ambic and Napho,8.82
+XP_003451196.1,H2B 1/2,70,R,R70,35,Oxidation,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,76,S,S76,23,Dehydrated,Yes,Ambic and Napho,39.44
+XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,46.13
+XP_003451196.1,H2B 1/2,77,R,R77,7,Deamidated,Yes,Ambic and Napho,61.82
+XP_003451196.1,H2B 1/2,77,R,R77,34,Methyl,Yes,Napho only,8.82
+XP_003451196.1,H2B 1/2,77,R,R77,35,Oxidation,Yes,Ambic and Napho,42.89
+XP_003451196.1,H2B 1/2,77,R,R77,36,Dimethyl,Yes,Ambic only,34.8
+XP_003451196.1,H2B 1/2,77,R,R77,425,Dioxidation,Yes,Napho only,14.58
+XP_003451196.1,H2B 1/2,81,Y,Y81,21,Phospho,Yes,Napho only,6.65
+XP_003451196.1,H2B 1/2,81,Y,Y81,23,Dehydrated,Yes,Ambic and Napho,22.37
+XP_003451196.1,H2B 1/2,81,Y,Y81,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,22.37
+XP_003451196.1,H2B 1/2,81,Y,Y81,35,Oxidation,Yes,Ambic only,19.86
+XP_003451196.1,H2B 1/2,81,Y,Y81,425,Dioxidation,Yes,Ambic only,8.26
+XP_003451196.1,H2B 1/2,82,N,N82,35,Oxidation,Yes,Ambic only,30.46
+XP_003451196.1,H2B 1/2,83,K,K83,1,Acetyl,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,83,K,K83,34,Methyl,Yes,Ambic and Napho,20.76
+XP_003451196.1,H2B 1/2,83,K,K83,35,Oxidation,Yes,Ambic and Napho,12.28
+XP_003451196.1,H2B 1/2,83,K,K83,121,GlyGly,Other,Ambic only,22.85
+XP_003451196.1,H2B 1/2,83,K,K83,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,14.02
+XP_003451196.1,H2B 1/2,83,K,K83,378,Carboxyethyl / Lactyl,Yes,Ambic only,1000
+XP_003451196.1,H2B 1/2,83,K,K83,425,Dioxidation,Yes,Ambic and Napho,17.01
+XP_003451196.1,H2B 1/2,84,R,R84,7,Deamidated,Yes,Ambic and Napho,40.83
+XP_003451196.1,H2B 1/2,84,R,R84,34,Methyl,Yes,Ambic and Napho,30.57
+XP_003451196.1,H2B 1/2,84,R,R84,35,Oxidation,Yes,Ambic and Napho,13.67
+XP_003451196.1,H2B 1/2,84,R,R84,36,Dimethyl,Yes,Ambic and Napho,34.81
+XP_003451196.1,H2B 1/2,84,R,R84,425,Dioxidation,Yes,Ambic and Napho,17.01
+XP_003451196.1,H2B 1/2,85,S,S85,21,Phospho,Yes,Napho only,5.55
+XP_003451196.1,H2B 1/2,85,S,S85,23,Dehydrated,Yes,Ambic and Napho,12.28
+XP_003451196.1,H2B 1/2,85,S,S85,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,12.28
+XP_003451196.1,H2B 1/2,85,S,S85,121,GlyGly,Other,Ambic only,0
+XP_003451196.1,H2B 1/2,86,T,T86,23,Dehydrated,Yes,Ambic and Napho,7.65
+XP_003451196.1,H2B 1/2,88,T,T88,23,Dehydrated,Yes,Ambic and Napho,0
+XP_003451196.1,H2B 1/2,94,T,T94,1,Acetyl,Yes,Ambic and Napho,NA
+XP_003451196.1,H2B 1/2,94,T,T94,21,Phospho,Yes,Ambic and Napho,106.95
+XP_003451196.1,H2B 1/2,94,T,T94,23,Dehydrated,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,94,T,T94,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,94,T,T94,121,GlyGly,Other,Ambic and Napho,250.87
+XP_003451196.1,H2B 1/2,97,R,R97,7,Deamidated,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,97,R,R97,34,Methyl,Yes,Ambic and Napho,231.99
+XP_003451196.1,H2B 1/2,97,R,R97,35,Oxidation,Yes,Ambic and Napho,49.79
+XP_003451196.1,H2B 1/2,97,R,R97,36,Dimethyl,Yes,Napho only,123.34
+XP_003451196.1,H2B 1/2,97,R,R97,425,Dioxidation,Yes,Ambic and Napho,40.19
+XP_003451196.1,H2B 1/2,101,P,P101,35,Oxidation,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,101,P,P101,425,Dioxidation,Yes,Ambic and Napho,77.53
+XP_003451196.1,H2B 1/2,106,K,K106,1,Acetyl,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,106,K,K106,3,Biotin,Yes,Napho only,41.34
+XP_003451196.1,H2B 1/2,106,K,K106,34,Methyl,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,106,K,K106,35,Oxidation,Yes,Ambic only,8.28
+XP_003451196.1,H2B 1/2,106,K,K106,121,GlyGly,Other,Ambic only,97.69
+XP_003451196.1,H2B 1/2,106,K,K106,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,31.37
+XP_003451196.1,H2B 1/2,106,K,K106,378,Carboxyethyl / Lactyl,Yes,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,106,K,K106,425,Dioxidation,Yes,Ambic and Napho,30.64
+XP_003451196.1,H2B 1/2,106,K,K106,[71.01],[+71.01],Not specified,Ambic and Napho,1000
+XP_003451196.1,H2B 1/2,107,H,H107,[61.92],[+61.92],Not specified,Ambic only,NA
+XP_003451196.1,H2B 1/2,110,S,S110,21,Phospho,Yes,Ambic only,73.35
+XP_003451196.1,H2B 1/2,110,S,S110,23,Dehydrated,Yes,Ambic and Napho,103.77
+XP_003451196.1,H2B 1/2,110,S,S110,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,103.77
+XP_003451196.1,H2B 1/2,111,E,E111,[43.96],[+43.96],Not specified,Ambic only,NA
+XP_003451196.1,H2B 1/2,111,E,E111,[52.94],[+52.94],Not specified,Ambic only,NA
+XP_003451196.1,H2B 1/2,113,T,T113,21,Phospho,Yes,Napho only,67.69
+XP_003451196.1,H2B 1/2,113,T,T113,23,Dehydrated,Yes,Ambic and Napho,67.69
+XP_003451196.1,H2B 1/2,113,T,T113,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,67.69
+XP_003451196.1,H2B 1/2,113,T,T113,121,GlyGly,Other,Ambic and Napho,58.99
+XP_003451196.1,H2B 1/2,114,K,K114,1,Acetyl,Yes,Ambic and Napho,59.24
+XP_003451196.1,H2B 1/2,114,K,K114,35,Oxidation,Yes,Ambic and Napho,67.69
+XP_003451196.1,H2B 1/2,114,K,K114,121,GlyGly,Other,Napho only,77.24
+XP_003451196.1,H2B 1/2,114,K,K114,255,Acetald+28 / Dimethyl,Yes,Napho only,0
+XP_003451196.1,H2B 1/2,114,K,K114,378,Carboxyethyl / Lactyl,Yes,Napho only,20.54
+XP_003451196.1,H2B 1/2,117,T,T117,23,Dehydrated,Yes,Ambic and Napho,32.28
+XP_003451196.1,H2B 1/2,117,T,T117,121,GlyGly,Other,Ambic only,28.73
+XP_003451196.1,H2B 1/2,118,K,K118,1,Acetyl,Yes,Napho only,0
+XP_003451196.1,H2B 1/2,118,K,K118,34,Methyl,Yes,Ambic only,25.58
+XP_003451196.1,H2B 1/2,118,K,K118,35,Oxidation,Yes,Napho only,0
+XP_003451196.1,H2B 1/2,118,K,K118,53,HNE,Yes,Napho only,0
+XP_003451196.1,H2B 1/2,118,K,K118,378,Carboxyethyl / Lactyl,Yes,Ambic and Napho,25.11
+XP_003451196.1,H2B 1/2,119,Y,Y119,21,Phospho,Yes,Ambic only,40
+XP_003451196.1,H2B 1/2,119,Y,Y119,23,Dehydrated,Yes,Ambic and Napho,12.28
+XP_003451196.1,H2B 1/2,119,Y,Y119,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,40
+XP_003451196.1,H2B 1/2,119,Y,Y119,425,Dioxidation,Yes,Ambic only,28.7
+XP_003451211.1,H2A,93,L,L93,3,Biotin,Not specified,Napho only,91.42
+XP_003451211.1,H2A,94,N,N94,35,Oxidation,Yes,Ambic only,49.37
+XP_003451211.1,H2A,95,K,K95,1,Acetyl,Yes,Napho only,171.5
+XP_003451211.1,H2A,95,K,K95,3,Biotin,Yes,Napho only,93.23
+XP_003451211.1,H2A,95,K,K95,34,Methyl,Yes,Ambic and Napho,121.34
+XP_003451211.1,H2A,95,K,K95,35,Oxidation,Yes,Ambic and Napho,79.53
+XP_003451211.1,H2A,95,K,K95,121,GlyGly,Other,Ambic only,0
+XP_003451211.1,H2A,95,K,K95,255,Acetald+28 / Dimethyl,Yes,Napho only,176.05
+XP_003451211.1,H2A,95,K,K95,378,Carboxyethyl / Lactyl,Yes,Napho only,46.21
+XP_003451211.1,H2A,95,K,K95,425,Dioxidation,Yes,Napho only,37.72
+XP_003451211.1,H2A,95,K,K95,[71.01],[+71.01],Not specified,Napho only,106.84
+XP_003451211.1,H2A,101,T,T101,21,Phospho,Yes,Napho only,
+XP_003451211.1,H2A,101,T,T101,23,Dehydrated,Yes,Ambic and Napho,
+XP_003451211.1,H2A,101,T,T101,21 + 23,Phospho / Dehydrated,Yes,Ambic and Napho,
+XP_003451211.1,H2A,101,T,T101,121,GlyGly,Other,Napho only,
+XP_003451211.1,H2A,109,P,P109,35,Oxidation,Yes,Ambic and Napho,
+XP_003451211.1,H2A,109,P,P109,425,Dioxidation,Yes,Ambic and Napho,
+XP_003451211.1,H2A,117,P,P117,35,Oxidation,Yes,Ambic only,0
+XP_003451211.1,H2A,117,P,P117,425,Dioxidation,Yes,Ambic and Napho,0
+XP_003451211.1,H2A,118,K,K118,34,Methyl,Yes,Napho only,0
+XP_003451211.1,H2A,118,K,K118,35,Oxidation,Yes,Ambic and Napho,0
+XP_003451211.1,H2A,118,K,K118,213,ADP-Ribosyl,Yes,Napho only,0
+XP_003451211.1,H2A,118,K,K118,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,0
+XP_003451211.1,H2A,118,K,K118,[71.01],[+71.01],Not specified,Napho only,0
+XP_003451211.1,H2A,119,K,K119,1,Acetyl,Yes,Napho only,0
+XP_003451211.1,H2A,119,K,K119,34,Methyl,Yes,Napho only,14.02
+XP_003451211.1,H2A,119,K,K119,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,0
+XP_003451211.1,H2A,119,K,K119,378,Carboxyethyl / Lactyl,Yes,Napho only,0
+XP_003451211.1,H2A,120,T,T120,21,Phospho,Yes,Napho only,1000
+XP_003451211.1,H2A,120,T,T120,23,Dehydrated,Yes,Napho only,43.28
+XP_003451211.1,H2A,120,T,T120,21 + 23,Phospho / Dehydrated,Yes,Napho only,1000
+XP_003451211.1,H2A,122,K,K122,1,Acetyl,Yes,Napho only,10.22
+XP_003451211.1,H2A,122,K,K122,34,Methyl,Yes,Napho only,0
+XP_003451211.1,H2A,122,K,K122,121,GlyGly,Other,Napho only,NA
+XP_003451211.1,H2A,122,K,K122,255,Acetald+28 / Dimethyl,Yes,Napho only,0
+XP_003451211.1,H2A,123,P,P123,35,Oxidation,Yes,Napho only,0
+XP_003451211.1,H2A,125,K,K125,425,Dioxidation,Yes,Napho only,3.19
+XP_003451211.1,H2A,127,K,K127,2,Amidated,Yes,Napho only,1000
+XP_003451211.1,H2A,127,K,K127,425,Dioxidation,Yes,Napho only,2.53
+XP_003458968.1,H2A.Z isoform X2,4,K,K4,34,Methyl,Yes,Ambic only,12.33
+XP_003459572.1,H2A,94,K,K94,1,Acetyl,Yes,Napho only,166.3
+XP_003459572.1,H2A,94,K,K94,35,Oxidation,Yes,Ambic only,55.13
+XP_003459572.1,H2A,100,T,T100,23,Dehydrated,Yes,Ambic and Napho,87.76
+XP_003459572.1,H2A,108,P,P108,425,Dioxidation,Yes,Napho only,26.1
+XP_003459572.1,H2A,117,K,K117,1,Acetyl,Yes,Napho only,0
+XP_003459572.1,H2A,117,K,K117,34,Methyl,Yes,Napho only,0
+XP_003459572.1,H2A,117,K,K117,53,HNE,Yes,Napho only,0
+XP_003459572.1,H2A,118,K,K118,1,Acetyl,Yes,Napho only,0
+XP_003459572.1,H2A,118,K,K118,121,GlyGly,Other,Napho only,0
+XP_003459572.1,H2A,119,T,T119,21,Phospho,Yes,Napho only,47.57
+XP_003459572.1,H2A,119,T,T119,23,Dehydrated,Yes,Napho only,20.96
+XP_003459572.1,H2A,119,T,T119,21 + 23,Phospho / Dehydrated,Yes,Napho only,47.57
+XP_003459572.1,H2A,119,T,T119,121,GlyGly,Other,Napho only,0
+XP_003459572.1,H2A,121,K,K121,53,HNE,Yes,Napho only,0
+XP_003459572.1,H2A,123,K,K123,1,Acetyl,Yes,Napho only,13.13
+XP_003459572.1,H2A,123,K,K123,2,Amidated,Yes,Napho only,1000
+XP_003459572.1,H2A,123,K,K123,121,GlyGly,Other,Ambic and Napho,0
+XP_003459572.1,H2A,123,K,K123,378,Carboxyethyl / Lactyl,Yes,Napho only,0
+XP_003459589.1,H1-like,1,A,A1,1,Acetyl,Yes,Ambic only,1000
+XP_003459589.1,H1-like,1,A,A1,122,Formyl,Yes,Ambic only,NA
+XP_003459589.1,H1-like,3,V,V3,1,Acetyl,Not specified,Ambic and Napho,1000
+XP_003459589.1,H1-like,5,P,P5,35,Oxidation,Yes,Ambic and Napho,32.28
+XP_003459589.1,H1-like,7,P,P7,35,Oxidation,Yes,Napho only,12.19
+XP_003459589.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic and Napho,6.65
+XP_003459589.1,H1-like,11,P,P11,425,Dioxidation,Yes,Napho only,0
+XP_003459589.1,H1-like,13,K,K13,1,Acetyl,Yes,Ambic and Napho,9.42
+XP_003459589.1,H1-like,13,K,K13,34,Methyl,Yes,Napho only,19.05
+XP_003459589.1,H1-like,13,K,K13,35,Oxidation,Yes,Ambic only,NA
+XP_003459589.1,H1-like,13,K,K13,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,16.66
+XP_003459589.1,H1-like,18,K,K18,1,Acetyl,Yes,Ambic only,4.05
+XP_003459589.1,H1-like,18,K,K18,37,Trimethyl,Yes,Napho only,NA
+XP_003459589.1,H1-like,21,K,K21,34,Methyl,Yes,Ambic only,0
+XP_003459589.1,H1-like,21,K,K21,35,Oxidation,Yes,Ambic and Napho,4.05
+XP_003459589.1,H1-like,21,K,K21,37,Trimethyl,Yes,Ambic only,NA
+XP_003459589.1,H1-like,21,K,K21,255,Acetald+28 / Dimethyl,Yes,Napho only,1.86
+XP_003459589.1,H1-like,35,K,K35,3,Biotin,Yes,Napho only,16.66
+XP_003459589.1,H1-like,35,K,K35,34,Methyl,Yes,Ambic only,0
+XP_003459589.1,H1-like,35,K,K35,255,Acetald+28 / Dimethyl,Yes,Ambic only,38
+XP_003459589.1,H1-like,35,K,K35,378,Carboxyethyl / Lactyl,Yes,Napho only,47.92
+XP_003459589.1,H1-like,35,K,K35,[71.01],[+71.01],Not specified,Napho only,29.67
+XP_003459589.1,H1-like,38,T,T38,23,Dehydrated,Yes,Ambic only,0
+XP_003459589.1,H1-like,43,R,R43,7,Deamidated,Yes,Ambic and Napho,1000
+XP_003459589.1,H1-like,43,R,R43,34,Methyl,Yes,Ambic and Napho,8.69
+XP_003459589.1,H1-like,43,R,R43,36,Dimethyl,Yes,Ambic only,0
+XP_003459589.1,H1-like,44,K,K44,1,Acetyl,Yes,Ambic and Napho,53.45
+XP_003459589.1,H1-like,44,K,K44,34,Methyl,Yes,Ambic and Napho,7.65
+XP_003459589.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,12.33
+XP_003459589.1,H1-like,44,K,K44,209,Acrolein112,Other,Trypsin only,NA
+XP_003459589.1,H1-like,44,K,K44,255,Acetald+28 / Dimethyl,Yes,Ambic only,7.21
+XP_003459589.1,H1-like,44,K,K44,425,Dioxidation,Yes,Napho only,8.14
+XP_003459589.1,H1-like,47,S,S47,23,Dehydrated,Yes,Napho only,34.43
+XP_003459589.1,H1-like,47,S,S47,121,GlyGly,Other,Ambic only,7.77
+XP_003459589.1,H1-like,52,K,K52,1,Acetyl,Yes,Ambic and Napho,20.92
+XP_003459589.1,H1-like,52,K,K52,34,Methyl,Yes,Napho only,0
+XP_003459589.1,H1-like,52,K,K52,35,Oxidation,Yes,Ambic and Napho,0
+XP_003459589.1,H1-like,52,K,K52,53,4-hydroxynonenal,Yes,Ambic only,0
+XP_003459589.1,H1-like,52,K,K52,121,GlyGly,Other,Ambic and Napho,46.87
+XP_003459589.1,H1-like,52,K,K52,255,Acetald+28 / Dimethyl,Yes,Ambic only,0
+XP_003459589.1,H1-like,52,K,K52,378,Carboxyethyl / Lactyl,Yes,Ambic only,76.18
+XP_003459589.1,H1-like,52,K,K52,425,Dioxidation,Yes,Napho only,8.28
+XP_003459589.1,H1-like,52,K,K52,[71.01],[+71.01],Not specified,Ambic only,7.21
+XP_003459589.1,H1-like,53,K,K53,1,Acetyl,Yes,Ambic and Napho,59.43
+XP_003459589.1,H1-like,53,K,K53,34,Methyl,Yes,Napho only,14.02
+XP_003459589.1,H1-like,53,K,K53,35,Oxidation,Yes,Ambic only,7.65
+XP_003459589.1,H1-like,53,K,K53,53,4-hydroxynonenal,Yes,Ambic only,8.69
+XP_003459589.1,H1-like,53,K,K53,121,GlyGly,Other,Ambic and Napho,46.87
+XP_003459589.1,H1-like,53,K,K53,255,Acetald+28 / Dimethyl,Yes,Ambic only,7.65
+XP_003459589.1,H1-like,53,K,K53,378,Carboxyethyl / Lactyl,Yes,Ambic only,76.18
+XP_003459589.1,H1-like,53,K,K53,425,Dioxidation,Yes,Napho only,0
+XP_003459589.1,H1-like,53,K,K53,[71.01],[+71.01],Not specified,Ambic and Napho,20.92
+XP_003459589.1,H1-like,60,Y,Y60,21,Phospho,Yes,Ambic only,52.58
+XP_003459589.1,H1-like,60,Y,Y60,23,Dehydrated,Yes,Ambic only,8.69
+XP_003459589.1,H1-like,60,Y,Y60,21 + 23,Phospho / Dehydrated,Yes,Ambic only,52.58
+XP_003459589.1,H1-like,60,Y,Y60,35,Oxidation,Yes,Ambic only,0
+XP_003459589.1,H1-like,61,D,D61,35,Oxidation,Yes,Ambic only,34.46
+XP_003459589.1,H1-like,61,D,D61,[56.04],[+56.04],Not specified,Ambic only,NA
+XP_003459589.1,H1-like,63,E,E63,[52.94],[+52.94],Not specified,Ambic only,NA
+XP_003459589.1,H1-like,64,K,K64,1,Acetyl,Yes,Napho only,0
+XP_003459589.1,H1-like,68,R,R68,7,Deamidated,Yes,Napho only,1000
+XP_003459589.1,H1-like,75,S,S75,23,Dehydrated,Yes,Napho only,120
+XP_005461836.1,H1-like,34,K,K34,255,Acetald+28 / Dimethyl,Yes,Napho only,1000
+XP_005461836.1,H1-like,34,K,K34,378,Carboxyethyl / Lactyl,Yes,Napho only,1000
+XP_005461836.1,H1-like,66,P,P66,425,Dioxidation,Yes,Napho only,40
+XP_005461836.1,H1-like,67,K,K67,255,Acetald+28 / Dimethyl,Yes,Ambic only,5.77
+XP_005461836.1,H1-like,70,K,K70,34,Methyl,Yes,Napho only,0
+XP_005461836.1,H1-like,71,R,R71,7,Deamidated,Yes,Napho only,111.8
+XP_005461836.1,H1-like,74,T,T74,21,Phospho,Yes,Napho only,1000
+XP_005461836.1,H1-like,74,T,T74,23,Dehydrated,Yes,Napho only,7.22
+XP_005461836.1,H1-like,74,T,T74,21 + 23,Phospho / Dehydrated,Yes,Napho only,1000
+XP_005463512.2,H3,9,K,K9,209,Acrolein112,Other,Trypsin only,NA
+XP_005463512.2,H3,14,K,K14,1,Acetyl,Yes,Trypsin only,143.55
+XP_005463512.2,H3,18,K,K18,121,GlyGly,Other,Trypsin only,67.21
+XP_005463512.2,H3,18,K,K18,209,Acrolein112,Other,Trypsin only,NA
+XP_005463512.2,H3,22,T,T22,21,Phospho,Yes,Trypsin only,1000
+XP_005463512.2,H3,23,K,K23,1,Acetyl,Yes,Trypsin only,
+XP_005463512.2,H3,27,K,K27,1,Acetyl,Yes,Trypsin only,
+XP_005463512.2,H3,27,K,K27,34,Methyl,Yes,Trypsin only,
+XP_005463512.2,H3,27,K,K27,35,Oxidation,Yes,Trypsin only,
+XP_005463512.2,H3,27,K,K27,209,Acrolein112,Other,Trypsin only,NA
+XP_005463512.2,H3,27,K,K27,255,Acetald+28 / Dimethyl,Yes,Trypsin only,
+XP_005463512.2,H3,27,K,K27,378,Carboxyethyl / Lactyl,Yes,Trypsin only,
+XP_005463512.2,H3,27,K,K27,425,Dioxidation,Yes,Trypsin only,
+XP_005463512.2,H3,27,K,K27,1289,Butyryl,Yes,Trypsin only,NA
+XP_005463512.2,H3,27,K,K27,[71.01],[+71.01],Not specified,Trypsin only,
+XP_005463512.2,H3,28,S,S28,21,Phospho,Yes,Trypsin only,
+XP_005463512.2,H3,28,S,S28,23,Dehydrated,Yes,Trypsin only,
+XP_005463512.2,H3,28,S,S28,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,
+XP_005463512.2,H3,28,S,S28,121,GlyGly,Other,Trypsin only,
+XP_005463512.2,H3,30,P,P30,425,Dioxidation,Yes,Trypsin only,
+XP_005463512.2,H3,32,T,T32,21,Phospho,Yes,Trypsin only,
+XP_005463512.2,H3,32,T,T32,23,Dehydrated,Yes,Trypsin only,
+XP_005463512.2,H3,32,T,T32,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,
+XP_005463512.2,H3,32,T,T32,121,GlyGly,Other,Trypsin only,
+XP_005463512.2,H3,36,K,K36,1,Acetyl,Yes,Trypsin only,
+XP_005463512.2,H3,36,K,K36,34,Methyl,Yes,Trypsin only,
+XP_005463512.2,H3,36,K,K36,121,GlyGly,Other,Trypsin only,
+XP_005463512.2,H3,36,K,K36,255,Acetald+28 / Dimethyl,Yes,Trypsin only,
+XP_005463512.2,H3,37,K,K37,121,GlyGly,Other,Trypsin only,
+XP_005463512.2,H3,37,K,K37,255,Acetald+28 / Dimethyl,Yes,Trypsin only,
+XP_005463512.2,H3,40,R,R40,36,Dimethyl,Yes,Trypsin only,
+XP_005463512.2,H3,41,Y,Y41,23,Dehydrated,Yes,Trypsin only,NA
+XP_005463512.2,H3,42,R,R42,35,Oxidation,Yes,Trypsin only,
+XP_005463512.2,H3,43,P,P43,425,Dioxidation,Yes,Trypsin only,NA
+XP_005463512.2,H3,54,Y,Y54,23,Dehydrated,Yes,Trypsin only,
+XP_005463512.2,H3,56,K,K56,1,Acetyl,Yes,Trypsin only,
+XP_005463512.2,H3,56,K,K56,34,Methyl,Yes,Trypsin only,
+XP_005463512.2,H3,56,K,K56,378,Carboxyethyl / Lactyl,Yes,Trypsin only,
+XP_005463512.2,H3,57,S,S57,21,Phospho,Yes,Trypsin only,
+XP_005463512.2,H3,57,S,S57,23,Dehydrated,Yes,Trypsin only,
+XP_005463512.2,H3,57,S,S57,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,
+XP_005463512.2,H3,58,T,T58,21,Phospho,Yes,Trypsin only,
+XP_005463512.2,H3,63,R,R63,7,Deamidated,Yes,Ambic and Napho,
+XP_005463512.2,H3,63,R,R63,35,Oxidation,Yes,Ambic and Napho,
+XP_005463512.2,H3,63,R,R63,425,Dioxidation,Yes,Ambic and Napho,
+XP_005463512.2,H3,64,K,K64,1,Acetyl,Yes,Ambic and Napho,
+XP_005463512.2,H3,64,K,K64,34,Methyl,Yes,Ambic and Napho,
+XP_005463512.2,H3,64,K,K64,35,Oxidation,Yes,Ambic and Napho,
+XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,1000
+XP_005463512.2,H3,64,K,K64,425,Dioxidation,Yes,Ambic only,0
+XP_005463512.2,H3,64,K,K64,[71.01],[+71.01],Not specified,Ambic and Napho,1000
+XP_005463512.2,H3,66,P,P66,35,Oxidation,Yes,Napho only,18.7
+XP_005463512.2,H3,66,P,P66,425,Dioxidation,Yes,Ambic and Napho,18.23
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,19.69
+XP_005463512.2,H3,69,R,R69,35,Oxidation,Yes,Ambic only,0
+XP_005463512.2,H3,72,R,R72,7,Deamidated,Yes,Ambic only,9.42
+XP_005463512.2,H3,79,K,K79,1,Acetyl,Yes,Trypsin only,1000
+XP_005463512.2,H3,79,K,K79,34,Methyl,Yes,"Ambic, Napho, and Trypsin",83.66
+XP_005463512.2,H3,79,K,K79,35,Oxidation,Yes,Trypsin only,NA
+XP_005463512.2,H3,79,K,K79,37,Trimethyl,Yes,Trypsin only,NA
+XP_005463512.2,H3,79,K,K79,53,HNE,Yes,Napho only,1000
+XP_005463512.2,H3,79,K,K79,255,Acetald+28 / Dimethyl,Yes,Napho and Trypsin,67.69
+XP_005463512.2,H3,79,K,K79,378,Carboxyethyl / Lactyl,Yes,Napho only,1000
+XP_005463512.2,H3,79,K,K79,425,Dioxidation,Yes,Ambic only,2.76
+XP_005463512.2,H3,79,K,K79,[18.04],[+18.04],Not specified,Ambic only,NA
+XP_005463512.2,H3,79,K,K79,[71.01],[+71.01],Not specified,Napho and Trypsin,1000
+XP_005463512.2,H3,80,T,T80,1,Acetyl,Yes,Trypsin only,NA
+XP_005463512.2,H3,80,T,T80,21,Phospho,Yes,Trypsin only,1000
+XP_005463512.2,H3,80,T,T80,23,Dehydrated,Yes,Ambic only,0
+XP_005463512.2,H3,80,T,T80,21 + 23,Phospho / Dehydrated,Yes,Trypsin and Ambic,1000
+XP_005463512.2,H3,80,T,T80,121,GlyGly,Other,Napho only,10.02
+XP_005463512.2,H3,81,D,D81,35,Oxidation,Yes,Ambic only,0
+XP_005463512.2,H3,83,R,R83,7,Deamidated,Yes,Ambic only,1000
+XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",1000
+XP_005463512.2,H3,83,R,R83,35,Oxidation,Yes,Ambic and Trypsin,12.81
+XP_005463512.2,H3,83,R,R83,36,Dimethyl,Yes,Napho and Trypsin,1000
+XP_005463512.2,H3,83,R,R83,425,Dioxidation,Yes,Ambic only,12.28
+XP_005463512.2,H3,86,S,S86,23,Dehydrated,Yes,Ambic only,8.14
+XP_005463512.2,H3,87,S,S87,23,Dehydrated,Yes,Ambic only,7.21
+XP_005463512.2,H3,90,M,M90,35,Oxidation,Not specified,Ambic and Napho,1000
+XP_005463512.2,H3,118,T,T118,21,Phospho,Yes,Trypsin only,1000
+XP_005463512.2,H3,118,T,T118,23,Dehydrated,Yes,Trypsin only,39.44
+XP_005463512.2,H3,118,T,T118,21 + 23,Phospho / Dehydrated,Yes,Trypsin only,1000
+XP_005463512.2,H3,118,T,T118,121,GlyGly,Other,Trypsin only,5.55
+XP_005463512.2,H3,120,M,M120,35,Oxidation,Not specified,Trypsin only,1000
+XP_005463512.2,H3,121,P,P121,425,Dioxidation,Yes,Trypsin only,83.89
+XP_005463512.2,H3,122,K,K122,1,Acetyl,Yes,Trypsin only,1000
+XP_005463512.2,H3,122,K,K122,255,Acetald+28 / Dimethyl,Yes,Trypsin only,41.94
+XP_005463512.2,H3,122,K,K122,378,Carboxyethyl / Lactyl,Yes,Trypsin only,1000
+XP_005463512.2,H3,122,K,K122,425,Dioxidation,Yes,Trypsin only,63.05
+XP_005463512.2,H3,122,K,K122,[71.01],[+71.01],Not specified,Trypsin only,1000
+XP_005463512.2,H3,128,R,R128,7,Deamidated,Yes,Trypsin only,1000
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,1,Acetyl,Yes,Trypsin only,NA
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,23,Dehydrated,Yes,Trypsin only,1000
+XP_005464230.1,H2A.Z isoform X1,56,S,S56,121,GlyGly,Other,Trypsin only,1000
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,34,Methyl,Yes,Trypsin only,NA
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,36,Dimethyl,Yes,Trypsin only,NA
+XP_005464230.1,H2A.Z isoform X1,58,R,R58,425,Dioxidation,Yes,Trypsin only,39.44
+XP_005464230.1,H2A.Z isoform X1,73,K,K73,34,Methyl,Yes,Trypsin only,0
+XP_005464230.1,H2A.Z isoform X1,98,T,T98,23,Dehydrated,Yes,Napho only,14.04
+XP_005464230.1,H2A.Z isoform X1,98,T,T98,21 + 23,Phospho / Dehydrated,Yes,Napho only,14.04
+XP_005464230.1,H2A.Z isoform X1,110,K,K110,3,Biotin,Yes,Napho only,28.71
+XP_005464230.1,H2A.Z isoform X1,115,K,K115,378,Carboxyethyl / Lactyl,Yes,Napho only,11.1
+XP_005464230.1,H2A.Z isoform X1,119,P,P119,35,Oxidation,Yes,Trypsin only,NA
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,35,Oxidation,Yes,Trypsin only,NA
+XP_005464230.1,H2A.Z isoform X1,120,R,R120,425,Dioxidation,Yes,Trypsin only,7.21
+XP_005464230.1,H2A.Z isoform X1,137,K,K137,378,Carboxyethyl / Lactyl,Yes,Ambic only,259.95
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,35,Oxidation,Yes,Ambic and Napho,4.73
+XP_005464230.1,H2A.Z isoform X1,147,P,P147,425,Dioxidation,Yes,Napho only,5.55
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,34,Methyl,Yes,Ambic and Napho,7.38
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,255,Acetald+28 / Dimethyl,Yes,Ambic only,5.81
+XP_005464230.1,H2A.Z isoform X1,151,K,K151,425,Dioxidation,Yes,Ambic only,0
+XP_005464230.1,H2A.Z isoform X1,152,S,S152,23,Dehydrated,Yes,Napho only,25.74
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,34,Methyl,Yes,Ambic and Napho,0
+XP_005464230.1,H2A.Z isoform X1,156,K,K156,255,Acetald+28 / Dimethyl,Yes,Ambic only,0
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,34,Methyl,Yes,Ambic only,0
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,255,Acetald+28 / Dimethyl,Yes,Ambic only,0
+XP_005464230.1,H2A.Z isoform X1,157,K,K157,378,Carboxyethyl / Lactyl,Yes,Ambic only,4.08
+XP_005464230.1,H2A.Z isoform X1,161,K,K161,34,Methyl,Yes,Ambic only,1.86
+XP_005464230.1,H2A.Z isoform X1,161,K,K161,255,Acetald+28 / Dimethyl,Yes,Ambic only,14.62
+XP_005464230.1,H2A.Z isoform X1,162,T,T162,23,Dehydrated,Yes,Napho only,2.53
+XP_005464230.1,H2A.Z isoform X1,163,V,V163,2,Amidated,Yes,Ambic only,1000
+XP_013130603.1,core histone macro-H2A.1 isoform X5,98,T,T98,21,Phospho,Yes,Ambic only,NA
+XP_019209842.1,H1-like,9,P,P9,425,Dioxidation,Yes,Ambic only,0
+XP_019209842.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic only,0
+XP_019209842.1,H1-like,38,K,K38,1,Acetyl,Yes,Napho only,NA
+XP_019209842.1,H1-like,38,K,K38,121,GlyGly,Other,Ambic only,115.97
+XP_019209842.1,H1-like,38,K,K38,425,Dioxidation,Yes,Ambic and Napho,78.19
+XP_019209842.1,H1-like,38,K,K38,[71.01],[+71.01],Not specified,Napho only,21.46
+XP_019209842.1,H1-like,43,S,S43,121,GlyGly,Other,Ambic only,10.19
+XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,143.14
+XP_019209842.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,40
+XP_019209842.1,H1-like,55,K,K55,3,Biotin,Yes,Napho only,14.02
+XP_019209842.1,H1-like,55,K,K55,35,Oxidation,Yes,Ambic only,0
+XP_019209842.1,H1-like,55,K,K55,53,4-hydroxynonenal,Yes,Ambic only,0
+XP_019209842.1,H1-like,55,K,K55,121,GlyGly,Other,Trypsin only,0
+XP_019209842.1,H1-like,55,K,K55,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,17.01
+XP_019209842.1,H1-like,55,K,K55,[71.01],[+71.01],Not specified,Napho only,0
+XP_019209842.1,H1-like,56,K,K56,1,Acetyl,Yes,Ambic and Napho,11.06
+XP_019209842.1,H1-like,56,K,K56,34,Methyl,Yes,Ambic only,7.21
+XP_019209842.1,H1-like,56,K,K56,255,Acetald+28 / Dimethyl,Yes,Ambic only,0
+XP_019209842.1,H1-like,56,K,K56,425,Dioxidation,Yes,Napho only,9.34
+XP_019209842.1,H1-like,56,K,K56,[71.01],[+71.01],Not specified,Ambic and Napho,9.34
+XP_019209842.1,H1-like,63,Y,Y63,23,Dehydrated,Yes,Napho only,0
+XP_019209842.1,H1-like,64,D,D64,35,Oxidation,Yes,Ambic only,7.81
+XP_019209842.1,H1-like,66,D,D66,2,Amidated,Yes,Napho only,1000
+XP_019209843.1,H1-like,1,S,S1,23,Dehydrated,Yes,Napho only,46.82
+XP_019209843.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic only,0
+XP_019209843.1,H1-like,13,K,K13,34,Methyl,Yes,Napho only,12.33
+XP_019209843.1,H1-like,13,K,K13,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,19.05
+XP_019209843.1,H1-like,15,T,T15,21,Phospho,Yes,Ambic only,25.11
+XP_019209843.1,H1-like,16,K,K16,37,Trimethyl,Yes,Ambic only,NA
+XP_019209843.1,H1-like,16,K,K16,53,4-hydroxynonenal,Yes,Ambic only,0
+XP_019209843.1,H1-like,16,K,K16,255,Acetald+28 / Dimethyl,Yes,Ambic and Napho,4.05
+XP_019209843.1,H1-like,16,K,K16,378,Carboxyethyl / Lactyl,Yes,Ambic only,7.21
+XP_019209843.1,H1-like,16,K,K16,[71.01],[+71.01],Not specified,Ambic only,0
+XP_019209843.1,H1-like,17,K,K17,37,Trimethyl,Yes,Ambic only,NA
+XP_019209843.1,H1-like,17,K,K17,255,Acetald+28 / Dimethyl,Yes,Ambic only,0
+XP_019209843.1,H1-like,18,K,K18,255,Acetald+28 / Dimethyl,Yes,Ambic only,0
+XP_019209844.1,H1-like,1,S,S1,1,Acetyl,Yes,Ambic only,1000
+XP_019209845.1,H1-like,1,S,S1,1,Acetyl,Yes,Ambic only,1000
+XP_019209845.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic only,0
+XP_019209845.1,H1-like,17,K,K17,121,GlyGly,Other,Ambic only,0
+XP_019209845.1,H1-like,17,K,K17,378,Carboxyethyl / Lactyl,Yes,Napho only,17.01
+XP_019209845.1,H1-like,17,K,K17,425,Dioxidation,Yes,Ambic only,0
+XP_019209845.1,H1-like,17,K,K17,[18.04],[+18.04],Not specified,Ambic only,NA
+XP_019209845.1,H1-like,18,K,K18,121,GlyGly,Other,Ambic only,0
+XP_019209845.1,H1-like,18,K,K18,[18.04],[+18.04],Not specified,Ambic only,NA
+XP_019209845.1,H1-like,19,K,K19,121,GlyGly,Other,Ambic only,0
+XP_019209845.1,H1-like,47,S,S47,21,Phospho,Yes,Napho only,0
+XP_019210164.1,H1 isoform X1,1,S,S1,1,Acetyl,Yes,Ambic only,1000
+XP_019210164.1,H1 isoform X1,1,S,S1,21,Phospho,Yes,Ambic only,147.07
+XP_019210164.1,H1 isoform X1,1,S,S1,23,Dehydrated,Yes,Ambic only,43.55
+XP_019210164.1,H1 isoform X1,1,S,S1,21 + 23,Phospho / Dehydrated,Yes,Ambic only,147.07
+XP_019210164.1,H1 isoform X1,1,S,S1,[121.98],[+121.98],Not specified,Ambic only,NA
+XP_019210164.1,H1 isoform X1,1,S,S1,[122.97],[+122.97],Not specified,Ambic only,NA
+XP_019210164.1,H1 isoform X1,3,E,E3,[283.10],[+283.10],Not specified,Ambic only,NA
+XP_019210164.1,H1 isoform X1,5,P,P5,35,Oxidation,Yes,Ambic only,NA
+XP_019210164.1,H1 isoform X1,5,P,P5,425,Dioxidation,Yes,Napho only,67.96
+XP_019210164.1,H1 isoform X1,11,P,P11,35,Oxidation,Yes,Ambic only,20.41
+XP_019210164.1,H1 isoform X1,13,K,K13,34,Methyl,Yes,Ambic only,3.29
+XP_019210164.1,H1 isoform X1,13,K,K13,37,Trimethyl,Yes,Napho only,NA
+XP_019210164.1,H1 isoform X1,13,K,K13,121,GlyGly,Other,Ambic only,11.52
+XP_019210164.1,H1 isoform X1,13,K,K13,255,Acetald+28 / Dimethyl,Yes,Ambic only,32.97
+XP_019210164.1,H1 isoform X1,13,K,K13,378,Carboxyethyl / Lactyl,Yes,Ambic and Napho,101.94
+XP_019210164.1,H1 isoform X1,13,K,K13,[18.04],[+18.04],Not specified,Ambic only,NA
+XP_019210164.1,H1 isoform X1,13,K,K13,[71.01],[+71.01],Not specified,Ambic only,0
+XP_019210164.1,H1 isoform X1,16,K,K16,121,GlyGly,Other,Ambic only,17.01
+XP_019210164.1,H1 isoform X1,16,K,K16,[18.04],[+18.04],Not specified,Ambic only,NA
+XP_019210164.1,H1 isoform X1,17,K,K17,37,Trimethyl,Yes,Napho only,NA
+XP_019210164.1,H1 isoform X1,17,K,K17,121,GlyGly,Other,Ambic only,8.14
+XP_019210164.1,H1 isoform X1,17,K,K17,[18.04],[+18.04],Not specified,Ambic only,NA
+XP_019210164.1,H1 isoform X1,18,K,K18,121,GlyGly,Other,Ambic only,11.06
+XP_019210164.1,H1 isoform X1,18,K,K18,[18.04],[+18.04],Not specified,Ambic only,NA
+XP_019210164.1,H1 isoform X1,19,T,T19,121,GlyGly,Other,Ambic only,10.11
+XP_019210164.1,H1 isoform X1,22,S,S22,121,GlyGly,Other,Ambic only,0
+XP_019210164.1,H1 isoform X1,23,K,K23,121,GlyGly,Other,Ambic only,6.59
+XP_019210164.1,H1 isoform X1,25,K,K25,121,GlyGly,Other,Ambic only,0
+XP_019218826.1,H1-like,3,E,E3,1,Acetyl,Not specified,Ambic only,1000
+XP_019218826.1,H1-like,5,P,P5,425,Dioxidation,Yes,Napho only,8.22
+XP_019218826.1,H1-like,9,P,P9,35,Oxidation,Yes,Napho only,0
+XP_019218826.1,H1-like,11,P,P11,35,Oxidation,Yes,Ambic and Napho,7.38
+XP_019218826.1,H1-like,11,P,P11,425,Dioxidation,Yes,Ambic and Napho,11.1
+XP_019218826.1,H1-like,13,K,K13,35,Oxidation,Yes,Ambic only,0
+XP_019218826.1,H1-like,13,K,K13,53,HNE,Yes,Napho only,38.16
+XP_019218826.1,H1-like,13,K,K13,378,Carboxyethyl / Lactyl,Yes,Napho only,9.42
+XP_019218826.1,H1-like,16,K,K16,425,Dioxidation,Yes,Ambic and Napho,0
+XP_019218826.1,H1-like,17,K,K17,425,Dioxidation,Yes,Ambic and Napho,0
+XP_019218826.1,H1-like,17,K,K17,[71.01],[+71.01],Not specified,Napho only,17.01
+XP_019219600.2,H2B 1/2 isoform X1,94,T,T94,1,Acetyl,Yes,Napho only,NA
+XP_019219600.2,H2B 1/2 isoform X1,97,R,R97,36,Dimethyl,Yes,Napho only,NA
+XP_019219600.2,H2B 1/2 isoform X1,101,P,P101,35,Oxidation,Yes,Ambic only,NA
+XP_019219600.2,H2B 1/2 isoform X1,101,P,P101,425,Dioxidation,Yes,Ambic and Napho,NA
+XP_025766508.1,"H2A, sperm-like",102,T,T102,23,Dehydrated,Yes,Napho only,3.42
+XP_025766508.1,"H2A, sperm-like",119,K,K119,53,HNE,Yes,Napho only,0
+XP_025766508.1,"H2A, sperm-like",119,K,K119,[71.01],[+71.01],Not specified,Ambic and Napho,0
+XP_025766508.1,"H2A, sperm-like",120,K,K120,53,4-hydroxynonenal,Yes,Ambic and Napho,0
+XP_025766508.1,"H2A, sperm-like",120,K,K120,378,Carboxyethyl / Lactyl,Yes,Napho only,0
+XP_025766508.1,"H2A, sperm-like",125,K,K125,[71.01],[+71.01],Not specified,Napho only,0
+XP_025766521.1,H4-like,22,K,K22,34,Methyl,Yes,Trypsin only,56.41
+XP_025766521.1,H4-like,42,R,R42,36,Dimethyl,Yes,Trypsin only,4.08
+XP_025766521.1,H4-like,46,K,K46,1,Acetyl,Yes,Trypsin only,1000
+XP_025766521.1,H4-like,46,K,K46,255,Acetald+28 / Dimethyl,Yes,Trypsin only,12.28
+XP_025766521.1,H4-like,46,K,K46,425,Dioxidation,Yes,Trypsin only,0
+XP_025766521.1,H4-like,46,K,K46,[71.01],[+71.01],Not specified,Trypsin only,1000
+XP_025766521.1,H4-like,47,R,R47,34,Methyl,Yes,Trypsin only,74.64
+XP_025766521.1,H4-like,47,R,R47,36,Dimethyl,Yes,Trypsin only,0
+XP_025766521.1,H4-like,47,R,R47,425,Dioxidation,Yes,Trypsin only,72.73
+XP_025766521.1,H4-like,49,S,S49,1,Acetyl,Yes,Trypsin only,NA
+XP_025766521.1,H4-like,49,S,S49,23,Dehydrated,Yes,Trypsin only,49.79
+XP_025766521.1,H4-like,53,Y,Y53,23,Dehydrated,Yes,Trypsin only,NA
+XP_025766521.1,H4-like,56,T,T56,1,Acetyl,Yes,Ambic and Napho,NA
+XP_025766521.1,H4-like,56,T,T56,21,Phospho,Yes,Napho only,22.63
+XP_025766521.1,H4-like,56,T,T56,23,Dehydrated,Yes,"Ambic, Napho, and Trypsin",1000
+XP_025766521.1,H4-like,56,T,T56,21 + 23,Phospho / Dehydrated,Yes,"Ambic, Napho, and Trypsin",1000
+XP_025766521.1,H4-like,56,T,T56,121,GlyGly,Other,Ambic only,25.58
+XP_025766521.1,H4-like,57,R,R57,7,Deamidated,Yes,Ambic and Napho,1000
+XP_025766521.1,H4-like,57,R,R57,34,Methyl,Yes,"Ambic, Napho, and Trypsin",1000
+XP_025766521.1,H4-like,57,R,R57,35,Oxidation,Yes,"Ambic, Napho, and Trypsin",1000
+XP_025766521.1,H4-like,57,R,R57,425,Dioxidation,Yes,Ambic and Napho,4.73
+XP_025766521.1,H4-like,61,K,K61,1,Acetyl,Yes,Ambic and Napho,1000
+XP_025766521.1,H4-like,61,K,K61,34,Methyl,Yes,Napho only,4.73
+XP_025766521.1,H4-like,61,K,K61,35,Oxidation,Yes,Ambic and Napho,49.79
+XP_025766521.1,H4-like,61,K,K61,121,GlyGly,Other,"Ambic, Napho, and Trypsin",39.44
+XP_025766521.1,H4-like,61,K,K61,378,Carboxyethyl / Lactyl,Yes,Napho only,1000
+XP_025766521.1,H4-like,61,K,K61,425,Dioxidation,Yes,Napho only,0
+XP_025766521.1,H4-like,61,K,K61,[71.01],[+71.01],Not specified,Ambic and Napho,1000
+XP_025766521.1,H4-like,65,E,E65,[43.96],[+43.96],Not specified,Ambic only,NA
+XP_025766521.1,H4-like,69,R,R69,7,Deamidated,Yes,Ambic and Napho,1000
+XP_025766521.1,H4-like,69,R,R69,34,Methyl,Yes,Ambic and Napho,NA
+XP_025766521.1,H4-like,69,R,R69,35,Oxidation,Yes,Ambic and Napho,NA
+XP_025766521.1,H4-like,73,T,T73,1,Acetyl,Yes,Ambic and Napho,NA
+XP_025766521.1,H4-like,73,T,T73,23,Dehydrated,Yes,"Ambic, Napho, and Trypsin",33.98
+XP_025766521.1,H4-like,74,Y,Y74,23,Dehydrated,Yes,Ambic and Napho,NA
+XP_025766521.1,H4-like,74,Y,Y74,35,Oxidation,Yes,Ambic only,61.69
+XP_025766521.1,H4-like,74,Y,Y74,425,Dioxidation,Yes,Ambic only,39.44
+XP_025766521.1,H4-like,75,T,T75,1,Acetyl,Yes,Ambic and Napho,NA
+XP_025766521.1,H4-like,75,T,T75,23,Dehydrated,Yes,Ambic and Napho,0
+XP_025766521.1,H4-like,76,E,E76,[43.96],[+43.96],Not specified,Ambic only,NA
+XP_025766521.1,H4-like,79,K,K79,1,Acetyl,Yes,Napho only,5.03
+XP_025766521.1,H4-like,79,K,K79,425,Dioxidation,Yes,Ambic and Napho,9.34
+XP_025766521.1,H4-like,80,R,R80,35,Oxidation,Yes,Napho only,0
+XP_025766521.1,H4-like,80,R,R80,425,Dioxidation,Yes,Napho only,8.14
+XP_025766521.1,H4-like,81,K,K81,1,Acetyl,Yes,Napho only,0
+XP_025766521.1,H4-like,81,K,K81,425,Dioxidation,Yes,Napho only,8.14
+XP_025766521.1,H4-like,82,T,T82,23,Dehydrated,Yes,Napho only,5.94
+XP_025766521.1,H4-like,84,T,T84,21,Phospho,Yes,Napho only,5.94

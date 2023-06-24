@@ -2993,7 +2993,27 @@ write_csv(PTM_Napho_Final, file = "../data/PTM_Scores/PTM_Napho_Final.csv")
 ```
 
 
+# Importing complete AScores
 
+```{r}
+AScores <- read_csv("../data/PTM_Scores/PTM_AScores.csv")
+```
+
+## AScore filtration
+
+```{r}
+AScores <- AScores %>% 
+  filter(!is.na(`Highest PTM Ascore`)) %>% 
+  filter(`Biologically Relevant` != "Not specified") %>% 
+  filter(`PTM Description` != "Phospho") %>% 
+  filter(`PTM Description` != "Dehydrated")
+
+AScores_Positive <- AScores %>% 
+  filter(`Highest PTM Ascore` > 0)
+
+AScores_Threshold <- AScores %>% 
+  filter(`Highest PTM Ascore` >= 10)
+```
 
 
 

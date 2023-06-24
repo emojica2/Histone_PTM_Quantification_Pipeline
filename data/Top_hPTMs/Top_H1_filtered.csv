@@ -1,7 +1,7 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
-XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,4.737710514,4.737710514,0.352226128,2,1.56E-30,significant,1,7.83E-28,significant,Gills_Testes,XP_019209842.1 H1-like K44 4-hydroxynonenal,a
-XP_003459589.1,H1-like,52,K,K52,425,Dioxidation,Yes,Napho only,7.694834817,7.694834817,0.007788144,3,5.95E-23,significant,1,2.99E-20,significant,Kidney_Testes,XP_003459589.1 H1-like K52 Dioxidation,b
-XP_003459589.1,H1-like,52,K,K52,425,Dioxidation,Yes,Napho only,8.261177604,8.261177604,0.00011824,3,2.22E-22,significant,2,5.58E-20,significant,Gills_Testes,XP_003459589.1 H1-like K52 Dioxidation,c
-XP_003459589.1,H1-like,52,K,K52,425,Dioxidation,Yes,Napho only,8.261177604,8.261177604,0.00011824,3,2.22114E-22,significant,2,5.57506E-20,significant,Gills_Testes,XP_003459589.1 H1-like K52 Dioxidation,d
-XP_003459589.1,H1-like,52,K,K52,425,Dioxidation,Yes,Napho only,7.694834817,7.694834817,7.79E-03,3,5.95E-23,significant,1,2.99E-20,significant,Kidney_Testes,XP_003459589.1 H1-like K52 Dioxidation,e
-XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,4.737710514,4.737710514,0.352226128,2,1.56E-30,significant,1,7.83E-28,significant,Gills_Testes,XP_019209842.1 H1-like K44 4-hydroxynonenal,f
+XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,4.737710514,4.737710514,0.352226128,2,1.56E-30,significant,1,3.04E-28,significant,Gills_Testes,XP_019209842.1 H1-like K44 4-hydroxynonenal,a
+XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,2.218384101,2.218384101,0.086199576,2,3.31E-18,significant,1,6.45E-16,significant,Gills_Kidney,XP_019209842.1 H1-like K44 4-hydroxynonenal,b
+XP_019209842.1,H1-like,44,K,K44,121,GlyGly,Other,Ambic only,2.606218685,2.606218685,0.010017193,3,1.36E-17,significant,2,1.32E-15,significant,Gills_Testes,XP_019209842.1 H1-like K44 GlyGly,c
+XP_019209842.1,H1-like,44,K,K44,53,4-hydroxynonenal,Yes,Ambic and Napho,4.737710514,4.737710514,0.352226128,2,1.56E-30,significant,1,3.04E-28,significant,Gills_Testes,XP_019209842.1 H1-like K44 4-hydroxynonenal,d
+XP_019209842.1,H1-like,38,K,K38,121,GlyGly,Other,Ambic only,3.749720373,3.749720373,0.002765989,3,8.39E-15,significant,10,1.64E-13,significant,Gills_Testes,XP_019209842.1 H1-like K38 GlyGly,e
+XP_003448795.2,H1.10,113,K,K113,35,Oxidation,Yes,Napho only,3.657323998,3.657323998,0.000133483,3,9.37E-07,significant,38,4.81E-06,significant,Kidney_Testes,XP_003448795.2 H1.10 K113 Oxidation,f
