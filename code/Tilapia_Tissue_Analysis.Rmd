@@ -3887,3 +3887,16 @@ panel_Histone_H4 <- plot_grid(
 
 ```
 
+
+
+# Histone Protein Coverage
+
+```{r}
+Proteins <- as.data.frame(unique(Tissue_Stats$`Protein Accession`))
+
+write_csv(Proteins, file = "../data/Proteins/Proteins.csv")
+```
+
+
+
+
