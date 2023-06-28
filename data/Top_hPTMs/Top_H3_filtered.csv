@@ -1,7 +1,7 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
-XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-0.834214843,0.834214843,3.37E-05,3,1.17E-13,significant,14,1.63E-12,significant,Gills_Testes,XP_005463512.2 H3 R83 Methyl,a
-XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-0.836366006,0.836366006,1.52E-05,3,1.09E-13,significant,5,4.26E-12,significant,Gills_Kidney,XP_005463512.2 H3 R83 Methyl,b
-XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,2.83221407,2.83221407,0.070288884,2,3.06E-12,significant,9,6.64E-11,significant,Gills_Kidney,XP_005463512.2 H3 R69 Deamidated,c
-XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,5.785008999,5.785008999,0.00034024,3,6.13E-11,significant,16,7.47E-10,significant,Gills_Kidney,XP_005463512.2 H3 K64 GlyGly,d
-XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,3.211743071,3.211743071,3.43E-07,3,4.65E-05,significant,77,0.000117748,significant,Gills_Testes,XP_005463512.2 H3 K64 GlyGly,e
-XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,2.83221407,2.83221407,0.070288884,2,3.06E-12,significant,9,6.64E-11,significant,Gills_Kidney,XP_005463512.2 H3 R69 Deamidated,f
+XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-0.834214843,0.834214843,3.37E-05,3,1.17E-13,significant,15,1.67E-12,significant,Gills_Testes,XP_005463512.2 H3 R83 Methyl,a
+XP_005463512.2,H3,83,R,R83,34,Methyl,Yes,"Ambic, Napho, and Trypsin",-0.836366006,0.836366006,1.52E-05,3,1.09E-13,significant,5,4.67E-12,significant,Gills_Kidney,XP_005463512.2 H3 R83 Methyl,b
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,2.83221407,2.83221407,0.070288884,2,3.06E-12,significant,9,7.29E-11,significant,Gills_Kidney,XP_005463512.2 H3 R69 Deamidated,c
+XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,5.785008999,5.785008999,3.40E-04,3,6.13E-11,significant,16,8.20E-10,significant,Gills_Kidney,XP_005463512.2 H3 K64 GlyGly,d
+XP_005463512.2,H3,64,K,K64,121,GlyGly,Other,Ambic only,3.211743071,3.211743071,3.43E-07,3,4.65E-05,significant,85,1.17E-04,significant,Gills_Testes,XP_005463512.2 H3 K64 GlyGly,e
+XP_005463512.2,H3,69,R,R69,7,Deamidated,Yes,Ambic and Napho,2.83221407,2.83221407,0.070288884,2,3.06E-12,significant,9,7.29E-11,significant,Gills_Kidney,XP_005463512.2 H3 R69 Deamidated,f

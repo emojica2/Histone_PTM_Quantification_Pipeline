@@ -5,17 +5,19 @@ V8 Napho,V8 in Sodium Phosphate,Phosphoryl,15
 V8 Napho,V8 in Sodium Phosphate,Methyl,15
 V8 Napho,V8 in Sodium Phosphate,Dimethyl,7
 V8 Napho,V8 in Sodium Phosphate,Dioxidation,20
+V8 Napho,V8 in Sodium Phosphate,Lactyl,12
 V8 Napho,V8 in Sodium Phosphate,Deamidated,11
 V8 Napho,V8 in Sodium Phosphate,Ubiquityl,11
 V8 Napho,V8 in Sodium Phosphate,Amidated,3
 V8 Napho,V8 in Sodium Phosphate,Biotin,5
-V8 Napho,V8 in Sodium Phosphate,4-hydroxynonenal,1
+V8 Napho,V8 in Sodium Phosphate,4-hydroxynonenal,3
 V8 Ambic,V8 in Ammonium Bicarbonate,Oxidation,26
 V8 Ambic,V8 in Ammonium Bicarbonate,Acetyl,16
 V8 Ambic,V8 in Ammonium Bicarbonate,Phosphoryl,13
 V8 Ambic,V8 in Ammonium Bicarbonate,Methyl,15
 V8 Ambic,V8 in Ammonium Bicarbonate,Dimethyl,5
 V8 Ambic,V8 in Ammonium Bicarbonate,Dioxidation,18
+V8 Napho,V8 in Ammonium Bicarbonate,Lactyl,8
 V8 Ambic,V8 in Ammonium Bicarbonate,Deamidated,11
 V8 Ambic,V8 in Ammonium Bicarbonate,Ubiquityl,21
 V8 Ambic,V8 in Ammonium Bicarbonate,Amidated,2
@@ -27,6 +29,7 @@ Trypsin,Trypsin,Phosphoryl,2
 Trypsin,Trypsin,Methyl,8
 Trypsin,Trypsin,Dimethyl,2
 Trypsin,Trypsin,Dioxidation,4
+Trypsin,Trypsin,Lactyl,1
 Trypsin,Trypsin,Deamidated,4
 Trypsin,Trypsin,Ubiquityl,3
 Trypsin,Trypsin,Amidated,0

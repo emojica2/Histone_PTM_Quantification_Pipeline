@@ -1,7 +1,7 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
-XP_025766521.1,H4-like,61,K,K61,1,Acetyl,Yes,Ambic and Napho,-1.630682394,1.630682394,0.012479353,3,1.96E-18,significant,1,3.81E-16,significant,Kidney_Testes,XP_025766521.1 H4-like K61 Acetyl,a
-XP_025766521.1,H4-like,74,Y,Y74,35,Oxidation,Yes,Ambic only,-0.976066646,0.976066646,0.841361175,2,8.92E-17,significant,4,4.35E-15,significant,Gills_Testes,XP_025766521.1 H4-like Y74 Oxidation,b
-XP_025766521.1,H4-like,74,Y,Y74,425,Dioxidation,Yes,Ambic only,-0.848839652,0.848839652,0.725818856,2,3.74E-15,significant,9,8.10E-14,significant,Gills_Testes,XP_025766521.1 H4-like Y74 Dioxidation,c
-XP_025766521.1,H4-like,56,T,T56,121,GlyGly,Other,Ambic only,1.814390902,1.814390902,0.019731808,3,3.63E-05,significant,66,0.000107174,significant,Gills_Kidney,XP_025766521.1 H4-like T56 GlyGly,d
-XP_025766521.1,H4-like,61,K,K61,1,Acetyl,Yes,Ambic and Napho,-1.630682394,1.630682394,0.012479353,3,1.96E-18,significant,1,3.81E-16,significant,Kidney_Testes,XP_025766521.1 H4-like K61 Acetyl,e
-XP_025766521.1,H4-like,74,Y,Y74,35,Oxidation,Yes,Ambic only,-1.174623582,1.174623582,0.083492313,2,1.65E-13,significant,6,5.38E-12,significant,Kidney_Testes,XP_025766521.1 H4-like Y74 Oxidation,f
+XP_025766521.1,H4-like,61,K,K61,1,Acetyl,Yes,Ambic and Napho,-1.630682394,1.630682394,0.012479353,3,1.96E-18,significant,1,4.18E-16,significant,Kidney_Testes,XP_025766521.1 H4-like K61 Acetyl,a
+XP_025766521.1,H4-like,74,Y,Y74,35,Oxidation,Yes,Ambic only,-0.976066646,0.976066646,0.841361175,2,8.92E-17,significant,4,4.77E-15,significant,Gills_Testes,XP_025766521.1 H4-like Y74 Oxidation,b
+XP_025766521.1,H4-like,74,Y,Y74,425,Dioxidation,Yes,Ambic only,-0.848839652,0.848839652,0.725818856,2,3.74E-15,significant,9,8.89E-14,significant,Gills_Testes,XP_025766521.1 H4-like Y74 Dioxidation,c
+XP_025766521.1,H4-like,56,T,T56,121,GlyGly,Other,Ambic only,1.814390902,1.814390902,0.019731808,3,3.63E-05,significant,72,1.08E-04,significant,Gills_Kidney,XP_025766521.1 H4-like T56 GlyGly,d
+XP_025766521.1,H4-like,61,K,K61,1,Acetyl,Yes,Ambic and Napho,-1.630682394,1.630682394,0.012479353,3,1.96E-18,significant,1,4.18E-16,significant,Kidney_Testes,XP_025766521.1 H4-like K61 Acetyl,e
+XP_025766521.1,H4-like,74,Y,Y74,35,Oxidation,Yes,Ambic only,-1.174623582,1.174623582,0.083492313,2,1.65E-13,significant,7,5.06E-12,significant,Kidney_Testes,XP_025766521.1 H4-like Y74 Oxidation,f

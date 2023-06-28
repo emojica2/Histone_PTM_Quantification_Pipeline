@@ -7,6 +7,7 @@ XP_003438147.1 H2B.L4 R69 Dioxidation
 XP_003438147.1 H2B.L4 Y73 Dioxidation
 XP_003438147.1 H2B.L4 N74 Oxidation
 XP_003438147.1 H2B.L4 K75 Methyl
+XP_003438147.1 H2B.L4 K75 Lactyl / Carboxyethyl
 XP_003438147.1 H2B.L4 K75 Dioxidation
 XP_003438147.1 H2B.L4 R76 Deamidated
 XP_003438147.1 H2B.L4 R76 Methyl
@@ -71,6 +72,7 @@ XP_003451196.1 H2B 1/2 K83 Acetyl
 XP_003451196.1 H2B 1/2 K83 Methyl
 XP_003451196.1 H2B 1/2 K83 Oxidation
 XP_003451196.1 H2B 1/2 K83 GlyGly
+XP_003451196.1 H2B 1/2 K83 Lactyl / Carboxyethyl
 XP_003451196.1 H2B 1/2 K83 Dioxidation
 XP_003451196.1 H2B 1/2 R84 Deamidated
 XP_003451196.1 H2B 1/2 R84 Methyl
@@ -91,6 +93,7 @@ XP_003451196.1 H2B 1/2 K106 Acetyl
 XP_003451196.1 H2B 1/2 K106 Biotin
 XP_003451196.1 H2B 1/2 K106 Methyl
 XP_003451196.1 H2B 1/2 K106 GlyGly
+XP_003451196.1 H2B 1/2 K106 Lactyl / Carboxyethyl
 XP_003451196.1 H2B 1/2 K106 Dioxidation
 XP_003451196.1 H2B 1/2 S110 Phospho / Dehydrated
 XP_003451196.1 H2B 1/2 T113 Phospho / Dehydrated
@@ -98,8 +101,10 @@ XP_003451196.1 H2B 1/2 T113 GlyGly
 XP_003451196.1 H2B 1/2 K114 Acetyl
 XP_003451196.1 H2B 1/2 K114 Oxidation
 XP_003451196.1 H2B 1/2 K114 GlyGly
+XP_003451196.1 H2B 1/2 K114 Lactyl / Carboxyethyl
 XP_003451196.1 H2B 1/2 T117 GlyGly
 XP_003451196.1 H2B 1/2 K118 Methyl
+XP_003451196.1 H2B 1/2 K118 Lactyl / Carboxyethyl
 XP_003451196.1 H2B 1/2 Y119 Phospho / Dehydrated
 XP_003451196.1 H2B 1/2 Y119 Dioxidation
 XP_003451211.1 H2A N94 Oxidation
@@ -107,6 +112,7 @@ XP_003451211.1 H2A K95 Acetyl
 XP_003451211.1 H2A K95 Biotin
 XP_003451211.1 H2A K95 Methyl
 XP_003451211.1 H2A K95 Oxidation
+XP_003451211.1 H2A K95 Lactyl / Carboxyethyl
 XP_003451211.1 H2A K95 Dioxidation
 XP_003451211.1 H2A K119 Methyl
 XP_003451211.1 H2A T120 Phospho / Dehydrated
@@ -124,16 +130,20 @@ XP_003459589.1 H1-like P5 Oxidation
 XP_003459589.1 H1-like P7 Oxidation
 XP_003459589.1 H1-like K13 Methyl
 XP_003459589.1 H1-like K35 Biotin
+XP_003459589.1 H1-like K35 Lactyl / Carboxyethyl
 XP_003459589.1 H1-like R43 Deamidated
 XP_003459589.1 H1-like K44 Acetyl
 XP_003459589.1 H1-like K44 GlyGly
 XP_003459589.1 H1-like K52 Acetyl
 XP_003459589.1 H1-like K52 GlyGly
+XP_003459589.1 H1-like K52 Lactyl / Carboxyethyl
 XP_003459589.1 H1-like K53 Acetyl
 XP_003459589.1 H1-like K53 GlyGly
+XP_003459589.1 H1-like K53 Lactyl / Carboxyethyl
 XP_003459589.1 H1-like Y60 Phospho / Dehydrated
 XP_003459589.1 H1-like D61 Oxidation
 XP_003459589.1 H1-like R68 Deamidated
+XP_005461836.1 H1-like K34 Lactyl / Carboxyethyl
 XP_005461836.1 H1-like P66 Dioxidation
 XP_005461836.1 H1-like T74 Phospho / Dehydrated
 XP_005463512.2 H3 K14 Acetyl
@@ -144,6 +154,8 @@ XP_005463512.2 H3 P66 Dioxidation
 XP_005463512.2 H3 R69 Deamidated
 XP_005463512.2 H3 K79 Acetyl
 XP_005463512.2 H3 K79 Methyl
+XP_005463512.2 H3 K79 4-hydroxynonenal
+XP_005463512.2 H3 K79 Lactyl / Carboxyethyl
 XP_005463512.2 H3 T80 Phospho / Dehydrated
 XP_005463512.2 H3 T80 GlyGly
 XP_005463512.2 H3 R83 Deamidated
@@ -153,12 +165,15 @@ XP_005463512.2 H3 R83 Dimethyl
 XP_005463512.2 H3 T118 Phospho / Dehydrated
 XP_005463512.2 H3 P121 Dioxidation
 XP_005463512.2 H3 K122 Acetyl
+XP_005463512.2 H3 K122 Lactyl / Carboxyethyl
 XP_005463512.2 H3 K122 Dioxidation
 XP_005463512.2 H3 R128 Deamidated
 XP_005464230.1 H2A.Z isoform X1 S56 GlyGly
 XP_005464230.1 H2A.Z isoform X1 R58 Dioxidation
 XP_005464230.1 H2A.Z isoform X1 T98 Phospho / Dehydrated
 XP_005464230.1 H2A.Z isoform X1 K110 Biotin
+XP_005464230.1 H2A.Z isoform X1 K115 Lactyl / Carboxyethyl
+XP_005464230.1 H2A.Z isoform X1 K137 Lactyl / Carboxyethyl
 XP_005464230.1 H2A.Z isoform X1 V163 Amidated
 XP_019209842.1 H1-like K38 GlyGly
 XP_019209842.1 H1-like K38 Dioxidation
@@ -171,15 +186,18 @@ XP_019209842.1 H1-like D66 Amidated
 XP_019209843.1 H1-like K13 Methyl
 XP_019209844.1 H1-like S1 Acetyl
 XP_019209845.1 H1-like S1 Acetyl
+XP_019209845.1 H1-like K17 Lactyl / Carboxyethyl
 XP_019210164.1 H1 isoform X1 S1 Acetyl
 XP_019210164.1 H1 isoform X1 S1 Phospho / Dehydrated
 XP_019210164.1 H1 isoform X1 P5 Dioxidation
 XP_019210164.1 H1 isoform X1 P11 Oxidation
 XP_019210164.1 H1 isoform X1 K13 GlyGly
+XP_019210164.1 H1 isoform X1 K13 Lactyl / Carboxyethyl
 XP_019210164.1 H1 isoform X1 K16 GlyGly
 XP_019210164.1 H1 isoform X1 K18 GlyGly
 XP_019210164.1 H1 isoform X1 T19 GlyGly
 XP_019218826.1 H1-like P11 Dioxidation
+XP_019218826.1 H1-like K13 4-hydroxynonenal
 XP_025766521.1 H4-like K22 Methyl
 XP_025766521.1 H4-like K46 Acetyl
 XP_025766521.1 H4-like R47 Methyl
@@ -192,6 +210,7 @@ XP_025766521.1 H4-like R57 Oxidation
 XP_025766521.1 H4-like K61 Acetyl
 XP_025766521.1 H4-like K61 Oxidation
 XP_025766521.1 H4-like K61 GlyGly
+XP_025766521.1 H4-like K61 Lactyl / Carboxyethyl
 XP_025766521.1 H4-like R69 Deamidated
 XP_025766521.1 H4-like Y74 Oxidation
 XP_025766521.1 H4-like Y74 Dioxidation

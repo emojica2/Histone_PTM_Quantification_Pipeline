@@ -83,7 +83,7 @@ imported_AScores$`Highest PTM Ascore` <- as.numeric(imported_AScores$`Highest PT
 ```{r}
 # Full color palettes
 
-colors11 <- c("#650111", "#de8998", "#795015", "#eebd78", "#035c00", "#b4e683", "#082674", "#9ecee8", "#891989", "#d9b1ee", "#343434" )
+colors12 <- c("#650111", "#de8998", "#795015", "#eebd78", "#035c00", "#b4e683", "#082674", "#9ecee8", "#891989", "#d9b1ee", "#343434", "#808080")
 
 # Colors for PCA and volcano plots
 
@@ -93,11 +93,11 @@ colors3 <- c("#b33e52", "#78b33e", "#3e9fb3")
 
 # Color palettes for representative histone PTM maps
 
-colors_H1_like_9589 <- colors11[c(2,4,5,8,9,10,11)]
-colors_H2A_8939 <- colors11[c(2,3,5,6,7,8,9,10,11)]
-colors_H2B_1_2 <- colors11[c(2,4,5,6,7,8,9,10,11)]
-colors_H3 <- colors11[c(2,5,6,7,8,9,10,11)]
-colors_H4_like <- colors11[c(2,5,7,8,9,10,11)]
+colors_H1_like_9589 <- colors12[c(2,4,5,8,9,10,11,12)]
+colors_H2A_8939 <- colors12[c(2,3,5,6,7,9,10,11,12)]
+colors_H2B_1_2 <- colors12[c(2,4,5,6,7,8,9,10,11,12)]
+colors_H3 <- colors12[c(1,2,5,6,7,8,9,10,11,12)]
+colors_H4_like <- colors12[c(2,5,7,8,9,10,11,12)]
 ```
 
 
@@ -137,6 +137,13 @@ Data <- Data %>%
 
 Data <- Data %>% 
   mutate(hPTM_Name = paste(Data$`Protein Accession`, Data$`Protein Description`, Data$`Amino Acid + Position`, Data$`PTM Description`))
+
+rep_str = c("Acetald+28 / Dimethyl" = "Dimethyl", 
+            "Carboxyethyl / Lactyl" = "Lactyl / Carboxyethyl",
+            "HNE" = "4-hydroxynonenal"
+            )
+
+imported_AScores$`PTM Description` <- str_replace_all(imported_AScores$`PTM Description`, rep_str)
 
 imported_AScores <- imported_AScores %>% 
   mutate(hPTM_Name = paste(imported_AScores$`Protein Accession`, imported_AScores$`Protein Description`, imported_AScores$`Amino Acid + Position`, imported_AScores$`PTM Description`))
@@ -428,7 +435,7 @@ H1_like_9843_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_
   ggtitle("XP_019209843.1 histone H1-like") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -466,7 +473,7 @@ H1_like_9844_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_
   ggtitle("XP_019209844.1 histone H1-like") +
   xlab("Tissue") +
   ylab("Average Relative \nAbundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 12, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -504,7 +511,7 @@ H1_like_9845_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_
   ggtitle("XP_019209845.1 histone H1-like") +
   xlab("Tissue") +
   ylab("Average Relative \nAbundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -542,7 +549,7 @@ H1_X1_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_Relativ
   ggtitle("XP_019210164.1 histone H1 isoform X1") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -580,7 +587,7 @@ H1_like_8826_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_
   ggtitle("XP_019218826.1 histone H1-like") +
   xlab("Tissue") +
   ylab("Average Relative \nAbundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -618,7 +625,7 @@ H1_like_9842_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_
   ggtitle("XP_019209842.1 histone H1-like") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -656,7 +663,7 @@ H1_like_1836_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_
   ggtitle("XP_005461836.1 histone H1-like") +
   xlab("Tissue") +
   ylab("Average Relative \nAbundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -694,7 +701,7 @@ H1_10_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_Relativ
   ggtitle("XP_003448795.2 LOW QUALITY PROTEIN: histone H1.10") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -732,7 +739,7 @@ H1_0_B_map <- ggplot(Full_H1_Maps, aes(fill = `PTM Description`, y = mean_Relati
   ggtitle("XP_003438501.2 LOW QUALITY PROTEIN: histone H1.0-B") +
   xlab("Tissue") +
   ylab("Average Relative \nAbundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -773,7 +780,7 @@ H2A_Z_X2_map <- ggplot(Full_H2A_Maps, aes(fill = `PTM Description`, y = mean_Rel
   ggtitle("XP_003458968.1 \nhistone H2A.Z isoform X2") +
   xlab("Tissue") +
   ylab("Average Relative \nAbundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 12, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -849,7 +856,7 @@ H2A_Z_X1_map <- ggplot(Full_H2A_Maps, aes(fill = `PTM Description`, y = mean_Rel
   ggtitle("XP_005464230.1 histone H2A.Z isoform X1") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -887,7 +894,7 @@ H2A_1211_map <- ggplot(Full_H2A_Maps, aes(fill = `PTM Description`, y = mean_Rel
   ggtitle("XP_003451211.1 histone H2A") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -925,7 +932,7 @@ H2A_9572_map <- ggplot(Full_H2A_Maps, aes(fill = `PTM Description`, y = mean_Rel
   ggtitle("XP_003459572.1 histone H2A") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -967,7 +974,7 @@ H2B_L4_map <- ggplot(Full_H2B_Maps, aes(fill = `PTM Description`, y = mean_Relat
   ggtitle("XP_003438147.1 late histone H2B.L4") +
   xlab("Tissue") +
   ylab("Average Relative Abundance (%)") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 16, face = "bold")) +
   theme(strip.text.x = element_text(size = 10))
@@ -1376,8 +1383,7 @@ Volcano_Plot_Kidney_Testes_H1 <- ggplot(data=Exp2_Kidney_Testes_Statistics, aes(
   geom_hline(yintercept=-log10(0.05), col="black", linetype = "longdash") +
   theme(legend.position="none") +
   xlab(expression("Log"[2]*" Fold Change")) +
-  ylab(expression("-Log"[10]*"(p"[Adj.]*")")) +
-   expand_limits(x = 8) 
+  ylab(expression("-Log"[10]*"(p"[Adj.]*")")) 
 
 print(Volcano_Plot_Kidney_Testes_H1)
 ```
@@ -1902,7 +1908,7 @@ All_Ambic <- Exp2_Data %>%
       `Digestion Conditions` == "Ambic and Trypsin"
   )
 
-length(unique(All_Ambic$hPTM_Name)) # 129
+length(unique(All_Ambic$hPTM_Name)) # 137
 
 
 All_Napho <- Exp2_Data %>% 
@@ -1912,7 +1918,7 @@ All_Napho <- Exp2_Data %>%
            `Digestion Conditions` == "Ambic, Napho, and Trypsin" 
            )
 
-length(unique(All_Napho$hPTM_Name)) # 124
+length(unique(All_Napho$hPTM_Name)) # 138
 
 All_Trypsin <- Exp2_Data %>% 
   filter(
@@ -1923,7 +1929,7 @@ All_Trypsin <- Exp2_Data %>%
       `Digestion Conditions` == "Ambic and Trypsin"
   )
 
-length(unique(All_Trypsin$hPTM_Name)) # 33
+length(unique(All_Trypsin$hPTM_Name)) # 34
 
 # Subsetting data by combination of digestion condition 
 
@@ -1952,19 +1958,19 @@ Ambic_Napho_Trypsin <- Exp2_Data %>%
 
 # Determining the length of unique histone PTMs found using each combination of digestion conditions
 
-length(unique(Exp2_Data$hPTM_Name)) # 196 biologically relevant histone PTMs that display variance of M values in total
+length(unique(Exp2_Data$hPTM_Name)) # 215 biologically relevant histone PTMs that display variance of M values in total
 
 
 Exp2_Data_hPTMs_Total <- as.data.frame(unique(Exp2_Data$hPTM_Name))
 write_csv(Exp2_Data_hPTMs_Total, "../data/Number_of_hPTMs/Exp2_hPTMs_Total.csv")
 
-num_napho_only <- length(unique(Napho_only$hPTM_Name)) # 42 biologically relevant histone PTMs detected only using the V8 Napho digestion condition
+num_napho_only <- length(unique(Napho_only$hPTM_Name)) # 52 biologically relevant histone PTMs detected only using the V8 Napho digestion condition
 
-num_ambic_only <- length(unique(Ambic_only$hPTM_Name)) # 46 biologically relevant histone PTMs detected only using the V8 Ambic digestion condition
+num_ambic_only <- length(unique(Ambic_only$hPTM_Name)) # 50 biologically relevant histone PTMs detected only using the V8 Ambic digestion condition
 
-num_trypsin_only <- length(unique(Trypsin_only$hPTM_Name)) # 24 biologically relevant histone PTMs detected only using the trypsin/propionylation digestion condition
+num_trypsin_only <- length(unique(Trypsin_only$hPTM_Name)) # 25 biologically relevant histone PTMs detected only using the trypsin/propionylation digestion condition
 
-num_ambic_and_napho <- length(unique(Ambic_and_Napho$hPTM_Name)) # 75 biologically relevant histone PTMs detected using either the V8 Ambic or V8 Napho digestion conditions
+num_ambic_and_napho <- length(unique(Ambic_and_Napho$hPTM_Name)) # 79 biologically relevant histone PTMs detected using either the V8 Ambic or V8 Napho digestion conditions
 
 num_napho_and_trypsin <- length(unique(Napho_and_Trypsin$hPTM_Name)) # 1 biologically relevant histone PTMs detected using either the V8 Napho or trypsin/propionylation digestion conditions
 
@@ -1987,11 +1993,11 @@ unique(Exp2_Data$`Digestion Conditions`)
 ```{r}
 ## Adding the total number of histone PTMs that can be detected using each digestion condition
 
-Total_Napho_hPTMs <- num_napho_only + num_ambic_and_napho + num_napho_and_trypsin + num_ambic_napho_trypsin # 124 biologically relevant histone PTMs can be detected using the V8 napho digestion method
+Total_Napho_hPTMs <- num_napho_only + num_ambic_and_napho + num_napho_and_trypsin + num_ambic_napho_trypsin # 138 biologically relevant histone PTMs can be detected using the V8 napho digestion method
 
-Total_Ambic_hPTMs <- num_ambic_only + num_ambic_and_napho + num_trypsin_and_ambic + num_ambic_napho_trypsin # 129 biologically relevant histone PTMs can be detected using the V8 ambic digestion method
+Total_Ambic_hPTMs <- num_ambic_only + num_ambic_and_napho + num_trypsin_and_ambic + num_ambic_napho_trypsin # 137 biologically relevant histone PTMs can be detected using the V8 ambic digestion method
 
-Total_Trypsin_hPTMs <- num_trypsin_only + num_trypsin_and_ambic + num_napho_and_trypsin + num_ambic_napho_trypsin # 33 biologically relevant histone PTMs can be detected using the trypsin/propionylation digestion method
+Total_Trypsin_hPTMs <- num_trypsin_only + num_trypsin_and_ambic + num_napho_and_trypsin + num_ambic_napho_trypsin # 34 biologically relevant histone PTMs can be detected using the trypsin/propionylation digestion method
 
 ## Napho PTMs
 
@@ -2243,7 +2249,7 @@ Digestion_Barchart <- ggplot(Barchart_data, aes(fill = `PTM Description`, y = `N
   geom_bar(position = "stack", stat = "identity") +
   xlab("Digestion Method") +
   ylab("Number of Histone PTMs Detected") +
-  scale_fill_manual(values = colors11) +
+  scale_fill_manual(values = colors12) +
   theme_bw() +
   theme(plot.title = element_text(color = "black", size = 15, face = "bold")) 
 
@@ -2276,8 +2282,8 @@ Tissue_Statistics_SEM_2 <- Tissue_Statistics_SEM %>%
            hPTM_Name == "XP_019209842.1 H1-like K38 GlyGly" |
            hPTM_Name == "XP_003448795.2 H1.10 K113 Oxidation" |
            hPTM_Name == "XP_003448939.1 H2A P48 Dioxidation" |
+           hPTM_Name == "XP_003451211.1 H2A K95 Lactyl / Carboxyethyl" |
            hPTM_Name == "XP_003451211.1 H2A K127 Amidated" |
-           hPTM_Name == "XP_003459572.1 H2A K123 Acetyl" |
            hPTM_Name == "XP_003448939.1 H2A R77 Deamidated" |
            hPTM_Name == "XP_003448939.1 H2A R42 Deamidated" |
            hPTM_Name == "XP_005464230.1 H2A.Z isoform X1 K110 Biotin" |
@@ -2353,18 +2359,18 @@ unique(Top_H2A_filtered$hPTM_Name)
 
 Top_hPTMs_H2A <- Tissue_Statistics_SEM_3 %>% 
   filter(hPTM_Name == "XP_003448939.1 H2A P48 Dioxidation" |
+           hPTM_Name == "XP_003451211.1 H2A K95 Lactyl / Carboxyethyl" |
            hPTM_Name == "XP_003451211.1 H2A K127 Amidated" |
-           hPTM_Name == "XP_003459572.1 H2A K123 Acetyl" |
            hPTM_Name == "XP_003448939.1 H2A R77 Deamidated" |
            hPTM_Name == "XP_003448939.1 H2A R42 Deamidated" |
            hPTM_Name == "XP_005464230.1 H2A.Z isoform X1 K110 Biotin"
          )
 
 rep_str = c("XP_003448939.1 H2A P48 Dioxidation" = "H2A P48 Dioxidation", 
+            "XP_003451211.1 H2A K95 Lactyl / Carboxyethyl" = "H2A K95 Lactyl / Carboxyethyl",
             "XP_003451211.1 H2A K127 Amidated" = "H2A K127 Amidated",
-            "XP_003459572.1 H2A K123 Acetyl" = "H2A K123 Acetyl",
             "XP_003448939.1 H2A R77 Deamidated" = "H2A R77 Deamidated",
-            "XP_003448939.1 H2A R42 Deamidated" = "H2A R42 Deamidated", 
+            "XP_003448939.1 H2A R42 Deamidated" = "H2A R42 Deamidated",
             "XP_005464230.1 H2A.Z isoform X1 K110 Biotin" = "H2A.Z isoform X1 K110 Biotin"
             )
 
@@ -2775,7 +2781,7 @@ Top_H1_td <- Top_H1 %>%
 
 length(unique(Top_H1_td$hPTM_Name))
 
-39 / 46
+45 / 53
 
 ```
 
@@ -2789,7 +2795,7 @@ Top_H1_Tissues2 <- Top_H1_Tissues %>%
 
 length(unique(Top_H1_Tissues2$hPTM_Name))
 
-23 / 46
+27 / 53
 ```
 
 
@@ -2802,7 +2808,7 @@ Top_H1_Tissues2 <- Top_H1_Tissues %>%
 
 length(unique(Top_H1_Tissues2$hPTM_Name))
 
-32 / 46
+37 / 53
 ```
 
 
@@ -2815,7 +2821,7 @@ Top_H1_Tissues2 <- Top_H1_Tissues %>%
 
 length(unique(Top_H1_Tissues2$hPTM_Name))
 
-29 / 46
+33 / 53
 ```
 
 
@@ -2842,7 +2848,7 @@ Top_H2A_td <- Top_H2A %>%
 
 length(unique(Top_H2A_td$hPTM_Name))
 
-44/47
+46/50
 
 ```
 
@@ -2856,7 +2862,7 @@ Top_H2A_Tissues2 <- Top_H2A_Tissues %>%
 
 length(unique(Top_H2A_Tissues2$hPTM_Name))
 
-23/47
+23/50
 
 ```
 
@@ -2870,7 +2876,7 @@ Top_H2A_Tissues2 <- Top_H2A_Tissues %>%
 
 length(unique(Top_H2A_Tissues2$hPTM_Name))
 
-31/47
+33/50
 
 ```
 
@@ -2884,7 +2890,7 @@ Top_H2A_Tissues2 <- Top_H2A_Tissues %>%
 
 length(unique(Top_H2A_Tissues2$hPTM_Name))
 
-38/47
+40/50
 
 ```
 
@@ -2911,7 +2917,7 @@ Top_H2B_td <- Top_H2B %>%
 length(unique(Top_H2B_td$hPTM_Name))
 
 
-64 / 69
+69 / 74
 ```
 
 
@@ -2924,7 +2930,7 @@ Top_H2B_Tissues2 <- Top_H2B_Tissues %>%
 
 length(unique(Top_H2B_Tissues2$hPTM_Name))
 
-54 / 69
+59 / 74
 
 ```
 
@@ -2938,7 +2944,7 @@ Top_H2B_Tissues2 <- Top_H2B_Tissues %>%
 
 length(unique(Top_H2B_Tissues2$hPTM_Name))
 
-45 / 69 
+48 / 74
 
 ```
 
@@ -2952,7 +2958,7 @@ Top_H2B_Tissues2 <- Top_H2B_Tissues %>%
 
 length(unique(Top_H2B_Tissues2$hPTM_Name))
 
-53 / 69
+57 / 74
 
 ```
 
@@ -2977,7 +2983,7 @@ Top_H3_td <- Top_H3 %>%
 
 length(unique(Top_H3_td$hPTM_Name))
 
-19/19
+22/22
 
 ```
 
@@ -2991,7 +2997,7 @@ Top_H3_Tissues2 <- Top_H3_Tissues %>%
 
 length(unique(Top_H3_Tissues2$hPTM_Name))
 
-17/19
+20/22
 
 ```
 
@@ -3005,7 +3011,7 @@ Top_H3_Tissues2 <- Top_H3_Tissues %>%
 
 length(unique(Top_H3_Tissues2$hPTM_Name))
 
-16 / 19
+17 / 22
 ```
 
 
@@ -3018,7 +3024,7 @@ Top_H3_Tissues2 <- Top_H3_Tissues %>%
 
 length(unique(Top_H3_Tissues2$hPTM_Name))
 
-11 / 19
+13 / 22
 ```
 
 
@@ -3041,7 +3047,7 @@ Top_H4_td <- Top_H4 %>%
 
 length(unique(Top_H4_td$hPTM_Name))
 
-13/15
+14/16
 ```
 
 
@@ -3054,7 +3060,7 @@ Top_H4_Tissues2 <- Top_H4_Tissues %>%
 
 length(unique(Top_H4_Tissues2$hPTM_Name))
 
-9/15
+9/16
 ```
 
 
@@ -3067,7 +3073,7 @@ Top_H4_Tissues2 <- Top_H4_Tissues %>%
 
 length(unique(Top_H4_Tissues2$hPTM_Name))
 
-12/15
+13/16
 ```
 
 
@@ -3080,7 +3086,7 @@ Top_H4_Tissues2 <- Top_H4_Tissues %>%
 
 length(unique(Top_H4_Tissues2$hPTM_Name))
 
-11/15
+12/16
 ```
 
 
@@ -3089,12 +3095,14 @@ length(unique(Top_H4_Tissues2$hPTM_Name))
 ```{r}
 unique(Tissue_Stats$`PTM Description`)
 
+length(unique(Tissue_Stats$hPTM_Name))
+
 Sig_Tissue_Stats <- Tissue_Stats %>% 
   filter(`Corrected Significance` == "significant")
 
 length(unique(Sig_Tissue_Stats$hPTM_Name))
 
-179/195
+196/214
 
 ```
 
@@ -3108,7 +3116,7 @@ Sig_GK_Tissue_Stats <- Tissue_Stats %>%
 
 length(unique(Sig_GK_Tissue_Stats$hPTM_Name))
 
-126/195
+138/214
 
 ```
 
@@ -3123,7 +3131,7 @@ Sig_GK_Tissue_Stats <- Tissue_Stats %>%
 
 length(unique(Sig_GK_Tissue_Stats$hPTM_Name))
 
-136/195
+148/214
 
 ```
 
@@ -3138,7 +3146,7 @@ Sig_GK_Tissue_Stats <- Tissue_Stats %>%
 
 length(unique(Sig_GK_Tissue_Stats$hPTM_Name))
 
-142/195
+155/214
 ```
 
 
@@ -3400,7 +3408,58 @@ length(unique(Down_Reg$hPTM_Name)) # 9 decreased
 ```
 
 
-## [6] "Dimethyl"       
+## [6] "Lactyl / Carboxyethyl"
+
+```{r}
+PTM <- Sig_Tissue_Stats %>% 
+  filter(`PTM Description` == "Lactyl / Carboxyethyl")
+
+# Gills vs kidney
+
+Up_Reg <- PTM %>% 
+  filter(Tissues == "Gills_Kidney") %>% 
+  filter(Log2FC > 0)
+
+length(unique(Up_Reg$hPTM_Name)) # 6 increased
+
+Down_Reg <- PTM %>% 
+  filter(Tissues == "Gills_Kidney") %>% 
+  filter(Log2FC < 0)
+
+length(unique(Down_Reg$hPTM_Name)) # 5 decreased
+
+# Gills vs testes
+
+Up_Reg <- PTM %>% 
+  filter(Tissues == "Gills_Testes") %>% 
+  filter(Log2FC > 0)
+
+length(unique(Up_Reg$hPTM_Name)) # 7 increased
+
+Down_Reg <- PTM %>% 
+  filter(Tissues == "Gills_Testes") %>% 
+  filter(Log2FC < 0)
+
+length(unique(Down_Reg$hPTM_Name)) # 4 decreased
+
+# Kidney vs testes
+
+Up_Reg <- PTM %>% 
+  filter(Tissues == "Kidney_Testes") %>% 
+  filter(Log2FC > 0)
+
+length(unique(Up_Reg$hPTM_Name)) # 6 increased
+
+Down_Reg <- PTM %>% 
+  filter(Tissues == "Kidney_Testes") %>% 
+  filter(Log2FC < 0)
+
+length(unique(Down_Reg$hPTM_Name)) # 5 decreased
+```
+
+
+
+## [7] "Dimethyl"       
 
 ```{r}
 
@@ -3658,7 +3717,7 @@ length(unique(Down_Reg$hPTM_Name)) # 2 decreased
 ```
 
 
-## [15] "Biotin"         
+## [12] "Biotin"         
 
 ```{r}
 

@@ -1,7 +1,7 @@
 Protein Accession,Protein Description,Position,Amino Acid,Amino Acid + Position,Unimod Accession,PTM Description,Biologically Relevant,Digestion Conditions,Log2FC,Abs Log2FC,F Test,T-Test Type,pvalue,Uncorrected Significance,Rank,Adjusted pvalue,Corrected Significance,Tissues,hPTM_Name,Label1
-XP_003451196.1,H2B 1/2,106,K,K106,1,Acetyl,Yes,Ambic and Napho,1.655745867,1.655745867,0.097218289,2,2.88E-15,significant,2,2.81E-13,significant,Gills_Kidney,XP_003451196.1 H2B 1/2 K106 Acetyl,a
-XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,3.464261418,3.464261418,0.021696052,3,4.96E-14,significant,13,7.44E-13,significant,Gills_Testes,XP_003451196.1 H2B 1/2 S76 GlyGly,b
-XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,3.877664608,3.877664608,0.510778694,2,3.83E-14,significant,3,2.49E-12,significant,Gills_Kidney,XP_003451196.1 H2B 1/2 S76 GlyGly,c
-XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,5.257496608,5.257496608,0.426851481,2,2.47E-13,significant,7,6.87E-12,significant,Gills_Kidney,XP_003438147.1 H2B.L4 T86 GlyGly,d
-XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,4.752460063,4.752460063,0.338301175,2,3.82E-12,significant,20,3.73E-11,significant,Gills_Testes,XP_003438147.1 H2B.L4 T86 GlyGly,e
-XP_003438147.1,H2B.L4,98,K,K98,121,GlyGly,Other,Ambic only,4.74656885,4.74656885,0.001129202,3,3.28E-10,significant,31,2.06E-09,significant,Gills_Testes,XP_003438147.1 H2B.L4 K98 GlyGly,f
+XP_003451196.1,H2B 1/2,106,K,K106,1,Acetyl,Yes,Ambic and Napho,1.655745867,1.655745867,0.097218289,2,2.88E-15,significant,2,3.08E-13,significant,Gills_Kidney,XP_003451196.1 H2B 1/2 K106 Acetyl,a
+XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,3.464261418,3.464261418,0.021696052,3,4.96E-14,significant,14,7.59E-13,significant,Gills_Testes,XP_003451196.1 H2B 1/2 S76 GlyGly,b
+XP_003451196.1,H2B 1/2,76,S,S76,121,GlyGly,Other,Ambic and Napho,3.877664608,3.877664608,0.510778694,2,3.83E-14,significant,3,2.73E-12,significant,Gills_Kidney,XP_003451196.1 H2B 1/2 S76 GlyGly,c
+XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,5.257496608,5.257496608,0.426851481,2,2.47E-13,significant,7,7.54E-12,significant,Gills_Kidney,XP_003438147.1 H2B.L4 T86 GlyGly,d
+XP_003438147.1,H2B.L4,86,T,T86,121,GlyGly,Other,Ambic and Napho,4.752460063,4.752460063,0.338301175,2,3.82E-12,significant,22,3.72E-11,significant,Gills_Testes,XP_003438147.1 H2B.L4 T86 GlyGly,e
+XP_003438147.1,H2B.L4,98,K,K98,121,GlyGly,Other,Ambic only,4.74656885,4.74656885,0.001129202,3,3.28E-10,significant,33,2.13E-09,significant,Gills_Testes,XP_003438147.1 H2B.L4 K98 GlyGly,f
