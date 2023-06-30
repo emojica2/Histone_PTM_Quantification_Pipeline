@@ -2466,6 +2466,30 @@ print(Top_hPTMs_Plot_H3)
 ```
 
 
+#### Extra H3R83me1 figure
+
+
+```{r}
+H3R83me1 <- Tissue_Statistics_SEM_3 %>% 
+  filter(hPTM_Name == "XP_005463512.2 H3 R83 Methyl"
+         )
+
+rep_str = c("XP_005463512.2 H3 R83 Methyl" = "H3R83me1")
+
+H3R83me1$hPTM_Name <- str_replace_all(H3R83me1$hPTM_Name, rep_str)
+
+H3R83me1_Plot <- ggplot(H3R83me1, aes(x=`Tissue`, y=`Mean Relative Abundance`)) +
+  geom_bar(stat="identity", color="black", fill="#999999", position=position_dodge()) +
+  geom_errorbar(aes(ymin=`Mean Relative Abundance` - SEM, ymax=`Mean Relative Abundance` + SEM), width=.2, position=position_dodge(0.9)) +
+  theme_classic2() + 
+  facet_wrap(~ hPTM_Name, scales = "free", nrow = 1) +
+  ylab("Average Relative Abundance (%)") +
+  theme(strip.text.x = element_text(size = 9.3))
+
+print(H3R83me1_Plot)
+```
+
+
 ### Histone H4
 
 ```{r}

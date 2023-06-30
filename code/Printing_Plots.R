@@ -9,3 +9,5 @@ print(panel_Histone_H3) # saved as pdf 11.11" x 8.05"
 print(panel_Histone_H4) # saved as pdf 8.43" x 8.05"
 
 print(PCA_Plot)
+
+print(H3R83me1_Plot)
