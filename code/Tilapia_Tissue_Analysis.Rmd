@@ -157,7 +157,21 @@ Data$Beta_Value <- as.numeric(Data$Beta_Value)
 Data$Relative_Abundance <- as.numeric(Data$Relative_Abundance)
 Data$MValue <- as.numeric(Data$MValue)
 Data$Experiment <- as.factor(Data$Experiment)
+```
 
+
+## Description of Proteins in Data
+
+```{r}
+length(unique(Data$`Protein Accession`))
+
+length(unique(Data$`Protein Description`))
+```
+
+
+# Setting PTM AScore Threshold
+
+```{r}
 # Adding PTM AScores to histone PTMs in the Data file
 
 Data <- left_join(Data, imported_AScores, by = "hPTM_Name")
